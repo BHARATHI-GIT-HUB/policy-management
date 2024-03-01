@@ -4,6 +4,7 @@ import { BaseLayoutComponent } from './pages/base-layout/base-layout.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { UserDetailsComponent } from './pages/user-details/user-details.component';
 import { EnrollmentDetailsComponent } from './pages/enrollment-details/enrollment-details.component';
+import { BulkUploadComponent } from './pages/bulk-upload/bulk-upload.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,11 @@ const routes: Routes = [
       {
         path: 'enrollment',
         component: EnrollmentDetailsComponent,
+        data: { title: 'Enrollment Details' },
+      },
+      {
+        path: 'bulk-upload',
+        component: BulkUploadComponent,
         data: { title: 'Enrollment Details' },
       },
     ],

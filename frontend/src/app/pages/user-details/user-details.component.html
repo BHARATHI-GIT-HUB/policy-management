@@ -6,11 +6,18 @@
     </ng-container>
   </div>
   <div class="">
-    <h1 class="text-2xl mb-4">Provider Details</h1>
-    <app-table></app-table>
+    <h1 class="text-2xl mb-5">Provider Details</h1>
+    <ng-container *ngIf="providerData.length > 0">
+      <app-table
+        [header]="providerHeader"
+        [tableData]="providerData"
+      ></app-table>
+    </ng-container>
   </div>
   <div class="">
-    <h1 class="text-2xl mb-4">Agent Details</h1>
-    <app-table></app-table>
+    <h1 class="text-2xl mb-5">Agent Details</h1>
+    <ng-container *ngIf="agentData.length > 0">
+      <app-table [header]="agentHeader" [tableData]="agentData"></app-table>
+    </ng-container>
   </div>
 </div>

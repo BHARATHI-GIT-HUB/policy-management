@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ChartComponent } from './chart/chart.component';
 import { CardComponent } from './card/card.component';
 import { CommonModule } from '@angular/common';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CommonModule } from '@angular/common';
     ChartComponent,
     CardComponent,
     CardComponent,
+    UploadComponent,
   ],
   imports: [
     NgZorroModule,
@@ -26,6 +28,12 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     BrowserModule,
   ],
-  exports: [LoginComponent, TableComponent, ChartComponent, CardComponent],
+  exports: [
+    LoginComponent,
+    TableComponent,
+    ChartComponent,
+    CardComponent,
+    UploadComponent,
+  ],
 })
 export class ComponentModule {}

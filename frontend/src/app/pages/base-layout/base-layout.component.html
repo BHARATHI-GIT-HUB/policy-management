@@ -16,10 +16,11 @@
           nzSelected
         >
           <span class="flex items-center" routerLink=""
-            ><span nz-icon nzType="file-done"></span>
+            ><span nz-icon nzType="dashboard" nzTheme="outline"></span>
             <span>Dashboard</span></span
           >
         </li>
+
         <li
           nz-menu-item
           nz-tooltip
@@ -27,8 +28,19 @@
           routerLink="enrollment"
         >
           <span class="flex items-center">
-            <span nz-icon nzType="user" nzTheme="outline"></span>
+            <span nz-icon nzType="file-done"></span>
             <span>Enrollment Details</span>
+          </span>
+        </li>
+        <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          routerLink="bulk-upload"
+        >
+          <span class="flex items-center">
+            <span nz-icon nzType="upload" nzTheme="outline"></span>
+            <span>Bulk Upload</span>
           </span>
         </li>
         <li

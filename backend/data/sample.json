@@ -56,7 +56,7 @@
       "lastName": "Doe",
       "dob": "1990-05-15",
       "mobileNo": 1234567890,
-      "mailId": "john@example.com",
+      "mailId": "john@gmail.com",
       "fatherName": "Michael Doe",
       "motherName": "Mary Doe",
       "nationality": "American",
@@ -69,12 +69,41 @@
       "lastName": "Doe",
       "dob": "2003-05-15",
       "mobileNo": 1234567890,
-      "mailId": "bharathi@example.com",
+      "mailId": "bharathi@gmail.com",
       "fatherName": "Senthil Kumar",
       "motherName": "Pushpa ",
       "nationality": "Indian",
       "street": "123 Main Street",
       "cityId": 1
+    }
+  ],
+
+  "provider": [
+    {
+      "id": 1,
+      "userId": 456,
+      "phoneNo": "1234567890",
+      "mobileNo": "9876543210",
+      "mailId": "example@example.com",
+      "cityId": 123,
+      "street": "123 Main Street",
+      "launchDate": "2024-02-29",
+      "testimonials": "Great service!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "companyName": "Example Company"
+    }
+  ],
+  "agent": [
+    {
+      "id": 1,
+      "userId": 1,
+      "dob": "2003-03-28",
+      "street": "123 Main Street",
+      "cityId": 123,
+      "mobileNo": "9876543210",
+      "qualification": "Bachelor's Degree",
+      "aadharNo": 123456789012,
+      "panNo": 1234567890
     }
   ]
 }

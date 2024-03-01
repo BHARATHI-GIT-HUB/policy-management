@@ -30,9 +30,10 @@ export class EnrollmentDetailsComponent implements OnInit {
       'Commision',
     ];
     this.breadcrumbName = this.route.snapshot.data['title'];
-    this.policyService.getAll().subscribe(
-      (data: policy[]) => {
-        this.listOfData = data;
+    this.policyService.getById(123).subscribe(
+      (data) => {
+        console.log('policy data :', data.Premium);
+        // this.listOfData = data;
       },
       (err) => {
         console.log(err);
