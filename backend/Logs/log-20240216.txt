@@ -1,0 +1,1347 @@
+2024-02-16 18:15:35 POlicy Management System Started..........
+2024-02-16 18:15:35 HTTP GET / responded 200 in 403.9336 ms
+2024-02-16 18:15:35 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 6.2268 ms
+2024-02-16 18:15:35 HTTP GET /Assert/Image/download.png responded 200 in 27.6986 ms
+2024-02-16 18:15:35 HTTP GET /css/site.css responded 200 in 34.3139 ms
+2024-02-16 18:15:35 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 47.4273 ms
+2024-02-16 18:15:35 HTTP GET /js/site.js responded 200 in 8.0607 ms
+2024-02-16 18:15:35 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 44.9709 ms
+2024-02-16 18:15:35 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 53.5076 ms
+2024-02-16 18:15:35 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 69.5443 ms
+2024-02-16 18:15:43 POlicy Management System Started..........
+2024-02-16 18:15:43 Login Details ram ram@123
+2024-02-16 18:15:57 Valid Login Details
+2024-02-16 18:15:57 HTTP POST /Login responded 302 in 14440.4180 ms
+2024-02-16 18:15:57 Redirected to Policy Enrollment page
+2024-02-16 18:15:57 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:15:57 HTTP GET /Policy/Index responded 200 in 224.6129 ms
+2024-02-16 18:15:57 HTTP GET /RepositryAssignement.styles.css responded 200 in 6.4909 ms
+2024-02-16 18:15:57 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 10.9433 ms
+2024-02-16 18:16:11 selected plan id 12
+2024-02-16 18:16:11 HTTP POST /Policy/Index responded 302 in 6.8755 ms
+2024-02-16 18:16:11 Enrolling to plan with  id 12
+2024-02-16 18:16:11 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:16:11 HTTP GET /Policy/Create responded 200 in 87.9106 ms
+2024-02-16 18:16:11 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.8175 ms
+2024-02-16 18:16:23 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:16:23 HTTP POST /Policy/Create responded 302 in 6.7701 ms
+2024-02-16 18:16:23 Submitting View Action method triggered
+2024-02-16 18:16:23 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:16:23 HTTP GET /Policy/Submit responded 200 in 43.0796 ms
+2024-02-16 18:16:23 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.8572 ms
+2024-02-16 18:16:27 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 93
+2024-02-16 18:16:27 HTTP POST /Policy/Submit responded 302 in 146.7807 ms
+2024-02-16 18:16:27 Trying to Get the Details About plan with id 93
+2024-02-16 18:16:27 Succesfully Fetched the plan with  id 93 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:16:27 HTTP GET /Policy/Detail/93 responded 200 in 81.8527 ms
+2024-02-16 18:16:32 Trying to Get all policy Details 
+2024-02-16 18:16:32 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:16:32 HTTP GET /Policy/Details responded 200 in 61.8629 ms
+2024-02-16 18:16:41 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:16:41 HTTP POST /Policy/DescOrder responded 200 in 41.6870 ms
+2024-02-16 18:16:48 Trying to Get all policy Details 
+2024-02-16 18:16:48 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:16:48 HTTP GET /Policy/Details responded 200 in 11.4408 ms
+2024-02-16 18:16:51 Redirected to Policy Enrollment page
+2024-02-16 18:16:51 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:16:51 HTTP GET /Policy/Index responded 200 in 8.3070 ms
+2024-02-16 18:16:52 selected plan id 5
+2024-02-16 18:16:52 HTTP POST /Policy/Index responded 302 in 2.1032 ms
+2024-02-16 18:16:52 Enrolling to plan with  id 5
+2024-02-16 18:16:52 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:16:52 HTTP GET /Policy/Create responded 200 in 4.5934 ms
+2024-02-16 18:16:52 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.2888 ms
+2024-02-16 18:16:54 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:16:54 HTTP POST /Policy/Create responded 302 in 1.4809 ms
+2024-02-16 18:16:54 Submitting View Action method triggered
+2024-02-16 18:16:54 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:16:54 HTTP GET /Policy/Submit responded 200 in 5.9100 ms
+2024-02-16 18:16:54 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3937 ms
+2024-02-16 18:16:56 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 94
+2024-02-16 18:16:56 HTTP POST /Policy/Submit responded 302 in 6.6349 ms
+2024-02-16 18:16:56 Trying to Get the Details About plan with id 94
+2024-02-16 18:16:56 Succesfully Fetched the plan with  id 94 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:16:56 HTTP GET /Policy/Detail/94 responded 200 in 5.0974 ms
+2024-02-16 18:16:58 Trying to Get all policy Details 
+2024-02-16 18:16:58 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:16:58 HTTP GET /Policy/Details responded 200 in 9.5406 ms
+2024-02-16 18:17:04 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:17:04 HTTP POST /Policy/DescOrder responded 200 in 10.3609 ms
+2024-02-16 18:17:21 Trying to Get all policy Details 
+2024-02-16 18:17:21 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:17:21 HTTP GET /Policy/Details responded 200 in 10.5627 ms
+2024-02-16 18:17:25 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:17:25 HTTP POST /Policy/DescOrder responded 200 in 10.1601 ms
+2024-02-16 18:17:26 Trying to Get all policy Details 
+2024-02-16 18:17:26 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:17:26 HTTP GET /Policy/Details responded 200 in 10.3803 ms
+2024-02-16 18:17:29 Trying to Get the Details About plan with id 94
+2024-02-16 18:17:29 Succesfully Fetched the plan with  id 94 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:17:29 HTTP GET /Policy/Detail/94 responded 200 in 4.7718 ms
+2024-02-16 18:17:33 Trying to Get all policy Details 
+2024-02-16 18:17:33 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:17:33 HTTP GET /Policy/Details responded 200 in 9.4779 ms
+2024-02-16 18:18:17 Trying to Get all policy Details 
+2024-02-16 18:18:17 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:18:17 HTTP GET /Policy/Details responded 200 in 16.1154 ms
+2024-02-16 18:18:17 HTTP GET /favicon.ico responded 200 in 3.5777 ms
+2024-02-16 18:18:28 Trying to Get all policy Details 
+2024-02-16 18:18:28 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:18:28 HTTP GET /Policy/Details responded 200 in 11.4670 ms
+2024-02-16 18:18:30 Redirected to Policy Enrollment page
+2024-02-16 18:18:30 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:18:30 HTTP GET /Policy/Index responded 200 in 9.8713 ms
+2024-02-16 18:18:31 Trying to Get all policy Details 
+2024-02-16 18:18:31 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:18:31 HTTP GET /Policy/Details responded 200 in 9.4873 ms
+2024-02-16 18:21:19 POlicy Management System Started..........
+2024-02-16 18:21:19 HTTP GET /Login responded 200 in 11.9468 ms
+2024-02-16 18:21:19 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.7731 ms
+2024-02-16 18:23:08 POlicy Management System Started..........
+2024-02-16 18:23:08 Login Details bharathi bhrathi@123
+2024-02-16 18:23:08 Password For the User Name bhrathi@123 is Incorrect
+2024-02-16 18:23:08 HTTP POST /Login responded 200 in 99.7805 ms
+2024-02-16 18:23:08 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3498 ms
+2024-02-16 18:23:15 POlicy Management System Started..........
+2024-02-16 18:23:15 Login Details ram bharathi@123
+2024-02-16 18:23:15 Password For the User Name bharathi@123 is Incorrect
+2024-02-16 18:23:16 HTTP POST /Login responded 200 in 47.2302 ms
+2024-02-16 18:23:16 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0354 ms
+2024-02-16 18:23:29 POlicy Management System Started..........
+2024-02-16 18:23:29 Login Details ram bharthi@123
+2024-02-16 18:23:29 Password For the User Name bharthi@123 is Incorrect
+2024-02-16 18:23:29 HTTP POST /Login responded 200 in 40.3565 ms
+2024-02-16 18:23:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.1846 ms
+2024-02-16 18:23:40 POlicy Management System Started..........
+2024-02-16 18:23:40 Login Details ram bharthi@123
+2024-02-16 18:23:40 Password For the User Name bharthi@123 is Incorrect
+2024-02-16 18:23:40 HTTP POST /Login responded 200 in 38.0150 ms
+2024-02-16 18:23:40 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1444 ms
+2024-02-16 18:23:50 POlicy Management System Started..........
+2024-02-16 18:23:50 Login Details bharathi bharthi@123
+2024-02-16 18:23:50 Valid Login Details
+2024-02-16 18:23:50 HTTP POST /Login responded 302 in 4.9838 ms
+2024-02-16 18:23:50 Redirected to Policy Enrollment page
+2024-02-16 18:23:50 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:23:50 HTTP GET /Policy/Index responded 200 in 10.3294 ms
+2024-02-16 18:23:54 selected plan id 11
+2024-02-16 18:23:54 HTTP POST /Policy/Index responded 302 in 2.4327 ms
+2024-02-16 18:23:54 Enrolling to plan with  id 11
+2024-02-16 18:23:54 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:23:54 HTTP GET /Policy/Create responded 200 in 8.7332 ms
+2024-02-16 18:23:54 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.1448 ms
+2024-02-16 18:23:58 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:23:58 HTTP POST /Policy/Create responded 302 in 2.5075 ms
+2024-02-16 18:23:58 Submitting View Action method triggered
+2024-02-16 18:23:58 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:23:58 HTTP GET /Policy/Submit responded 200 in 10.7338 ms
+2024-02-16 18:23:58 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9004 ms
+2024-02-16 18:24:00 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 95
+2024-02-16 18:24:00 HTTP POST /Policy/Submit responded 302 in 7.0742 ms
+2024-02-16 18:24:00 Trying to Get the Details About plan with id 95
+2024-02-16 18:24:00 Succesfully Fetched the plan with  id 95 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:24:00 HTTP GET /Policy/Detail/95 responded 200 in 13.4589 ms
+2024-02-16 18:24:01 Trying to Get all policy Details 
+2024-02-16 18:24:01 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:24:01 HTTP GET /Policy/Details responded 200 in 16.8472 ms
+2024-02-16 18:24:21 POlicy Management System Started..........
+2024-02-16 18:24:21 HTTP GET /Login responded 200 in 3.4437 ms
+2024-02-16 18:24:21 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3234 ms
+2024-02-16 18:24:31 POlicy Management System Started..........
+2024-02-16 18:24:31 Login Details priya priya@123
+2024-02-16 18:24:32 Valid Login Details
+2024-02-16 18:24:32 HTTP POST /Login responded 302 in 5.1675 ms
+2024-02-16 18:24:32 Redirected to Policy Enrollment page
+2024-02-16 18:24:32 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:24:32 HTTP GET /Policy/Index responded 200 in 6.3324 ms
+2024-02-16 18:24:33 selected plan id 5
+2024-02-16 18:24:33 HTTP POST /Policy/Index responded 302 in 1.8049 ms
+2024-02-16 18:24:33 Enrolling to plan with  id 5
+2024-02-16 18:24:33 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:24:33 HTTP GET /Policy/Create responded 200 in 4.0845 ms
+2024-02-16 18:24:33 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.6216 ms
+2024-02-16 18:24:35 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:24:35 HTTP POST /Policy/Create responded 302 in 1.9019 ms
+2024-02-16 18:24:35 Submitting View Action method triggered
+2024-02-16 18:24:35 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:24:35 HTTP GET /Policy/Submit responded 200 in 4.7710 ms
+2024-02-16 18:24:35 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3680 ms
+2024-02-16 18:24:37 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 96
+2024-02-16 18:24:37 HTTP POST /Policy/Submit responded 302 in 5.0253 ms
+2024-02-16 18:24:37 Trying to Get the Details About plan with id 96
+2024-02-16 18:24:37 Succesfully Fetched the plan with  id 96 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:24:37 HTTP GET /Policy/Detail/96 responded 200 in 4.9965 ms
+2024-02-16 18:24:39 Trying to Get all policy Details 
+2024-02-16 18:24:39 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:24:39 HTTP GET /Policy/Details responded 200 in 11.6103 ms
+2024-02-16 18:24:41 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:24:41 HTTP POST /Policy/DescOrder responded 200 in 21.2902 ms
+2024-02-16 18:24:45 Trying to Get all policy Details 
+2024-02-16 18:24:45 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:24:45 HTTP GET /Policy/Details responded 200 in 10.7969 ms
+2024-02-16 18:25:55 POlicy Management System Started..........
+2024-02-16 18:25:55 HTTP GET /Login responded 200 in 5.1156 ms
+2024-02-16 18:25:55 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2346 ms
+2024-02-16 18:25:56 POlicy Management System Started..........
+2024-02-16 18:25:56 Login Details ram ram@123
+2024-02-16 18:25:56 Valid Login Details
+2024-02-16 18:25:56 HTTP POST /Login responded 302 in 3.1017 ms
+2024-02-16 18:25:56 Redirected to Policy Enrollment page
+2024-02-16 18:25:56 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:25:56 HTTP GET /Policy/Index responded 200 in 6.4622 ms
+2024-02-16 18:25:59 selected plan id 8
+2024-02-16 18:25:59 HTTP POST /Policy/Index responded 302 in 1.4622 ms
+2024-02-16 18:25:59 Enrolling to plan with  id 8
+2024-02-16 18:25:59 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:25:59 HTTP GET /Policy/Create responded 200 in 4.1511 ms
+2024-02-16 18:25:59 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9294 ms
+2024-02-16 18:26:00 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:26:00 HTTP POST /Policy/Create responded 302 in 1.2655 ms
+2024-02-16 18:26:00 Submitting View Action method triggered
+2024-02-16 18:26:00 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:26:00 HTTP GET /Policy/Submit responded 200 in 4.5150 ms
+2024-02-16 18:26:00 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.7846 ms
+2024-02-16 18:26:03 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 97
+2024-02-16 18:26:03 HTTP POST /Policy/Submit responded 302 in 3.9172 ms
+2024-02-16 18:26:03 Trying to Get the Details About plan with id 97
+2024-02-16 18:26:03 Succesfully Fetched the plan with  id 97 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:26:03 HTTP GET /Policy/Detail/97 responded 200 in 4.1626 ms
+2024-02-16 18:26:06 Trying to Get all policy Details 
+2024-02-16 18:26:06 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:26:06 HTTP GET /Policy/Details responded 200 in 12.3204 ms
+2024-02-16 18:26:17 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:26:17 HTTP POST /Policy/DescOrder responded 200 in 13.1229 ms
+2024-02-16 18:26:20 Trying to Get all policy Details 
+2024-02-16 18:26:20 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:26:20 HTTP GET /Policy/Details responded 200 in 11.5428 ms
+2024-02-16 18:29:25 POlicy Management System Started..........
+2024-02-16 18:29:25 HTTP GET /Login responded 200 in 8.0252 ms
+2024-02-16 18:29:25 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4462 ms
+2024-02-16 18:29:33 POlicy Management System Started..........
+2024-02-16 18:29:33 Login Details varun varun@123
+2024-02-16 18:29:33 Valid Login Details
+2024-02-16 18:29:33 HTTP POST /Login responded 302 in 4.5674 ms
+2024-02-16 18:29:33 Redirected to Policy Enrollment page
+2024-02-16 18:29:33 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:29:33 HTTP GET /Policy/Index responded 200 in 6.4894 ms
+2024-02-16 18:29:34 selected plan id 5
+2024-02-16 18:29:34 HTTP POST /Policy/Index responded 302 in 0.9882 ms
+2024-02-16 18:29:34 Enrolling to plan with  id 5
+2024-02-16 18:29:34 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:29:34 HTTP GET /Policy/Create responded 200 in 3.7943 ms
+2024-02-16 18:29:34 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.4425 ms
+2024-02-16 18:29:38 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:29:38 HTTP POST /Policy/Create responded 302 in 1.6730 ms
+2024-02-16 18:29:38 Submitting View Action method triggered
+2024-02-16 18:29:38 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:29:38 HTTP GET /Policy/Submit responded 200 in 4.7360 ms
+2024-02-16 18:29:38 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.1000 ms
+2024-02-16 18:29:40 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 98
+2024-02-16 18:29:40 HTTP POST /Policy/Submit responded 302 in 4.8125 ms
+2024-02-16 18:29:40 Trying to Get the Details About plan with id 98
+2024-02-16 18:29:40 Succesfully Fetched the plan with  id 98 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:29:40 HTTP GET /Policy/Detail/98 responded 200 in 3.8840 ms
+2024-02-16 18:29:42 Trying to Get all policy Details 
+2024-02-16 18:29:42 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:29:42 HTTP GET /Policy/Details responded 200 in 13.6494 ms
+2024-02-16 18:32:00 POlicy Management System Started..........
+2024-02-16 18:32:00 HTTP GET /Login responded 200 in 2.3283 ms
+2024-02-16 18:32:00 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3228 ms
+2024-02-16 18:32:08 POlicy Management System Started..........
+2024-02-16 18:32:08 Login Details kaviya kaviya@123
+2024-02-16 18:32:08 Valid Login Details
+2024-02-16 18:32:08 HTTP POST /Login responded 302 in 4.1956 ms
+2024-02-16 18:32:08 Redirected to Policy Enrollment page
+2024-02-16 18:32:08 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:32:08 HTTP GET /Policy/Index responded 200 in 7.3825 ms
+2024-02-16 18:32:10 selected plan id 5
+2024-02-16 18:32:10 HTTP POST /Policy/Index responded 302 in 0.7452 ms
+2024-02-16 18:32:10 Enrolling to plan with  id 5
+2024-02-16 18:32:10 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:32:10 HTTP GET /Policy/Create responded 200 in 3.7640 ms
+2024-02-16 18:32:10 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9894 ms
+2024-02-16 18:32:11 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:32:11 HTTP POST /Policy/Create responded 302 in 1.1067 ms
+2024-02-16 18:32:11 Submitting View Action method triggered
+2024-02-16 18:32:11 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:32:11 HTTP GET /Policy/Submit responded 200 in 4.4813 ms
+2024-02-16 18:32:11 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3645 ms
+2024-02-16 18:32:12 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 99
+2024-02-16 18:32:12 HTTP POST /Policy/Submit responded 302 in 3.1195 ms
+2024-02-16 18:32:12 Trying to Get the Details About plan with id 99
+2024-02-16 18:32:12 Succesfully Fetched the plan with  id 99 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:32:12 HTTP GET /Policy/Detail/99 responded 200 in 4.3033 ms
+2024-02-16 18:32:14 Trying to Get all policy Details 
+2024-02-16 18:32:14 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:32:14 HTTP GET /Policy/Details responded 200 in 14.3524 ms
+2024-02-16 18:32:32 Error in Filtering by the City with id 2
+2024-02-16 18:32:32 Trying to Get all policy Details 
+2024-02-16 18:32:32 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:32:32 HTTP POST /Policy/Filter responded 200 in 84.8062 ms
+2024-02-16 18:32:35 Succesfully Filtered Policy with city with id 3
+2024-02-16 18:32:35 HTTP POST /Policy/Filter responded 200 in 13.1903 ms
+2024-02-16 18:32:38 Error in Filtering by the City with id 1
+2024-02-16 18:32:38 Trying to Get all policy Details 
+2024-02-16 18:32:38 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:32:38 HTTP POST /Policy/Filter responded 200 in 40.1343 ms
+2024-02-16 18:32:41 Error in Filtering by the City with id 5
+2024-02-16 18:32:41 Trying to Get all policy Details 
+2024-02-16 18:32:41 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:32:41 HTTP POST /Policy/Filter responded 200 in 40.0936 ms
+2024-02-16 18:32:44 Succesfully Filtered Policy with city with id 3
+2024-02-16 18:32:44 HTTP POST /Policy/Filter responded 200 in 13.5771 ms
+2024-02-16 18:32:45 Trying to Get all policy Details 
+2024-02-16 18:32:45 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:32:45 HTTP GET /Policy/Details responded 200 in 12.9756 ms
+2024-02-16 18:36:04 Trying to Get all policy Details 
+2024-02-16 18:36:04 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:36:23 HTTP GET /Policy/Details responded 200 in 18862.3469 ms
+2024-02-16 18:37:38 Trying to Get all policy Details 
+2024-02-16 18:37:38 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:37:38 HTTP GET /Policy/Details responded 200 in 21.6795 ms
+2024-02-16 18:37:47 POlicy Management System Started..........
+2024-02-16 18:37:47 HTTP GET /Login responded 200 in 6.9998 ms
+2024-02-16 18:37:47 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3533 ms
+2024-02-16 18:38:04 POlicy Management System Started..........
+2024-02-16 18:38:04 Login Details kaviya kaviya@123
+2024-02-16 18:38:04 Valid Login Details
+2024-02-16 18:38:04 HTTP POST /Login responded 302 in 4.1964 ms
+2024-02-16 18:38:04 Redirected to Policy Enrollment page
+2024-02-16 18:38:04 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:38:04 HTTP GET /Policy/Index responded 200 in 14.6571 ms
+2024-02-16 18:38:06 selected plan id 5
+2024-02-16 18:38:06 HTTP POST /Policy/Index responded 302 in 3.0009 ms
+2024-02-16 18:38:06 Enrolling to plan with  id 5
+2024-02-16 18:38:06 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:38:06 HTTP GET /Policy/Create responded 200 in 5.8318 ms
+2024-02-16 18:38:06 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3607 ms
+2024-02-16 18:38:08 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:38:08 HTTP POST /Policy/Create responded 302 in 2.4553 ms
+2024-02-16 18:38:08 Submitting View Action method triggered
+2024-02-16 18:38:08 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:38:08 HTTP GET /Policy/Submit responded 200 in 13.3783 ms
+2024-02-16 18:38:08 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3533 ms
+2024-02-16 18:38:09 Value cannot be null. (Parameter 's')
+2024-02-16 18:38:09 HTTP POST /Policy/Submit responded 200 in 44.0981 ms
+2024-02-16 18:38:09 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.8313 ms
+2024-02-16 18:38:10 The input string '' was not in a correct format.
+2024-02-16 18:38:10 HTTP POST /Policy/Submit responded 200 in 35.9988 ms
+2024-02-16 18:38:10 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3562 ms
+2024-02-16 18:38:23 The input string '' was not in a correct format.
+2024-02-16 18:38:23 HTTP POST /Policy/Submit responded 200 in 34.8613 ms
+2024-02-16 18:38:23 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.6549 ms
+2024-02-16 18:38:25 Redirected to Policy Enrollment page
+2024-02-16 18:38:25 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:38:25 HTTP GET /Policy/Index responded 200 in 6.1294 ms
+2024-02-16 18:38:26 selected plan id 5
+2024-02-16 18:38:26 HTTP POST /Policy/Index responded 302 in 0.9609 ms
+2024-02-16 18:38:26 Enrolling to plan with  id 5
+2024-02-16 18:38:26 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:38:26 HTTP GET /Policy/Create responded 200 in 3.6310 ms
+2024-02-16 18:38:26 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.6285 ms
+2024-02-16 18:38:28 Redirected to Policy Enrollment page
+2024-02-16 18:38:28 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:38:28 HTTP GET /Policy/Index responded 200 in 6.8067 ms
+2024-02-16 18:38:30 selected plan id 11
+2024-02-16 18:38:30 HTTP POST /Policy/Index responded 302 in 0.7585 ms
+2024-02-16 18:38:30 Enrolling to plan with  id 11
+2024-02-16 18:38:30 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:38:30 HTTP GET /Policy/Create responded 200 in 3.5568 ms
+2024-02-16 18:38:30 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.2245 ms
+2024-02-16 18:38:31 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:38:31 HTTP POST /Policy/Create responded 302 in 1.6168 ms
+2024-02-16 18:38:31 Submitting View Action method triggered
+2024-02-16 18:38:31 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:38:31 HTTP GET /Policy/Submit responded 200 in 3.9605 ms
+2024-02-16 18:38:31 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.3052 ms
+2024-02-16 18:38:34 Value cannot be null. (Parameter 's')
+2024-02-16 18:38:34 HTTP POST /Policy/Submit responded 200 in 33.9216 ms
+2024-02-16 18:38:34 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.4943 ms
+2024-02-16 18:38:40 The input string '' was not in a correct format.
+2024-02-16 18:38:40 HTTP POST /Policy/Submit responded 200 in 36.1922 ms
+2024-02-16 18:38:40 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9240 ms
+2024-02-16 18:38:41 The input string '' was not in a correct format.
+2024-02-16 18:38:41 HTTP POST /Policy/Submit responded 200 in 36.4950 ms
+2024-02-16 18:38:41 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.7400 ms
+2024-02-16 18:38:42 The input string '' was not in a correct format.
+2024-02-16 18:38:42 HTTP POST /Policy/Submit responded 200 in 34.4481 ms
+2024-02-16 18:38:42 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9266 ms
+2024-02-16 18:38:44 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.1985 ms
+2024-02-16 18:38:44 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 200 in 63.4605 ms
+2024-02-16 18:38:44 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 116.2445 ms
+2024-02-16 18:42:49 POlicy Management System Started..........
+2024-02-16 18:42:50 HTTP GET / responded 200 in 300.4571 ms
+2024-02-16 18:42:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.3567 ms
+2024-02-16 18:43:00 POlicy Management System Started..........
+2024-02-16 18:43:00 Login Details kaviya kaviya@123
+2024-02-16 18:43:01 Valid Login Details
+2024-02-16 18:43:01 HTTP POST /Login responded 302 in 1139.3508 ms
+2024-02-16 18:43:01 Redirected to Policy Enrollment page
+2024-02-16 18:43:01 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:43:01 HTTP GET /Policy/Index responded 200 in 208.5789 ms
+2024-02-16 18:43:03 selected plan id 11
+2024-02-16 18:43:03 HTTP POST /Policy/Index responded 302 in 7.3641 ms
+2024-02-16 18:43:03 Enrolling to plan with  id 11
+2024-02-16 18:43:03 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:43:03 HTTP GET /Policy/Create responded 200 in 88.2292 ms
+2024-02-16 18:43:03 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.3479 ms
+2024-02-16 18:43:04 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:43:04 HTTP POST /Policy/Create responded 302 in 7.0471 ms
+2024-02-16 18:43:04 Submitting View Action method triggered
+2024-02-16 18:43:04 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:43:04 HTTP GET /Policy/Submit responded 200 in 43.2516 ms
+2024-02-16 18:43:04 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.2595 ms
+2024-02-16 18:43:07 An exception occurred in the database while saving changes for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "policy_enrollment_cilent_id_foreign". The conflict occurred in database "insuranceDB", table "dbo.Client", column 'id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:6d82fa07-9799-4365-896c-db3fed404d30
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "policy_enrollment_cilent_id_foreign". The conflict occurred in database "insuranceDB", table "dbo.Client", column 'id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:6d82fa07-9799-4365-896c-db3fed404d30
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-02-16 18:43:07 An error occurred while saving the entity changes. See the inner exception for details.
+2024-02-16 18:43:07 HTTP POST /Policy/Submit responded 200 in 241.8713 ms
+2024-02-16 18:43:07 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5096 ms
+2024-02-16 18:43:14 The input string '' was not in a correct format.
+2024-02-16 18:43:14 HTTP POST /Policy/Submit responded 200 in 34.9861 ms
+2024-02-16 18:43:14 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5850 ms
+2024-02-16 18:43:15 The input string '' was not in a correct format.
+2024-02-16 18:43:15 HTTP POST /Policy/Submit responded 200 in 35.4905 ms
+2024-02-16 18:43:15 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5618 ms
+2024-02-16 18:43:15 The input string '' was not in a correct format.
+2024-02-16 18:43:15 HTTP POST /Policy/Submit responded 200 in 35.8641 ms
+2024-02-16 18:43:15 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5634 ms
+2024-02-16 18:43:15 The input string '' was not in a correct format.
+2024-02-16 18:43:15 HTTP POST /Policy/Submit responded 200 in 34.5073 ms
+2024-02-16 18:43:15 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 2.4475 ms
+2024-02-16 18:43:16 The input string '' was not in a correct format.
+2024-02-16 18:43:16 HTTP POST /Policy/Submit responded 200 in 35.2827 ms
+2024-02-16 18:43:16 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.1777 ms
+2024-02-16 18:43:29 Redirected to Policy Enrollment page
+2024-02-16 18:43:29 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:43:29 HTTP GET /Policy/Index responded 200 in 8.5048 ms
+2024-02-16 18:43:30 POlicy Management System Started..........
+2024-02-16 18:43:30 HTTP GET /Login responded 200 in 4.2741 ms
+2024-02-16 18:43:30 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.4445 ms
+2024-02-16 18:43:31 POlicy Management System Started..........
+2024-02-16 18:43:31 Login Details ram ram@123
+2024-02-16 18:43:31 Valid Login Details
+2024-02-16 18:43:31 HTTP POST /Login responded 302 in 4.7701 ms
+2024-02-16 18:43:31 Redirected to Policy Enrollment page
+2024-02-16 18:43:31 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:43:31 HTTP GET /Policy/Index responded 200 in 7.8499 ms
+2024-02-16 18:43:32 selected plan id 5
+2024-02-16 18:43:32 HTTP POST /Policy/Index responded 302 in 1.6255 ms
+2024-02-16 18:43:32 Enrolling to plan with  id 5
+2024-02-16 18:43:32 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:43:32 HTTP GET /Policy/Create responded 200 in 4.4116 ms
+2024-02-16 18:43:32 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.4962 ms
+2024-02-16 18:43:33 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:43:33 HTTP POST /Policy/Create responded 302 in 1.5907 ms
+2024-02-16 18:43:33 Submitting View Action method triggered
+2024-02-16 18:43:33 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:43:33 HTTP GET /Policy/Submit responded 200 in 5.3785 ms
+2024-02-16 18:43:33 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.7263 ms
+2024-02-16 18:43:36 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 101
+2024-02-16 18:43:36 HTTP POST /Policy/Submit responded 302 in 22.5135 ms
+2024-02-16 18:43:36 Trying to Get the Detail About plan with id 101
+2024-02-16 18:43:36 Succesfully Fetched the plan with  id 101 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:43:36 HTTP GET /Policy/Detail/101 responded 200 in 76.2982 ms
+2024-02-16 18:43:44 Trying to Delete the policy by id 101 
+2024-02-16 18:43:44 HTTP GET /Policy/Delete/101 responded 200 in 11.2630 ms
+2024-02-16 18:43:47 Succesfully Deleted  Policy with  id 101 
+2024-02-16 18:43:47 HTTP POST /Policy/Delete/101 responded 302 in 28.1587 ms
+2024-02-16 18:43:47 Trying to Get all policy Details 
+2024-02-16 18:43:47 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:43:47 HTTP GET /Policy/Details responded 200 in 53.9054 ms
+2024-02-16 18:43:48 POlicy Management System Started..........
+2024-02-16 18:43:48 HTTP GET /Login responded 200 in 3.0589 ms
+2024-02-16 18:43:48 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8073 ms
+2024-02-16 18:44:08 POlicy Management System Started..........
+2024-02-16 18:44:08 Login Details kaviya kaviya@123
+2024-02-16 18:44:08 Valid Login Details
+2024-02-16 18:44:08 HTTP POST /Login responded 302 in 4.4756 ms
+2024-02-16 18:44:08 Redirected to Policy Enrollment page
+2024-02-16 18:44:08 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:44:08 HTTP GET /Policy/Index responded 200 in 8.2983 ms
+2024-02-16 18:44:13 selected plan id 11
+2024-02-16 18:44:13 HTTP POST /Policy/Index responded 302 in 1.0450 ms
+2024-02-16 18:44:13 Enrolling to plan with  id 11
+2024-02-16 18:44:13 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:44:13 HTTP GET /Policy/Create responded 200 in 4.6649 ms
+2024-02-16 18:44:13 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5510 ms
+2024-02-16 18:44:14 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:44:14 HTTP POST /Policy/Create responded 302 in 1.9735 ms
+2024-02-16 18:44:14 Submitting View Action method triggered
+2024-02-16 18:44:14 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:44:14 HTTP GET /Policy/Submit responded 200 in 4.8399 ms
+2024-02-16 18:44:14 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.7740 ms
+2024-02-16 18:44:18 An exception occurred in the database while saving changes for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "policy_enrollment_cilent_id_foreign". The conflict occurred in database "insuranceDB", table "dbo.Client", column 'id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:6d82fa07-9799-4365-896c-db3fed404d30
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "policy_enrollment_cilent_id_foreign". The conflict occurred in database "insuranceDB", table "dbo.Client", column 'id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:6d82fa07-9799-4365-896c-db3fed404d30
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-02-16 18:44:18 An error occurred while saving the entity changes. See the inner exception for details.
+2024-02-16 18:44:18 HTTP POST /Policy/Submit responded 200 in 88.3435 ms
+2024-02-16 18:44:18 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.0067 ms
+2024-02-16 18:44:32 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.0085 ms
+2024-02-16 18:46:56 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 103
+2024-02-16 18:46:56 HTTP POST /Policy/Submit responded 302 in 5.7682 ms
+2024-02-16 18:46:56 Trying to Get the Detail About plan with id 103
+2024-02-16 18:46:56 Succesfully Fetched the plan with  id 103 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:46:56 HTTP GET /Policy/Detail/103 responded 200 in 11.1516 ms
+2024-02-16 18:47:06 Trying to Get all policy Details 
+2024-02-16 18:47:06 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:47:06 HTTP GET /Policy/Details responded 200 in 17.2578 ms
+2024-02-16 18:47:09 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:47:09 HTTP POST /Policy/DescOrder responded 200 in 40.4749 ms
+2024-02-16 18:47:13 Succesfully Filtered Policy with city with id 2
+2024-02-16 18:47:13 HTTP POST /Policy/Filter responded 200 in 26.8147 ms
+2024-02-16 18:47:16 Succesfully Filtered Policy with city with id 3
+2024-02-16 18:47:16 HTTP POST /Policy/Filter responded 200 in 14.0442 ms
+2024-02-16 18:51:34 POlicy Management System Started..........
+2024-02-16 18:51:35 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.9229 ms
+2024-02-16 18:51:35 HTTP GET / responded 200 in 383.9176 ms
+2024-02-16 18:51:45 POlicy Management System Started..........
+2024-02-16 18:51:45 Login Details kaviya kaviya@123
+2024-02-16 18:51:46 Valid Login Details
+2024-02-16 18:51:46 HTTP POST /Login responded 302 in 1153.1621 ms
+2024-02-16 18:51:46 Redirected to Policy Enrollment page
+2024-02-16 18:51:46 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:51:46 HTTP GET /Policy/Index responded 200 in 190.4370 ms
+2024-02-16 18:51:49 selected plan id 11
+2024-02-16 18:51:49 HTTP POST /Policy/Index responded 302 in 8.6356 ms
+2024-02-16 18:51:49 Enrolling to plan with  id 11
+2024-02-16 18:51:49 plan with id is RepositryAssignement.Models.Plan
+2024-02-16 18:51:49 HTTP GET /Policy/Create responded 200 in 87.6431 ms
+2024-02-16 18:51:49 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.8200 ms
+2024-02-16 18:51:52 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-16 18:51:52 HTTP POST /Policy/Create responded 302 in 6.9539 ms
+2024-02-16 18:51:52 Submitting View Action method triggered
+2024-02-16 18:51:52 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-16 18:51:52 HTTP GET /Policy/Submit responded 200 in 44.0736 ms
+2024-02-16 18:51:52 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.0087 ms
+2024-02-16 18:51:53 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 104
+2024-02-16 18:51:53 HTTP POST /Policy/Submit responded 302 in 130.4913 ms
+2024-02-16 18:51:53 Trying to Get the Detail About plan with id 104
+2024-02-16 18:51:54 Succesfully Fetched the plan with  id 104 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:51:54 HTTP GET /Policy/Detail/104 responded 200 in 71.6982 ms
+2024-02-16 18:51:57 Trying to Get all policy Details 
+2024-02-16 18:51:57 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:51:57 HTTP GET /Policy/Details responded 200 in 57.3497 ms
+2024-02-16 18:52:12 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-16 18:52:12 HTTP POST /Policy/DescOrder responded 200 in 41.4401 ms
+2024-02-16 18:52:19 Trying to Get the Detail About plan with id 89
+2024-02-16 18:52:19 Succesfully Fetched the plan with  id 89 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-16 18:52:19 HTTP GET /Policy/Detail/89 responded 200 in 5.3429 ms
+2024-02-16 18:52:25 Trying to Get all policy Details 
+2024-02-16 18:52:25 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:52:25 HTTP GET /Policy/Details responded 200 in 19.4692 ms
+2024-02-16 18:52:27 Trying to Get all policy Details 
+2024-02-16 18:52:27 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-16 18:52:27 HTTP GET /Policy/Details responded 200 in 16.2706 ms
+2024-02-16 18:52:28 Redirected to Policy Enrollment page
+2024-02-16 18:52:28 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:52:28 HTTP GET /Policy/Index responded 200 in 8.2955 ms
+2024-02-16 18:56:42 POlicy Management System Started..........
+2024-02-16 18:56:42 HTTP GET / responded 200 in 275.7251 ms
+2024-02-16 18:56:42 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 6.0523 ms
+2024-02-16 18:56:54 POlicy Management System Started..........
+2024-02-16 18:56:54 Login Details kaviya kaviya@123
+2024-02-16 18:56:55 Valid Login Details
+2024-02-16 18:56:55 HTTP POST /Login responded 302 in 1153.2420 ms
+2024-02-16 18:56:55 Redirected to Policy Enrollment page
+2024-02-16 18:56:55 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-16 18:56:56 HTTP GET /Policy/Index responded 200 in 209.5068 ms
+2024-02-16 19:07:09 HTTP GET /api/PolicyEnrollment/Order responded 200 in 190.6384 ms
+2024-02-16 19:08:27 POlicy Management System Started..........
+2024-02-16 19:08:28 HTTP GET / responded 200 in 283.6719 ms
+2024-02-16 19:08:28 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.2250 ms
+2024-02-16 19:08:33 HTTP GET /api/PolicyEnrollment/Order responded 500 in 1342.2397 ms
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Agent.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:08:33 An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Agent.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:09:01 HTTP GET /api/PolicyEnrollment/ responded 500 in 62.2748 ms
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Agent.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:09:01 An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Agent.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.City.Agents.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:09:43 POlicy Management System Started..........
+2024-02-16 19:09:43 HTTP GET / responded 200 in 15.3680 ms
+2024-02-16 19:09:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4437 ms
+2024-02-16 19:09:49 HTTP GET /api/PolicyEnrollment/ responded 500 in 4.0762 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:09:49 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:10:13 POlicy Management System Started..........
+2024-02-16 19:10:13 HTTP GET / responded 200 in 9.3409 ms
+2024-02-16 19:10:13 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5756 ms
+2024-02-16 19:10:17 HTTP GET /api/PolicyEnrollment/ responded 500 in 0.7727 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:10:17 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:10:23 HTTP GET /api/PolicyEnrollment/Order responded 200 in 91.9759 ms
+2024-02-16 19:10:26 HTTP GET /api/PolicyEnrollment/ responded 500 in 0.2282 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:10:26 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:10:31 HTTP GET /api/PolicyEnrollment responded 500 in 0.6764 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:10:31 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:10:49 HTTP GET /api/PolicyEnrollment/Filter/2 responded 200 in 67.4596 ms
+2024-02-16 19:11:23 HTTP GET /api/PolicyEnrollment responded 500 in 0.1886 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:11:23 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:12:18 HTTP GET /api/PolicyEnrollment/104 responded 200 in 26.7303 ms
+2024-02-16 19:12:57 HTTP GET /api/PolicyEnrollment responded 500 in 0.8399 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:12:57 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:13:32 HTTP GET /api/PolicyEnrollment/ responded 500 in 0.2274 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-16 19:13:32 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyEnrollmentController.Get (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-16 19:13:49 POlicy Management System Started..........
+2024-02-16 19:13:49 HTTP GET / responded 200 in 8.6108 ms
+2024-02-16 19:13:49 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3845 ms
+2024-02-16 19:13:53 HTTP GET /api/PolicyEnrollment/All responded 200 in 16.5147 ms

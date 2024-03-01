@@ -1,0 +1,249 @@
+﻿@model RepositryAssignement.Models.PolicyEnrollment;
+
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_CustomeLayout.cshtml";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arapey:400,400i,600|Open+Sans:300" rel="stylesheet">
+    <style>
+ 
+
+        *,
+        *:after,
+        *:before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .timeline {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+            .timeline .events {
+                position: relative;
+                background-color: #606060;
+                height: 3px;
+                width: 100%;
+                border-radius: 4px;
+                margin: 5em 0;
+            }
+
+                .timeline .events ol {
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                .timeline .events ul {
+                    list-style: none;
+                }
+
+                    .timeline .events ul li {
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                        .timeline .events ul li a {
+                            font-family: 'Arapey', sans-serif;
+                            font-style: italic;
+                            font-size: 1.25em;
+                            color: #606060;
+                            text-decoration: none;
+                            position: relative;
+                            top: -32px;
+                            padding: 0 15px;
+                        }
+
+                            .timeline .events ul li a:after {
+                                content: '';
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                height: 20px;
+                                width: 20px;
+                                border-radius: 50%;
+                                border: 3px solid #606060;
+                                background-color: #fff;
+                                transition: 0.3s ease;
+                            }
+
+                            .timeline .events ul li a:hover::after {
+                                background-color: #194693;
+                                border-color: #194693;
+                            }
+
+                            .timeline .events ul li a.selected:after {
+                                background-color: #194693;
+                                border-color: #194693;
+                            }
+
+        .events-content {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+            .events-content li {
+                display: none;
+                list-style: none;
+            }
+
+                .events-content li.selected {
+                    display: block;
+                }
+
+                .events-content li h2 {
+                    font-family: 'Frank Ruhl Libre', serif;
+                    font-weight: 500;
+                    color: #919191;
+                    font-size: 2.5em;
+                }
+
+    .neon-box {
+        position: relative;
+        background-color: #ffffff;
+        border:black;
+        border-radius: 30px;
+         box-shadow: 0 0 20px rgb(199,212,255);
+        animation: neon-glow 1s infinite alternate;
+    }
+
+        a {
+            color: inherit; /* Use the color inherited from the parent */
+            text-decoration: none; /* Remove default underline */
+        }
+
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body >
+
+
+    <div class="d-flex flex-column gap-4">
+    <div class="d-flex gap-5 justify-content-start align-items-center">
+            <div class="d-flex gap-2 align-items-center" onclick="goBack()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                </svg>                
+                <p class="mb-1 text-center h6" style="cursor:pointer">Index</p>
+            </div>
+        <p class="h4 text-secondary w-100 text-center"> @ViewBag.PlanName</p>
+        </div>
+        <div class="d-flex align-items-center gap-5 p-4 border-0 border-black rounded-1 shadow-sm" style="background-color:white;border:none;box-shadow:10px">
+        <div class="d-flex flex-column"> 
+            <p class="text-nowrap">Sum insured</p>
+            <span style="margin-top:-10px; color:#008000;font-weight: 600; font-size:16px;  " id="rangeValue">5 Lakhs</span>
+        </div>
+            <input type="range" class="form-range" min="1" max="@ViewBag.CoverageAmount" step="1" id="customRange3">
+     </div>
+
+
+        <div class="d-flex justify-content-start align-items-start gap-5 p-5 shadow-sm" style="background-color : #F7F8FF">
+        <div class="d-flex flex-column">
+            <h1 style="margin-bottom:px">Feature</h1>
+                <h5 style="margin-bottom:70px">Premium</h5>
+            <hr />
+            <ul class="d-flex flex-column  text-start mt-1 " style="padding-left:0px">
+                <l1><p> Sum Assured</p></l1>
+                    <l1><p> Pre & Post Hospitalisation</p></l1>
+                    <l1>
+                        <p>
+                            Recharge Benefit
+                        </p>
+                    </l1>
+                    <l1>
+                        <p>
+                            Outpatient Benefit
+                        </p>
+                    </l1>
+            </ul>
+        </div>
+        <div class="neon-box bg-white d-flex flex-column justify-content-center align-items-center border border-black" style="border-radius: 30px;">
+            <p class="w-100 text-center py-2 text-white" style="background-color: #013ADE; border-radius: 30px 30px 0 0;">Details</p>
+                <form method="post">
+                <input hidden type="text" vaule="@ViewBag.PlanId" name="planId"/>
+                    <div class="d-flex flex-column gap-3 justify-content-center align-items-center px-3 ">
+                        <div class="text-center">
+                            <h6 style="font-weight: 600; font-size:16px;" id="premium"></h6>
+                            <h6 style="font-weight: 600; font-size:16px;">for @ViewBag.TimePeriod Years</h6>
+                        </div>
+                        
+
+                        <input asp-for="Premium" class="form-control" name="Premium" id="premiumInput" style="display: none;" />
+                        <input asp-for="CoverageAmount" class="form-control" name="CoverageAmount" id="coverageAmount" style="display: none;" />
+                        <input hidden type="text" asp-for="PlanId" vaule="@ViewBag.PlanId" name="PlanId" />
+
+                        <button class="btn btn-outline-primary btn-sm" type="submit">Choose</button>
+                    </div>
+                </form>
+            <hr />
+                <p asp-items ="ViewBag.Premium" style="margin-top:-10px; color:#008000;font-weight: 600; font-size:16px;  " id="rangeLabel">5 Lakhs</p>
+                <p>&#10004;</p>
+                <p >&times;</p>
+                <p>&#10004</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('customRange3');
+        const premiumDisplay = document.getElementById('premium');
+        const premiumInput = document.getElementById('premiumInput');
+        const rangeValueDisplay = document.getElementById('rangeValue');
+        const rangeLabel = document.getElementById('rangeLabel');
+        const totalAmount = document.getElementById('coverageAmount');
+
+
+        function goBack() {
+            window.history.back();
+        }
+
+        function calculatePremium() {
+            // Update the displayed value when the input value changes
+            rangeValueDisplay.textContent = rangeInput.value + " Lakhs";
+            rangeLabel.textContent = rangeInput.value + " Lakhs";
+            
+            
+            // Calculate the premium rate based on the range input value
+            const premiumRate = 0.08; // Premium rate per lakh
+            const sumInsured = rangeInput.value * 100000; // Convert range value to sum insured in rupees
+            
+            console.log(sumInsured)
+            const calculatedPremium = sumInsured /( @ViewBag.TimePeriod * 1);
+          
+            var timePeriod = @ViewBag.TimePeriod;
+            // Update the premium text content
+            premiumInput.value = calculatedPremium.toFixed(2); // Set the value of the hidden input field to the calculated premium
+            premiumDisplay.textContent = "₹" + calculatedPremium.toFixed(2) + `/ year` ; // Update the displayed premium value
+            totalAmount.value = sumInsured;
+            
+        }
+
+        // Update premium when the range input value changes
+        rangeInput.addEventListener('input', calculatePremium);
+
+        // Initial calculation on page load
+        calculatePremium();
+    </script>
+</body>
+</html>

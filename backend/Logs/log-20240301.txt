@@ -1,0 +1,29 @@
+2024-03-01 14:14:41 Policy Management System Started..........
+2024-03-01 14:14:41 HTTP GET / responded 200 in 500.8504 ms
+2024-03-01 14:14:41 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.1317 ms
+2024-03-01 14:14:41 HTTP GET /js/site.js responded 200 in 17.1568 ms
+2024-03-01 14:14:41 HTTP GET /Assert/Image/download.png responded 200 in 4.5159 ms
+2024-03-01 14:14:41 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 36.5792 ms
+2024-03-01 14:14:41 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 20.0890 ms
+2024-03-01 14:14:41 HTTP GET /css/site.css responded 200 in 20.8278 ms
+2024-03-01 14:14:41 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 44.8293 ms
+2024-03-01 14:14:41 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 62.0412 ms
+2024-03-01 14:14:47 HTTP GET /Api/176 responded 400 in 1729.7052 ms
+2024-03-01 14:14:57 HTTP GET /Api/All responded 200 in 244.5990 ms
+2024-03-01 14:15:05 HTTP GET /Api/1 responded 400 in 84.8607 ms
+2024-03-01 14:15:18 Policy Management System Started..........
+2024-03-01 14:15:18 Login Details admin admin@123
+2024-03-01 14:15:18 Valid Login Details
+2024-03-01 14:15:18 HTTP POST /Login responded 302 in 28.1431 ms
+2024-03-01 14:15:18 Redirected to Policy Enrollment page
+2024-03-01 14:15:18 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-01 14:15:18 HTTP GET /Policy/Index responded 200 in 239.2243 ms
+2024-03-01 14:15:18 HTTP GET /RepositryAssignement.styles.css responded 200 in 1.1858 ms
+2024-03-01 14:15:18 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 10.0790 ms
+2024-03-01 14:15:19 Trying to Get all policy Details 
+2024-03-01 14:15:19 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-03-01 14:15:19 HTTP GET /Policy/Details responded 200 in 61.8512 ms
+2024-03-01 14:15:21 Trying to Get the Detail About plan with id 123
+2024-03-01 14:15:21 Succesfully Fetched the plan with  id 123 : RepositryAssignement.Models.PolicyEnrollment
+2024-03-01 14:15:21 HTTP GET /Policy/Detail/123 responded 200 in 66.1960 ms
+2024-03-01 14:15:27 HTTP GET /Api/123 responded 200 in 12.1060 ms

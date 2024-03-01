@@ -1,0 +1,309 @@
+2024-02-17 10:44:41 POlicy Management System Started..........
+2024-02-17 10:44:41 HTTP GET / responded 200 in 446.5756 ms
+2024-02-17 10:44:41 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 9.3736 ms
+2024-02-17 10:44:41 HTTP GET /js/site.js responded 200 in 11.4954 ms
+2024-02-17 10:44:41 HTTP GET /css/site.css responded 200 in 25.9948 ms
+2024-02-17 10:44:41 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 10.0467 ms
+2024-02-17 10:44:41 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 41.3734 ms
+2024-02-17 10:44:41 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 49.5905 ms
+2024-02-17 10:44:41 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 61.4585 ms
+2024-02-17 10:44:41 HTTP GET /Assert/Image/download.png responded 200 in 2.6902 ms
+2024-02-17 10:44:48 POlicy Management System Started..........
+2024-02-17 10:44:48 HTTP GET / responded 200 in 15.5583 ms
+2024-02-17 10:44:50 POlicy Management System Started..........
+2024-02-17 10:44:50 HTTP GET / responded 200 in 6.7203 ms
+2024-02-17 10:44:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.0079 ms
+2024-02-17 10:44:50 HTTP GET /Assert/Image/download.png responded 200 in 4.0588 ms
+2024-02-17 10:44:50 HTTP GET /css/site.css responded 200 in 5.8319 ms
+2024-02-17 10:44:50 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 13.1423 ms
+2024-02-17 10:44:50 HTTP GET /js/site.js responded 200 in 8.3507 ms
+2024-02-17 10:44:50 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 7.7288 ms
+2024-02-17 10:44:50 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 21.0575 ms
+2024-02-17 10:44:50 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 10.2401 ms
+2024-02-17 10:45:02 HTTP GET /policy/details responded 302 in 3.7653 ms
+2024-02-17 10:45:02 POlicy Management System Started..........
+2024-02-17 10:45:02 HTTP GET /Login responded 200 in 4.2252 ms
+2024-02-17 10:45:03 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.3896 ms
+2024-02-17 10:46:14 POlicy Management System Started..........
+2024-02-17 10:46:14 Login Details kaviya kaviya@123
+2024-02-17 10:46:15 Valid Login Details
+2024-02-17 10:46:15 HTTP POST /Login responded 302 in 1535.5197 ms
+2024-02-17 10:46:15 Redirected to Policy Enrollment page
+2024-02-17 10:46:15 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 10:46:15 HTTP GET /Policy/Index responded 200 in 236.9061 ms
+2024-02-17 10:46:16 HTTP GET /RepositryAssignement.styles.css responded 200 in 4.5537 ms
+2024-02-17 10:46:16 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 19.3659 ms
+2024-02-17 10:46:41 selected plan id 12
+2024-02-17 10:46:41 HTTP POST /Policy/Index responded 302 in 6.0577 ms
+2024-02-17 10:46:41 Enrolling to plan with  id 12
+2024-02-17 10:46:41 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 10:46:41 HTTP GET /Policy/Create responded 200 in 106.3727 ms
+2024-02-17 10:46:41 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 3.4218 ms
+2024-02-17 10:47:07 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-17 10:47:07 HTTP POST /Policy/Create responded 302 in 49.8468 ms
+2024-02-17 10:47:07 Submitting View Action method triggered
+2024-02-17 10:47:07 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-17 10:47:07 HTTP GET /Policy/Submit responded 200 in 46.2807 ms
+2024-02-17 10:47:07 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.4098 ms
+2024-02-17 10:47:12 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 105
+2024-02-17 10:47:12 HTTP POST /Policy/Submit responded 302 in 145.0506 ms
+2024-02-17 10:47:12 Trying to Get the Detail About plan with id 105
+2024-02-17 10:47:12 Succesfully Fetched the plan with  id 105 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 10:47:12 HTTP GET /Policy/Detail/105 responded 200 in 71.0581 ms
+2024-02-17 10:47:19 Trying to Get all policy Details 
+2024-02-17 10:47:19 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 10:47:19 HTTP GET /Policy/Details responded 200 in 68.2155 ms
+2024-02-17 10:47:23 Trying to Get the Detail About plan with id 105
+2024-02-17 10:47:23 Succesfully Fetched the plan with  id 105 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 10:47:23 HTTP GET /Policy/Detail/105 responded 200 in 7.0057 ms
+2024-02-17 10:47:42 Trying to Get all policy Details 
+2024-02-17 10:47:42 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 10:47:42 HTTP GET /Policy/Details responded 200 in 20.5096 ms
+2024-02-17 10:47:46 Succesfully Filtered Policy with city with id 2
+2024-02-17 10:47:46 HTTP POST /Policy/Filter responded 200 in 31.0626 ms
+2024-02-17 10:47:51 Succesfully Filtered Policy with city with id 3
+2024-02-17 10:47:51 HTTP POST /Policy/Filter responded 200 in 14.5636 ms
+2024-02-17 10:47:54 Trying to Get all policy Details 
+2024-02-17 10:47:54 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 10:47:54 HTTP GET /Policy/Details responded 200 in 16.6819 ms
+2024-02-17 10:47:57 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-17 10:47:57 HTTP POST /Policy/DescOrder responded 200 in 45.7897 ms
+2024-02-17 10:48:02 Trying to Get all policy Details 
+2024-02-17 10:48:02 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 10:48:02 HTTP GET /Policy/Details responded 200 in 18.4150 ms
+2024-02-17 10:48:06 POlicy Management System Started..........
+2024-02-17 10:48:06 HTTP GET /Login responded 200 in 3.6991 ms
+2024-02-17 10:48:06 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5993 ms
+2024-02-17 10:48:13 HTTP GET /Login/policy/details responded 404 in 0.1200 ms
+2024-02-17 10:48:19 Trying to Get all policy Details 
+2024-02-17 10:48:19 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 10:48:19 HTTP GET /policy/details responded 200 in 19.0533 ms
+2024-02-17 10:48:37 POlicy Management System Started..........
+2024-02-17 10:48:38 HTTP GET / responded 200 in 264.6920 ms
+2024-02-17 10:48:38 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.6596 ms
+2024-02-17 10:48:47 POlicy Management System Started..........
+2024-02-17 10:48:47 HTTP GET / responded 200 in 22.0168 ms
+2024-02-17 10:48:48 POlicy Management System Started..........
+2024-02-17 10:48:48 HTTP GET / responded 200 in 6.4385 ms
+2024-02-17 10:48:48 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.6192 ms
+2024-02-17 10:55:05 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4692 ms
+2024-02-17 10:55:06 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 200 in 76.5778 ms
+2024-02-17 10:55:06 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 119.6998 ms
+2024-02-17 10:56:32 POlicy Management System Started..........
+2024-02-17 10:56:32 HTTP GET / responded 200 in 22.0873 ms
+2024-02-17 10:56:32 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.3303 ms
+2024-02-17 10:56:32 HTTP GET /favicon.ico responded 200 in 3.1223 ms
+2024-02-17 10:56:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.4613 ms
+2024-02-17 10:57:49 POlicy Management System Started..........
+2024-02-17 10:57:49 HTTP GET / responded 200 in 16.0842 ms
+2024-02-17 10:57:49 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.5069 ms
+2024-02-17 10:57:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9089 ms
+2024-02-17 10:58:11 POlicy Management System Started..........
+2024-02-17 10:58:11 HTTP GET / responded 200 in 17.1084 ms
+2024-02-17 10:58:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4765 ms
+2024-02-17 10:58:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8533 ms
+2024-02-17 10:58:28 POlicy Management System Started..........
+2024-02-17 10:58:29 HTTP GET / responded 200 in 116.6412 ms
+2024-02-17 10:58:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 16.9040 ms
+2024-02-17 10:58:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8585 ms
+2024-02-17 11:01:17 POlicy Management System Started..........
+2024-02-17 11:01:17 Login Details ra ram@123
+2024-02-17 11:01:18 User With Name ra is Not Registered
+2024-02-17 11:01:18 HTTP POST /Login responded 200 in 1216.5221 ms
+2024-02-17 11:01:18 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.7685 ms
+2024-02-17 11:01:23 POlicy Management System Started..........
+2024-02-17 11:01:23 Login Details ram ram@12
+2024-02-17 11:01:23 Password For the User Name ram@12 is Incorrect
+2024-02-17 11:01:23 HTTP POST /Login responded 200 in 99.7754 ms
+2024-02-17 11:01:23 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3247 ms
+2024-02-17 11:01:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1229 ms
+2024-02-17 11:01:39 POlicy Management System Started..........
+2024-02-17 11:01:39 Login Details ram ram@123
+2024-02-17 11:01:39 Valid Login Details
+2024-02-17 11:01:39 HTTP POST /Login responded 302 in 97.3243 ms
+2024-02-17 11:01:39 Redirected to Policy Enrollment page
+2024-02-17 11:01:40 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:01:40 HTTP GET /Policy/Index responded 200 in 215.7340 ms
+2024-02-17 11:02:29 selected plan id 12
+2024-02-17 11:02:29 HTTP POST /Policy/Index responded 302 in 5.5307 ms
+2024-02-17 11:02:29 Enrolling to plan with  id 12
+2024-02-17 11:02:29 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 11:02:29 HTTP GET /Policy/Create responded 200 in 47.7766 ms
+2024-02-17 11:02:29 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 2.1134 ms
+2024-02-17 11:02:59 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-17 11:02:59 HTTP POST /Policy/Create responded 302 in 8.5982 ms
+2024-02-17 11:02:59 Submitting View Action method triggered
+2024-02-17 11:02:59 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-17 11:02:59 HTTP GET /Policy/Submit responded 200 in 47.3639 ms
+2024-02-17 11:03:00 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 2.7447 ms
+2024-02-17 11:03:08 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 106
+2024-02-17 11:03:08 HTTP POST /Policy/Submit responded 302 in 193.6547 ms
+2024-02-17 11:03:08 Trying to Get the Detail About plan with id 106
+2024-02-17 11:03:08 Succesfully Fetched the plan with  id 106 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 11:03:08 HTTP GET /Policy/Detail/106 responded 200 in 69.5469 ms
+2024-02-17 11:03:21 Trying to Get all policy Details 
+2024-02-17 11:03:21 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 11:03:21 HTTP GET /Policy/Details responded 200 in 67.8597 ms
+2024-02-17 11:03:33 Succesfully Filtered Policy with city with id 2
+2024-02-17 11:03:33 HTTP POST /Policy/Filter responded 200 in 34.1072 ms
+2024-02-17 11:03:38 Succesfully Filtered Policy with city with id 3
+2024-02-17 11:03:39 HTTP POST /Policy/Filter responded 200 in 16.8723 ms
+2024-02-17 11:03:53 Trying to Get all policy Details 
+2024-02-17 11:03:53 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 11:03:53 HTTP GET /Policy/Details responded 200 in 20.7593 ms
+2024-02-17 11:04:00 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-17 11:04:00 HTTP POST /Policy/DescOrder responded 200 in 47.0667 ms
+2024-02-17 11:04:10 Report Downloaded
+2024-02-17 11:04:10 HTTP POST /Policy/Export responded 200 in 806.0624 ms
+2024-02-17 11:04:19 Trying to Get the Detail About plan with id 89
+2024-02-17 11:04:19 Succesfully Fetched the plan with  id 89 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 11:04:19 HTTP GET /Policy/Detail/89 responded 200 in 11.1065 ms
+2024-02-17 11:04:23 Trying to Edit plan with  id 89
+2024-02-17 11:04:23 HTTP GET /Policy/Edit/89 responded 200 in 24.0010 ms
+2024-02-17 11:04:33 Succesfully Edited  Policy with  id 89 to RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 11:04:33 HTTP POST /Policy/Edit/89 responded 302 in 31.8335 ms
+2024-02-17 11:04:33 Trying to Get the Detail About plan with id 89
+2024-02-17 11:04:33 Succesfully Fetched the plan with  id 89 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 11:04:33 HTTP GET /Policy/Detail/89 responded 200 in 4.2936 ms
+2024-02-17 11:04:39 Trying to Delete the policy by id 89 
+2024-02-17 11:04:39 HTTP GET /Policy/Delete/89 responded 200 in 16.0940 ms
+2024-02-17 11:04:41 Succesfully Deleted  Policy with  id 89 
+2024-02-17 11:04:41 HTTP POST /Policy/Delete/89 responded 302 in 17.4404 ms
+2024-02-17 11:04:41 Trying to Get all policy Details 
+2024-02-17 11:04:41 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 11:04:41 HTTP GET /Policy/Details responded 200 in 53.4360 ms
+2024-02-17 11:04:48 Redirected to Policy Enrollment page
+2024-02-17 11:04:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:04:48 HTTP GET /Policy/Index responded 200 in 9.3441 ms
+2024-02-17 11:06:47 Redirected to Policy Enrollment page
+2024-02-17 11:06:47 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:06:47 HTTP GET /Policy/Index responded 200 in 13.9893 ms
+2024-02-17 11:06:52 POlicy Management System Started..........
+2024-02-17 11:06:52 HTTP GET /Login responded 200 in 3.7555 ms
+2024-02-17 11:06:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3057 ms
+2024-02-17 11:08:20 POlicy Management System Started..........
+2024-02-17 11:08:20 Login Details ram ram@123
+2024-02-17 11:08:20 Valid Login Details
+2024-02-17 11:08:20 HTTP POST /Login responded 302 in 4.7196 ms
+2024-02-17 11:08:20 Redirected to Policy Enrollment page
+2024-02-17 11:08:20 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:08:20 HTTP GET /Policy/Index responded 200 in 37.1777 ms
+2024-02-17 11:08:22 Redirected to Policy Enrollment page
+2024-02-17 11:08:22 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:08:22 HTTP GET /Policy/Index responded 200 in 18.3132 ms
+2024-02-17 11:09:21 Redirected to Policy Enrollment page
+2024-02-17 11:09:21 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:09:21 HTTP GET /Policy/Index responded 200 in 27.0000 ms
+2024-02-17 11:09:34 Redirected to Policy Enrollment page
+2024-02-17 11:09:34 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:09:34 HTTP GET /Policy/Index responded 200 in 24.5094 ms
+2024-02-17 11:09:37 Redirected to Policy Enrollment page
+2024-02-17 11:09:37 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:09:37 HTTP GET /Policy/Index responded 200 in 11.1563 ms
+2024-02-17 11:09:45 Redirected to Policy Enrollment page
+2024-02-17 11:09:45 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 11:09:45 HTTP GET /Policy/Index responded 200 in 21.1659 ms
+2024-02-17 21:58:25 POlicy Management System Started..........
+2024-02-17 21:58:26 HTTP GET / responded 200 in 493.3269 ms
+2024-02-17 21:58:26 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.3913 ms
+2024-02-17 21:58:26 HTTP GET /css/site.css responded 304 in 4.1882 ms
+2024-02-17 21:58:26 HTTP GET /Assert/Image/download.png responded 304 in 0.6866 ms
+2024-02-17 22:01:31 POlicy Management System Started..........
+2024-02-17 22:01:31 Login Details ra ram@123
+2024-02-17 22:01:32 User With Name ra is Not Registered
+2024-02-17 22:01:32 HTTP POST /Login responded 200 in 1862.5881 ms
+2024-02-17 22:01:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9649 ms
+2024-02-17 22:01:36 POlicy Management System Started..........
+2024-02-17 22:01:36 Login Details ram ram@123
+2024-02-17 22:01:37 Valid Login Details
+2024-02-17 22:01:37 HTTP POST /Login responded 302 in 113.6559 ms
+2024-02-17 22:01:37 Redirected to Policy Enrollment page
+2024-02-17 22:01:37 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:01:37 HTTP GET /Policy/Index responded 200 in 236.8780 ms
+2024-02-17 22:02:51 selected plan id 13
+2024-02-17 22:02:51 HTTP POST /Policy/Index responded 302 in 10.0706 ms
+2024-02-17 22:02:51 Enrolling to plan with  id 13
+2024-02-17 22:02:51 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 22:02:51 HTTP GET /Policy/Create responded 200 in 61.3748 ms
+2024-02-17 22:02:51 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3465 ms
+2024-02-17 22:02:55 Redirected to Policy Enrollment page
+2024-02-17 22:02:55 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:02:55 HTTP GET /Policy/Index responded 200 in 14.1683 ms
+2024-02-17 22:02:57 selected plan id 11
+2024-02-17 22:02:57 HTTP POST /Policy/Index responded 302 in 3.5315 ms
+2024-02-17 22:02:57 Enrolling to plan with  id 11
+2024-02-17 22:02:57 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 22:02:57 HTTP GET /Policy/Create responded 200 in 5.6402 ms
+2024-02-17 22:02:58 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3786 ms
+2024-02-17 22:03:00 Redirected to Policy Enrollment page
+2024-02-17 22:03:00 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:03:00 HTTP GET /Policy/Index responded 200 in 8.1557 ms
+2024-02-17 22:03:01 selected plan id 11
+2024-02-17 22:03:01 HTTP POST /Policy/Index responded 302 in 1.1748 ms
+2024-02-17 22:03:01 Enrolling to plan with  id 11
+2024-02-17 22:03:01 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 22:03:01 HTTP GET /Policy/Create responded 200 in 6.2229 ms
+2024-02-17 22:03:02 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.2987 ms
+2024-02-17 22:03:57 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-17 22:03:57 HTTP POST /Policy/Create responded 302 in 10.3089 ms
+2024-02-17 22:03:57 Submitting View Action method triggered
+2024-02-17 22:03:57 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-17 22:03:57 HTTP GET /Policy/Submit responded 200 in 47.3435 ms
+2024-02-17 22:03:57 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9667 ms
+2024-02-17 22:04:10 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 107
+2024-02-17 22:04:10 HTTP POST /Policy/Submit responded 302 in 142.6562 ms
+2024-02-17 22:04:10 Trying to Get the Detail About plan with id 107
+2024-02-17 22:04:11 Succesfully Fetched the plan with  id 107 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-17 22:04:11 HTTP GET /Policy/Detail/107 responded 200 in 72.8084 ms
+2024-02-17 22:05:54 Trying to Get all policy Details 
+2024-02-17 22:05:54 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 22:05:54 HTTP GET /Policy/Details responded 200 in 79.3855 ms
+2024-02-17 22:06:06 Succesfully Filtered Policy with city with id 2
+2024-02-17 22:06:06 HTTP POST /Policy/Filter responded 200 in 44.6622 ms
+2024-02-17 22:06:20 Succesfully Filtered Policy with city with id 3
+2024-02-17 22:06:20 HTTP POST /Policy/Filter responded 200 in 47.3403 ms
+2024-02-17 22:06:26 Trying to Get all policy Details 
+2024-02-17 22:06:26 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 22:06:26 HTTP GET /Policy/Details responded 200 in 19.0122 ms
+2024-02-17 22:06:31 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-17 22:06:31 HTTP POST /Policy/DescOrder responded 200 in 50.9326 ms
+2024-02-17 22:06:38 Report Downloaded
+2024-02-17 22:06:38 HTTP POST /Policy/Export responded 200 in 798.0512 ms
+2024-02-17 22:07:27 Redirected to Policy Enrollment page
+2024-02-17 22:07:27 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:07:27 HTTP GET /Policy/Index responded 200 in 56.2479 ms
+2024-02-17 22:07:31 POlicy Management System Started..........
+2024-02-17 22:07:31 HTTP GET /Login responded 200 in 6.1469 ms
+2024-02-17 22:07:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.8990 ms
+2024-02-17 22:08:04 POlicy Management System Started..........
+2024-02-17 22:08:04 Login Details ram ram@123
+2024-02-17 22:08:04 Valid Login Details
+2024-02-17 22:08:04 HTTP POST /Login responded 302 in 8.7130 ms
+2024-02-17 22:08:04 Redirected to Policy Enrollment page
+2024-02-17 22:08:04 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:08:04 HTTP GET /Policy/Index responded 200 in 13.9129 ms
+2024-02-17 22:08:10 Redirected to Policy Enrollment page
+2024-02-17 22:08:10 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:08:10 HTTP GET /Policy/Index responded 200 in 59.4619 ms
+2024-02-17 22:08:11 Trying to Get all policy Details 
+2024-02-17 22:08:11 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 22:08:11 HTTP GET /Policy/Details responded 200 in 22.9652 ms
+2024-02-17 22:08:15 Redirected to Policy Enrollment page
+2024-02-17 22:08:15 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-17 22:08:15 HTTP GET /Policy/Index responded 200 in 7.8576 ms
+2024-02-17 22:08:51 selected plan id 5
+2024-02-17 22:08:51 HTTP POST /Policy/Index responded 302 in 39.1492 ms
+2024-02-17 22:08:51 Enrolling to plan with  id 5
+2024-02-17 22:08:51 plan with id is RepositryAssignement.Models.Plan
+2024-02-17 22:08:51 HTTP GET /Policy/Create responded 200 in 5.6595 ms
+2024-02-17 22:08:52 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.4700 ms
+2024-02-17 22:10:34 Trying to Get all policy Details 
+2024-02-17 22:10:34 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 22:10:34 HTTP GET /Policy/Details responded 200 in 22.5020 ms
+2024-02-17 22:10:43 Succesfully Filtered Policy with city with id 2
+2024-02-17 22:10:43 HTTP POST /Policy/Filter responded 200 in 7.9865 ms
+2024-02-17 22:11:09 Succesfully Filtered Policy with city with id 3
+2024-02-17 22:11:09 HTTP POST /Policy/Filter responded 200 in 15.3837 ms
+2024-02-17 22:13:02 Trying to Get all policy Details 
+2024-02-17 22:13:02 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-17 22:13:02 HTTP GET /Policy/Details responded 200 in 26.9689 ms

@@ -1,0 +1,1231 @@
+2024-02-13 16:36:14 HTTP GET / responded 200 in 242.6902 ms
+2024-02-13 16:36:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.5470 ms
+2024-02-13 16:36:20 --------------------Application Started----------------------
+2024-02-13 16:36:20 HTTP GET /Policy/Index responded 302 in 12.8510 ms
+2024-02-13 16:36:20 HTTP GET /Login responded 200 in 8.5072 ms
+2024-02-13 16:36:21 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3269 ms
+2024-02-13 16:36:23 HTTP POST /Login responded 302 in 1161.2363 ms
+2024-02-13 16:36:23 --------------------Application Started----------------------
+2024-02-13 16:36:23 System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 16:36:23 HTTP GET /Policy/Index responded 200 in 146.0681 ms
+2024-02-13 17:02:31 POlicy Management System Started..........
+2024-02-13 17:02:32 HTTP GET / responded 200 in 302.9268 ms
+2024-02-13 17:02:32 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.5536 ms
+2024-02-13 17:02:49 POlicy Management System Started..........
+2024-02-13 17:02:49 HTTP GET / responded 200 in 11.9534 ms
+2024-02-13 17:02:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1547 ms
+2024-02-13 17:02:59 POlicy Management System Started..........
+2024-02-13 17:02:59 Login Details ram 121
+2024-02-13 17:03:00 Password For the User Name 121 is Incorrect
+2024-02-13 17:03:00 HTTP POST /Login responded 200 in 1239.7035 ms
+2024-02-13 17:03:01 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5526 ms
+2024-02-13 17:03:11 POlicy Management System Started..........
+2024-02-13 17:03:11 Login Details ra ram@123
+2024-02-13 17:03:11 User With Name ra is Not Registered
+2024-02-13 17:03:11 HTTP POST /Login responded 200 in 58.2634 ms
+2024-02-13 17:03:12 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.6416 ms
+2024-02-13 17:03:41 POlicy Management System Started..........
+2024-02-13 17:03:41 Login Details  
+2024-02-13 17:03:41 User With Name  is Not Registered
+2024-02-13 17:03:41 HTTP POST /Login responded 200 in 86.4081 ms
+2024-02-13 17:03:41 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8936 ms
+2024-02-13 17:05:07 POlicy Management System Started..........
+2024-02-13 17:05:07 Login Details  
+2024-02-13 17:05:07 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:05:07 HTTP POST /Login responded 200 in 52.7844 ms
+2024-02-13 17:05:07 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.1780 ms
+2024-02-13 17:05:11 POlicy Management System Started..........
+2024-02-13 17:05:11 Login Details  
+2024-02-13 17:05:11 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:05:11 HTTP POST /Login responded 200 in 36.0849 ms
+2024-02-13 17:05:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2896 ms
+2024-02-13 17:07:58 POlicy Management System Started..........
+2024-02-13 17:07:58 Login Details  
+2024-02-13 17:07:58 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:07:58 HTTP POST /Login responded 200 in 49.6886 ms
+2024-02-13 17:07:58 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8344 ms
+2024-02-13 17:09:23 POlicy Management System Started..........
+2024-02-13 17:09:23 Login Details  
+2024-02-13 17:09:23 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:09:23 HTTP POST /Login responded 200 in 51.9702 ms
+2024-02-13 17:09:24 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.1684 ms
+2024-02-13 17:10:03 POlicy Management System Started..........
+2024-02-13 17:10:03 Login Details  
+2024-02-13 17:10:03 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:10:03 HTTP POST /Login responded 200 in 55.0638 ms
+2024-02-13 17:10:03 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.2468 ms
+2024-02-13 17:10:20 POlicy Management System Started..........
+2024-02-13 17:10:20 Login Details  
+2024-02-13 17:10:20 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:10:20 HTTP POST /Login responded 200 in 51.3344 ms
+2024-02-13 17:10:20 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.7299 ms
+2024-02-13 17:10:25 POlicy Management System Started..........
+2024-02-13 17:10:25 Login Details  
+2024-02-13 17:10:25 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:10:25 HTTP POST /Login responded 200 in 45.1999 ms
+2024-02-13 17:10:25 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.6375 ms
+2024-02-13 17:10:33 POlicy Management System Started..........
+2024-02-13 17:10:33 Login Details  
+2024-02-13 17:10:33 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:10:33 HTTP POST /Login responded 200 in 48.4326 ms
+2024-02-13 17:10:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7847 ms
+2024-02-13 17:10:50 POlicy Management System Started..........
+2024-02-13 17:10:50 Login Details  
+2024-02-13 17:10:50 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:10:50 HTTP POST /Login responded 200 in 51.1455 ms
+2024-02-13 17:10:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.1082 ms
+2024-02-13 17:11:11 POlicy Management System Started..........
+2024-02-13 17:11:11 Login Details  
+2024-02-13 17:11:11 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:11:11 HTTP POST /Login responded 200 in 50.0085 ms
+2024-02-13 17:11:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.1994 ms
+2024-02-13 17:11:33 POlicy Management System Started..........
+2024-02-13 17:11:33 Login Details  
+2024-02-13 17:11:33 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:11:33 HTTP POST /Login responded 200 in 52.9453 ms
+2024-02-13 17:11:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.4559 ms
+2024-02-13 17:11:43 POlicy Management System Started..........
+2024-02-13 17:11:43 Login Details  
+2024-02-13 17:11:43 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:11:43 HTTP POST /Login responded 200 in 71.8760 ms
+2024-02-13 17:11:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.9314 ms
+2024-02-13 17:11:51 POlicy Management System Started..........
+2024-02-13 17:11:51 Login Details  
+2024-02-13 17:11:51 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:11:51 HTTP POST /Login responded 200 in 52.8551 ms
+2024-02-13 17:11:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.5064 ms
+2024-02-13 17:12:00 POlicy Management System Started..........
+2024-02-13 17:12:00 Login Details  
+2024-02-13 17:12:00 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:12:00 HTTP POST /Login responded 200 in 55.0043 ms
+2024-02-13 17:12:01 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.3806 ms
+2024-02-13 17:13:12 POlicy Management System Started..........
+2024-02-13 17:13:12 Login Details  
+2024-02-13 17:13:12 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:13:12 HTTP POST /Login responded 200 in 51.7970 ms
+2024-02-13 17:13:12 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 8.9428 ms
+2024-02-13 17:13:31 POlicy Management System Started..........
+2024-02-13 17:13:31 Login Details  
+2024-02-13 17:13:31 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:13:31 HTTP POST /Login responded 200 in 49.7537 ms
+2024-02-13 17:13:32 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8895 ms
+2024-02-13 17:14:07 POlicy Management System Started..........
+2024-02-13 17:14:07 Login Details  
+2024-02-13 17:14:07 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:14:07 HTTP POST /Login responded 200 in 61.8373 ms
+2024-02-13 17:14:07 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 11.4127 ms
+2024-02-13 17:32:31 POlicy Management System Started..........
+2024-02-13 17:32:31 Login Details  
+2024-02-13 17:32:31 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:32:31 HTTP POST /Login responded 200 in 57.1097 ms
+2024-02-13 17:32:32 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0432 ms
+2024-02-13 17:32:36 POlicy Management System Started..........
+2024-02-13 17:32:36 Login Details  
+2024-02-13 17:32:36 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:32:36 HTTP POST /Login responded 200 in 34.1921 ms
+2024-02-13 17:32:36 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6440 ms
+2024-02-13 17:33:00 POlicy Management System Started..........
+2024-02-13 17:33:00 Login Details  
+2024-02-13 17:33:00 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:33:00 HTTP POST /Login responded 200 in 60.2733 ms
+2024-02-13 17:33:00 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0295 ms
+2024-02-13 17:33:13 POlicy Management System Started..........
+2024-02-13 17:33:13 Login Details ra ram@123
+2024-02-13 17:33:13 User With Name ra is Not Registered
+2024-02-13 17:33:13 HTTP POST /Login responded 200 in 50.8750 ms
+2024-02-13 17:33:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 11.5210 ms
+2024-02-13 17:37:20 POlicy Management System Started..........
+2024-02-13 17:37:20 Login Details ra ram@123
+2024-02-13 17:37:20 User With Name ra is Not Registered
+2024-02-13 17:37:20 HTTP POST /Login responded 200 in 69.2125 ms
+2024-02-13 17:37:20 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.7637 ms
+2024-02-13 17:37:25 POlicy Management System Started..........
+2024-02-13 17:37:25 Login Details ra ram@123
+2024-02-13 17:37:25 User With Name ra is Not Registered
+2024-02-13 17:37:25 HTTP POST /Login responded 200 in 34.6879 ms
+2024-02-13 17:37:25 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5634 ms
+2024-02-13 17:38:05 POlicy Management System Started..........
+2024-02-13 17:38:05 Login Details ra ram@123
+2024-02-13 17:38:05 User With Name ra is Not Registered
+2024-02-13 17:38:05 HTTP POST /Login responded 200 in 52.2030 ms
+2024-02-13 17:38:05 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7590 ms
+2024-02-13 17:38:10 POlicy Management System Started..........
+2024-02-13 17:38:10 Login Details ra ram@123
+2024-02-13 17:38:10 User With Name ra is Not Registered
+2024-02-13 17:38:10 HTTP POST /Login responded 200 in 33.2610 ms
+2024-02-13 17:38:10 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2098 ms
+2024-02-13 17:38:14 POlicy Management System Started..........
+2024-02-13 17:38:14 Login Details ra ram@123
+2024-02-13 17:38:14 User With Name ra is Not Registered
+2024-02-13 17:38:14 HTTP POST /Login responded 200 in 33.8984 ms
+2024-02-13 17:38:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0157 ms
+2024-02-13 17:38:17 POlicy Management System Started..........
+2024-02-13 17:38:17 HTTP GET /login responded 200 in 5.3569 ms
+2024-02-13 17:38:17 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 9.6415 ms
+2024-02-13 17:38:24 POlicy Management System Started..........
+2024-02-13 17:38:24 Login Details ram ram@12
+2024-02-13 17:38:24 Password For the User Name ram@12 is Incorrect
+2024-02-13 17:38:24 HTTP POST /Login responded 200 in 56.7483 ms
+2024-02-13 17:38:24 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.0718 ms
+2024-02-13 17:38:33 POlicy Management System Started..........
+2024-02-13 17:38:33 Login Details  
+2024-02-13 17:38:33 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:38:33 HTTP POST /Login responded 200 in 33.8855 ms
+2024-02-13 17:38:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1791 ms
+2024-02-13 17:38:49 POlicy Management System Started..........
+2024-02-13 17:38:49 Login Details ram 
+2024-02-13 17:38:49 Not A Valid Login Details Value cannot be null. (Parameter 'password')
+2024-02-13 17:38:49 HTTP POST /Login responded 200 in 38.0366 ms
+2024-02-13 17:38:49 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8720 ms
+2024-02-13 17:38:52 POlicy Management System Started..........
+2024-02-13 17:38:52 Login Details  ram@123
+2024-02-13 17:38:52 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-13 17:38:52 HTTP POST /Login responded 200 in 33.5926 ms
+2024-02-13 17:38:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1398 ms
+2024-02-13 17:38:54 POlicy Management System Started..........
+2024-02-13 17:38:54 Login Details ram ram@123
+2024-02-13 17:38:54 Valid Login Details
+2024-02-13 17:38:54 HTTP POST /Login responded 302 in 7.0386 ms
+2024-02-13 17:38:54 --------------------Application Started----------------------
+2024-02-13 17:38:54 System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 17:38:54 HTTP GET /Policy/Index responded 200 in 152.0959 ms
+2024-02-13 17:39:28 POlicy Management System Started..........
+2024-02-13 17:39:28 Login Details ra ram@123
+2024-02-13 17:39:28 User With Name ra is Not Registered
+2024-02-13 17:39:28 HTTP POST /Login responded 200 in 35.1114 ms
+2024-02-13 17:39:28 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 12.0096 ms
+2024-02-13 17:39:34 --------------------Application Started----------------------
+2024-02-13 17:39:34 HTTP GET /Policy/Details responded 200 in 189.2031 ms
+2024-02-13 17:39:38 --------------------Application Started----------------------
+2024-02-13 17:39:38 HTTP POST /Policy/DescOrder responded 200 in 87.1207 ms
+2024-02-13 17:39:46 --------------------Application Started----------------------
+2024-02-13 17:39:46 HTTP POST /Policy/Filter responded 200 in 33.9343 ms
+2024-02-13 17:39:49 --------------------Application Started----------------------
+2024-02-13 17:39:49 HTTP POST /Policy/Filter responded 200 in 30.3062 ms
+2024-02-13 17:39:55 --------------------Application Started----------------------
+2024-02-13 17:39:56 HTTP GET /Policy/Details responded 200 in 47.2380 ms
+2024-02-13 18:28:15 --------------------Application Started----------------------
+2024-02-13 18:28:15 HTTP GET /Policy/Details responded 302 in 4.9153 ms
+2024-02-13 18:28:15 POlicy Management System Started..........
+2024-02-13 18:28:15 HTTP GET /Login responded 200 in 6.9832 ms
+2024-02-13 18:28:16 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.9477 ms
+2024-02-13 18:28:17 POlicy Management System Started..........
+2024-02-13 18:28:17 Login Details ram ram@123
+2024-02-13 18:28:17 Valid Login Details
+2024-02-13 18:28:17 HTTP POST /Login responded 302 in 15.9068 ms
+2024-02-13 18:28:17 --------------------Application Started----------------------
+2024-02-13 18:28:17 System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 18:28:17 HTTP GET /Policy/Index responded 200 in 15.9943 ms
+2024-02-13 18:28:19 --------------------Application Started----------------------
+2024-02-13 18:28:19 HTTP GET /Policy/Details responded 200 in 53.6775 ms
+2024-02-13 18:32:29 HTTP GET /Policy/Details responded 302 in 131.6041 ms
+2024-02-13 18:32:29 POlicy Management System Started..........
+2024-02-13 18:32:29 POlicy Management System Started..........
+2024-02-13 18:32:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 17.0508 ms
+2024-02-13 18:32:29 HTTP GET / responded 200 in 279.7852 ms
+2024-02-13 18:32:29 HTTP GET /Login responded 200 in 415.7744 ms
+2024-02-13 18:32:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4117 ms
+2024-02-13 18:32:33 POlicy Management System Started..........
+2024-02-13 18:32:33 Login Details ram ram@123
+2024-02-13 18:32:34 Valid Login Details
+2024-02-13 18:32:34 HTTP POST /Login responded 302 in 1177.0742 ms
+2024-02-13 18:32:34 Redirected to Policy Enrollment page
+2024-02-13 18:32:34 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 18:32:34 HTTP GET /Policy/Index responded 200 in 166.9211 ms
+2024-02-13 18:32:36 Tring to Get all policy Details 
+2024-02-13 18:32:36 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 18:32:36 HTTP GET /Policy/Details responded 200 in 265.5864 ms
+2024-02-13 18:33:38 HTTP POST /Policy/Filter responded 200 in 56.5389 ms
+2024-02-13 18:44:59 HTTP GET /Policy/Filter responded 405 in 0.3242 ms
+2024-02-13 18:45:01 HTTP GET /Policy/Filter responded 405 in 0.2233 ms
+2024-02-13 18:45:02 HTTP GET /Policy/Filter responded 405 in 0.2979 ms
+2024-02-13 18:45:07 POlicy Management System Started..........
+2024-02-13 18:45:07 HTTP GET / responded 200 in 6.1424 ms
+2024-02-13 18:45:08 POlicy Management System Started..........
+2024-02-13 18:45:08 HTTP GET / responded 200 in 3.6468 ms
+2024-02-13 18:45:08 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3178 ms
+2024-02-13 18:45:12 Redirected to Policy Enrollment page
+2024-02-13 18:45:12 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 18:45:12 HTTP GET /policy/index responded 200 in 22.7062 ms
+2024-02-13 18:45:13 Redirected to Policy Enrollment page
+2024-02-13 18:45:13 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 18:45:13 HTTP GET /policy/index responded 200 in 9.4077 ms
+2024-02-13 18:45:38 POlicy Management System Started..........
+2024-02-13 18:45:38 HTTP GET / responded 200 in 302.5740 ms
+2024-02-13 18:45:38 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.8574 ms
+2024-02-13 18:45:45 HTTP GET /policy/index responded 302 in 10.4217 ms
+2024-02-13 18:45:45 POlicy Management System Started..........
+2024-02-13 18:45:45 HTTP GET /Login responded 200 in 7.6791 ms
+2024-02-13 18:45:45 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3649 ms
+2024-02-13 18:45:57 HTTP GET /policy/details responded 302 in 2.7556 ms
+2024-02-13 18:45:57 POlicy Management System Started..........
+2024-02-13 18:45:57 HTTP GET /Login responded 200 in 12.3753 ms
+2024-02-13 18:45:57 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6248 ms
+2024-02-13 18:46:24 POlicy Management System Started..........
+2024-02-13 18:46:24 HTTP GET / responded 200 in 7.8530 ms
+2024-02-13 18:46:25 POlicy Management System Started..........
+2024-02-13 18:46:25 HTTP GET / responded 200 in 5.1803 ms
+2024-02-13 18:46:26 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4676 ms
+2024-02-13 18:46:29 HTTP GET /policy/index responded 302 in 1.3108 ms
+2024-02-13 18:46:29 POlicy Management System Started..........
+2024-02-13 18:46:29 HTTP GET /Login responded 200 in 4.8301 ms
+2024-02-13 19:15:25 POlicy Management System Started..........
+2024-02-13 19:15:25 HTTP GET / responded 200 in 8.3331 ms
+2024-02-13 19:15:25 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4942 ms
+2024-02-13 19:15:44 POlicy Management System Started..........
+2024-02-13 19:15:44 HTTP GET / responded 200 in 2.8388 ms
+2024-02-13 19:15:45 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.0847 ms
+2024-02-13 19:15:46 POlicy Management System Started..........
+2024-02-13 19:15:46 Login Details ram ram@123
+2024-02-13 19:15:48 Valid Login Details
+2024-02-13 19:15:48 HTTP POST /Login responded 302 in 1375.0673 ms
+2024-02-13 19:15:48 Redirected to Policy Enrollment page
+2024-02-13 19:15:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 19:15:48 HTTP GET /Policy/Index responded 200 in 169.3020 ms
+2024-02-13 19:16:18 POlicy Management System Started..........
+2024-02-13 19:16:18 HTTP GET / responded 200 in 318.2349 ms
+2024-02-13 19:16:18 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.6626 ms
+2024-02-13 19:16:28 HTTP GET /Policy/Index responded 302 in 9.2916 ms
+2024-02-13 19:16:28 POlicy Management System Started..........
+2024-02-13 19:16:28 HTTP GET /Login responded 200 in 15.1659 ms
+2024-02-13 19:16:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6235 ms
+2024-02-13 19:16:38 POlicy Management System Started..........
+2024-02-13 19:16:38 Login Details ram ram@123
+2024-02-13 19:16:39 Valid Login Details
+2024-02-13 19:16:39 HTTP POST /Login responded 302 in 1170.9920 ms
+2024-02-13 19:16:39 Redirected to Policy Enrollment page
+2024-02-13 19:16:40 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 19:16:40 HTTP GET /Policy/Index responded 200 in 151.3256 ms
+2024-02-13 19:16:53 selected plan id 3
+2024-02-13 19:16:53 HTTP POST /Policy/Index responded 302 in 7.4316 ms
+2024-02-13 19:16:53 Enrolling to plan with  id 3
+2024-02-13 19:16:53 plan with id is RepositryAssignement.Models.Plan
+2024-02-13 19:16:53 HTTP GET /Policy/Create responded 200 in 104.5053 ms
+2024-02-13 19:16:53 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.6049 ms
+2024-02-13 19:17:02 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-13 19:17:02 HTTP POST /Policy/Create responded 302 in 9.3755 ms
+2024-02-13 19:17:02 Submitting View Action method triggered
+2024-02-13 19:17:02 Submitting the policy RepositryAssignement.Models.Plan
+2024-02-13 19:17:02 HTTP GET /Policy/Submit responded 200 in 40.6845 ms
+2024-02-13 19:17:02 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.9377 ms
+2024-02-13 19:17:10 Added policy RepositryAssignement.Models.PolicyEnrollment  to database in id 67
+2024-02-13 19:17:10 HTTP POST /Policy/Submit responded 302 in 135.2629 ms
+2024-02-13 19:17:10 Trying to Get the Details About plan with id 67
+2024-02-13 19:17:10 Succesfully Fetched the plan with  id 67 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 19:17:10 HTTP GET /Policy/Detail/67 responded 200 in 88.5103 ms
+2024-02-13 19:17:52 Trying to Get the Details About plan with id 67
+2024-02-13 19:17:52 Succesfully Fetched the plan with  id 67 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 19:17:52 HTTP GET /Policy/Detail/67 responded 200 in 20.9691 ms
+2024-02-13 19:17:58 Tring to Get all policy Details 
+2024-02-13 19:17:58 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:17:58 HTTP GET /Policy/Details responded 200 in 114.7861 ms
+2024-02-13 19:18:07 HTTP POST /Policy/Filter responded 200 in 47.5578 ms
+2024-02-13 19:20:35 Succesfully Filtered Policy with citt 2
+2024-02-13 19:20:35 HTTP POST /Policy/Filter responded 200 in 36.3661 ms
+2024-02-13 19:20:40 Tring to Get all policy Details 
+2024-02-13 19:20:40 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:20:40 HTTP GET /Policy/Details responded 200 in 35.7305 ms
+2024-02-13 19:20:42 Succesfully Ordered  Policy with Coverage Amount 
+2024-02-13 19:20:42 HTTP POST /Policy/DescOrder responded 200 in 52.5836 ms
+2024-02-13 19:20:54 Succesfully Filtered Policy with citt 2
+2024-02-13 19:20:54 HTTP POST /Policy/Filter responded 200 in 46.8133 ms
+2024-02-13 19:21:31 Succesfully Filtered Policy with city with id 2
+2024-02-13 19:21:31 HTTP POST /Policy/Filter responded 200 in 22.1994 ms
+2024-02-13 19:21:40 Tring to Get all policy Details 
+2024-02-13 19:21:40 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:21:40 HTTP GET /Policy/Details responded 200 in 62.9609 ms
+2024-02-13 19:21:43 Trying to Get the Details About plan with id 48
+2024-02-13 19:21:43 Succesfully Fetched the plan with  id 48 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 19:21:43 HTTP GET /Policy/Detail/48 responded 200 in 15.9095 ms
+2024-02-13 19:21:49 Trying to Edit plan with  id 48
+2024-02-13 19:21:49 HTTP GET /Policy/Edit/48 responded 200 in 17.8542 ms
+2024-02-13 19:21:55 Succesfully Edited  Policy with  id 48 to RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 19:21:55 HTTP POST /Policy/Edit/48 responded 302 in 45.8833 ms
+2024-02-13 19:21:55 Trying to Get the Details About plan with id 48
+2024-02-13 19:21:55 Succesfully Fetched the plan with  id 48 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 19:21:55 HTTP GET /Policy/Detail/48 responded 200 in 4.8533 ms
+2024-02-13 19:22:08 Trying to Delete the policy by id 48 
+2024-02-13 19:22:08 HTTP GET /Policy/Delete/48 responded 200 in 11.8812 ms
+2024-02-13 19:22:09 Succesfully Deleted  Policy with  id 48 
+2024-02-13 19:22:09 HTTP POST /Policy/Delete/48 responded 302 in 14.4631 ms
+2024-02-13 19:22:09 Tring to Get all policy Details 
+2024-02-13 19:22:09 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:22:09 HTTP GET /Policy/Details responded 200 in 29.0655 ms
+2024-02-13 19:26:10 POlicy Management System Started..........
+2024-02-13 19:26:10 HTTP GET / responded 200 in 301.6584 ms
+2024-02-13 19:26:10 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.9831 ms
+2024-02-13 19:26:19 HTTP GET /Policy/Details responded 302 in 9.2942 ms
+2024-02-13 19:26:19 POlicy Management System Started..........
+2024-02-13 19:26:19 HTTP GET /Login responded 200 in 17.1575 ms
+2024-02-13 19:26:20 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4382 ms
+2024-02-13 19:26:21 POlicy Management System Started..........
+2024-02-13 19:26:21 Login Details ram ram@123
+2024-02-13 19:26:22 Valid Login Details
+2024-02-13 19:26:22 HTTP POST /Login responded 302 in 1191.6194 ms
+2024-02-13 19:26:22 Redirected to Policy Enrollment page
+2024-02-13 19:26:22 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 19:26:23 HTTP GET /Policy/Index responded 200 in 168.6904 ms
+2024-02-13 19:26:24 Trying to Get all policy Details 
+2024-02-13 19:26:24 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:26:24 HTTP GET /Policy/Details responded 200 in 263.0281 ms
+2024-02-13 19:26:27 Error in Filtering by the City with id 1
+2024-02-13 19:26:27 Trying to Get all policy Details 
+2024-02-13 19:26:27 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:26:27 HTTP POST /Policy/Filter responded 200 in 140.8509 ms
+2024-02-13 19:26:30 Report Downloaded
+2024-02-13 19:26:30 HTTP POST /Policy/Export responded 200 in 799.2930 ms
+2024-02-13 19:26:32 POlicy Management System Started..........
+2024-02-13 19:26:32 HTTP GET /Login responded 200 in 3.0046 ms
+2024-02-13 19:26:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2884 ms
+2024-02-13 19:26:46 POlicy Management System Started..........
+2024-02-13 19:26:46 Login Details ram ram@123
+2024-02-13 19:26:46 Valid Login Details
+2024-02-13 19:26:46 HTTP POST /Login responded 302 in 5.1128 ms
+2024-02-13 19:26:46 Redirected to Policy Enrollment page
+2024-02-13 19:26:46 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 19:26:46 HTTP GET /Policy/Index responded 200 in 8.7818 ms
+2024-02-13 19:26:48 Trying to Get all policy Details 
+2024-02-13 19:26:48 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:26:48 HTTP GET /Policy/Details responded 200 in 32.6019 ms
+2024-02-13 19:26:52 Succesfully Filtered Policy with city with id 2
+2024-02-13 19:26:52 HTTP POST /Policy/Filter responded 200 in 16.5600 ms
+2024-02-13 19:26:55 Succesfully Filtered Policy with city with id 3
+2024-02-13 19:26:55 HTTP POST /Policy/Filter responded 200 in 12.1356 ms
+2024-02-13 19:27:03 Error in Filtering by the City with id 1
+2024-02-13 19:27:03 Trying to Get all policy Details 
+2024-02-13 19:27:03 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 19:27:03 HTTP POST /Policy/Filter responded 200 in 60.9916 ms
+2024-02-13 21:37:26 HTTP GET /Policy/Index responded 302 in 1.4213 ms
+2024-02-13 21:37:26 POlicy Management System Started..........
+2024-02-13 21:37:26 HTTP GET /Login responded 200 in 3.8783 ms
+2024-02-13 21:37:26 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3465 ms
+2024-02-13 21:37:33 POlicy Management System Started..........
+2024-02-13 21:37:33 Login Details ram ram@123
+2024-02-13 21:37:33 Valid Login Details
+2024-02-13 21:37:33 HTTP POST /Login responded 302 in 18.8585 ms
+2024-02-13 21:37:33 Redirected to Policy Enrollment page
+2024-02-13 21:37:33 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 21:37:33 HTTP GET /Policy/Index responded 200 in 12.1203 ms
+2024-02-13 21:41:31 Redirected to Policy Enrollment page
+2024-02-13 21:41:31 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 21:41:31 HTTP GET /Policy/Index responded 200 in 30.0726 ms
+2024-02-13 21:41:44 Redirected to Policy Enrollment page
+2024-02-13 21:41:44 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 21:41:44 HTTP GET /Policy/Index responded 200 in 17.7196 ms
+2024-02-13 21:46:08 Redirected to Policy Enrollment page
+2024-02-13 21:46:08 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 21:46:08 HTTP GET /Policy/Index responded 200 in 22.5753 ms
+2024-02-13 22:00:08 Redirected to Policy Enrollment page
+2024-02-13 22:00:08 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:00:08 HTTP GET /Policy/Index responded 200 in 35.6545 ms
+2024-02-13 22:00:11 Redirected to Policy Enrollment page
+2024-02-13 22:00:11 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:00:11 HTTP GET /Policy/Index responded 200 in 10.7756 ms
+2024-02-13 22:00:12 POlicy Management System Started..........
+2024-02-13 22:00:12 HTTP GET /Login responded 200 in 6.4696 ms
+2024-02-13 22:00:14 POlicy Management System Started..........
+2024-02-13 22:00:14 Login Details ram ram@123
+2024-02-13 22:00:14 Valid Login Details
+2024-02-13 22:00:14 HTTP POST /Login responded 302 in 6.4367 ms
+2024-02-13 22:00:14 Redirected to Policy Enrollment page
+2024-02-13 22:00:14 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:00:14 HTTP GET /Policy/Index responded 200 in 8.4733 ms
+2024-02-13 22:00:24 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 200 in 34.7919 ms
+2024-02-13 22:01:15 Redirected to Policy Enrollment page
+2024-02-13 22:01:15 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:01:15 HTTP GET /Policy/Index responded 200 in 17.9994 ms
+2024-02-13 22:01:36 HTTP GET /Policy/Index responded 302 in 112.6364 ms
+2024-02-13 22:01:36 POlicy Management System Started..........
+2024-02-13 22:01:36 HTTP GET /Login responded 200 in 144.4332 ms
+2024-02-13 22:01:37 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.4943 ms
+2024-02-13 22:01:37 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 67.1168 ms
+2024-02-13 22:01:38 POlicy Management System Started..........
+2024-02-13 22:01:38 HTTP GET / responded 200 in 21.7152 ms
+2024-02-13 22:01:38 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.3845 ms
+2024-02-13 22:01:41 POlicy Management System Started..........
+2024-02-13 22:01:41 Login Details ram ram@123
+2024-02-13 22:01:42 Valid Login Details
+2024-02-13 22:01:42 HTTP POST /Login responded 302 in 1163.4042 ms
+2024-02-13 22:01:42 Redirected to Policy Enrollment page
+2024-02-13 22:01:42 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:01:42 HTTP GET /Policy/Index responded 200 in 153.3453 ms
+2024-02-13 22:01:50 HTTP GET /Policy/detail responded 404 in 0.1751 ms
+2024-02-13 22:01:51 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 200 in 33.8142 ms
+2024-02-13 22:01:53 Trying to Get all policy Details 
+2024-02-13 22:01:53 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:01:53 HTTP GET /Policy/details responded 200 in 236.9821 ms
+2024-02-13 22:02:19 Trying to Get all policy Details 
+2024-02-13 22:02:19 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:02:19 HTTP GET /Policy/details responded 200 in 39.1376 ms
+2024-02-13 22:02:22 Redirected to Policy Enrollment page
+2024-02-13 22:02:22 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:02:22 HTTP GET /Policy/Index responded 200 in 12.7785 ms
+2024-02-13 22:02:24 Redirected to Policy Enrollment page
+2024-02-13 22:02:24 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:02:24 HTTP GET /Policy/Index responded 200 in 8.9408 ms
+2024-02-13 22:02:24 POlicy Management System Started..........
+2024-02-13 22:02:24 HTTP GET /Login responded 200 in 4.1169 ms
+2024-02-13 22:02:26 POlicy Management System Started..........
+2024-02-13 22:02:26 Login Details ram ram@123
+2024-02-13 22:02:26 Valid Login Details
+2024-02-13 22:02:26 HTTP POST /Login responded 302 in 5.8639 ms
+2024-02-13 22:02:26 Redirected to Policy Enrollment page
+2024-02-13 22:02:26 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:02:26 HTTP GET /Policy/Index responded 200 in 8.7031 ms
+2024-02-13 22:02:45 Redirected to Policy Enrollment page
+2024-02-13 22:02:45 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:02:45 HTTP GET /Policy/Index responded 200 in 21.9055 ms
+2024-02-13 22:02:46 POlicy Management System Started..........
+2024-02-13 22:02:46 HTTP GET /Login responded 200 in 6.4395 ms
+2024-02-13 22:02:47 POlicy Management System Started..........
+2024-02-13 22:02:47 HTTP GET /Login responded 200 in 3.1512 ms
+2024-02-13 22:02:47 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4157 ms
+2024-02-13 22:02:48 POlicy Management System Started..........
+2024-02-13 22:02:48 Login Details ram ram@123
+2024-02-13 22:02:48 Valid Login Details
+2024-02-13 22:02:48 HTTP POST /Login responded 302 in 6.2745 ms
+2024-02-13 22:02:48 Redirected to Policy Enrollment page
+2024-02-13 22:02:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:02:48 HTTP GET /Policy/Index responded 200 in 9.4940 ms
+2024-02-13 22:03:10 POlicy Management System Started..........
+2024-02-13 22:03:11 HTTP GET / responded 200 in 279.3273 ms
+2024-02-13 22:03:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 11.0836 ms
+2024-02-13 22:03:21 POlicy Management System Started..........
+2024-02-13 22:03:21 Login Details ram ram@123
+2024-02-13 22:03:22 Valid Login Details
+2024-02-13 22:03:22 HTTP POST /Login responded 302 in 1150.6924 ms
+2024-02-13 22:03:22 Redirected to Policy Enrollment page
+2024-02-13 22:03:22 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:03:22 HTTP GET /Policy/Index responded 200 in 158.7408 ms
+2024-02-13 22:03:22 HTTP GET /RepositryAssignement.styles.css responded 200 in 6.3110 ms
+2024-02-13 22:03:22 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 5.7283 ms
+2024-02-13 22:04:27 HTTP GET /Policy/details responded 302 in 2.8557 ms
+2024-02-13 22:04:27 POlicy Management System Started..........
+2024-02-13 22:04:27 HTTP GET /Login responded 200 in 5.7668 ms
+2024-02-13 22:04:27 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9448 ms
+2024-02-13 22:04:30 POlicy Management System Started..........
+2024-02-13 22:04:30 Login Details ram ram@123
+2024-02-13 22:04:30 Valid Login Details
+2024-02-13 22:04:30 HTTP POST /Login responded 302 in 55.5344 ms
+2024-02-13 22:04:30 Redirected to Policy Enrollment page
+2024-02-13 22:04:30 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:04:30 HTTP GET /Policy/Index responded 200 in 23.6525 ms
+2024-02-13 22:04:36 Trying to Get all policy Details 
+2024-02-13 22:04:36 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:04:36 HTTP GET /Policy/details responded 200 in 174.2150 ms
+2024-02-13 22:05:03 Trying to Get all policy Details 
+2024-02-13 22:05:03 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:05:03 HTTP GET /Policy/details responded 200 in 40.4919 ms
+2024-02-13 22:05:20 Trying to Get all policy Details 
+2024-02-13 22:05:20 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:05:20 HTTP GET /Policy/details responded 200 in 136.4922 ms
+2024-02-13 22:05:31 Trying to Get the Details About plan with id 50
+2024-02-13 22:05:31 Succesfully Fetched the plan with  id 50 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 22:05:31 HTTP GET /Policy/Detail/50 responded 200 in 50.8733 ms
+2024-02-13 22:05:58 Trying to Get the Details About plan with id 50
+2024-02-13 22:05:58 Succesfully Fetched the plan with  id 50 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 22:05:58 HTTP GET /Policy/Detail/50 responded 200 in 16.6030 ms
+2024-02-13 22:06:00 Trying to Get all policy Details 
+2024-02-13 22:06:00 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:06:00 HTTP GET /Policy/details responded 200 in 26.0524 ms
+2024-02-13 22:06:03 Trying to Get the Details About plan with id 53
+2024-02-13 22:06:03 Succesfully Fetched the plan with  id 53 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 22:06:03 HTTP GET /Policy/Detail/53 responded 200 in 5.7168 ms
+2024-02-13 22:06:05 Trying to Get all policy Details 
+2024-02-13 22:06:05 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:06:05 HTTP GET /Policy/details responded 200 in 28.8881 ms
+2024-02-13 22:06:06 Trying to Edit plan with  id 53
+2024-02-13 22:06:06 HTTP GET /Policy/Edit/53 responded 200 in 26.5483 ms
+2024-02-13 22:06:08 Trying to Get all policy Details 
+2024-02-13 22:06:08 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:06:08 HTTP GET /Policy/details responded 200 in 22.3569 ms
+2024-02-13 22:06:10 Trying to Delete the policy by id 53 
+2024-02-13 22:06:10 HTTP GET /Policy/Delete/53 responded 200 in 12.1232 ms
+2024-02-13 22:06:14 Trying to Get all policy Details 
+2024-02-13 22:06:14 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 22:06:14 HTTP GET /Policy/details responded 200 in 24.6881 ms
+2024-02-13 22:06:15 Redirected to Policy Enrollment page
+2024-02-13 22:06:15 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:06:15 HTTP GET /Policy/Index responded 200 in 11.8684 ms
+2024-02-13 22:06:16 POlicy Management System Started..........
+2024-02-13 22:06:16 HTTP GET /Login responded 200 in 5.4390 ms
+2024-02-13 22:06:20 POlicy Management System Started..........
+2024-02-13 22:06:20 Login Details ram ram@123
+2024-02-13 22:06:20 Valid Login Details
+2024-02-13 22:06:20 HTTP POST /Login responded 302 in 6.2288 ms
+2024-02-13 22:06:20 Redirected to Policy Enrollment page
+2024-02-13 22:06:20 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:06:20 HTTP GET /Policy/Index responded 200 in 9.8315 ms
+2024-02-13 22:06:48 Redirected to Policy Enrollment page
+2024-02-13 22:06:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:06:48 HTTP GET /Policy/Index responded 200 in 19.9541 ms
+2024-02-13 22:06:56 Redirected to Policy Enrollment page
+2024-02-13 22:06:56 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:06:56 HTTP GET /Policy/Index responded 200 in 19.6299 ms
+2024-02-13 22:07:37 Redirected to Policy Enrollment page
+2024-02-13 22:07:37 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:07:37 HTTP GET /Policy/Index responded 200 in 23.2956 ms
+2024-02-13 22:07:58 Redirected to Policy Enrollment page
+2024-02-13 22:07:58 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:07:58 HTTP GET /Policy/Index responded 200 in 20.9455 ms
+2024-02-13 22:08:29 Redirected to Policy Enrollment page
+2024-02-13 22:08:29 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:08:29 HTTP GET /Policy/Index responded 200 in 10.0538 ms
+2024-02-13 22:08:58 Redirected to Policy Enrollment page
+2024-02-13 22:08:58 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:08:58 HTTP GET /Policy/Index responded 200 in 21.1196 ms
+2024-02-13 22:09:37 Redirected to Policy Enrollment page
+2024-02-13 22:09:37 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 22:09:37 HTTP GET /Policy/Index responded 200 in 20.2876 ms
+2024-02-13 22:40:01 HTTP GET /Policy/Index responded 302 in 119.6935 ms
+2024-02-13 22:40:01 POlicy Management System Started..........
+2024-02-13 22:40:02 HTTP GET /Login responded 200 in 149.3478 ms
+2024-02-13 22:40:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.3723 ms
+2024-02-13 22:40:04 POlicy Management System Started..........
+2024-02-13 22:40:04 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4818 ms
+2024-02-13 22:40:04 HTTP GET / responded 200 in 83.9219 ms
+2024-02-13 22:40:06 POlicy Management System Started..........
+2024-02-13 22:40:06 Login Details ram ram@123
+2024-02-13 22:40:07 Valid Login Details
+2024-02-13 22:40:07 HTTP POST /Login responded 302 in 1169.6737 ms
+2024-02-13 22:59:31 POlicy Management System Started..........
+2024-02-13 22:59:31 HTTP GET / responded 200 in 279.9540 ms
+2024-02-13 22:59:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.9580 ms
+2024-02-13 22:59:52 POlicy Management System Started..........
+2024-02-13 22:59:52 HTTP GET / responded 200 in 24.0466 ms
+2024-02-13 22:59:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.7598 ms
+2024-02-13 22:59:52 HTTP GET /favicon.ico responded 200 in 10.6588 ms
+2024-02-13 23:00:09 POlicy Management System Started..........
+2024-02-13 23:00:09 HTTP GET / responded 200 in 10.0104 ms
+2024-02-13 23:00:09 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8530 ms
+2024-02-13 23:00:14 HTTP GET /Policy/Index responded 302 in 11.8783 ms
+2024-02-13 23:00:14 POlicy Management System Started..........
+2024-02-13 23:00:14 HTTP GET /Login responded 200 in 4.9840 ms
+2024-02-13 23:00:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.4472 ms
+2024-02-13 23:00:16 POlicy Management System Started..........
+2024-02-13 23:00:16 Login Details ram ram@123
+2024-02-13 23:00:17 Valid Login Details
+2024-02-13 23:00:17 HTTP POST /Login responded 302 in 1078.5444 ms
+2024-02-13 23:03:55 POlicy Management System Started..........
+2024-02-13 23:03:55 HTTP GET / responded 200 in 286.6292 ms
+2024-02-13 23:03:55 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.6350 ms
+2024-02-13 23:03:59 HTTP GET /Policy/Index responded 302 in 16.9251 ms
+2024-02-13 23:03:59 POlicy Management System Started..........
+2024-02-13 23:03:59 HTTP GET /Login responded 200 in 7.8698 ms
+2024-02-13 23:03:59 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0296 ms
+2024-02-13 23:04:01 POlicy Management System Started..........
+2024-02-13 23:04:01 Login Details ram ram@123
+2024-02-13 23:04:02 Valid Login Details
+2024-02-13 23:04:02 HTTP POST /Login responded 302 in 1168.7914 ms
+2024-02-13 23:05:28 POlicy Management System Started..........
+2024-02-13 23:05:28 HTTP GET / responded 200 in 274.2607 ms
+2024-02-13 23:05:28 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.6287 ms
+2024-02-13 23:05:31 HTTP GET /Policy/Index responded 302 in 16.5169 ms
+2024-02-13 23:05:31 POlicy Management System Started..........
+2024-02-13 23:05:31 HTTP GET /Login responded 200 in 16.9359 ms
+2024-02-13 23:05:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.9779 ms
+2024-02-13 23:05:33 POlicy Management System Started..........
+2024-02-13 23:05:33 Login Details ram ram@123
+2024-02-13 23:05:34 Valid Login Details
+2024-02-13 23:05:34 HTTP POST /Login responded 302 in 1438.7048 ms
+2024-02-13 23:07:16 POlicy Management System Started..........
+2024-02-13 23:07:16 HTTP GET / responded 200 in 288.9238 ms
+2024-02-13 23:07:16 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.3225 ms
+2024-02-13 23:07:17 HTTP GET /Policy/Index responded 302 in 26.3690 ms
+2024-02-13 23:07:17 POlicy Management System Started..........
+2024-02-13 23:07:17 HTTP GET /Login responded 200 in 8.6190 ms
+2024-02-13 23:07:17 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4389 ms
+2024-02-13 23:07:19 POlicy Management System Started..........
+2024-02-13 23:07:19 Login Details ram ram@123
+2024-02-13 23:07:20 Valid Login Details
+2024-02-13 23:07:20 HTTP POST /Login responded 302 in 1237.7538 ms
+2024-02-13 23:07:20 Redirected to Policy Enrollment page
+2024-02-13 23:07:20 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:07:20 HTTP GET /Policy/Index responded 200 in 281.0567 ms
+2024-02-13 23:07:24 Trying to Get all policy Details 
+2024-02-13 23:07:24 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:07:24 HTTP GET /Policy/Details responded 200 in 222.9248 ms
+2024-02-13 23:07:45 POlicy Management System Started..........
+2024-02-13 23:07:45 HTTP GET / responded 200 in 11.0987 ms
+2024-02-13 23:07:49 Trying to Get all policy Details 
+2024-02-13 23:07:49 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:07:49 HTTP GET /Policy/details responded 200 in 29.9190 ms
+2024-02-13 23:07:55 HTTP GET /policy/index responded 302 in 0.5649 ms
+2024-02-13 23:07:55 POlicy Management System Started..........
+2024-02-13 23:07:55 HTTP GET /Login responded 200 in 3.3294 ms
+2024-02-13 23:07:55 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.5599 ms
+2024-02-13 23:09:37 HTTP GET /Login responded 404 in 0.3494 ms
+2024-02-13 23:09:43 Trying to Get all policy Details 
+2024-02-13 23:09:43 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:09:43 HTTP GET /Policy/Details responded 200 in 43.5669 ms
+2024-02-13 23:09:49 Trying to Get all policy Details 
+2024-02-13 23:09:49 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:09:49 HTTP GET /Policy/Details responded 200 in 23.7437 ms
+2024-02-13 23:09:49 HTTP GET /Policy/Index responded 500 in 1.7691 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:09:49 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)
+RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:09:50 HTTP GET /Login responded 404 in 0.2152 ms
+2024-02-13 23:09:53 HTTP GET /Login responded 404 in 0.1272 ms
+2024-02-13 23:09:53 HTTP GET /Login responded 404 in 0.1148 ms
+2024-02-13 23:10:01 HTTP GET / responded 404 in 0.1214 ms
+2024-02-13 23:10:03 HTTP GET /login responded 404 in 0.1253 ms
+2024-02-13 23:10:03 HTTP GET /login responded 404 in 0.2394 ms
+2024-02-13 23:10:10 Trying to Get all policy Details 
+2024-02-13 23:10:10 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:10:10 HTTP GET /Policy/details responded 200 in 33.6132 ms
+2024-02-13 23:10:13 HTTP GET / responded 404 in 0.2951 ms
+2024-02-13 23:10:14 HTTP GET / responded 404 in 0.1497 ms
+2024-02-13 23:10:17 HTTP GET /login responded 404 in 0.1358 ms
+2024-02-13 23:10:18 HTTP GET /login responded 404 in 0.1336 ms
+2024-02-13 23:10:20 HTTP GET /login responded 404 in 0.1212 ms
+2024-02-13 23:10:20 HTTP GET /login responded 404 in 0.1079 ms
+2024-02-13 23:10:20 HTTP GET /login responded 404 in 0.1538 ms
+2024-02-13 23:10:20 HTTP GET /login responded 404 in 0.1304 ms
+2024-02-13 23:10:38 POlicy Management System Started..........
+2024-02-13 23:10:38 HTTP GET / responded 200 in 272.4554 ms
+2024-02-13 23:10:38 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.4119 ms
+2024-02-13 23:10:46 POlicy Management System Started..........
+2024-02-13 23:10:47 Login Details ram ram@123
+2024-02-13 23:10:48 Valid Login Details
+2024-02-13 23:10:48 HTTP POST /Login responded 302 in 1206.2746 ms
+2024-02-13 23:10:48 Redirected to Policy Enrollment page
+2024-02-13 23:10:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:10:48 HTTP GET /Policy/Index responded 200 in 311.8162 ms
+2024-02-13 23:10:52 Trying to Get all policy Details 
+2024-02-13 23:10:52 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:10:52 HTTP GET /Policy/Details responded 200 in 220.5561 ms
+2024-02-13 23:11:38 Trying to Get all policy Details 
+2024-02-13 23:11:38 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:11:38 HTTP GET /Policy/Details responded 200 in 85.7678 ms
+2024-02-13 23:11:43 POlicy Management System Started..........
+2024-02-13 23:11:43 HTTP GET / responded 200 in 8.5400 ms
+2024-02-13 23:11:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.4894 ms
+2024-02-13 23:11:45 POlicy Management System Started..........
+2024-02-13 23:11:45 Login Details ram ram@123
+2024-02-13 23:11:45 Valid Login Details
+2024-02-13 23:11:45 HTTP POST /Login responded 302 in 9.8261 ms
+2024-02-13 23:11:45 Redirected to Policy Enrollment page
+2024-02-13 23:11:45 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:11:45 HTTP GET /Policy/Index responded 200 in 23.8014 ms
+2024-02-13 23:11:46 Trying to Get all policy Details 
+2024-02-13 23:11:46 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:11:46 HTTP GET /Policy/Details responded 200 in 23.3330 ms
+2024-02-13 23:12:07 POlicy Management System Started..........
+2024-02-13 23:12:07 HTTP GET /Login responded 200 in 4.7403 ms
+2024-02-13 23:12:09 POlicy Management System Started..........
+2024-02-13 23:12:09 Login Details ram ram@123
+2024-02-13 23:12:09 Valid Login Details
+2024-02-13 23:12:09 HTTP POST /Login responded 302 in 4.5183 ms
+2024-02-13 23:12:09 Redirected to Policy Enrollment page
+2024-02-13 23:12:09 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:12:09 HTTP GET /Policy/Index responded 200 in 60.3254 ms
+2024-02-13 23:12:16 Trying to Get all policy Details 
+2024-02-13 23:12:16 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:12:16 HTTP GET /Policy/Details responded 200 in 32.1880 ms
+2024-02-13 23:13:20 POlicy Management System Started..........
+2024-02-13 23:13:21 HTTP GET / responded 200 in 576.3804 ms
+2024-02-13 23:13:21 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.5509 ms
+2024-02-13 23:13:22 POlicy Management System Started..........
+2024-02-13 23:13:22 Login Details ram ram@123
+2024-02-13 23:13:24 Valid Login Details
+2024-02-13 23:13:24 HTTP POST /Login responded 302 in 1437.7599 ms
+2024-02-13 23:13:24 Redirected to Policy Enrollment page
+2024-02-13 23:13:24 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:13:24 HTTP GET /Policy/Index responded 200 in 170.9700 ms
+2024-02-13 23:13:35 Trying to Get all policy Details 
+2024-02-13 23:13:35 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:13:35 HTTP GET /Policy/Details responded 200 in 311.5074 ms
+2024-02-13 23:14:01 POlicy Management System Started..........
+2024-02-13 23:14:01 HTTP GET / responded 200 in 285.8688 ms
+2024-02-13 23:14:01 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.1520 ms
+2024-02-13 23:14:05 Trying to Get all policy Details 
+2024-02-13 23:14:06 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:14:06 HTTP GET /Policy/Details responded 200 in 1420.9866 ms
+2024-02-13 23:14:10 Redirected to Policy Enrollment page
+2024-02-13 23:14:10 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:14:10 HTTP GET /Policy/Index responded 200 in 39.6098 ms
+2024-02-13 23:15:00 Redirected to Policy Enrollment page
+2024-02-13 23:15:00 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:15:00 HTTP GET /Policy/Index responded 200 in 68.7654 ms
+2024-02-13 23:15:09 HTTP GET /Policy/Index responded 302 in 7.4535 ms
+2024-02-13 23:15:09 POlicy Management System Started..........
+2024-02-13 23:15:09 HTTP GET /Login responded 200 in 8.9360 ms
+2024-02-13 23:15:09 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.2899 ms
+2024-02-13 23:15:10 POlicy Management System Started..........
+2024-02-13 23:15:10 Login Details ram ram@123
+2024-02-13 23:15:10 Valid Login Details
+2024-02-13 23:15:10 HTTP POST /Login responded 302 in 67.9745 ms
+2024-02-13 23:15:11 Redirected to Policy Enrollment page
+2024-02-13 23:15:11 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:15:11 HTTP GET /Policy/Index responded 200 in 153.1785 ms
+2024-02-13 23:15:12 Trying to Get all policy Details 
+2024-02-13 23:15:12 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:15:12 HTTP GET /Policy/Details responded 200 in 34.7235 ms
+2024-02-13 23:16:44 Trying to Get all policy Details 
+2024-02-13 23:16:44 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:16:44 HTTP GET /Policy/Details responded 200 in 45.8774 ms
+2024-02-13 23:16:48 Redirected to Policy Enrollment page
+2024-02-13 23:16:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:16:48 HTTP GET /Policy/Index responded 200 in 36.4140 ms
+2024-02-13 23:17:26 Redirected to Policy Enrollment page
+2024-02-13 23:17:26 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:17:26 HTTP GET /Policy/Index responded 200 in 65.0587 ms
+2024-02-13 23:17:30 Trying to Get all policy Details 
+2024-02-13 23:17:30 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:17:30 HTTP GET /Policy/Details responded 200 in 24.2430 ms
+2024-02-13 23:17:50 Trying to Get all policy Details 
+2024-02-13 23:17:50 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:17:50 HTTP GET /Policy/Details responded 200 in 42.7449 ms
+2024-02-13 23:17:53 Trying to Get all policy Details 
+2024-02-13 23:17:53 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:17:53 HTTP GET /Policy/Details responded 200 in 24.0038 ms
+2024-02-13 23:18:11 POlicy Management System Started..........
+2024-02-13 23:18:11 HTTP GET / responded 200 in 282.3706 ms
+2024-02-13 23:18:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 4.6636 ms
+2024-02-13 23:18:15 POlicy Management System Started..........
+2024-02-13 23:18:15 Login Details ram ram@123
+2024-02-13 23:18:16 Valid Login Details
+2024-02-13 23:18:16 HTTP POST /Login responded 302 in 1198.7034 ms
+2024-02-13 23:18:16 HTTP GET /Policy/Index responded 302 in 218.7350 ms
+2024-02-13 23:18:16 POlicy Management System Started..........
+2024-02-13 23:18:16 HTTP GET /Login responded 200 in 8.9606 ms
+2024-02-13 23:18:16 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8281 ms
+2024-02-13 23:19:43 POlicy Management System Started..........
+2024-02-13 23:19:43 HTTP GET / responded 200 in 267.3367 ms
+2024-02-13 23:19:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.2442 ms
+2024-02-13 23:19:46 POlicy Management System Started..........
+2024-02-13 23:19:46 Login Details ram ram@123
+2024-02-13 23:19:48 Valid Login Details
+2024-02-13 23:19:48 HTTP POST /Login responded 302 in 1157.8170 ms
+2024-02-13 23:19:48 HTTP GET /Policy/Index responded 302 in 216.6715 ms
+2024-02-13 23:19:48 POlicy Management System Started..........
+2024-02-13 23:19:48 HTTP GET /Login responded 200 in 17.3951 ms
+2024-02-13 23:19:48 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.9169 ms
+2024-02-13 23:20:03 HTTP GET /Policy/Index responded 302 in 1.7617 ms
+2024-02-13 23:20:03 POlicy Management System Started..........
+2024-02-13 23:20:03 HTTP GET /Login responded 200 in 3.4945 ms
+2024-02-13 23:20:03 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.8121 ms
+2024-02-13 23:20:05 POlicy Management System Started..........
+2024-02-13 23:20:05 Login Details ram ram@123
+2024-02-13 23:20:05 Valid Login Details
+2024-02-13 23:20:05 HTTP POST /Login responded 302 in 9.0441 ms
+2024-02-13 23:20:05 HTTP GET /Policy/Index responded 302 in 4.7202 ms
+2024-02-13 23:20:05 POlicy Management System Started..........
+2024-02-13 23:20:05 HTTP GET /Login responded 200 in 2.9125 ms
+2024-02-13 23:20:05 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.3789 ms
+2024-02-13 23:25:36 POlicy Management System Started..........
+2024-02-13 23:25:36 HTTP GET / responded 200 in 295.3420 ms
+2024-02-13 23:25:36 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.4380 ms
+2024-02-13 23:25:40 POlicy Management System Started..........
+2024-02-13 23:25:40 Login Details ram ram@123
+2024-02-13 23:25:41 Valid Login Details
+2024-02-13 23:25:41 HTTP POST /Login responded 302 in 1177.1482 ms
+2024-02-13 23:25:41 HTTP GET /Policy/Index responded 302 in 237.2358 ms
+2024-02-13 23:25:41 POlicy Management System Started..........
+2024-02-13 23:25:41 HTTP GET /Login responded 200 in 10.2046 ms
+2024-02-13 23:25:41 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3647 ms
+2024-02-13 23:25:56 POlicy Management System Started..........
+2024-02-13 23:25:56 Login Details admin admin@123
+2024-02-13 23:25:56 Valid Login Details
+2024-02-13 23:25:56 HTTP POST /Login responded 302 in 7.6647 ms
+2024-02-13 23:25:56 Redirected to Policy Enrollment page
+2024-02-13 23:25:56 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:25:56 HTTP GET /Policy/Index responded 200 in 124.4540 ms
+2024-02-13 23:25:59 Trying to Get all policy Details 
+2024-02-13 23:25:59 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:25:59 HTTP GET /Policy/Details responded 200 in 167.7653 ms
+2024-02-13 23:26:00 Redirected to Policy Enrollment page
+2024-02-13 23:26:00 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:26:00 HTTP GET /Policy/Index responded 200 in 57.3556 ms
+2024-02-13 23:26:44 Trying to Get all policy Details 
+2024-02-13 23:26:44 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:26:44 HTTP GET /Policy/Details responded 200 in 40.0209 ms
+2024-02-13 23:26:46 Redirected to Policy Enrollment page
+2024-02-13 23:26:46 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:26:46 HTTP GET /Policy/Index responded 200 in 14.0907 ms
+2024-02-13 23:29:04 HTTP GET /Policy/Index responded 302 in 5.7002 ms
+2024-02-13 23:29:04 POlicy Management System Started..........
+2024-02-13 23:29:04 HTTP GET /Login responded 200 in 8.1413 ms
+2024-02-13 23:29:04 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2990 ms
+2024-02-13 23:29:06 HTTP GET /Policy/Index responded 302 in 2.9969 ms
+2024-02-13 23:29:06 POlicy Management System Started..........
+2024-02-13 23:29:06 HTTP GET /Login responded 200 in 2.6464 ms
+2024-02-13 23:29:06 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3434 ms
+2024-02-13 23:29:09 POlicy Management System Started..........
+2024-02-13 23:29:09 Login Details ram ram@123
+2024-02-13 23:29:09 Valid Login Details
+2024-02-13 23:29:09 HTTP POST /Login responded 302 in 6.0769 ms
+2024-02-13 23:29:09 Redirected to Policy Enrollment page
+2024-02-13 23:29:09 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:29:09 HTTP GET /Policy/Index responded 200 in 15.7246 ms
+2024-02-13 23:29:12 Trying to Get all policy Details 
+2024-02-13 23:29:12 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:29:12 HTTP GET /Policy/Details responded 200 in 36.6082 ms
+2024-02-13 23:31:13 POlicy Management System Started..........
+2024-02-13 23:31:13 HTTP GET /Login responded 200 in 3.9352 ms
+2024-02-13 23:31:13 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3556 ms
+2024-02-13 23:31:24 POlicy Management System Started..........
+2024-02-13 23:31:24 Login Details admin admin@123
+2024-02-13 23:31:24 Valid Login Details
+2024-02-13 23:31:24 HTTP POST /Login responded 302 in 6.4484 ms
+2024-02-13 23:31:24 HTTP GET /Policy/Index responded 302 in 3.4679 ms
+2024-02-13 23:31:24 POlicy Management System Started..........
+2024-02-13 23:31:24 HTTP GET /Login responded 200 in 2.5465 ms
+2024-02-13 23:31:24 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4085 ms
+2024-02-13 23:34:29 POlicy Management System Started..........
+2024-02-13 23:34:29 HTTP GET / responded 200 in 287.9418 ms
+2024-02-13 23:34:29 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.2746 ms
+2024-02-13 23:34:31 POlicy Management System Started..........
+2024-02-13 23:34:31 Login Details ram ram@123
+2024-02-13 23:34:32 Valid Login Details
+2024-02-13 23:34:32 HTTP POST /Login responded 302 in 1299.3868 ms
+2024-02-13 23:34:32 Redirected to Policy Enrollment page
+2024-02-13 23:34:32 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:34:32 HTTP GET /Policy/Index responded 200 in 324.4074 ms
+2024-02-13 23:34:35 Trying to Get all policy Details 
+2024-02-13 23:34:35 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:34:35 HTTP GET /Policy/Details responded 200 in 239.4519 ms
+2024-02-13 23:34:43 Redirected to Policy Enrollment page
+2024-02-13 23:34:43 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 23:34:43 HTTP GET /Policy/Index responded 200 in 25.7089 ms
+2024-02-13 23:34:46 POlicy Management System Started..........
+2024-02-13 23:34:46 HTTP GET /Login responded 200 in 6.6662 ms
+2024-02-13 23:34:46 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8906 ms
+2024-02-13 23:34:55 POlicy Management System Started..........
+2024-02-13 23:34:55 Login Details admin admin@123
+2024-02-13 23:34:55 Valid Login Details
+2024-02-13 23:34:55 HTTP POST /Login responded 302 in 4.6303 ms
+2024-02-13 23:34:55 HTTP GET /Policy/Index responded 302 in 49.4482 ms
+2024-02-13 23:34:55 POlicy Management System Started..........
+2024-02-13 23:34:55 HTTP GET /Login responded 200 in 3.8356 ms
+2024-02-13 23:34:55 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.9202 ms
+2024-02-13 23:38:21 POlicy Management System Started..........
+2024-02-13 23:38:21 HTTP GET /Login responded 200 in 8.2544 ms
+2024-02-13 23:38:21 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 5.8299 ms
+2024-02-13 23:38:24 POlicy Management System Started..........
+2024-02-13 23:38:24 Login Details ram ram@123
+2024-02-13 23:38:24 Valid Login Details
+2024-02-13 23:38:24 HTTP POST /Login responded 302 in 6.3908 ms
+2024-02-13 23:38:24 HTTP GET /Policy/Index responded 500 in 1.3342 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:38:24 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:38:36 Trying to Get all policy Details 
+2024-02-13 23:38:36 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:38:36 HTTP GET /Policy/details responded 200 in 32.1231 ms
+2024-02-13 23:38:48 HTTP GET /Policy/Index responded 500 in 0.6488 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:38:48 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:38:50 Trying to Get all policy Details 
+2024-02-13 23:38:50 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:38:50 HTTP GET /Policy/details responded 200 in 25.1416 ms
+2024-02-13 23:38:54 Trying to Get the Details About plan with id 50
+2024-02-13 23:38:54 Succesfully Fetched the plan with  id 50 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 23:38:54 HTTP GET /Policy/Detail/50 responded 200 in 51.4736 ms
+2024-02-13 23:38:56 HTTP GET /Policy/Index responded 500 in 0.4379 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:38:56 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:39:52 POlicy Management System Started..........
+2024-02-13 23:39:53 HTTP GET / responded 200 in 276.5369 ms
+2024-02-13 23:39:53 POlicy Management System Started..........
+2024-02-13 23:39:53 HTTP GET / responded 200 in 16.7055 ms
+2024-02-13 23:39:54 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.1891 ms
+2024-02-13 23:39:56 POlicy Management System Started..........
+2024-02-13 23:39:56 Login Details ram ram@123
+2024-02-13 23:39:57 Valid Login Details
+2024-02-13 23:39:57 HTTP POST /Login responded 302 in 1173.6834 ms
+2024-02-13 23:39:57 HTTP GET /Policy/Index responded 500 in 5.4740 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:39:57 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:40:02 POlicy Management System Started..........
+2024-02-13 23:40:02 HTTP GET / responded 200 in 14.8376 ms
+2024-02-13 23:40:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5723 ms
+2024-02-13 23:40:04 POlicy Management System Started..........
+2024-02-13 23:40:04 Login Details ram ram@123
+2024-02-13 23:40:04 Valid Login Details
+2024-02-13 23:40:04 HTTP POST /Login responded 302 in 22.3694 ms
+2024-02-13 23:40:04 HTTP GET /Policy/Index responded 500 in 2.5136 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:40:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:55:33 POlicy Management System Started..........
+2024-02-13 23:55:33 HTTP GET / responded 200 in 287.8854 ms
+2024-02-13 23:55:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 9.9454 ms
+2024-02-13 23:55:36 POlicy Management System Started..........
+2024-02-13 23:55:36 Login Details ram ram@123
+2024-02-13 23:55:37 Valid Login Details
+2024-02-13 23:55:37 HTTP POST /Login responded 302 in 1190.1232 ms
+2024-02-13 23:55:37 HTTP GET /Policy/Index responded 500 in 4.6009 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:55:37 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:55:55 POlicy Management System Started..........
+2024-02-13 23:55:55 HTTP GET / responded 200 in 12.1784 ms
+2024-02-13 23:55:57 POlicy Management System Started..........
+2024-02-13 23:55:57 Login Details ram ram@123
+2024-02-13 23:55:57 Valid Login Details
+2024-02-13 23:55:57 HTTP POST /Login responded 302 in 20.9131 ms
+2024-02-13 23:55:57 HTTP GET /Policy/Index responded 500 in 2.3670 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:55:57 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:56:02 Trying to Get all policy Details 
+2024-02-13 23:56:02 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:56:02 HTTP GET /Policy/details responded 200 in 338.3628 ms
+2024-02-13 23:56:05 HTTP GET /Policy/Index responded 500 in 2.6841 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:56:05 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:56:07 Trying to Get all policy Details 
+2024-02-13 23:56:07 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:56:07 HTTP GET /Policy/details responded 200 in 28.6190 ms
+2024-02-13 23:56:08 Trying to Get all policy Details 
+2024-02-13 23:56:08 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:56:08 HTTP GET /Policy/Details responded 200 in 37.4547 ms
+2024-02-13 23:56:10 Trying to Get the Details About plan with id 50
+2024-02-13 23:56:10 Succesfully Fetched the plan with  id 50 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-13 23:56:10 HTTP GET /Policy/Detail/50 responded 200 in 50.2210 ms
+2024-02-13 23:56:13 Trying to Get all policy Details 
+2024-02-13 23:56:13 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:56:13 HTTP GET /Policy/Details responded 200 in 23.2244 ms
+2024-02-13 23:56:14 Trying to Get all policy Details 
+2024-02-13 23:56:14 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-13 23:56:14 HTTP GET /Policy/details responded 200 in 23.6338 ms
+2024-02-13 23:56:15 POlicy Management System Started..........
+2024-02-13 23:56:15 HTTP GET / responded 200 in 3.6318 ms
+2024-02-13 23:56:17 POlicy Management System Started..........
+2024-02-13 23:56:17 HTTP GET / responded 200 in 4.4281 ms
+2024-02-13 23:56:26 POlicy Management System Started..........
+2024-02-13 23:56:26 Login Details admin admin@123
+2024-02-13 23:56:26 Valid Login Details
+2024-02-13 23:56:26 HTTP POST /Login responded 302 in 4.8924 ms
+2024-02-13 23:56:26 HTTP GET /Policy/Index responded 500 in 0.5589 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:56:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:56:36 POlicy Management System Started..........
+2024-02-13 23:56:36 Login Details ram ram@123
+2024-02-13 23:56:36 Valid Login Details
+2024-02-13 23:56:36 HTTP POST /Login responded 302 in 3.9490 ms
+2024-02-13 23:56:36 HTTP GET /Policy/Index responded 500 in 0.4884 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:56:36 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:57:56 HTTP GET /Policy/Index responded 500 in 23.8105 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:57:56 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:57:58 POlicy Management System Started..........
+2024-02-13 23:57:58 HTTP GET / responded 200 in 250.1652 ms
+2024-02-13 23:57:59 POlicy Management System Started..........
+2024-02-13 23:57:59 HTTP GET / responded 200 in 14.2876 ms
+2024-02-13 23:57:59 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 15.1458 ms
+2024-02-13 23:58:04 HTTP GET /policy/index responded 500 in 3.4117 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:58:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-13 23:58:11 HTTP GET /policy/details responded 302 in 3.9293 ms
+2024-02-13 23:58:11 POlicy Management System Started..........
+2024-02-13 23:58:11 HTTP GET /Login responded 200 in 5.8934 ms
+2024-02-13 23:58:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.8606 ms
+2024-02-13 23:58:15 POlicy Management System Started..........
+2024-02-13 23:58:15 Login Details ram ram@123
+2024-02-13 23:58:17 Valid Login Details
+2024-02-13 23:58:17 HTTP POST /Login responded 302 in 1135.5244 ms
+2024-02-13 23:58:17 HTTP GET /Policy/Index responded 500 in 2.0093 ms
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-13 23:58:17 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

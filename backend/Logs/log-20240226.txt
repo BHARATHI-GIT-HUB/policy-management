@@ -1,0 +1,61 @@
+2024-02-26 13:39:39 Policy Management System Started..........
+2024-02-26 13:39:40 HTTP GET / responded 200 in 1450.6180 ms
+2024-02-26 13:39:40 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.8056 ms
+2024-02-26 13:39:59 HTTP GET /Api/All responded 404 in 1.0443 ms
+2024-02-26 13:40:05 HTTP GET /Api/All responded 404 in 0.1474 ms
+2024-02-26 13:40:16 Policy Management System Started..........
+2024-02-26 13:40:16 HTTP GET / responded 200 in 17.6433 ms
+2024-02-26 13:40:16 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.4045 ms
+2024-02-26 13:40:16 HTTP GET /favicon.ico responded 200 in 14.2483 ms
+2024-02-26 13:40:43 HTTP GET /Api/Order responded 200 in 1748.3841 ms
+2024-02-26 13:41:02 Policy Management System Started..........
+2024-02-26 13:41:02 HTTP GET / responded 200 in 9.7648 ms
+2024-02-26 13:41:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3556 ms
+2024-02-26 13:41:03 Policy Management System Started..........
+2024-02-26 13:41:03 HTTP GET / responded 200 in 4.2116 ms
+2024-02-26 13:41:03 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3583 ms
+2024-02-26 13:41:04 Policy Management System Started..........
+2024-02-26 13:41:04 Login Details ram ram@123
+2024-02-26 13:41:04 Valid Login Details
+2024-02-26 13:41:04 HTTP POST /Login responded 302 in 89.5499 ms
+2024-02-26 13:41:05 Redirected to Policy Enrollment page
+2024-02-26 13:41:05 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-26 13:41:05 HTTP GET /Policy/Index responded 200 in 265.6539 ms
+2024-02-26 13:41:06 HTTP GET /Policy/Details responded 302 in 6.4221 ms
+2024-02-26 13:41:06 Policy Management System Started..........
+2024-02-26 13:41:06 HTTP GET /Login responded 200 in 3.5647 ms
+2024-02-26 13:41:06 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7756 ms
+2024-02-26 13:41:19 Policy Management System Started..........
+2024-02-26 13:41:19 Login Details admin admin@123
+2024-02-26 13:41:19 Valid Login Details
+2024-02-26 13:41:19 HTTP POST /Login responded 302 in 7.8957 ms
+2024-02-26 13:41:19 Redirected to Policy Enrollment page
+2024-02-26 13:41:19 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-26 13:41:19 HTTP GET /Policy/Index responded 200 in 63.2225 ms
+2024-02-26 13:41:22 Trying to Get all policy Details 
+2024-02-26 13:41:22 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-26 13:41:22 HTTP GET /Policy/Details responded 200 in 86.0078 ms
+2024-02-26 13:41:23 Trying to Get the Detail About plan with id 122
+2024-02-26 13:41:23 Succesfully Fetched the plan with  id 122 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-26 13:41:23 HTTP GET /Policy/Detail/122 responded 200 in 46.6071 ms
+2024-02-26 13:41:30 HTTP GET /Api/122 responded 200 in 4.9763 ms
+2024-02-26 13:41:39 HTTP GET /api/PolicyEnrollment/Filter/2 responded 404 in 0.1334 ms
+2024-02-26 13:41:47 HTTP GET /Api/Filter/2 responded 200 in 20.5418 ms
+2024-02-26 13:42:07 HTTP GET /Api responded 405 in 0.4170 ms
+2024-02-26 13:42:12 HTTP GET /Api/All responded 200 in 14.2230 ms
+2024-02-26 13:42:42 HTTP DELETE /Api/122 responded 200 in 110.8778 ms
+2024-02-26 13:42:46 Trying to Get the Detail About plan with id 122
+2024-02-26 13:42:47 Policy With Id 122 Not Found 
+2024-02-26 13:42:47 HTTP GET /Policy/Detail/122 responded 200 in 101.9018 ms
+2024-02-26 13:42:47 HTTP GET /favicon.ico responded 304 in 1.0007 ms
+2024-02-26 13:43:10 Trying to Get all policy Details 
+2024-02-26 13:43:10 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-26 13:43:10 HTTP GET /Policy/Details responded 200 in 42.2762 ms
+2024-02-26 13:43:18 Redirected to Policy Enrollment page
+2024-02-26 13:43:18 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-26 13:43:18 HTTP GET /Policy/Index responded 200 in 12.9661 ms
+2024-02-26 13:43:27 Trying to Get all policy Details 
+2024-02-26 13:43:27 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-26 13:43:27 HTTP GET /Policy/Details responded 200 in 29.9569 ms
+2024-02-26 13:43:28 Opened Bulk Upload page......
+2024-02-26 13:43:28 HTTP GET /Policy/Upload responded 200 in 5.8105 ms

@@ -1,0 +1,16 @@
+﻿
+
+@{
+    ViewData["Title"] = "Upload";
+    Layout = "~/Views/Shared/_CustomeLayout.cshtml";
+}
+
+@using (Html.BeginForm("TableData", "Policy", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="d-flex justify-content-around align-items-center">
+        <input type="file" class="form-control form-control-sm w-50" name="files" multiple="multiple" />
+        <input type="submit" class="btn btn-primary btn-sm" value="Extract Table Data" />
+    </div>
+
+}
+

@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Table Data";
+    Layout = "~/Views/Shared/_CustomeLayout.cshtml";
+}
+
+@{
+    var allTableData = ViewBag.AllTableData as List<Dictionary<string, string>>;
+}
+
+@if (allTableData != null)
+{
+    <div>
+        <h3>Table Data</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+        @foreach (var tableData in allTableData)
+        {
+            <p>@tableData.ContainsKey("Client Name :")</p>
+                <tbody>
+                    @foreach (var kvp in tableData)
+                    {
+                        
+                        <tr>
+                            <td>@kvp.Key</td>
+                            <td>@kvp.Value</td>
+                        </tr>
+                    }
+
+                </tbody>
+        }
+            </table>
+    </div>
+}

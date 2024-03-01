@@ -1,0 +1,412 @@
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Home/Login.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Create.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Delete.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/DescOrder.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Detail.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Details.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Edit.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Filter.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Index.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Policy/Submit.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/_CustomeLayout.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/_Header.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/_Login.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-13 16:19:42 Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-13 16:19:42 Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-13 16:19:42 Hosting starting
+2024-02-13 16:19:42 User profile is available. Using 'C:\Users\senth\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-13 16:19:42 Reading data from file 'C:\Users\senth\AppData\Local\ASP.NET\DataProtection-Keys\key-504d422a-2e1d-4c13-bf05-2e44313c8dc5.xml'.
+2024-02-13 16:19:42 Found key {504d422a-2e1d-4c13-bf05-2e44313c8dc5}.
+2024-02-13 16:19:42 Considering key {504d422a-2e1d-4c13-bf05-2e44313c8dc5} with expiration date 2024-04-20 10:06:01Z as default key.
+2024-02-13 16:19:42 Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-13 16:19:42 Decrypting secret element using Windows DPAPI.
+2024-02-13 16:19:42 Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-13 16:19:42 Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-13 16:19:42 Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-13 16:19:42 Using key {504d422a-2e1d-4c13-bf05-2e44313c8dc5} as the default key.
+2024-02-13 16:19:42 Key ring with default key {504d422a-2e1d-4c13-bf05-2e44313c8dc5} was loaded during application startup.
+2024-02-13 16:19:43 Now listening on: https://localhost:7154
+2024-02-13 16:19:43 Now listening on: http://localhost:5208
+2024-02-13 16:19:43 Loaded hosting startup assembly RepositryAssignement
+2024-02-13 16:19:43 Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-13 16:19:43 Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-13 16:19:43 Application started. Press Ctrl+C to shut down.
+2024-02-13 16:19:43 Hosting environment: Development
+2024-02-13 16:19:43 Content root path: C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement
+2024-02-13 16:19:43 Hosting started
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FD" accepted.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FD" started.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FE" accepted.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FE" started.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FD" received FIN.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FE" received FIN.
+2024-02-13 16:19:43 Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-13 16:19:43 Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FD" stopped.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FE" stopped.
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-13 16:19:43 Connection id "0HN1CG5UAG3FE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-13 16:19:50 Connection id "0HN1CG5UAG3FF" accepted.
+2024-02-13 16:19:50 Connection id "0HN1CG5UAG3FF" started.
+2024-02-13 16:19:50 Connection 0HN1CG5UAG3FF established using the following protocol: "Tls13"
+2024-02-13 16:19:50 Request starting HTTP/2 GET https://localhost:7154/ - null null
+2024-02-13 16:19:50 Wildcard detected, all requests with hosts will be allowed.
+2024-02-13 16:19:50 The request path / does not match a supported file type
+2024-02-13 16:19:50 1 candidate(s) found for the request path '/'
+2024-02-13 16:19:50 Endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)' with route pattern '' is valid for the request path '/'
+2024-02-13 16:19:50 Request matched endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:50 Executing endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:50 Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller RepositryAssignement.Controllers.HomeController (RepositryAssignement).
+2024-02-13 16:19:50 Execution plan of authorization filters (in the following order): ["None"]
+2024-02-13 16:19:50 Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:19:50 Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-13 16:19:50 Execution plan of exception filters (in the following order): ["None"]
+2024-02-13 16:19:50 Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:19:50 Executing controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:19:50 Executed controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:19:50 View lookup cache miss for view 'Login' in controller 'Home'.
+2024-02-13 16:19:50 Executing ViewResult, running view Login.
+2024-02-13 16:19:50 The view path '/Views/Home/Login.cshtml' was found in 5.4029ms.
+2024-02-13 16:19:50 Found the endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Home])
+2024-02-13 16:19:50 Successfully processed template Login for RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) resulting in /Login and 
+2024-02-13 16:19:50 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-02-13 16:19:50 An antiforgery cookie token was reused.
+2024-02-13 16:19:50 Response markup is scheduled to include browser refresh script injection.
+2024-02-13 16:19:50 Executed ViewResult - view Login executed in 187.5356ms.
+2024-02-13 16:19:50 Executed action RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) in 276.3539ms
+2024-02-13 16:19:50 Executed endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:50 Request starting HTTP/2 GET https://localhost:7154/PolicyManagementSystem.styles.css - null null
+2024-02-13 16:19:50 Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-13 16:19:50 Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - null null
+2024-02-13 16:19:50 Response markup was updated to include browser refresh script injection.
+2024-02-13 16:19:50 The request path /PolicyManagementSystem.styles.css does not match an existing file
+2024-02-13 16:19:50 No candidates found for the request path '/PolicyManagementSystem.styles.css'
+2024-02-13 16:19:50 Request did not match any endpoints
+2024-02-13 16:19:50 Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 5.5941ms
+2024-02-13 16:19:50 Request finished HTTP/2 GET https://localhost:7154/PolicyManagementSystem.styles.css - 404 0 null 6.492ms
+2024-02-13 16:19:50 Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7154/PolicyManagementSystem.styles.css, Response status code: 404
+2024-02-13 16:19:50 Request finished HTTP/2 GET https://localhost:7154/ - 200 null text/html; charset=utf-8 443.2141ms
+2024-02-13 16:19:50 Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4933ms
+2024-02-13 16:19:59 Connection id "0HN1CG5UAG3FG" accepted.
+2024-02-13 16:19:59 Connection id "0HN1CG5UAG3FG" started.
+2024-02-13 16:19:59 Connection 0HN1CG5UAG3FG established using the following protocol: "Tls13"
+2024-02-13 16:19:59 Request starting HTTP/2 GET https://localhost:7154/Login - null null
+2024-02-13 16:19:59 The request path /Login does not match a supported file type
+2024-02-13 16:19:59 1 candidate(s) found for the request path '/Login'
+2024-02-13 16:19:59 Endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)' with route pattern 'Login' is valid for the request path '/Login'
+2024-02-13 16:19:59 Request matched endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:59 Executing endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:59 Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller RepositryAssignement.Controllers.HomeController (RepositryAssignement).
+2024-02-13 16:19:59 Execution plan of authorization filters (in the following order): ["None"]
+2024-02-13 16:19:59 Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:19:59 Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-13 16:19:59 Execution plan of exception filters (in the following order): ["None"]
+2024-02-13 16:19:59 Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:19:59 Executing controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:19:59 Executed controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:19:59 View lookup cache hit for view 'Login' in controller 'Home'.
+2024-02-13 16:19:59 Executing ViewResult, running view Login.
+2024-02-13 16:19:59 The view path '/Views/Home/Login.cshtml' was found in 0.2858ms.
+2024-02-13 16:19:59 Found the endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Home])
+2024-02-13 16:19:59 Successfully processed template Login for RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) resulting in /Login and 
+2024-02-13 16:19:59 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-02-13 16:19:59 An antiforgery cookie token was reused.
+2024-02-13 16:19:59 Response markup is scheduled to include browser refresh script injection.
+2024-02-13 16:19:59 Executed ViewResult - view Login executed in 5.7696ms.
+2024-02-13 16:19:59 Executed action RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) in 12.3484ms
+2024-02-13 16:19:59 Executed endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:19:59 Response markup was updated to include browser refresh script injection.
+2024-02-13 16:19:59 Request finished HTTP/2 GET https://localhost:7154/Login - 200 null text/html; charset=utf-8 20.4203ms
+2024-02-13 16:19:59 Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-13 16:19:59 Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 1.0486ms
+2024-02-13 16:20:01 Request starting HTTP/2 POST https://localhost:7154/Login - application/x-www-form-urlencoded 214
+2024-02-13 16:20:01 POST requests are not supported
+2024-02-13 16:20:01 1 candidate(s) found for the request path '/Login'
+2024-02-13 16:20:01 Endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)' with route pattern 'Login' is valid for the request path '/Login'
+2024-02-13 16:20:01 Request matched endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:20:01 Executing endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:20:01 Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Microsoft.AspNetCore.Http.IFormCollection) on controller RepositryAssignement.Controllers.HomeController (RepositryAssignement).
+2024-02-13 16:20:01 Execution plan of authorization filters (in the following order): ["None"]
+2024-02-13 16:20:01 Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:20:01 Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-13 16:20:01 Execution plan of exception filters (in the following order): ["None"]
+2024-02-13 16:20:01 Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:20:01 Executing controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:20:01 Executed controller factory for controller RepositryAssignement.Controllers.HomeController (RepositryAssignement)
+2024-02-13 16:20:01 Connection id "0HN1CG5UAG3FG", Request id "0HN1CG5UAG3FG:00000005": started reading request body.
+2024-02-13 16:20:01 Connection id "0HN1CG5UAG3FG", Request id "0HN1CG5UAG3FG:00000005": done reading request body.
+2024-02-13 16:20:01 Attempting to bind parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection' ...
+2024-02-13 16:20:01 Attempting to bind parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection' using the name '' in request data ...
+2024-02-13 16:20:01 Done attempting to bind parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection'.
+2024-02-13 16:20:01 Done attempting to bind parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection'.
+2024-02-13 16:20:01 Attempting to validate the bound parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection' ...
+2024-02-13 16:20:01 Done attempting to validate the bound parameter 'collection' of type 'Microsoft.AspNetCore.Http.IFormCollection'.
+2024-02-13 16:20:01 An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'SqlServer', configuration added for 'CompatibilityLevel'.
+2024-02-13 16:20:01 Entity Framework Core 8.0.1 initialized 'InsuranceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-02-13 16:20:01 Compiling query expression: 
+'DbSet<User>()
+    .Where(u => u.Username == __username_0)
+    .FirstOrDefault()'
+2024-02-13 16:20:01 Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Required MaxLength(50) ANSI, 1], [Property: User.Password (string) Required MaxLength(100) ANSI, 2], [Property: User.RoleId (int) Required FK Index, 3], [Property: User.Username (string) Required MaxLength(50) ANSI, 4] }
+        SELECT TOP(1) u.id, u.email, u.password, u.role_id, u.username
+        FROM User AS u
+        WHERE u.username == @__username_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    RepositryAssignement.Models.InsuranceDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-02-13 16:20:02 Creating DbConnection.
+2024-02-13 16:20:02 Created DbConnection. (14ms).
+2024-02-13 16:20:02 Opening connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Opened connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Creating DbCommand for 'ExecuteReader'.
+2024-02-13 16:20:02 Created DbCommand for 'ExecuteReader' (2ms).
+2024-02-13 16:20:02 Initialized DbCommand for 'ExecuteReader' (11ms).
+2024-02-13 16:20:02 Executing DbCommand [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username]
+FROM [User] AS [u]
+WHERE [u].[username] = @__username_0
+2024-02-13 16:20:02 Executed DbCommand (35ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username]
+FROM [User] AS [u]
+WHERE [u].[username] = @__username_0
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Closing data reader to 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 A data reader for 'insuranceDB' on server 'BHARATHCOMPUTER' is being disposed after spending 52ms reading results.
+2024-02-13 16:20:02 Closing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Closed connection to database 'insuranceDB' on server 'BHARATHCOMPUTER' (4ms).
+2024-02-13 16:20:02 Accessing expired session, Key:3f28b3a8-515b-9d10-36c7-fdc262b2299a
+2024-02-13 16:20:02 Executing RedirectResult, redirecting to Policy/Index.
+2024-02-13 16:20:02 Executed action RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) in 1205.6861ms
+2024-02-13 16:20:02 Executed endpoint 'RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)'
+2024-02-13 16:20:02 Session started; Key:3f28b3a8-515b-9d10-36c7-fdc262b2299a, Id:28ae3c25-5ad7-9758-77ca-13666f726e9a
+2024-02-13 16:20:02 Session stored; Key:3f28b3a8-515b-9d10-36c7-fdc262b2299a, Id:28ae3c25-5ad7-9758-77ca-13666f726e9a, Count:1
+2024-02-13 16:20:02 'InsuranceDbContext' disposed.
+2024-02-13 16:20:02 Disposing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Request starting HTTP/2 GET https://localhost:7154/Policy/Index - null null
+2024-02-13 16:20:02 The request path /Policy/Index does not match a supported file type
+2024-02-13 16:20:02 Disposed connection to database '' on server '' (1ms).
+2024-02-13 16:20:02 1 candidate(s) found for the request path '/Policy/Index'
+2024-02-13 16:20:02 Endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)' with route pattern 'Policy/Index' is valid for the request path '/Policy/Index'
+2024-02-13 16:20:02 Request matched endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:02 Request finished HTTP/2 POST https://localhost:7154/Login - 302 0 null 1220.5102ms
+2024-02-13 16:20:02 Executing endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:02 Route matched with {action = "Index", controller = "Policy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement).
+2024-02-13 16:20:02 Execution plan of authorization filters (in the following order): ["None"]
+2024-02-13 16:20:02 Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:20:02 Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","RepositryAssignement.Filter.AuthorizationFilter (Order: 0)"]
+2024-02-13 16:20:02 Execution plan of exception filters (in the following order): ["None"]
+2024-02-13 16:20:02 Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","RepositryAssignement.Filter.AuthorizationFilter (Order: 0)"]
+2024-02-13 16:20:02 Executing controller factory for controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement)
+2024-02-13 16:20:02 Executed controller factory for controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement)
+2024-02-13 16:20:02 Session loaded; Key:3f28b3a8-515b-9d10-36c7-fdc262b2299a, Id:28ae3c25-5ad7-9758-77ca-13666f726e9a, Count:1
+2024-02-13 16:20:02 Entity Framework Core 8.0.1 initialized 'InsuranceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-02-13 16:20:02 Compiling query expression: 
+'DbSet<Plan>()
+    .Include(PL => PL.Provider)'
+2024-02-13 16:20:02 Including navigation: 'Plan.Provider'.
+2024-02-13 16:20:02 Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Plan>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Plan.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Plan.AddonId (int) Required FK Index, 1], [Property: Plan.CommissionPercentage (long) Required, 2], [Property: Plan.Deductibles (long) Required, 3], [Property: Plan.Description (string) Required MaxLength(255) ANSI, 4], [Property: Plan.GeneralEliglibity (string) Required MaxLength(255) ANSI, 5], [Property: Plan.LaunchDate (DateOnly) Required, 6], [Property: Plan.MaxAgeEligiblity (long) Required, 7], [Property: Plan.MaxCoverageAmount (long) Required, 8], [Property: Plan.MinIncomeEligiblity (long) Required, 9], [Property: Plan.PlanName (string) Required MaxLength(255) ANSI, 10], [Property: Plan.ProviderId (int) Required FK Index, 11], [Property: Plan.SubtypeId (int) Required FK Index, 12] }
+            1 -> Dictionary<IProperty, int> { [Property: Provider.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 13], [Property: Provider.CityId (int) Required FK Index, 14], [Property: Provider.Description (string) Required MaxLength(255) ANSI, 15], [Property: Provider.LaunchDate (DateOnly) Required, 16], [Property: Provider.MailId (string) Required MaxLength(255) ANSI, 17], [Property: Provider.MoblieNo (string) Required MaxLength(255) ANSI, 18], [Property: Provider.PhoneNo (string) Required MaxLength(255) ANSI, 19], [Property: Provider.Street (string) Required MaxLength(255) ANSI, 20], [Property: Provider.Testimonials (string) Required MaxLength(255) ANSI, 21], [Property: Provider.UserId (int?) FK Index ValueGenerated.OnAdd, 22] }
+        SELECT p.id, p.addon_id, p.commission_percentage, p.deductibles, p.description, p.general_eliglibity, p.launch_date, p.max_Age_eligiblity, p.max_Coverage_amount, p.min_Income_eligiblity, p.plan_name, p.provider_id, p.subtype_id, p0.id, p0.city id, p0.description, p0.launch_date, p0.mail_ID, p0.moblie_no, p0.phone_no, p0.street, p0.testimonials, p0.user_id
+        FROM Plan AS p
+        INNER JOIN Provider AS p0 ON p.provider_id == p0.id), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Plan>, 
+    RepositryAssignement.Models.InsuranceDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-02-13 16:20:02 Creating DbConnection.
+2024-02-13 16:20:02 Created DbConnection. (0ms).
+2024-02-13 16:20:02 Opening connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Opened connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Creating DbCommand for 'ExecuteReader'.
+2024-02-13 16:20:02 Created DbCommand for 'ExecuteReader' (0ms).
+2024-02-13 16:20:02 Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-02-13 16:20:02 Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[addon_id], [p].[commission_percentage], [p].[deductibles], [p].[description], [p].[general_eliglibity], [p].[launch_date], [p].[max_Age_eligiblity], [p].[max_Coverage_amount], [p].[min_Income_eligiblity], [p].[plan_name], [p].[provider_id], [p].[subtype_id], [p0].[id], [p0].[city id], [p0].[description], [p0].[launch_date], [p0].[mail_ID], [p0].[moblie_no], [p0].[phone_no], [p0].[street], [p0].[testimonials], [p0].[user_id]
+FROM [Plan] AS [p]
+INNER JOIN [Provider] AS [p0] ON [p].[provider_id] = [p0].[id]
+2024-02-13 16:20:02 Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[addon_id], [p].[commission_percentage], [p].[deductibles], [p].[description], [p].[general_eliglibity], [p].[launch_date], [p].[max_Age_eligiblity], [p].[max_Coverage_amount], [p].[min_Income_eligiblity], [p].[plan_name], [p].[provider_id], [p].[subtype_id], [p0].[id], [p0].[city id], [p0].[description], [p0].[launch_date], [p0].[mail_ID], [p0].[moblie_no], [p0].[phone_no], [p0].[street], [p0].[testimonials], [p0].[user_id]
+FROM [Plan] AS [p]
+INNER JOIN [Provider] AS [p0] ON [p].[provider_id] = [p0].[id]
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:02 Closing data reader to 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 A data reader for 'insuranceDB' on server 'BHARATHCOMPUTER' is being disposed after spending 49ms reading results.
+2024-02-13 16:20:02 Closing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Closed connection to database 'insuranceDB' on server 'BHARATHCOMPUTER' (0ms).
+2024-02-13 16:20:02 System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 16:20:02 View lookup cache miss for view 'Index' in controller 'Policy'.
+2024-02-13 16:20:02 Executing ViewResult, running view Index.
+2024-02-13 16:20:02 The view path '/Views/Policy/Index.cshtml' was found in 0.6294ms.
+2024-02-13 16:20:02 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Policy])
+2024-02-13 16:20:02 Successfully processed template Policy/Index for RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) resulting in /Policy/Index and 
+2024-02-13 16:20:02 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Index
+2024-02-13 16:20:02 An antiforgery cookie token was reused.
+2024-02-13 16:20:02 View lookup cache miss for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:02 View lookup cache miss for view '_Header' in controller 'Policy'.
+2024-02-13 16:20:02 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Policy])
+2024-02-13 16:20:02 Successfully processed template Policy/Index for RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) resulting in /Policy/Index and 
+2024-02-13 16:20:02 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Index
+2024-02-13 16:20:02 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Details],controller=[Policy])
+2024-02-13 16:20:02 Successfully processed template Policy/Details for RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement) resulting in /Policy/Details and 
+2024-02-13 16:20:02 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Details
+2024-02-13 16:20:02 Found the endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Home])
+2024-02-13 16:20:02 Successfully processed template Login for RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) resulting in /Login and 
+2024-02-13 16:20:02 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-02-13 16:20:02 Response markup is scheduled to include browser refresh script injection.
+2024-02-13 16:20:02 Executed ViewResult - view Index executed in 31.7076ms.
+2024-02-13 16:20:02 Executed action RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) in 156.6217ms
+2024-02-13 16:20:02 Executed endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:02 Response markup was updated to include browser refresh script injection.
+2024-02-13 16:20:02 'InsuranceDbContext' disposed.
+2024-02-13 16:20:02 Disposing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:02 Disposed connection to database '' on server '' (0ms).
+2024-02-13 16:20:02 Request finished HTTP/2 GET https://localhost:7154/Policy/Index - 200 null text/html; charset=utf-8 160.5903ms
+2024-02-13 16:20:02 Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - null null
+2024-02-13 16:20:02 Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-13 16:20:02 Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 1.7753ms
+2024-02-13 16:20:02 Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.2631ms
+2024-02-13 16:20:15 Request starting HTTP/2 GET https://localhost:7154/Policy/Index - null null
+2024-02-13 16:20:15 The request path /Policy/Index does not match a supported file type
+2024-02-13 16:20:15 1 candidate(s) found for the request path '/Policy/Index'
+2024-02-13 16:20:15 Endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)' with route pattern 'Policy/Index' is valid for the request path '/Policy/Index'
+2024-02-13 16:20:15 Request matched endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:15 Executing endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:15 Route matched with {action = "Index", controller = "Policy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement).
+2024-02-13 16:20:15 Execution plan of authorization filters (in the following order): ["None"]
+2024-02-13 16:20:15 Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-13 16:20:15 Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","RepositryAssignement.Filter.AuthorizationFilter (Order: 0)"]
+2024-02-13 16:20:15 Execution plan of exception filters (in the following order): ["None"]
+2024-02-13 16:20:15 Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","RepositryAssignement.Filter.AuthorizationFilter (Order: 0)"]
+2024-02-13 16:20:15 Executing controller factory for controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement)
+2024-02-13 16:20:15 Executed controller factory for controller RepositryAssignement.Controllers.PolicyController (RepositryAssignement)
+2024-02-13 16:20:15 Session loaded; Key:3f28b3a8-515b-9d10-36c7-fdc262b2299a, Id:28ae3c25-5ad7-9758-77ca-13666f726e9a, Count:1
+2024-02-13 16:20:15 Entity Framework Core 8.0.1 initialized 'InsuranceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.1' with options: None
+2024-02-13 16:20:15 Creating DbConnection.
+2024-02-13 16:20:15 Created DbConnection. (0ms).
+2024-02-13 16:20:15 Opening connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:15 Opened connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:15 Creating DbCommand for 'ExecuteReader'.
+2024-02-13 16:20:15 Created DbCommand for 'ExecuteReader' (0ms).
+2024-02-13 16:20:15 Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-02-13 16:20:15 Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[addon_id], [p].[commission_percentage], [p].[deductibles], [p].[description], [p].[general_eliglibity], [p].[launch_date], [p].[max_Age_eligiblity], [p].[max_Coverage_amount], [p].[min_Income_eligiblity], [p].[plan_name], [p].[provider_id], [p].[subtype_id], [p0].[id], [p0].[city id], [p0].[description], [p0].[launch_date], [p0].[mail_ID], [p0].[moblie_no], [p0].[phone_no], [p0].[street], [p0].[testimonials], [p0].[user_id]
+FROM [Plan] AS [p]
+INNER JOIN [Provider] AS [p0] ON [p].[provider_id] = [p0].[id]
+2024-02-13 16:20:15 Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[addon_id], [p].[commission_percentage], [p].[deductibles], [p].[description], [p].[general_eliglibity], [p].[launch_date], [p].[max_Age_eligiblity], [p].[max_Coverage_amount], [p].[min_Income_eligiblity], [p].[plan_name], [p].[provider_id], [p].[subtype_id], [p0].[id], [p0].[city id], [p0].[description], [p0].[launch_date], [p0].[mail_ID], [p0].[moblie_no], [p0].[phone_no], [p0].[street], [p0].[testimonials], [p0].[user_id]
+FROM [Plan] AS [p]
+INNER JOIN [Provider] AS [p0] ON [p].[provider_id] = [p0].[id]
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Plan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 The navigation 'Plan.Provider' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Context 'InsuranceDbContext' started tracking 'Provider' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-13 16:20:15 Closing data reader to 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:15 A data reader for 'insuranceDB' on server 'BHARATHCOMPUTER' is being disposed after spending 0ms reading results.
+2024-02-13 16:20:15 Closing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:15 Closed connection to database 'insuranceDB' on server 'BHARATHCOMPUTER' (0ms).
+2024-02-13 16:20:15 System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-13 16:20:15 View lookup cache hit for view 'Index' in controller 'Policy'.
+2024-02-13 16:20:15 Executing ViewResult, running view Index.
+2024-02-13 16:20:15 The view path '/Views/Policy/Index.cshtml' was found in 0.0644ms.
+2024-02-13 16:20:15 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Policy])
+2024-02-13 16:20:15 Successfully processed template Policy/Index for RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) resulting in /Policy/Index and 
+2024-02-13 16:20:15 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Index
+2024-02-13 16:20:15 An antiforgery cookie token was reused.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view 'DisplayTemplates/String' in controller 'Policy'.
+2024-02-13 16:20:15 View lookup cache hit for view '_Header' in controller 'Policy'.
+2024-02-13 16:20:15 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Policy])
+2024-02-13 16:20:15 Successfully processed template Policy/Index for RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) resulting in /Policy/Index and 
+2024-02-13 16:20:15 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Index
+2024-02-13 16:20:15 Found the endpoints ["RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Details],controller=[Policy])
+2024-02-13 16:20:15 Successfully processed template Policy/Details for RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement) resulting in /Policy/Details and 
+2024-02-13 16:20:15 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","RepositryAssignement.Controllers.PolicyController.Details (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Policy/Details
+2024-02-13 16:20:15 Found the endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Home])
+2024-02-13 16:20:15 Successfully processed template Login for RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement) resulting in /Login and 
+2024-02-13 16:20:15 Link generation succeeded for endpoints ["RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","RepositryAssignement.Controllers.HomeController.Login (RepositryAssignement)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-02-13 16:20:15 Response markup is scheduled to include browser refresh script injection.
+2024-02-13 16:20:15 Executed ViewResult - view Index executed in 7.3552ms.
+2024-02-13 16:20:15 Executed action RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement) in 62.2194ms
+2024-02-13 16:20:15 Executed endpoint 'RepositryAssignement.Controllers.PolicyController.Index (RepositryAssignement)'
+2024-02-13 16:20:15 Response markup was updated to include browser refresh script injection.
+2024-02-13 16:20:15 'InsuranceDbContext' disposed.
+2024-02-13 16:20:15 Disposing connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-13 16:20:15 Disposed connection to database '' on server '' (0ms).
+2024-02-13 16:20:15 Request finished HTTP/2 GET https://localhost:7154/Policy/Index - 200 null text/html; charset=utf-8 66.8795ms
+2024-02-13 16:20:15 Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - null null
+2024-02-13 16:20:15 Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-13 16:20:15 Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 0.6983ms
+2024-02-13 16:20:15 Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5222ms

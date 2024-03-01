@@ -1,0 +1,78 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Riot&display=swap" rel="stylesheet">
+<style>
+
+.custome-blue{
+        color: #86B6F6 !important;
+}
+.custome-container {
+            padding-left:0px !important;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        
+        }
+.custome-font{
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+}
+
+
+    @@media (min-width: 992px) { 
+        .container-lg {
+            margin-left: 35px !important;
+        }
+    }
+
+    .h6{
+        margin:0px
+    }
+    
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light  shadow-sm sticky-top bg-white">
+    <div class="container-fluid" >
+            <img src="@Url.Content("~/Assert/Image/download.png")" alt="Image" style="border-radius:50px ; width:40px ; margin:0 32px 0 10px" class="pl-5 p-md-0" />
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  container-lg custome-container "  id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                <li class="nav-item active">
+                    <a class="nav-link " style="font-size:18px;font-weight:600;" asp-action="Index">Enrole Policy</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " style="font-size:18px;font-weight:600;" asp-action="Details">Enrolled Policies</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " style="font-size:18px;font-weight:600;" asp-action="Upload">Multile Upload</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 d-flex align-items-center  gap-3 mr-lg-5 mx-lg-3 ">
+                <p class="text-center m-0 custome-font">
+                    Hi, 
+                    @HttpContextAccessor.HttpContext.Session.GetString("UserName")
+
+                </p>
+               <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle custome-blue" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+               </div>
+            </div>
+                <a asp-action="Login" asp-controller="Home" type="button" class="btn btn-primary btn-sm">Logout</a>
+        </div>
+    </div>
+</nav>

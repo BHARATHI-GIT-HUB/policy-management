@@ -1,0 +1,81 @@
+2024-02-25 21:19:41 Policy Management System Started..........
+2024-02-25 21:19:42 HTTP GET / responded 200 in 472.3531 ms
+2024-02-25 21:19:42 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 28.6613 ms
+2024-02-25 21:19:42 HTTP GET /Assert/Image/download.png responded 200 in 41.7660 ms
+2024-02-25 21:19:42 HTTP GET /css/site.css responded 200 in 46.9492 ms
+2024-02-25 21:19:42 HTTP GET /js/site.js responded 200 in 2.1047 ms
+2024-02-25 21:19:42 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 23.0305 ms
+2024-02-25 21:19:42 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 32.1864 ms
+2024-02-25 21:19:42 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 71.1213 ms
+2024-02-25 21:19:42 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 57.7579 ms
+2024-02-25 21:20:05 Policy Management System Started..........
+2024-02-25 21:20:05 Login Details AD ram@123
+2024-02-25 21:20:07 User With Name AD is Not Registered
+2024-02-25 21:20:07 HTTP POST /Login responded 200 in 1578.0324 ms
+2024-02-25 21:20:07 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.6528 ms
+2024-02-25 21:20:26 Policy Management System Started..........
+2024-02-25 21:20:26 Login Details Admin Admin@123
+2024-02-25 21:20:26 Password For the User Name Admin@123 is Incorrect
+2024-02-25 21:20:26 HTTP POST /Login responded 200 in 116.0634 ms
+2024-02-25 21:20:26 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3499 ms
+2024-02-25 21:20:48 Policy Management System Started..........
+2024-02-25 21:20:48 Login Details Admin admin@123
+2024-02-25 21:20:48 Valid Login Details
+2024-02-25 21:20:48 HTTP POST /Login responded 302 in 69.1387 ms
+2024-02-25 21:20:48 Redirected to Policy Enrollment page
+2024-02-25 21:20:48 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-25 21:20:48 HTTP GET /Policy/Index responded 200 in 377.5058 ms
+2024-02-25 21:20:48 HTTP GET /RepositryAssignement.styles.css responded 200 in 1.7347 ms
+2024-02-25 21:20:48 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 9.1589 ms
+2024-02-25 22:02:22 Policy Management System Started..........
+2024-02-25 22:02:22 HTTP GET / responded 200 in 12.5079 ms
+2024-02-25 22:02:22 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 1.9053 ms
+2024-02-25 22:02:22 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6676 ms
+2024-02-25 22:02:22 HTTP GET /css/site.css responded 304 in 0.3764 ms
+2024-02-25 22:02:23 Policy Management System Started..........
+2024-02-25 22:02:23 HTTP GET / responded 200 in 3.4739 ms
+2024-02-25 22:02:23 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6994 ms
+2024-02-25 22:02:23 HTTP GET /Assert/Image/download.png responded 304 in 0.3452 ms
+2024-02-25 22:02:23 HTTP GET /Assert/Logo/banner-image.svg responded 304 in 2.4634 ms
+2024-02-25 22:02:23 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.1591 ms
+2024-02-25 22:02:23 HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.6398 ms
+2024-02-25 22:02:24 HTTP GET /js/site.js responded 304 in 4.5141 ms
+2024-02-25 22:02:35 Policy Management System Started..........
+2024-02-25 22:02:35 Login Details admin admin@123
+2024-02-25 22:02:35 Valid Login Details
+2024-02-25 22:02:35 HTTP POST /Login responded 302 in 22.3793 ms
+2024-02-25 22:02:35 Redirected to Policy Enrollment page
+2024-02-25 22:02:35 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-25 22:02:35 HTTP GET /Policy/Index responded 200 in 29.5873 ms
+2024-02-25 22:02:36 HTTP GET /RepositryAssignement.styles.css responded 304 in 1.4903 ms
+2024-02-25 22:02:38 Trying to Get all policy Details 
+2024-02-25 22:02:38 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-25 22:02:38 HTTP GET /Policy/Details responded 200 in 220.7335 ms
+2024-02-25 22:02:39 Opened Bulk Upload page......
+2024-02-25 22:02:39 HTTP GET /Policy/Upload responded 200 in 7.9835 ms
+2024-02-25 22:02:40 Trying to Get all policy Details 
+2024-02-25 22:02:40 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-25 22:02:40 HTTP GET /Policy/Details responded 200 in 23.5712 ms
+2024-02-25 22:02:49 Succesfully Filtered Policy with city with id 3
+2024-02-25 22:02:49 HTTP POST /Policy/Filter responded 200 in 35.7350 ms
+2024-02-25 22:02:52 Succesfully Filtered Policy with city with id 2
+2024-02-25 22:02:52 HTTP POST /Policy/Filter responded 200 in 14.5022 ms
+2024-02-25 22:02:55 Redirected to Policy Enrollment page
+2024-02-25 22:02:55 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-25 22:02:55 HTTP GET /Policy/Index responded 200 in 10.1021 ms
+2024-02-25 22:03:05 Opened Bulk Upload page......
+2024-02-25 22:03:05 HTTP GET /Policy/Upload responded 200 in 2.9041 ms
+2024-02-25 22:05:00 Redirected to Policy Enrollment page
+2024-02-25 22:05:00 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-25 22:05:00 HTTP GET /Policy/Index responded 200 in 26.1396 ms
+2024-02-25 22:05:01 selected plan id 14
+2024-02-25 22:05:01 HTTP POST /Policy/Index responded 302 in 4.4495 ms
+2024-02-25 22:05:01 Enrolling to plan with  id 14
+2024-02-25 22:05:01 plan with id is RepositryAssignement.Models.Plan
+2024-02-25 22:05:01 HTTP GET /Policy/Create responded 200 in 58.2004 ms
+2024-02-25 22:05:01 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9100 ms
+2024-02-25 22:05:05 Trying to Get all policy Details 
+2024-02-25 22:05:05 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-25 22:05:05 HTTP GET /Policy/Details responded 200 in 27.4556 ms
+2024-02-25 22:05:05 Opened Bulk Upload page......
+2024-02-25 22:05:05 HTTP GET /Policy/Upload responded 200 in 3.7097 ms

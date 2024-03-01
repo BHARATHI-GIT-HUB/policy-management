@@ -1,0 +1,414 @@
+2024-02-24 10:43:50 Policy Management System Started..........
+2024-02-24 10:43:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 6.6545 ms
+2024-02-24 10:43:50 HTTP GET /css/site.css responded 304 in 7.1591 ms
+2024-02-24 10:43:50 HTTP GET /Assert/Image/download.png responded 304 in 20.2874 ms
+2024-02-24 10:43:50 HTTP GET / responded 200 in 778.0604 ms
+2024-02-24 10:43:54 Policy Management System Started..........
+2024-02-24 10:43:54 Login Details ram ram@123
+2024-02-24 10:44:13 An error occurred using the connection to database 'insuranceDB' on server 'BHARATHCOMPUTER'.
+2024-02-24 10:44:13 An exception occurred while iterating over the results of a query for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-02-24 10:44:13 Not A Valid Login Details A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2024-02-24 10:44:13 HTTP POST /Login responded 200 in 18580.7809 ms
+2024-02-24 10:44:13 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3496 ms
+2024-02-24 10:44:14 Policy Management System Started..........
+2024-02-24 10:44:14 HTTP GET / responded 200 in 8.2193 ms
+2024-02-24 10:44:14 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4440 ms
+2024-02-24 10:44:15 Policy Management System Started..........
+2024-02-24 10:44:15 HTTP GET / responded 200 in 7.5450 ms
+2024-02-24 10:44:15 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4420 ms
+2024-02-24 10:44:25 Policy Management System Started..........
+2024-02-24 10:44:25 Login Details admin admin@123
+2024-02-24 10:44:25 Valid Login Details
+2024-02-24 10:44:25 HTTP POST /Login responded 302 in 194.0882 ms
+2024-02-24 10:44:25 Redirected to Policy Enrollment page
+2024-02-24 10:44:26 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:44:26 HTTP GET /Policy/Index responded 200 in 374.4553 ms
+2024-02-24 10:44:28 Trying to Get all policy Details 
+2024-02-24 10:44:28 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:28 HTTP GET /Policy/Details responded 200 in 145.1006 ms
+2024-02-24 10:44:30 Opened Bulk Upload page......
+2024-02-24 10:44:30 HTTP GET /Policy/Upload responded 200 in 11.7010 ms
+2024-02-24 10:44:33 Trying to Get all policy Details 
+2024-02-24 10:44:33 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:33 HTTP GET /Policy/Details responded 200 in 72.2933 ms
+2024-02-24 10:44:34 Redirected to Policy Enrollment page
+2024-02-24 10:44:34 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:44:34 HTTP GET /Policy/Index responded 200 in 9.1804 ms
+2024-02-24 10:44:36 Trying to Get all policy Details 
+2024-02-24 10:44:36 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:36 HTTP GET /Policy/Details responded 200 in 23.4672 ms
+2024-02-24 10:44:41 Trying to Delete the policy by id 152 
+2024-02-24 10:44:41 HTTP GET /Policy/Delete/152 responded 200 in 44.3001 ms
+2024-02-24 10:44:43 Succesfully Deleted  Policy with  id 152 
+2024-02-24 10:44:43 HTTP POST /Policy/Delete/152 responded 302 in 92.2697 ms
+2024-02-24 10:44:43 Trying to Get all policy Details 
+2024-02-24 10:44:43 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:43 HTTP GET /Policy/Details responded 200 in 23.2371 ms
+2024-02-24 10:44:44 Trying to Delete the policy by id 145 
+2024-02-24 10:44:44 HTTP GET /Policy/Delete/145 responded 200 in 6.7564 ms
+2024-02-24 10:44:45 Succesfully Deleted  Policy with  id 145 
+2024-02-24 10:44:45 HTTP POST /Policy/Delete/145 responded 302 in 3.8925 ms
+2024-02-24 10:44:45 Trying to Get all policy Details 
+2024-02-24 10:44:45 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:45 HTTP GET /Policy/Details responded 200 in 19.2294 ms
+2024-02-24 10:44:47 Trying to Delete the policy by id 143 
+2024-02-24 10:44:47 HTTP GET /Policy/Delete/143 responded 200 in 6.3449 ms
+2024-02-24 10:44:48 Succesfully Deleted  Policy with  id 143 
+2024-02-24 10:44:48 HTTP POST /Policy/Delete/143 responded 302 in 3.1403 ms
+2024-02-24 10:44:48 Trying to Get all policy Details 
+2024-02-24 10:44:48 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:48 HTTP GET /Policy/Details responded 200 in 19.4744 ms
+2024-02-24 10:44:49 Trying to Delete the policy by id 148 
+2024-02-24 10:44:49 HTTP GET /Policy/Delete/148 responded 200 in 6.6214 ms
+2024-02-24 10:44:50 Succesfully Deleted  Policy with  id 148 
+2024-02-24 10:44:50 HTTP POST /Policy/Delete/148 responded 302 in 2.6903 ms
+2024-02-24 10:44:50 Trying to Get all policy Details 
+2024-02-24 10:44:50 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:50 HTTP GET /Policy/Details responded 200 in 18.5824 ms
+2024-02-24 10:44:52 Trying to Delete the policy by id 140 
+2024-02-24 10:44:52 HTTP GET /Policy/Delete/140 responded 200 in 5.8091 ms
+2024-02-24 10:44:53 Succesfully Deleted  Policy with  id 140 
+2024-02-24 10:44:53 HTTP POST /Policy/Delete/140 responded 302 in 2.8118 ms
+2024-02-24 10:44:53 Trying to Get all policy Details 
+2024-02-24 10:44:53 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:53 HTTP GET /Policy/Details responded 200 in 16.1966 ms
+2024-02-24 10:44:55 Trying to Delete the policy by id 133 
+2024-02-24 10:44:55 HTTP GET /Policy/Delete/133 responded 200 in 5.9768 ms
+2024-02-24 10:44:56 Succesfully Deleted  Policy with  id 133 
+2024-02-24 10:44:56 HTTP POST /Policy/Delete/133 responded 302 in 3.1497 ms
+2024-02-24 10:44:56 Trying to Get all policy Details 
+2024-02-24 10:44:56 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:56 HTTP GET /Policy/Details responded 200 in 15.3798 ms
+2024-02-24 10:44:57 Trying to Delete the policy by id 141 
+2024-02-24 10:44:57 HTTP GET /Policy/Delete/141 responded 200 in 5.8235 ms
+2024-02-24 10:44:59 Succesfully Deleted  Policy with  id 141 
+2024-02-24 10:44:59 HTTP POST /Policy/Delete/141 responded 302 in 2.7388 ms
+2024-02-24 10:44:59 Trying to Get all policy Details 
+2024-02-24 10:44:59 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:44:59 HTTP GET /Policy/Details responded 200 in 14.9067 ms
+2024-02-24 10:45:01 Opened Bulk Upload page......
+2024-02-24 10:45:01 HTTP GET /Policy/Upload responded 200 in 2.9200 ms
+2024-02-24 10:45:07 Inserting Bulk Enrollment ......
+2024-02-24 10:45:09 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 167
+2024-02-24 10:45:09 HTTP POST /Policy/TableData responded 302 in 1329.8799 ms
+2024-02-24 10:45:09 Trying to Get all policy Details 
+2024-02-24 10:45:09 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:45:09 HTTP GET /Policy/Details responded 200 in 15.5775 ms
+2024-02-24 10:45:27 Redirected to Policy Enrollment page
+2024-02-24 10:45:27 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:45:27 HTTP GET /Policy/Index responded 200 in 7.8650 ms
+2024-02-24 10:45:30 Trying to Get all policy Details 
+2024-02-24 10:45:30 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 10:45:30 HTTP GET /Policy/Details responded 200 in 18.5702 ms
+2024-02-24 10:45:31 Redirected to Policy Enrollment page
+2024-02-24 10:45:31 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:45:31 HTTP GET /Policy/Index responded 200 in 7.6749 ms
+2024-02-24 10:45:32 selected plan id 14
+2024-02-24 10:45:32 HTTP POST /Policy/Index responded 302 in 3.9681 ms
+2024-02-24 10:45:32 Enrolling to plan with  id 14
+2024-02-24 10:45:32 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 10:45:32 HTTP GET /Policy/Create responded 200 in 35.5889 ms
+2024-02-24 10:45:32 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 3.1082 ms
+2024-02-24 10:45:34 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-24 10:45:34 HTTP POST /Policy/Create responded 302 in 3.9466 ms
+2024-02-24 10:45:34 Submitting View Action method triggered
+2024-02-24 10:45:34 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 10:45:34 HTTP GET /Policy/Submit responded 200 in 27.3379 ms
+2024-02-24 10:45:34 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.2890 ms
+2024-02-24 10:55:35 Policy Management System Started..........
+2024-02-24 10:55:35 Login Details ra ram@123
+2024-02-24 10:55:35 User With Name ra is Not Registered
+2024-02-24 10:55:35 HTTP POST /Login responded 200 in 83.8094 ms
+2024-02-24 10:55:35 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4275 ms
+2024-02-24 10:55:39 Policy Management System Started..........
+2024-02-24 10:55:39 Login Details ram ram@12
+2024-02-24 10:55:39 Password For the User Name ram@12 is Incorrect
+2024-02-24 10:55:39 HTTP POST /Login responded 200 in 32.5005 ms
+2024-02-24 10:55:39 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.4935 ms
+2024-02-24 10:58:31 Policy Management System Started..........
+2024-02-24 10:58:31 HTTP GET / responded 200 in 3.4566 ms
+2024-02-24 10:58:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8913 ms
+2024-02-24 10:58:31 HTTP GET /css/site.css responded 200 in 27.1002 ms
+2024-02-24 10:58:31 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 28.7994 ms
+2024-02-24 10:58:31 HTTP GET /Assert/Image/download.png responded 200 in 1.8326 ms
+2024-02-24 10:58:31 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 5.4800 ms
+2024-02-24 10:58:31 HTTP GET /js/site.js responded 200 in 1.0296 ms
+2024-02-24 10:58:31 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 8.1099 ms
+2024-02-24 10:58:31 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 43.6571 ms
+2024-02-24 10:58:32 HTTP GET /favicon.ico responded 200 in 4.5019 ms
+2024-02-24 10:58:36 Policy Management System Started..........
+2024-02-24 10:58:36 Login Details ram ram@123
+2024-02-24 10:58:36 Valid Login Details
+2024-02-24 10:58:36 HTTP POST /Login responded 302 in 5.8202 ms
+2024-02-24 10:58:36 Redirected to Policy Enrollment page
+2024-02-24 10:58:36 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:58:36 HTTP GET /Policy/Index responded 200 in 8.1908 ms
+2024-02-24 10:58:36 HTTP GET /RepositryAssignement.styles.css responded 200 in 1.7422 ms
+2024-02-24 10:58:36 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 1.5614 ms
+2024-02-24 10:58:40 Redirected to Policy Enrollment page
+2024-02-24 10:58:40 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 10:58:40 HTTP GET /Policy/Index responded 200 in 8.2434 ms
+2024-02-24 10:58:41 selected plan id 14
+2024-02-24 10:58:41 HTTP POST /Policy/Index responded 302 in 1.6968 ms
+2024-02-24 10:58:41 Enrolling to plan with  id 14
+2024-02-24 10:58:41 HTTP GET /Policy/Create responded 200 in 5.6128 ms
+2024-02-24 10:58:41 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.0426 ms
+2024-02-24 10:58:42 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-24 10:58:42 HTTP POST /Policy/Create responded 302 in 1.7398 ms
+2024-02-24 10:58:42 Submitting View Action method triggered
+2024-02-24 10:58:42 HTTP GET /Policy/Submit responded 200 in 6.1149 ms
+2024-02-24 10:58:42 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.5361 ms
+2024-02-24 10:58:45 Enrolling to plan with  id 14
+2024-02-24 10:58:45 HTTP GET /Policy/Create responded 200 in 6.0170 ms
+2024-02-24 10:58:46 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-24 10:58:46 HTTP POST /Policy/Create responded 302 in 1.4752 ms
+2024-02-24 10:58:46 Submitting View Action method triggered
+2024-02-24 10:58:46 HTTP GET /Policy/Submit responded 200 in 5.3336 ms
+2024-02-24 10:58:46 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.7129 ms
+2024-02-24 11:02:44 Redirected to Policy Enrollment page
+2024-02-24 11:02:44 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:02:44 HTTP GET /Policy/Index responded 200 in 25.0059 ms
+2024-02-24 11:10:04 Redirected to Policy Enrollment page
+2024-02-24 11:10:04 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:10:04 HTTP GET /Policy/Index responded 200 in 21.3189 ms
+2024-02-24 11:10:07 selected plan id 14
+2024-02-24 11:10:07 HTTP POST /Policy/Index responded 302 in 4.3369 ms
+2024-02-24 11:10:07 Enrolling to plan with  id 14
+2024-02-24 11:10:07 HTTP GET /Policy/Create responded 200 in 8.1209 ms
+2024-02-24 11:10:07 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3072 ms
+2024-02-24 11:10:09 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-24 11:10:09 HTTP POST /Policy/Create responded 302 in 3.3003 ms
+2024-02-24 11:10:09 Submitting View Action method triggered
+2024-02-24 11:10:09 HTTP GET /Policy/Submit responded 200 in 13.8209 ms
+2024-02-24 11:10:09 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.8121 ms
+2024-02-24 11:10:10 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 168
+2024-02-24 11:10:10 HTTP POST /Policy/Submit responded 302 in 11.3735 ms
+2024-02-24 11:10:10 Trying to Get the Detail About plan with id 168
+2024-02-24 11:10:10 Succesfully Fetched the plan with  id 168 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:10:10 HTTP GET /Policy/Detail/168 responded 200 in 22.1145 ms
+2024-02-24 11:11:48 Trying to Get the Detail About plan with id 168
+2024-02-24 11:11:48 Succesfully Fetched the plan with  id 168 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:11:48 HTTP GET /Policy/Detail/168 responded 200 in 20.1807 ms
+2024-02-24 11:12:31 Trying to Get the Detail About plan with id 168
+2024-02-24 11:12:31 Succesfully Fetched the plan with  id 168 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:12:31 HTTP GET /Policy/Detail/168 responded 200 in 19.5073 ms
+2024-02-24 11:12:37 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 169
+2024-02-24 11:12:37 HTTP POST /Policy/Submit responded 302 in 9.0008 ms
+2024-02-24 11:12:37 Trying to Get the Detail About plan with id 169
+2024-02-24 11:12:37 Succesfully Fetched the plan with  id 169 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:12:37 HTTP GET /Policy/Detail/169 responded 200 in 5.5395 ms
+2024-02-24 11:13:23 Trying to Get the Detail About plan with id 169
+2024-02-24 11:13:23 Succesfully Fetched the plan with  id 169 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:13:23 HTTP GET /Policy/Detail/169 responded 200 in 20.2110 ms
+2024-02-24 11:13:26 Redirected to Policy Enrollment page
+2024-02-24 11:13:26 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:13:26 HTTP GET /Policy/Index responded 200 in 16.7266 ms
+2024-02-24 11:13:27 selected plan id 14
+2024-02-24 11:13:27 HTTP POST /Policy/Index responded 302 in 2.4665 ms
+2024-02-24 11:13:27 Enrolling to plan with  id 14
+2024-02-24 11:13:27 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 11:13:27 HTTP GET /Policy/Create responded 200 in 9.1910 ms
+2024-02-24 11:13:27 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.9957 ms
+2024-02-24 11:13:28 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-02-24 11:13:28 HTTP POST /Policy/Create responded 302 in 2.4718 ms
+2024-02-24 11:13:28 Submitting View Action method triggered
+2024-02-24 11:13:28 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 11:13:28 HTTP GET /Policy/Submit responded 200 in 11.9199 ms
+2024-02-24 11:13:28 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 1.3228 ms
+2024-02-24 11:13:29 Added policy RepositryAssignement.Models.PolicyEnrollment  to database , policy id 170
+2024-02-24 11:13:29 HTTP POST /Policy/Submit responded 302 in 6.1490 ms
+2024-02-24 11:13:29 Trying to Get the Detail About plan with id 170
+2024-02-24 11:13:29 Succesfully Fetched the plan with  id 170 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:13:29 HTTP GET /Policy/Detail/170 responded 200 in 5.3485 ms
+2024-02-24 11:13:46 Submitting View Action method triggered
+2024-02-24 11:13:46 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 11:13:46 HTTP GET /Policy/Submit responded 200 in 6.6161 ms
+2024-02-24 11:13:49 Enrolling to plan with  id 14
+2024-02-24 11:13:49 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 11:13:49 HTTP GET /Policy/Create responded 200 in 6.4519 ms
+2024-02-24 11:13:52 Submitting View Action method triggered
+2024-02-24 11:13:52 plan with id is RepositryAssignement.Models.Plan
+2024-02-24 11:13:52 HTTP GET /Policy/Submit responded 200 in 6.1154 ms
+2024-02-24 11:14:22 Trying to Get the Detail About plan with id 170
+2024-02-24 11:14:22 Succesfully Fetched the plan with  id 170 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:14:22 HTTP GET /Policy/Detail/170 responded 200 in 20.5776 ms
+2024-02-24 11:15:01 Redirected to Policy Enrollment page
+2024-02-24 11:15:01 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:15:01 HTTP GET /Policy/Index responded 200 in 30.4055 ms
+2024-02-24 11:15:03 selected plan id 14
+2024-02-24 11:15:03 HTTP POST /Policy/Index responded 302 in 2.5244 ms
+2024-02-24 11:15:03 Enrolling to plan with  id 14
+2024-02-24 11:15:03 HTTP GET /Policy/Create responded 200 in 6.6527 ms
+2024-02-24 11:15:03 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.2815 ms
+2024-02-24 11:15:08 Redirected to Policy Enrollment page
+2024-02-24 11:15:08 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:15:08 HTTP GET /Policy/Index responded 200 in 8.3385 ms
+2024-02-24 11:15:11 HTTP GET /Policy/Details responded 302 in 3.0642 ms
+2024-02-24 11:15:11 Policy Management System Started..........
+2024-02-24 11:15:11 HTTP GET /Login responded 200 in 4.8844 ms
+2024-02-24 11:15:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.2089 ms
+2024-02-24 11:25:57 Policy Management System Started..........
+2024-02-24 11:25:57 HTTP GET / responded 200 in 279.7865 ms
+2024-02-24 11:25:57 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.3877 ms
+2024-02-24 11:26:00 Policy Management System Started..........
+2024-02-24 11:26:00 Login Details ra ram@123
+2024-02-24 11:26:01 User With Name ra is Not Registered
+2024-02-24 11:26:01 HTTP POST /Login responded 200 in 1184.9123 ms
+2024-02-24 11:26:01 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3627 ms
+2024-02-24 11:26:06 Policy Management System Started..........
+2024-02-24 11:26:06 Login Details ram ram@12
+2024-02-24 11:26:06 Password For the User Name ram@12 is Incorrect
+2024-02-24 11:26:06 HTTP POST /Login responded 200 in 101.7738 ms
+2024-02-24 11:26:06 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.5503 ms
+2024-02-24 11:26:10 Policy Management System Started..........
+2024-02-24 11:26:10 Login Details  
+2024-02-24 11:26:10 Not A Valid Login Details Value cannot be null. (Parameter 'username')
+2024-02-24 11:26:10 HTTP POST /Login responded 200 in 35.0852 ms
+2024-02-24 11:26:10 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3092 ms
+2024-02-24 11:26:11 Policy Management System Started..........
+2024-02-24 11:26:11 Login Details ram ram@123
+2024-02-24 11:26:11 Valid Login Details
+2024-02-24 11:26:11 HTTP POST /Login responded 302 in 56.6443 ms
+2024-02-24 11:26:12 Redirected to Policy Enrollment page
+2024-02-24 11:26:12 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:26:12 HTTP GET /Policy/Index responded 200 in 317.4156 ms
+2024-02-24 11:26:19 HTTP GET /Policy/Details responded 302 in 4.2054 ms
+2024-02-24 11:26:19 Policy Management System Started..........
+2024-02-24 11:26:19 HTTP GET /Login responded 200 in 3.9724 ms
+2024-02-24 11:26:19 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 6.0283 ms
+2024-02-24 11:26:26 Policy Management System Started..........
+2024-02-24 11:26:26 Login Details admin admin@123
+2024-02-24 11:26:26 Valid Login Details
+2024-02-24 11:26:26 HTTP POST /Login responded 302 in 5.1337 ms
+2024-02-24 11:26:26 Redirected to Policy Enrollment page
+2024-02-24 11:26:26 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:26:26 HTTP GET /Policy/Index responded 200 in 56.2811 ms
+2024-02-24 11:26:28 Trying to Get all policy Details 
+2024-02-24 11:26:28 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 11:26:28 HTTP GET /Policy/Details responded 200 in 135.9477 ms
+2024-02-24 11:26:31 Trying to Get the Detail About plan with id 122
+2024-02-24 11:26:31 Succesfully Fetched the plan with  id 122 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:26:31 HTTP GET /Policy/Detail/122 responded 200 in 39.9326 ms
+2024-02-24 11:26:35 Trying to Get the Detail About plan with id 200
+2024-02-24 11:26:36 Policy With Id 200 Not Found 
+2024-02-24 11:26:36 HTTP GET /Policy/Detail/200 responded 200 in 56.7524 ms
+2024-02-24 11:27:43 Trying to Get the Detail About plan with id 200
+2024-02-24 11:27:43 Policy With Id 200 Not Found 
+2024-02-24 11:27:43 HTTP GET /Policy/Detail/200 responded 200 in 70.5697 ms
+2024-02-24 11:27:50 Trying to Get the Detail About plan with id 200
+2024-02-24 11:27:50 Policy With Id 200 Not Found 
+2024-02-24 11:27:50 HTTP GET /Policy/Detail/200 responded 200 in 36.4135 ms
+2024-02-24 11:28:15 Trying to Get the Detail About plan with id 200
+2024-02-24 11:28:15 Policy With Id 200 Not Found 
+2024-02-24 11:28:15 HTTP GET /Policy/Detail/200 responded 200 in 54.4526 ms
+2024-02-24 11:28:27 Trying to Get the Detail About plan with id 200
+2024-02-24 11:28:27 Policy With Id 200 Not Found 
+2024-02-24 11:28:27 HTTP GET /Policy/Detail/200 responded 200 in 60.9442 ms
+2024-02-24 11:28:43 Trying to Get the Detail About plan with id 200
+2024-02-24 11:28:43 Policy With Id 200 Not Found 
+2024-02-24 11:28:43 HTTP GET /Policy/Detail/200 responded 200 in 40.7558 ms
+2024-02-24 11:28:45 Trying to Get all policy Details 
+2024-02-24 11:28:45 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 11:28:45 HTTP GET /Policy/Details responded 200 in 26.4162 ms
+2024-02-24 11:28:47 Trying to Get the Detail About plan with id 122
+2024-02-24 11:28:47 Succesfully Fetched the plan with  id 122 : RepositryAssignement.Models.PolicyEnrollment
+2024-02-24 11:28:47 HTTP GET /Policy/Detail/122 responded 200 in 77.2255 ms
+2024-02-24 11:28:50 Trying to Get the Detail About plan with id 200
+2024-02-24 11:28:50 Policy With Id 200 Not Found 
+2024-02-24 11:28:50 HTTP GET /Policy/Detail/200 responded 200 in 47.5388 ms
+2024-02-24 11:29:22 Trying to Get the Detail About plan with id 200
+2024-02-24 11:29:22 Policy With Id 200 Not Found 
+2024-02-24 11:29:22 HTTP GET /Policy/Detail/200 responded 200 in 63.3421 ms
+2024-02-24 11:31:13 Trying to Get the Detail About plan with id 200
+2024-02-24 11:31:13 Policy With Id 200 Not Found 
+2024-02-24 11:31:13 HTTP GET /Policy/Detail/200 responded 200 in 53.6439 ms
+2024-02-24 11:31:30 Trying to Edit plan with  id 122
+2024-02-24 11:31:30 HTTP GET /Policy/Edit/122 responded 200 in 30.9703 ms
+2024-02-24 11:31:34 Trying to Edit plan with  id 200
+2024-02-24 11:31:34 Policy With Id 200 Not Found 
+2024-02-24 11:31:34 HTTP GET /Policy/Edit/200 responded 200 in 43.4080 ms
+2024-02-24 11:31:36 Trying to Edit plan with  id 122
+2024-02-24 11:31:36 HTTP GET /Policy/Edit/122 responded 200 in 6.8335 ms
+2024-02-24 11:31:39 Trying to Delete the policy by id 122 
+2024-02-24 11:31:39 HTTP GET /Policy/Delete/122 responded 200 in 14.5715 ms
+2024-02-24 11:31:41 Trying to Delete the policy by id 200 
+2024-02-24 11:31:42 Policy With Id 200 Not Found 
+2024-02-24 11:31:42 HTTP GET /Policy/Delete/200 responded 200 in 48.6550 ms
+2024-02-24 11:31:46 Trying to Get all policy Details 
+2024-02-24 11:31:46 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 11:31:46 HTTP GET /Policy/Details responded 200 in 33.2152 ms
+2024-02-24 11:31:49 Opened Bulk Upload page......
+2024-02-24 11:31:49 HTTP GET /Policy/Upload responded 200 in 7.3559 ms
+2024-02-24 11:31:57 Trying to Get all policy Details 
+2024-02-24 11:31:57 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 11:31:57 HTTP GET /Policy/Details responded 200 in 19.9012 ms
+2024-02-24 11:32:10 Redirected to Policy Enrollment page
+2024-02-24 11:32:10 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-02-24 11:32:10 HTTP GET /Policy/Index responded 200 in 10.5008 ms
+2024-02-24 11:32:10 Trying to Get all policy Details 
+2024-02-24 11:32:10 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-02-24 11:32:10 HTTP GET /Policy/Details responded 200 in 21.5955 ms
+2024-02-24 11:32:11 Opened Bulk Upload page......
+2024-02-24 11:32:11 HTTP GET /Policy/Upload responded 200 in 3.7881 ms
