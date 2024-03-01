@@ -1,0 +1,80 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "policy": [
+    {
+      "id": "1",
+      "Provider": "HDFC",
+      "Client": "Bharathi",
+      "Commision": 3500,
+      "Coverage": 100000,
+      "Start_date": "28/03/2003",
+      "Premium": 19000
+    },
+    {
+      "id": "2",
+      "Provider": "ICIC",
+      "Client": "Rams",
+      "Commision": 4500,
+      "Coverage": 200000,
+      "Start_date": "28/03/2003",
+      "Premium": 29000
+    },
+    {
+      "id": "3",
+      "Provider": "Star",
+      "Client": "Suresh",
+      "Commision": 5500,
+      "Coverage": 300000,
+      "Start_date": "28/03/2003",
+      "Premium": 39000
+    },
+    {
+      "id": "4",
+      "Provider": "SBI",
+      "Client": "Viswa",
+      "Commision": 5500,
+      "Coverage": 400000,
+      "Start_date": "28/03/2003",
+      "Premium": 49000
+    }
+  ],
+
+  "client": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "dob": "1990-05-15",
+      "mobileNo": 1234567890,
+      "mailId": "john@example.com",
+      "fatherName": "Michael Doe",
+      "motherName": "Mary Doe",
+      "nationality": "American",
+      "street": "123 Main Street",
+      "cityId": 1
+    },
+    {
+      "id": 1,
+      "firstName": "Bharathi",
+      "lastName": "Doe",
+      "dob": "2003-05-15",
+      "mobileNo": 1234567890,
+      "mailId": "bharathi@example.com",
+      "fatherName": "Senthil Kumar",
+      "motherName": "Pushpa ",
+      "nationality": "Indian",
+      "street": "123 Main Street",
+      "cityId": 1
+    }
+  ]
+}

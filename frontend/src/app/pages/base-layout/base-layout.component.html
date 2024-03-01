@@ -1,0 +1,81 @@
+<nz-layout>
+  <nz-sider nzCollapsible nzWidth="200px">
+    <div class="logo"></div>
+    <div class="wrapper">
+      <ul
+        nz-menu
+        nzMode="inline"
+        nzTheme="dark"
+        [nzInlineCollapsed]="isCollapsed"
+      >
+        <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          [nzTooltipTitle]="isCollapsed ? 'Navigation One' : ''"
+          nzSelected
+        >
+          <span class="flex items-center" routerLink=""
+            ><span nz-icon nzType="file-done"></span>
+            <span>Dashboard</span></span
+          >
+        </li>
+        <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          routerLink="enrollment"
+        >
+          <span class="flex items-center">
+            <span nz-icon nzType="user" nzTheme="outline"></span>
+            <span>Enrollment Details</span>
+          </span>
+        </li>
+        <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          routerLink="user"
+        >
+          <span class="flex items-center">
+            <span nz-icon nzType="user" nzTheme="outline"></span>
+            <span>User</span>
+          </span>
+        </li>
+        <!-- <li nz-submenu nzTitle="Navigation Two" nzIcon="appstore">
+          <ul>
+            <li nz-menu-item>Option 5</li>
+            <li nz-menu-item>Option 6</li>
+            <li nz-submenu nzTitle="Submenu">
+              <ul>
+                <li nz-menu-item>Option 7</li>
+                <li nz-menu-item>Option 8</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Navigation Three" nzIcon="setting">
+          <ul>
+            <li nz-menu-item>Option 9</li>
+            <li nz-menu-item>Option 10</li>
+            <li nz-menu-item>Option 11</li>
+          </ul>
+        </li> -->
+      </ul>
+    </div>
+  </nz-sider>
+  <nz-layout>
+    <nz-header></nz-header>
+    <nz-content>
+      <nz-breadcrumb>
+        <!-- TODO: breadcrumb with service for subcrumbs -->
+        <!-- <nz-breadcrumb-item>{{ breadcrumbName }}</nz-breadcrumb-item> -->
+        <!-- <nz-breadcrumb-item>Bill</nz-breadcrumb-item> -->
+      </nz-breadcrumb>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+    <nz-footer>Policy Management ©2024 </nz-footer>
+  </nz-layout>
+</nz-layout>

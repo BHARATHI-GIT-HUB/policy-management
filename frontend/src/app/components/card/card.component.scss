@@ -1,0 +1,14 @@
+.accordion-input {
+  display: none;
+}
+.accordion-label {
+  cursor: pointer;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-input:checked + .accordion-label + .accordion-content {
+  max-height: 1000px; /* Adjust as needed */
+}
