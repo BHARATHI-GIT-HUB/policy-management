@@ -1,8 +1,15 @@
 // import { Menu } from '../../models/menu';
 // import { navigationAnimation } from '../../animations';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, RouterOutlet } from '@angular/router';
+import {
+  ActivatedRoute,
+  Router,
+  RouterOutlet,
+  NavigationEnd,
+} from '@angular/router';
 import { NzBreadCrumbComponent } from 'ng-zorro-antd/breadcrumb';
+
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-base-layout',
@@ -11,7 +18,7 @@ import { NzBreadCrumbComponent } from 'ng-zorro-antd/breadcrumb';
   // animations: [navigationAnimation],
 })
 export class BaseLayoutComponent implements OnInit {
-  breadcrumbName: string = '';
+  breadcrumbs: any[] = [];
   isCollapsed = false;
 
   toggleCollapsed(): void {
@@ -23,13 +30,15 @@ export class BaseLayoutComponent implements OnInit {
     path?: string;
     // children?: Menu[];
   }[] = [];
-  // user = JSON.parse(String(localStorage.getItem('user')));
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 
-  ngOnInit() {
-    this.breadcrumbName = this.route.snapshot.data['title'];
-    this.breadcrumbName = 'Dashboard';
+  ngOnInit(): void {
+    this.router.events
+      .pipe(filter((event) => event instanceof NavigationEnd))
+      .subscribe(() => {
+        this.setBreadcrumbs();
+      });
     // if (this.user.role === 'MENTOR')
     this.menu = [
       {
@@ -100,6 +109,11 @@ export class BaseLayoutComponent implements OnInit {
       outlet.activatedRouteData &&
       outlet.activatedRouteData['animationState']
     );
+  }
+
+  setBreadcrumbs(): void {
+    const route = this.activatedRoute.snapshot;
+    this.breadcrumbs = route.data['breadcrumb'] || [];
   }
 
   logOut() {

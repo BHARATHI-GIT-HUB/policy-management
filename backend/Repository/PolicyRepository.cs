@@ -58,7 +58,8 @@ namespace RepositryAssignement.Repository
         public IEnumerable<PolicyEnrollment> FetchAllPolicy()
         {
 
-            IEnumerable<PolicyEnrollment> policies = _context.PolicyEnrollments.Include(pole => pole.Agent).ThenInclude(Agn => Agn.User)
+            IEnumerable<PolicyEnrollment> policies = _context.PolicyEnrollments
+                .Include(pole => pole.Agent).ThenInclude(Agn => Agn.User)
                 .Include(pole => pole.Client).ThenInclude(cli => cli.City)
                 .Include(pole => pole.Plan)
                 .ThenInclude(pln => pln.Provider)

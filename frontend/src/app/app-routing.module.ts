@@ -5,35 +5,49 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { UserDetailsComponent } from './pages/user-details/user-details.component';
 import { EnrollmentDetailsComponent } from './pages/enrollment-details/enrollment-details.component';
 import { BulkUploadComponent } from './pages/bulk-upload/bulk-upload.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {
     path: '',
     component: BaseLayoutComponent,
-    data: { title: '' },
+    data: {
+      breadcrumb: [{ label: ' ', link: ' ' }],
+    },
     children: [
       {
         path: '',
         component: DashboardComponent,
-        data: { title: 'Dashboard' },
+        data: {
+          breadcrumb: [{ label: 'Dashboard', link: '' }],
+        },
       },
       {
         path: 'user',
         component: UserDetailsComponent,
-        data: { title: 'User Details' },
+        data: {
+          breadcrumb: [{ label: 'User', link: '/user' }],
+        },
       },
       {
         path: 'enrollment',
         component: EnrollmentDetailsComponent,
-        data: { title: 'Enrollment Details' },
+        data: {
+          breadcrumb: [{ label: 'Enrollment', link: '/enrollment' }],
+        },
       },
       {
         path: 'bulk-upload',
         component: BulkUploadComponent,
-        data: { title: 'Enrollment Details' },
+        data: {
+          breadcrumb: [{ label: 'Bulk Upload', link: '/bulk-upload' }],
+        },
       },
     ],
   },
+  { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
 ];
 
 @NgModule({

@@ -1,4 +1,29 @@
-<h1 class="text-3xl mb-8">Enrollment Detail</h1>
+<div class="flex justify-between items-center md:mb-8">
+  <h1 class="text-3xl">Enrollment Detail</h1>
+  <nz-alert
+    nzType="error"
+    *ngIf="errorMessage.length > 0"
+    nzCloseable
+    nzDescription="{{ errorMessage }}"
+    nzMessage="error"
+    nzShowIcon
+  ></nz-alert>
+  <nz-alert
+    *ngIf="responseMessage.length > 0"
+    nzCloseable
+    nzType="success"
+    nzMessage="Success "
+    nzDescription="{{ responseMessage }}"
+    nzShowIcon
+  ></nz-alert>
+</div>
+
 <ng-container *ngIf="listOfData.length > 0">
-  <app-table [header]="Header" [tableData]="listOfData"></app-table>
+  <app-table
+    [editableColumn]="editableColumn"
+    [header]="listOfColumn"
+    [tableData]="listOfData"
+    (deletePoliy)="onDelete($event)"
+    (UpdatedPoliy)="onUpdate($event)"
+  ></app-table>
 </ng-container>

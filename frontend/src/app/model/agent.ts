@@ -1,6 +1,6 @@
 export interface Agent {
   id: number;
-  userId?: number;
+  name: number;
   dob: string;
   street: string;
   cityId: number;

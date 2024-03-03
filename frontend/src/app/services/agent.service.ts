@@ -7,6 +7,6 @@ import { Agent } from '../model';
 })
 export class AgentService extends GenericService<Agent> {
   constructor(private http: HttpClient) {
-    super(http, '/agent');
+    super(http, 'api/agent');
   }
 }

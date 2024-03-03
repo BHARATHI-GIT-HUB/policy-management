@@ -77,8 +77,18 @@
     </div>
   </nz-sider>
   <nz-layout>
-    <nz-header></nz-header>
+    <nz-header class="flex justify-between items-center">
+      <p class="text-xl mt-3">Admin View</p>
+      <div class="flex justify-end">
+        <button nz-button nzType="primary" (click)="logOut()">Log out</button>
+      </div>
+    </nz-header>
     <nz-content>
+      <nz-breadcrumb>
+        <nz-breadcrumb-item *ngFor="let breadcrumb of breadcrumbs">
+          <a [routerLink]="breadcrumb.link">{{ breadcrumb.label }}</a>
+        </nz-breadcrumb-item>
+      </nz-breadcrumb>
       <nz-breadcrumb>
         <!-- TODO: breadcrumb with service for subcrumbs -->
         <!-- <nz-breadcrumb-item>{{ breadcrumbName }}</nz-breadcrumb-item> -->

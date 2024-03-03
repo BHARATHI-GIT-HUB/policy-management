@@ -11,6 +11,7 @@ import { ChartComponent } from './chart/chart.component';
 import { CardComponent } from './card/card.component';
 import { CommonModule } from '@angular/common';
 import { UploadComponent } from './upload/upload.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { UploadComponent } from './upload/upload.component';
     CardComponent,
     CardComponent,
     UploadComponent,
+    HeaderComponent,
   ],
   imports: [
     NgZorroModule,
@@ -34,6 +36,7 @@ import { UploadComponent } from './upload/upload.component';
     ChartComponent,
     CardComponent,
     UploadComponent,
+    HeaderComponent,
   ],
 })
 export class ComponentModule {}

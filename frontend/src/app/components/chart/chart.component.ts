@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import Chart from 'chart.js/auto';
 import { ChartData, ChartDataset } from 'chart.js/auto';
 
@@ -8,8 +8,14 @@ import { ChartData, ChartDataset } from 'chart.js/auto';
   styleUrls: ['./chart.component.scss'],
 })
 export class ChartComponent implements OnInit {
-  title = 'ng-chart';
+  @Input()
+  listofProvider: string[] = [];
+  @Input()
+  totalPlanCount: number[] = [];
+  @Input()
+  doughnutData: number[] = [];
 
+  title = 'ng-chart';
   barchart: any = [];
   doughnut: any = [];
   linechart: any = [];
@@ -71,12 +77,12 @@ export class ChartComponent implements OnInit {
     this.barchart = new Chart('barchart', {
       type: 'bar',
       data: {
-        labels: ['HDFC', 'ICIC', 'LIC', 'STAR', 'CANADA'],
+        labels: this.listofProvider,
         datasets: [
           {
-            label: 'plans',
-            data: [12, 19, 3, 5, 2, 3],
-            borderWidth: 0.5,
+            label: 'Plans',
+            data: this.totalPlanCount,
+            borderWidth: 1,
           },
         ],
       },
@@ -106,7 +112,7 @@ export class ChartComponent implements OnInit {
         datasets: [
           {
             label: 'My First Dataset',
-            data: [10, 50, 30],
+            data: this.doughnutData,
             backgroundColor: [
               'rgb(255, 99, 132)',
               'rgb(54, 162, 235)',

@@ -1,7 +1,7 @@
 export interface provider {
   id: number;
-  userId?: number | null;
-  phoneNo?: string | null;
+  Name: string;
+  phoneNo: string | null;
   mobileNo?: string | null;
   mailId?: string | null;
   cityId: number;

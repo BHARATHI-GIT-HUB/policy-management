@@ -13,6 +13,7 @@ import {
 import { NzButtonComponent } from 'ng-zorro-antd/button';
 import { CommonModule } from '@angular/common';
 import { BulkUploadComponent } from './bulk-upload/bulk-upload.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BulkUploadComponent } from './bulk-upload/bulk-upload.component';
     EnrollmentDetailsComponent,
     UserDetailsComponent,
     BulkUploadComponent,
+    HomeComponent,
   ],
   imports: [
     NgZorroModule,

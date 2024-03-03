@@ -1,3 +1,4 @@
+import { PolicyService } from './../../services/policy.service';
 import { AgentService } from './../../services/agent.service';
 import { ClientService } from './../../services/client.service';
 import { Component, OnInit } from '@angular/core';
@@ -15,34 +16,56 @@ import { ProviderService } from '../../services/provider.service';
 export class UserDetailsComponent implements OnInit {
   breadcrumbName: string = '';
   clientData: Client[] = [];
-  clientHeader: string[] = [];
+  listOfClientColumn: any[] = [];
+  listOfAgentColumn: any[] = [];
+  listOfProviderColumn: any[] = [];
   providerData: provider[] = [];
   providerHeader: string[] = [];
   agentData: Agent[] = [];
   agentHeader: string[] = [];
+  responseMessage: string = '';
+  errorMessage: string = '';
 
   constructor(
     private route: ActivatedRoute,
     private clientService: ClientService,
-    private ProviderService: ProviderService,
+    private providerService: ProviderService,
     private agentService: AgentService
   ) {}
 
   getAllClient() {
     this.clientService.getAll().subscribe(
-      (data: Client[]) => {
-        this.clientData = data;
-        console.log('client data : ' + data);
+      (data: any) => {
+        console.log('client data :', data);
+        data.forEach((element: any) => {
+          let newClient: any = {
+            id: element.id,
+            Name: element.user.username,
+            Email: element.mailId,
+            Mobile: element.mobileNo,
+            Address: element.street + ',' + element.city.name,
+          };
+          this.clientData.push(newClient);
+        });
       },
       (err) => console.log(err)
     );
   }
 
   getAllProvider() {
-    this.ProviderService.getAll().subscribe(
-      (data: provider[]) => {
-        this.providerData = data;
-        console.log('provider data : ' + data);
+    this.providerService.getAll().subscribe(
+      (data: any) => {
+        data.forEach((element: any) => {
+          let newProvider: any = {
+            id: element.id,
+            Name: element.companyName,
+            Description: element.description,
+            Email: element.mailId,
+            Mobile: element.moblieNo,
+            Address: element.street + ',' + element.city.name,
+          };
+          this.providerData.push(newProvider);
+        });
       },
       (err) => console.log(err)
     );
@@ -50,49 +73,153 @@ export class UserDetailsComponent implements OnInit {
 
   getAllAgent() {
     this.agentService.getAll().subscribe(
-      (data: Agent[]) => {
-        this.agentData = data;
-        console.log('agent data : ' + data);
+      (data: any) => {
+        data.forEach((element: any) => {
+          console.log(element);
+          let newAgent: any = {
+            id: element.id,
+            Name: element.user.username,
+            Qualification: element.qualification,
+            Mobile: element.mobileNo,
+            Address: element.street + ',' + element.city.name,
+          };
+          this.agentData.push(newAgent);
+        });
       },
       (err) => console.log(err)
     );
   }
 
+  onDeleteClient(id: number) {
+    this.clientService.delete(id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllClient();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+  onDeleteProvider(id: number) {
+    this.providerService.delete(id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllClient();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+  onDeleteAgent(id: number) {
+    this.agentService.delete(id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllClient();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+
+  onUpdateClient(updatedVlaue: any) {
+    const databody: any = {
+      email: updatedVlaue.Email,
+      mobile: updatedVlaue.Mobile,
+      street: updatedVlaue.Address,
+    };
+
+    this.clientService.update(databody, updatedVlaue.id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllClient();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+  onUpdateProvider(updatedVlaue: any) {
+    const databody: any = {
+      email: updatedVlaue.Email,
+      mobile: updatedVlaue.Mobile,
+      street: updatedVlaue.Address,
+    };
+
+    this.providerService.update(databody, updatedVlaue.id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllProvider();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+  onUpdateAgent(updatedVlaue: any) {
+    const databody: any = {
+      mobile: updatedVlaue.Mobile,
+      street: updatedVlaue.Address,
+    };
+
+    this.agentService.update(databody, updatedVlaue.id).subscribe(
+      (res: any) => {
+        this.responseMessage = res.message;
+        this.getAllAgent();
+      },
+      (err) => (this.errorMessage = err.message)
+    );
+  }
+
   ngOnInit(): void {
-    this.clientHeader = [
-      'First Name',
-      'Last Name',
-      'DOB',
-      'Mobile No',
-      'Mail Id',
-      'Father ',
-      'Mother ',
-      'Nationality',
-      'Street',
-      'City Id',
+    this.listOfClientColumn = [
+      {
+        title: 'Name',
+      },
+      {
+        title: 'Email',
+      },
+      {
+        title: 'Mobile',
+      },
+      {
+        title: 'Address',
+      },
+      {
+        title: 'Action',
+      },
     ];
-    this.providerHeader = [
-      'User Id',
-      'Phone No',
-      'Mobile No',
-      'Mail Id',
-      'City Id',
-      'Street',
-      'Launch Date',
-      'Testimonials',
-      'Description',
-      'Company Name',
+    this.listOfAgentColumn = [
+      {
+        title: 'Name',
+      },
+
+      {
+        title: 'Qualification',
+      },
+      {
+        title: 'Mobile',
+      },
+      {
+        title: 'Address',
+      },
+      {
+        title: 'Action',
+      },
     ];
-    this.agentHeader = [
-      'User Id',
-      'DOB',
-      'Street',
-      'City Id',
-      'Mobile No',
-      'Qualification',
-      'Aadhar No',
-      'Pan No',
+    this.listOfProviderColumn = [
+      {
+        title: 'Name',
+      },
+      {
+        title: 'Description',
+      },
+      {
+        title: 'Email',
+      },
+      {
+        title: 'Mobile',
+      },
+      {
+        title: 'Address',
+      },
+      {
+        title: 'Action',
+      },
     ];
+
     this.breadcrumbName = this.route.snapshot.data['title'];
     this.getAllClient();
     this.getAllProvider();

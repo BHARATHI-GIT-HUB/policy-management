@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: none;
+}
+
+p,
+ul {
+  padding: 0px;
+  margin-bottom: 0px !important;
+}
