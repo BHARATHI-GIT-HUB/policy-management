@@ -1,6 +1,8 @@
+import { city } from './city';
+import { user } from './user';
+
 export interface Agent {
   id: number;
-  name: number;
   dob: string;
   street: string;
   cityId: number;
@@ -8,9 +10,8 @@ export interface Agent {
   qualification: string;
   aadharNo: number;
   panNo: number;
-  // city: City;
-  // incentives: Incentive[];
-  // policyEnrollments: PolicyEnrollment[];
-  // policyHistories: PolicyHistory[];
-  // user?: User | null;
+  userId: number;
+
+  city: city;
+  user: user;
 }

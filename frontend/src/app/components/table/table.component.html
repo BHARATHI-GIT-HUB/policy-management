@@ -1,4 +1,9 @@
-<nz-table #nzTable [nzData]="listOfDisplayData" nzTableLayout="fixed">
+<nz-table
+  #nzTable
+  [nzLoading]="isloading"
+  [nzData]="listOfDisplayData"
+  nzTableLayout="fixed"
+>
   <thead>
     <tr>
       <th

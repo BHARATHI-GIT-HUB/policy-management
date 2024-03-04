@@ -1,4 +1,4 @@
-import { provider } from './../../../../../frontend/src/app/model/provider';
+import { Provider } from './../../../../../frontend/src/app/model/provider';
 
 import { Agent } from './../../../../../frontend/src/app/model/agent';
 import { Component, OnInit } from '@angular/core';
@@ -37,7 +37,7 @@ export class EnrollmentDetailsComponent implements OnInit {
             PlanName: element.plan.planName,
             ProviderName: element.plan.user.companyName,
             AgentName: element.agent.user.username,
-            ClientName: element.client.user.username,
+            ClientName: element.client.user ? element.client.user.username : '',
             Premium: element.premium,
             CoverageAmount: element.coverageAmount,
             Frequency: element.frequency,
@@ -88,14 +88,16 @@ export class EnrollmentDetailsComponent implements OnInit {
         title: 'Provider',
       },
       {
-        title: 'Client',
-      },
-      {
         title: 'Agent',
       },
       {
+        title: 'Client',
+      },
+
+      {
         title: 'Premium',
       },
+
       {
         title: 'Coverage Amount',
         editable: true,

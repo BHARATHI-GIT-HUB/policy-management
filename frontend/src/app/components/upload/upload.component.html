@@ -1,9 +1,4 @@
-<nz-upload
-  nzType="drag"
-  [nzMultiple]="true"
-  nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
-  (nzChange)="handleChange($event)"
->
+<nz-upload nzType="drag" [nzMultiple]="true" (nzChange)="handleChange($event)">
   <p class="ant-upload-drag-icon">
     <span nz-icon nzType="inbox"></span>
   </p>
@@ -12,4 +7,16 @@
     Support for a single or bulk upload. Strictly prohibit from uploading
     company data or other band files
   </p>
+</nz-upload>
+
+<nz-upload
+  nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+  [nzHeaders]="{ authorization: 'authorization-text' }"
+  [nzMultiple]="true"
+  (nzChange)="handleChange($event)"
+>
+  <button nz-button>
+    <span nz-icon nzType="upload"></span>
+    Click to Upload
+  </button>
 </nz-upload>

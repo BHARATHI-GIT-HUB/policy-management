@@ -33,3 +33,22 @@
     </ng-container>
   </div>
 </div>
+
+<nz-alert
+  nzType="error"
+  *ngIf="errorMessage.length > 0"
+  nzCloseable
+  nzDescription="{{ errorMessage }}"
+  nzMessage="error"
+  nzShowIcon
+  class="fixed top-3 right-3"
+></nz-alert>
+<nz-alert
+  *ngIf="responseMessage.length > 0"
+  nzCloseable
+  nzType="success"
+  nzMessage="Success "
+  nzDescription="{{ responseMessage }}"
+  nzShowIcon
+  class="fixed top-2 right-2"
+></nz-alert>

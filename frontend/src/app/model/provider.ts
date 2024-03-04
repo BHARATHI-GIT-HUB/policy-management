@@ -1,13 +1,17 @@
-export interface provider {
+import { city } from './city';
+import { user } from './user';
+export interface Provider {
   id: number;
-  Name: string;
-  phoneNo: string | null;
-  mobileNo?: string | null;
-  mailId?: string | null;
+  phoneNo: number;
+  moblieNo: string;
+  mailId: string;
   cityId: number;
-  street?: string | null;
-  launchDate: string; // Assuming DateOnly is represented as a string
-  testimonials?: string | null;
+  street: string;
+  launchDate: string;
+  testimonials: string | null;
   description?: string | null;
   companyName?: string | null;
+  userId: number;
+  user: user;
+  city: city;
 }

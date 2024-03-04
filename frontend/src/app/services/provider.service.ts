@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { GenericService } from './generic-service.service';
-import { provider } from '../model/provider';
+import { Provider } from '../model/provider';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
 })
-export class ProviderService extends GenericService<provider> {
+export class ProviderService extends GenericService<Provider> {
   constructor(private http: HttpClient) {
     super(http, 'api/provider');
   }

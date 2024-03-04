@@ -10,16 +10,20 @@ import { VerticalRightOutlined } from '@ant-design/icons';
 export class TableComponent implements OnInit {
   searchValue = '';
   headerData: string[] = [];
-
   listOfData: any[] = [];
   listOfDisplayData: any[] = [];
   visible = false;
   editCache: { [key: string]: { edit: boolean; data: any } } = {};
+  isloading: boolean = true;
+
   @Input()
   tableData: any[] = [];
 
   @Input()
   header: any[] = [];
+
+  @Input()
+  ogData: any[] = [];
 
   @Input()
   editableColumn: string[] = [];
@@ -46,7 +50,6 @@ export class TableComponent implements OnInit {
     this.editCache[id.toString()].edit = true;
   }
   isEditable(column: string): boolean {
-    console.log(column, 'column');
     if (column == 'TimePeriod') return true;
     else if (column == 'CoverageAmount') return true;
     else if (column == 'Frequency') return true;
@@ -96,7 +99,9 @@ export class TableComponent implements OnInit {
   ngOnInit(): void {
     this.updateEditCache();
     this.listOfData = this.tableData;
-
+    if (this.tableData.length > 0) {
+      this.isloading = false;
+    }
     this.listOfDisplayData = [...this.listOfData];
     this.headerData = this.header;
     this.updateEditCache();

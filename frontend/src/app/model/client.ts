@@ -1,3 +1,5 @@
+import { city } from './city';
+import { user } from './user';
 export interface Client {
   id: number;
   name: string;
@@ -9,4 +11,7 @@ export interface Client {
   nationality: string;
   street: string;
   cityId: number;
+  userId: number;
+  user: user;
+  city: city;
 }

@@ -25,6 +25,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzAlertModule } from 'ng-zorro-antd/alert';
+import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 
 @NgModule({
   exports: [
@@ -55,6 +56,7 @@ import { NzAlertModule } from 'ng-zorro-antd/alert';
     NzFormModule,
     NzDropDownModule,
     NzAlertModule,
+    NzCollapseModule,
   ],
 })
 export class NgZorroModule {}
