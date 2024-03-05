@@ -7,8 +7,21 @@
         nzMode="inline"
         nzTheme="dark"
         [nzInlineCollapsed]="isCollapsed"
+        *ngFor="let nav of menu"
       >
         <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          [nzTooltipTitle]="isCollapsed ? 'Navigation One' : ''"
+          [nzSelected]="currentPath === nav.path"
+        >
+          <span class="flex items-center" routerLink="{{ nav.path }}"
+            ><span nz-icon nzType="{{ nav.icon }}" nzTheme="outline"></span>
+            <span>{{ nav.title }}</span></span
+          >
+        </li>
+        <!-- <li
           nz-menu-item
           nz-tooltip
           nzTooltipPlacement="right"
@@ -53,7 +66,7 @@
             <span nz-icon nzType="user" nzTheme="outline"></span>
             <span>User</span>
           </span>
-        </li>
+        </li> -->
         <!-- <li nz-submenu nzTitle="Navigation Two" nzIcon="appstore">
           <ul>
             <li nz-menu-item>Option 5</li>
@@ -84,15 +97,11 @@
       </div>
     </nz-header>
     <nz-content>
+      <!-- //TODO: Not Loading on page load -->
       <nz-breadcrumb>
         <nz-breadcrumb-item *ngFor="let breadcrumb of breadcrumbs">
-          <a [routerLink]="breadcrumb.link">{{ breadcrumb.label }}</a>
+          <a [routerLink]="breadcrumb.url">{{ breadcrumb.label }}</a>
         </nz-breadcrumb-item>
-      </nz-breadcrumb>
-      <nz-breadcrumb>
-        <!-- TODO: breadcrumb with service for subcrumbs -->
-        <!-- <nz-breadcrumb-item>{{ breadcrumbName }}</nz-breadcrumb-item> -->
-        <!-- <nz-breadcrumb-item>Bill</nz-breadcrumb-item> -->
       </nz-breadcrumb>
       <div class="inner-content">
         <router-outlet></router-outlet>

@@ -13,7 +13,7 @@ const routes: Routes = [
     path: '',
     component: BaseLayoutComponent,
     data: {
-      breadcrumb: [{ label: ' ', link: ' ' }],
+      breadcrumb: [{ label: 'Admin', link: '' }],
     },
     children: [
       {
