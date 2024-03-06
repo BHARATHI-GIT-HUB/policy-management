@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace RepositryAssignement.Models;
 
@@ -30,14 +31,16 @@ public partial class Plan
     public string GeneralEliglibity { get; set; } = null!;
 
     public long CommissionPercentage { get; set; }
-
+    [JsonIgnore]
     public virtual AddOn Addon { get; set; } = null!;
 
     public virtual ICollection<PolicyEnrollment> PolicyEnrollments { get; set; } = new List<PolicyEnrollment>();
 
     public virtual ICollection<PolicyHistory> PolicyHistories { get; set; } = new List<PolicyHistory>();
-
+   
+    [JsonIgnore]
     public virtual Provider Provider { get; set; } = null!;
-
+    
+    [JsonIgnore]
     public virtual PlanSubtype Subtype { get; set; } = null!;
 }

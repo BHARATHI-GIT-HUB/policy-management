@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace RepositryAssignement.Models;
 
@@ -19,17 +20,19 @@ public partial class Provider
 
     public DateOnly LaunchDate { get; set; }
 
-    public string Testimonials { get; set; } = null!;
+    public string? Testimonials { get; set; } = null!;
 
-    public string Description { get; set; } = null!;
+    public string? Description { get; set; } = null!;
 
     public int? UserId { get; set; }
 
     public string? CompanyName { get; set; }
 
-    public virtual City City { get; set; } = null!;
+    [JsonIgnore]
+    public virtual City? City { get; set; } = null!;
 
     public virtual ICollection<Plan> Plans { get; set; } = new List<Plan>();
 
+    [JsonIgnore]
     public virtual User? User { get; set; }
 }

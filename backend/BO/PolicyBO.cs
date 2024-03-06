@@ -9,6 +9,7 @@ using RepositryAssignement.Helper;
 using DocumentFormat.OpenXml.Spreadsheet;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using System.Globalization;
+using DocumentFormat.OpenXml.Office.Word;
 
 namespace RepositryAssignement.BO
 {
@@ -129,9 +130,10 @@ namespace RepositryAssignement.BO
            
             if (id > 0)
             {
-                Console.WriteLine(policy.PlanId + " asdfsdf" +id);
+                PolicyEnrollment existingPolicy = _politcyRepository.FetchPolicyById(id);
+                Console.WriteLine(existingPolicy.ToString());
                 //commision calculation
-                Plan plan = _politcyRepository.FetchPlanById(policy.PlanId);
+                Plan plan = _politcyRepository.FetchPlanById(existingPolicy.PlanId);
                 var commissionAmount = policy.CoverageAmount * (plan.CommissionPercentage / 100.0);
                 policy.CommisionAmount = (long)commissionAmount ;
 
@@ -140,7 +142,7 @@ namespace RepositryAssignement.BO
 
                 if(frequency > 0) {
                  
-                    Client client = _politcyRepository.FetchClientById(policy.ClientId);
+                    Client client = _politcyRepository.FetchClientById(existingPolicy.ClientId);
                     Console.WriteLine(client.Id+ " Client id ");
 
                     DateTime cliendDob = DateTime.ParseExact(client.Dob.ToString(), "dd-MM-yyyy", CultureInfo.InvariantCulture);
@@ -152,8 +154,11 @@ namespace RepositryAssignement.BO
                     if(actualCoverageFactor >= policy.TimePeriod) {
 
                         long premium = policy.CoverageAmount / (policy.TimePeriod * frequency);
-                        policy.Premium = premium;
-                        return _politcyRepository.UpdatePolicy(policy, id);
+                        existingPolicy.Premium = premium;
+                        existingPolicy.CoverageAmount = policy.CoverageAmount;
+                        existingPolicy.Frequency = policy.Frequency;
+                        existingPolicy.TimePeriod = policy.TimePeriod;
+                        return _politcyRepository.UpdatePolicy(existingPolicy, id);
                     }
                     else
                     {

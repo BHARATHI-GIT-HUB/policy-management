@@ -306,3 +306,4 @@ C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\bin\Debug\net8.0\ite
 C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\bin\Debug\net8.0\itext.svg.dll
 C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\bin\Debug\net8.0\itext.commons.dll
 C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -4,6 +4,7 @@ using RepositryAssignement.Repository;
 
 using RepositryAssignement.Custome_Exception;
 using Microsoft.AspNetCore.Http;
+using RepositryAssignement.Models;
 
 namespace RepositryAssignement.Controllers
 {
@@ -44,15 +45,15 @@ namespace RepositryAssignement.Controllers
 
                 _logger.LogInformation($"Login Details {username} {password}");
                 
-                int userId = _loginBO.Login(username, password);         
+                User user = _loginBO.Login(username, password);         
                 
-                if (userId > 0)
+                if (user != null)
                 {
                     _logger.LogInformation($"Valid Login Details");
                 
 
                     HttpContext.Session.SetString("UserName", username);
-                    HttpContext.Session.SetString("UserId", userId.ToString());
+                    HttpContext.Session.SetString("UserId", user.Id.ToString());
 
                     return Redirect("Policy/Index");
                 }

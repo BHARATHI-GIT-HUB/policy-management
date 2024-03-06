@@ -1,0 +1,599 @@
+2024-03-05 00:01:14 HTTP GET /api/provider responded 200 in 14.3981 ms
+2024-03-05 00:01:14 HTTP GET /api/client responded 200 in 14.5561 ms
+2024-03-05 00:01:14 HTTP GET /api/agent responded 200 in 12.1319 ms
+2024-03-05 00:01:22 HTTP DELETE /api/client/4 responded 200 in 4.3932 ms
+2024-03-05 00:01:22 HTTP GET /api/client responded 200 in 3.2005 ms
+2024-03-05 00:01:43 HTTP DELETE /api/client/4 responded 200 in 13.4487 ms
+2024-03-05 00:01:43 HTTP GET /api/client responded 200 in 2.8004 ms
+2024-03-05 00:01:47 HTTP GET /api/client responded 200 in 1.3853 ms
+2024-03-05 00:01:47 HTTP GET /api/provider responded 200 in 5.9852 ms
+2024-03-05 00:01:47 HTTP GET /api/agent responded 200 in 7.8882 ms
+2024-03-05 00:02:18 HTTP GET /api/client responded 200 in 7.0356 ms
+2024-03-05 00:02:18 HTTP GET /api/agent responded 200 in 4.2471 ms
+2024-03-05 00:02:18 HTTP GET /api/provider responded 200 in 3.9773 ms
+2024-03-05 00:02:19 HTTP GET /api/agent responded 200 in 0.9155 ms
+2024-03-05 00:02:19 HTTP GET /api/client responded 200 in 1.2515 ms
+2024-03-05 00:02:19 HTTP GET /api/provider responded 200 in 0.8835 ms
+2024-03-05 00:05:07 HTTP GET /api/provider responded 200 in 10.0803 ms
+2024-03-05 00:05:07 HTTP GET /api/client responded 200 in 9.3140 ms
+2024-03-05 00:05:07 HTTP GET /api/agent responded 200 in 8.8645 ms
+2024-03-05 00:07:07 HTTP GET /api/policy responded 200 in 44.2314 ms
+2024-03-05 00:07:20 HTTP DELETE /api/policy/235 responded 200 in 66.1958 ms
+2024-03-05 00:07:20 HTTP GET /api/policy responded 200 in 30.5662 ms
+2024-03-05 00:07:21 HTTP DELETE /api/policy/200 responded 200 in 2.5338 ms
+2024-03-05 00:07:21 HTTP GET /api/policy responded 200 in 31.2461 ms
+2024-03-05 00:07:22 HTTP DELETE /api/policy/201 responded 200 in 2.1422 ms
+2024-03-05 00:07:22 HTTP GET /api/policy responded 200 in 2.2000 ms
+2024-03-05 00:07:22 HTTP DELETE /api/policy/202 responded 200 in 2.0295 ms
+2024-03-05 00:07:22 HTTP GET /api/policy responded 200 in 2.3142 ms
+2024-03-05 00:07:23 HTTP DELETE /api/policy/203 responded 200 in 1.9991 ms
+2024-03-05 00:07:23 HTTP GET /api/policy responded 200 in 2.0180 ms
+2024-03-05 00:07:23 HTTP DELETE /api/policy/204 responded 200 in 1.8426 ms
+2024-03-05 00:07:23 HTTP GET /api/policy responded 200 in 2.0976 ms
+2024-03-05 00:07:24 HTTP DELETE /api/policy/205 responded 200 in 11.4948 ms
+2024-03-05 00:07:24 HTTP GET /api/policy responded 200 in 2.2646 ms
+2024-03-05 00:07:25 HTTP DELETE /api/policy/207 responded 200 in 5.5050 ms
+2024-03-05 00:07:25 HTTP GET /api/policy responded 200 in 7.4533 ms
+2024-03-05 00:07:25 HTTP DELETE /api/policy/206 responded 200 in 1.9424 ms
+2024-03-05 00:07:25 HTTP GET /api/policy responded 200 in 1.8968 ms
+2024-03-05 00:07:26 HTTP DELETE /api/policy/199 responded 200 in 1.7635 ms
+2024-03-05 00:07:26 HTTP GET /api/policy responded 200 in 1.8645 ms
+2024-03-05 00:07:27 HTTP DELETE /api/policy/209 responded 200 in 2.1576 ms
+2024-03-05 00:07:27 HTTP GET /api/policy responded 200 in 1.9273 ms
+2024-03-05 00:07:28 HTTP DELETE /api/policy/198 responded 200 in 1.7962 ms
+2024-03-05 00:07:28 HTTP GET /api/policy responded 200 in 1.8195 ms
+2024-03-05 00:07:32 HTTP GET /api/policy responded 200 in 1.9656 ms
+2024-03-05 00:07:32 HTTP GET /api/plan responded 200 in 817.2062 ms
+2024-03-05 00:07:35 HTTP GET /api/agent responded 200 in 2.9836 ms
+2024-03-05 00:07:35 HTTP GET /api/provider responded 200 in 3.5042 ms
+2024-03-05 00:07:35 HTTP GET /api/client responded 200 in 3.9003 ms
+2024-03-05 00:08:21 HTTP GET /api/client responded 200 in 11.1022 ms
+2024-03-05 00:08:21 HTTP GET /api/agent responded 200 in 12.0947 ms
+2024-03-05 00:08:21 HTTP GET /api/provider responded 200 in 11.4101 ms
+2024-03-05 00:14:46 HTTP GET /api/client responded 200 in 18.8320 ms
+2024-03-05 00:14:46 HTTP GET /api/provider responded 200 in 18.4555 ms
+2024-03-05 00:14:46 HTTP GET /api/agent responded 200 in 26.0204 ms
+2024-03-05 00:15:15 HTTP GET /api/provider responded 200 in 28.2268 ms
+2024-03-05 00:15:15 HTTP GET /api/client responded 200 in 29.3344 ms
+2024-03-05 00:15:15 HTTP GET /api/agent responded 200 in 29.2607 ms
+2024-03-05 00:15:24 HTTP GET /api/client responded 200 in 2.8577 ms
+2024-03-05 00:15:24 HTTP GET /api/provider responded 200 in 1.3230 ms
+2024-03-05 00:15:24 HTTP GET /api/agent responded 200 in 1.3656 ms
+2024-03-05 00:16:07 HTTP GET /api/agent responded 200 in 7.5372 ms
+2024-03-05 00:16:07 HTTP GET /api/client responded 200 in 20.3290 ms
+2024-03-05 00:16:07 HTTP GET /api/provider responded 200 in 18.7498 ms
+2024-03-05 00:16:21 HTTP GET /api/agent responded 200 in 0.9906 ms
+2024-03-05 00:16:21 HTTP GET /api/provider responded 200 in 0.9886 ms
+2024-03-05 00:16:21 HTTP GET /api/client responded 200 in 1.2688 ms
+2024-03-05 00:16:31 HTTP GET /api/agent responded 200 in 1.5572 ms
+2024-03-05 00:16:31 HTTP GET /api/provider responded 200 in 1.5599 ms
+2024-03-05 00:16:31 HTTP GET /api/client responded 200 in 5.1571 ms
+2024-03-05 00:16:39 HTTP GET /api/agent responded 200 in 0.7226 ms
+2024-03-05 00:16:39 HTTP GET /api/client responded 200 in 2.5426 ms
+2024-03-05 00:16:39 HTTP GET /api/provider responded 200 in 1.0367 ms
+2024-03-05 00:16:43 HTTP GET /api/client responded 200 in 6.2010 ms
+2024-03-05 00:16:43 HTTP GET /api/provider responded 200 in 6.9536 ms
+2024-03-05 00:16:43 HTTP GET /api/agent responded 200 in 8.6778 ms
+2024-03-05 00:17:02 HTTP GET /api/client responded 200 in 7.1650 ms
+2024-03-05 00:17:02 HTTP GET /api/provider responded 200 in 6.6743 ms
+2024-03-05 00:17:02 HTTP GET /api/agent responded 200 in 4.4915 ms
+2024-03-05 00:17:05 HTTP GET /api/agent responded 200 in 0.8967 ms
+2024-03-05 00:17:05 HTTP GET /api/provider responded 200 in 1.0425 ms
+2024-03-05 00:17:05 HTTP GET /api/client responded 200 in 2.7799 ms
+2024-03-05 00:17:22 HTTP GET /api/client responded 200 in 1.2284 ms
+2024-03-05 00:17:22 HTTP GET /api/provider responded 200 in 1.2931 ms
+2024-03-05 00:17:22 HTTP GET /api/agent responded 200 in 1.2353 ms
+2024-03-05 00:17:38 HTTP GET /api/provider responded 200 in 0.8299 ms
+2024-03-05 00:17:38 HTTP GET /api/agent responded 200 in 0.8737 ms
+2024-03-05 00:17:38 HTTP GET /api/client responded 200 in 1.3273 ms
+2024-03-05 00:18:19 HTTP GET /api/client responded 200 in 5.7097 ms
+2024-03-05 00:18:19 HTTP GET /api/provider responded 200 in 5.5698 ms
+2024-03-05 00:18:19 HTTP GET /api/agent responded 200 in 8.0537 ms
+2024-03-05 00:19:53 HTTP GET /api/provider responded 200 in 33.1421 ms
+2024-03-05 00:19:53 HTTP GET /api/client responded 200 in 34.6177 ms
+2024-03-05 00:19:53 HTTP GET /api/agent responded 200 in 33.4431 ms
+2024-03-05 00:20:32 HTTP GET /api/client responded 200 in 8.2873 ms
+2024-03-05 00:20:32 HTTP GET /api/agent responded 200 in 9.4845 ms
+2024-03-05 00:20:32 HTTP GET /api/provider responded 200 in 10.3402 ms
+2024-03-05 00:20:41 HTTP GET /api/client responded 200 in 1.4541 ms
+2024-03-05 00:20:41 HTTP GET /api/agent responded 200 in 2.1508 ms
+2024-03-05 00:20:41 HTTP GET /api/provider responded 200 in 2.5350 ms
+2024-03-05 00:20:52 HTTP GET /api/provider responded 200 in 0.9475 ms
+2024-03-05 00:20:52 HTTP GET /api/client responded 200 in 0.9994 ms
+2024-03-05 00:20:52 HTTP GET /api/agent responded 200 in 7.7416 ms
+2024-03-05 00:21:30 HTTP GET /api/client responded 200 in 7.3571 ms
+2024-03-05 00:21:30 HTTP GET /api/provider responded 200 in 10.5912 ms
+2024-03-05 00:21:30 HTTP GET /api/agent responded 200 in 10.4783 ms
+2024-03-05 00:21:40 HTTP GET /api/agent responded 200 in 1.0017 ms
+2024-03-05 00:21:40 HTTP GET /api/provider responded 200 in 1.0448 ms
+2024-03-05 00:21:40 HTTP GET /api/client responded 200 in 1.1507 ms
+2024-03-05 00:22:15 HTTP GET /api/provider responded 200 in 40.3709 ms
+2024-03-05 00:22:15 HTTP GET /api/client responded 200 in 40.4060 ms
+2024-03-05 00:22:15 HTTP GET /api/agent responded 200 in 65.1036 ms
+2024-03-05 00:22:36 HTTP GET /api/provider responded 200 in 5.2764 ms
+2024-03-05 00:22:36 HTTP GET /api/client responded 200 in 5.6996 ms
+2024-03-05 00:22:36 HTTP GET /api/agent responded 200 in 5.1341 ms
+2024-03-05 00:22:42 HTTP PUT /api/provider/4 responded 400 in 3.8706 ms
+2024-03-05 00:23:11 HTTP GET /api/client responded 200 in 4.9602 ms
+2024-03-05 00:23:11 HTTP GET /api/provider responded 200 in 5.7154 ms
+2024-03-05 00:23:11 HTTP GET /api/agent responded 200 in 4.5756 ms
+2024-03-05 00:23:23 HTTP PUT /api/provider/5 responded 400 in 0.7887 ms
+2024-03-05 00:24:12 HTTP GET /api/client responded 200 in 8.8039 ms
+2024-03-05 00:24:12 HTTP GET /api/provider responded 200 in 9.4437 ms
+2024-03-05 00:24:12 HTTP GET /api/agent responded 200 in 9.2420 ms
+2024-03-05 00:24:16 HTTP PUT /api/provider/4 responded 400 in 0.6488 ms
+2024-03-05 00:26:15 HTTP GET /api/provider responded 200 in 9.3396 ms
+2024-03-05 00:26:15 HTTP GET /api/client responded 200 in 37.1489 ms
+2024-03-05 00:26:15 HTTP GET /api/agent responded 200 in 35.6313 ms
+2024-03-05 00:26:19 HTTP PUT /api/provider/4 responded 400 in 0.8543 ms
+2024-03-05 00:26:57 HTTP GET /api/provider responded 200 in 41.6152 ms
+2024-03-05 00:27:22 HTTP PUT /api/provider/4 responded 400 in 4.5022 ms
+2024-03-05 00:27:31 HTTP PUT /api/provider/4 responded 200 in 11.3770 ms
+2024-03-05 00:29:03 HTTP GET /api/provider responded 200 in 12.0373 ms
+2024-03-05 00:29:03 HTTP GET /api/client responded 200 in 17.2622 ms
+2024-03-05 00:29:03 HTTP GET /api/agent responded 200 in 11.9422 ms
+2024-03-05 00:29:24 HTTP GET /api/agent responded 200 in 16.2927 ms
+2024-03-05 00:29:24 HTTP GET /api/provider responded 200 in 19.8573 ms
+2024-03-05 00:29:24 HTTP GET /api/client responded 200 in 20.3999 ms
+2024-03-05 00:29:27 HTTP GET /api/provider responded 200 in 1.2729 ms
+2024-03-05 00:29:27 HTTP GET /api/agent responded 200 in 1.2027 ms
+2024-03-05 00:29:27 HTTP GET /api/client responded 200 in 1.5575 ms
+2024-03-05 00:29:46 HTTP GET /api/provider responded 200 in 1.7532 ms
+2024-03-05 00:29:46 HTTP GET /api/agent responded 200 in 1.7434 ms
+2024-03-05 00:29:46 HTTP GET /api/client responded 200 in 1.8111 ms
+2024-03-05 00:31:46 Failed executing DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[city id], [p].[company_name], [p].[description], [p].[launch_date], [p].[mail_ID], [p].[moblie_no], [p].[PhoneNo], [p].[street], [p].[testimonials], [p].[user_id], [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username], [c].[id], [c].[name], [c].[state_id]
+FROM [Provider] AS [p]
+LEFT JOIN [User] AS [u] ON [p].[user_id] = [u].[id]
+INNER JOIN [City] AS [c] ON [p].[city id] = [c].[id]
+2024-03-05 00:31:46 An exception occurred while iterating over the results of a query for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1c48796a-bd02-4cbb-a415-edd84630e459
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1c48796a-bd02-4cbb-a415-edd84630e459
+Error Number:207,State:1,Class:16
+2024-03-05 00:31:46 HTTP GET /api/provider responded 400 in 1455.1009 ms
+2024-03-05 00:31:46 HTTP GET /api/agent responded 200 in 1460.4404 ms
+2024-03-05 00:31:46 HTTP GET /api/client responded 200 in 1459.8425 ms
+2024-03-05 00:31:58 Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[city id], [p].[company_name], [p].[description], [p].[launch_date], [p].[mail_ID], [p].[moblie_no], [p].[PhoneNo], [p].[street], [p].[testimonials], [p].[user_id], [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username], [c].[id], [c].[name], [c].[state_id]
+FROM [Provider] AS [p]
+LEFT JOIN [User] AS [u] ON [p].[user_id] = [u].[id]
+INNER JOIN [City] AS [c] ON [p].[city id] = [c].[id]
+2024-03-05 00:31:58 HTTP GET /api/agent responded 200 in 52.6191 ms
+2024-03-05 00:31:58 HTTP GET /api/client responded 200 in 53.0041 ms
+2024-03-05 00:31:58 An exception occurred while iterating over the results of a query for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:5acb02a9-4c25-4c43-b3b2-750bd96b8f68
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:5acb02a9-4c25-4c43-b3b2-750bd96b8f68
+Error Number:207,State:1,Class:16
+2024-03-05 00:31:58 HTTP GET /api/provider responded 400 in 105.8027 ms
+2024-03-05 00:32:01 HTTP GET /api/agent responded 200 in 2.3847 ms
+2024-03-05 00:32:01 Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[city id], [p].[company_name], [p].[description], [p].[launch_date], [p].[mail_ID], [p].[moblie_no], [p].[PhoneNo], [p].[street], [p].[testimonials], [p].[user_id], [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username], [c].[id], [c].[name], [c].[state_id]
+FROM [Provider] AS [p]
+LEFT JOIN [User] AS [u] ON [p].[user_id] = [u].[id]
+INNER JOIN [City] AS [c] ON [p].[city id] = [c].[id]
+2024-03-05 00:32:01 HTTP GET /api/client responded 200 in 3.4961 ms
+2024-03-05 00:32:01 An exception occurred while iterating over the results of a query for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c6f29974-387c-4712-ba78-352b4cc7cea4
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c6f29974-387c-4712-ba78-352b4cc7cea4
+Error Number:207,State:1,Class:16
+2024-03-05 00:32:01 HTTP GET /api/provider responded 400 in 45.9125 ms
+2024-03-05 00:32:18 Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[city id], [p].[company_name], [p].[description], [p].[launch_date], [p].[mail_ID], [p].[moblie_no], [p].[PhoneNo], [p].[street], [p].[testimonials], [p].[user_id], [u].[id], [u].[email], [u].[password], [u].[role_id], [u].[username], [c].[id], [c].[name], [c].[state_id]
+FROM [Provider] AS [p]
+LEFT JOIN [User] AS [u] ON [p].[user_id] = [u].[id]
+INNER JOIN [City] AS [c] ON [p].[city id] = [c].[id]
+2024-03-05 00:32:18 An exception occurred while iterating over the results of a query for context type 'RepositryAssignement.Models.InsuranceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c6f29974-387c-4712-ba78-352b4cc7cea4
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PhoneNo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:c6f29974-387c-4712-ba78-352b4cc7cea4
+Error Number:207,State:1,Class:16
+2024-03-05 00:32:18 HTTP GET /api/provider responded 400 in 35.6786 ms
+2024-03-05 00:33:38 HTTP GET /api/agent responded 200 in 1430.5339 ms
+2024-03-05 00:33:38 HTTP GET /api/client responded 200 in 1430.5392 ms
+2024-03-05 00:33:38 HTTP GET /api/provider responded 200 in 1430.1543 ms
+2024-03-05 00:35:21 HTTP GET /api/client responded 200 in 71.2757 ms
+2024-03-05 00:35:21 HTTP GET /api/agent responded 200 in 71.5023 ms
+2024-03-05 00:35:21 HTTP GET /api/provider responded 200 in 75.5582 ms
+2024-03-05 00:35:28 HTTP GET /api/agent responded 200 in 5.5781 ms
+2024-03-05 00:35:28 HTTP GET /api/provider responded 200 in 5.6709 ms
+2024-03-05 00:35:28 HTTP GET /api/client responded 200 in 6.1562 ms
+2024-03-05 00:36:31 HTTP GET /api/agent responded 200 in 8.1701 ms
+2024-03-05 00:36:31 HTTP GET /api/provider responded 200 in 41.1016 ms
+2024-03-05 00:36:31 HTTP GET /api/client responded 200 in 36.5313 ms
+2024-03-05 00:36:39 HTTP GET /api/agent responded 200 in 11.6540 ms
+2024-03-05 00:36:39 HTTP GET /api/provider responded 200 in 12.9232 ms
+2024-03-05 00:36:39 HTTP GET /api/client responded 200 in 14.4528 ms
+2024-03-05 00:36:50 HTTP GET /api/agent responded 200 in 4.2180 ms
+2024-03-05 00:36:50 HTTP GET /api/client responded 200 in 4.6605 ms
+2024-03-05 00:36:50 HTTP GET /api/provider responded 200 in 4.6014 ms
+2024-03-05 00:36:55 HTTP PUT /api/provider/4 responded 400 in 90.1456 ms
+2024-03-05 00:37:16 HTTP GET /api/provider responded 200 in 1.7611 ms
+2024-03-05 00:37:16 HTTP GET /api/client responded 200 in 1.8542 ms
+2024-03-05 00:37:16 HTTP GET /api/agent responded 200 in 8.2159 ms
+2024-03-05 00:37:20 HTTP PUT /api/provider/4 responded 200 in 108.7764 ms
+2024-03-05 00:37:35 HTTP GET /api/client responded 200 in 5.8837 ms
+2024-03-05 00:37:35 HTTP GET /api/provider responded 200 in 7.7353 ms
+2024-03-05 00:37:35 HTTP GET /api/agent responded 200 in 11.1815 ms
+2024-03-05 00:38:26 HTTP PUT /api/provider/5 responded 200 in 13.3597 ms
+2024-03-05 00:38:26 HTTP GET /api/provider responded 200 in 18.5580 ms
+2024-03-05 00:39:56 HTTP GET /api/agent responded 200 in 8.6638 ms
+2024-03-05 00:39:56 HTTP GET /api/client responded 200 in 9.5148 ms
+2024-03-05 00:39:56 HTTP GET /api/provider responded 200 in 3.8644 ms
+2024-03-05 00:40:20 HTTP GET /api/client responded 200 in 9.9432 ms
+2024-03-05 00:40:20 HTTP GET /api/provider responded 200 in 9.7314 ms
+2024-03-05 00:40:20 HTTP GET /api/agent responded 200 in 11.5623 ms
+2024-03-05 00:40:48 HTTP GET /api/client responded 200 in 6.6120 ms
+2024-03-05 00:40:48 HTTP GET /api/provider responded 200 in 5.8316 ms
+2024-03-05 00:40:48 HTTP GET /api/agent responded 200 in 4.9432 ms
+2024-03-05 00:45:00 HTTP GET /api/provider responded 200 in 10.7810 ms
+2024-03-05 00:45:00 HTTP GET /api/client responded 200 in 10.8630 ms
+2024-03-05 00:45:00 HTTP GET /api/agent responded 200 in 15.0355 ms
+2024-03-05 00:45:18 HTTP GET /api/agent responded 200 in 7.1291 ms
+2024-03-05 00:45:18 HTTP GET /api/client responded 200 in 13.1607 ms
+2024-03-05 00:45:18 HTTP GET /api/provider responded 200 in 14.5996 ms
+2024-03-05 00:45:21 HTTP GET /api/agent responded 200 in 3.9030 ms
+2024-03-05 00:45:21 HTTP GET /api/provider responded 200 in 4.0559 ms
+2024-03-05 00:45:21 HTTP GET /api/client responded 200 in 4.2069 ms
+2024-03-05 00:45:32 HTTP GET /api/provider responded 200 in 4.7803 ms
+2024-03-05 00:45:32 HTTP GET /api/agent responded 200 in 5.2169 ms
+2024-03-05 00:45:32 HTTP GET /api/client responded 200 in 9.2526 ms
+2024-03-05 00:45:36 HTTP GET /api/provider responded 200 in 4.0490 ms
+2024-03-05 00:45:36 HTTP GET /api/agent responded 200 in 4.0827 ms
+2024-03-05 00:45:36 HTTP GET /api/client responded 200 in 5.9731 ms
+2024-03-05 00:45:55 HTTP GET /api/provider responded 200 in 1.5766 ms
+2024-03-05 00:45:55 HTTP GET /api/client responded 200 in 2.9858 ms
+2024-03-05 00:45:55 HTTP GET /api/agent responded 200 in 1.7222 ms
+2024-03-05 00:46:00 HTTP PUT /api/agent/4 responded 400 in 6.8919 ms
+2024-03-05 00:46:22 HTTP GET /api/provider responded 200 in 5.6162 ms
+2024-03-05 00:46:22 HTTP GET /api/client responded 200 in 7.4131 ms
+2024-03-05 00:46:22 HTTP GET /api/agent responded 200 in 9.1468 ms
+2024-03-05 00:46:26 HTTP PUT /api/agent/4 responded 400 in 0.6589 ms
+2024-03-05 00:46:44 HTTP GET /api/client responded 200 in 6.5884 ms
+2024-03-05 00:46:44 HTTP GET /api/provider responded 200 in 5.7707 ms
+2024-03-05 00:46:44 HTTP GET /api/agent responded 200 in 6.5862 ms
+2024-03-05 00:46:48 HTTP PUT /api/agent/4 responded 200 in 16.9375 ms
+2024-03-05 00:48:07 HTTP GET /api/provider responded 200 in 9.3766 ms
+2024-03-05 00:48:07 HTTP GET /api/client responded 200 in 9.4468 ms
+2024-03-05 00:48:07 HTTP GET /api/agent responded 200 in 9.3851 ms
+2024-03-05 00:48:11 HTTP PUT /api/agent/4 responded 200 in 4.3194 ms
+2024-03-05 00:48:17 HTTP GET /api/client responded 200 in 2.8541 ms
+2024-03-05 00:48:17 HTTP GET /api/provider responded 200 in 3.9546 ms
+2024-03-05 00:48:17 HTTP GET /api/agent responded 200 in 1.7425 ms
+2024-03-05 00:48:24 HTTP PUT /api/agent/4 responded 200 in 4.4891 ms
+2024-03-05 00:48:24 HTTP GET /api/agent responded 200 in 1.0363 ms
+2024-03-05 00:48:59 HTTP PUT /api/provider/4 responded 200 in 9.8188 ms
+2024-03-05 00:48:59 HTTP GET /api/provider responded 200 in 8.7532 ms
+2024-03-05 00:49:02 HTTP GET /api/client responded 200 in 4.8450 ms
+2024-03-05 00:49:02 HTTP GET /api/provider responded 200 in 4.7087 ms
+2024-03-05 00:49:02 HTTP GET /api/agent responded 200 in 7.3283 ms
+2024-03-05 00:49:10 HTTP PUT /api/provider/4 responded 200 in 2.2526 ms
+2024-03-05 00:49:10 HTTP GET /api/provider responded 200 in 1.1240 ms
+2024-03-05 00:49:16 HTTP GET /api/agent responded 200 in 0.8968 ms
+2024-03-05 00:49:16 HTTP GET /api/provider responded 200 in 1.0165 ms
+2024-03-05 00:49:16 HTTP GET /api/client responded 200 in 1.1543 ms
+2024-03-05 00:49:20 HTTP GET /api/policy responded 200 in 69.7963 ms
+2024-03-05 00:49:23 HTTP GET /api/client responded 200 in 1.2288 ms
+2024-03-05 00:49:23 HTTP GET /api/provider responded 200 in 1.1415 ms
+2024-03-05 00:49:23 HTTP GET /api/agent responded 200 in 0.9314 ms
+2024-03-05 00:49:24 HTTP GET /api/policy responded 200 in 3.0503 ms
+2024-03-05 00:49:25 HTTP GET /api/plan responded 200 in 1038.5206 ms
+2024-03-05 00:49:28 HTTP GET /api/policy responded 200 in 2.5692 ms
+2024-03-05 00:49:29 HTTP GET /api/agent responded 200 in 1.0696 ms
+2024-03-05 00:49:29 HTTP GET /api/client responded 200 in 1.1613 ms
+2024-03-05 00:49:29 HTTP GET /api/provider responded 200 in 1.3574 ms
+2024-03-05 00:49:58 HTTP GET /api/policy responded 200 in 5.6852 ms
+2024-03-05 00:49:58 HTTP GET /api/policy responded 200 in 7.3361 ms
+2024-03-05 00:49:59 HTTP GET /api/plan responded 200 in 910.5853 ms
+2024-03-05 00:50:05 HTTP GET /api/policy responded 200 in 2.4675 ms
+2024-03-05 00:50:06 HTTP GET /api/client responded 200 in 3.6178 ms
+2024-03-05 00:50:06 HTTP GET /api/agent responded 200 in 7.1985 ms
+2024-03-05 00:50:06 HTTP GET /api/provider responded 200 in 8.1604 ms
+2024-03-05 00:50:42 HTTP GET /api/provider responded 200 in 4.2579 ms
+2024-03-05 00:50:42 HTTP GET /api/agent responded 200 in 8.0675 ms
+2024-03-05 00:50:42 HTTP GET /api/client responded 200 in 5.1301 ms
+2024-03-05 00:50:47 HTTP GET /api/client responded 200 in 9.2990 ms
+2024-03-05 00:50:47 HTTP GET /api/agent responded 200 in 9.7334 ms
+2024-03-05 00:50:47 HTTP GET /api/provider responded 200 in 12.8401 ms
+2024-03-05 00:50:48 HTTP GET /api/provider responded 200 in 8.1996 ms
+2024-03-05 00:50:48 HTTP GET /api/client responded 200 in 9.8895 ms
+2024-03-05 00:50:48 HTTP GET /api/agent responded 200 in 11.6652 ms
+2024-03-05 00:50:49 HTTP GET /api/client responded 200 in 13.0434 ms
+2024-03-05 00:50:49 HTTP DELETE /api/client/12 responded 200 in 34.3441 ms
+2024-03-05 00:50:49 HTTP GET /api/client responded 200 in 1.1895 ms
+2024-03-05 00:50:58 HTTP GET /api/policy responded 200 in 3.1920 ms
+2024-03-05 00:51:01 HTTP GET /api/policy responded 200 in 7.2146 ms
+2024-03-05 00:51:03 HTTP GET /api/agent responded 200 in 8.1775 ms
+2024-03-05 00:51:03 HTTP GET /api/provider responded 200 in 8.0943 ms
+2024-03-05 00:51:03 HTTP GET /api/client responded 200 in 13.5043 ms
+2024-03-05 00:51:08 HTTP GET /api/policy responded 200 in 14.3857 ms
+2024-03-05 00:51:09 HTTP GET /api/plan responded 200 in 908.6780 ms
+2024-03-05 00:51:11 HTTP GET /api/policy responded 200 in 2.1066 ms
+2024-03-05 00:51:36 HTTP GET /api/policy responded 200 in 2.7454 ms
+2024-03-05 00:51:37 HTTP GET /api/policy responded 200 in 1.9660 ms
+2024-03-05 00:51:40 HTTP GET /api/provider responded 200 in 7.9370 ms
+2024-03-05 00:51:40 HTTP GET /api/agent responded 200 in 8.9555 ms
+2024-03-05 00:51:40 HTTP GET /api/client responded 200 in 8.9934 ms
+2024-03-05 00:51:41 HTTP GET /api/provider responded 200 in 0.9782 ms
+2024-03-05 00:51:41 HTTP GET /api/client responded 200 in 1.0324 ms
+2024-03-05 00:51:41 HTTP GET /api/agent responded 200 in 1.0589 ms
+2024-03-05 00:53:59 HTTP GET /api/provider responded 200 in 10.0998 ms
+2024-03-05 00:53:59 HTTP GET /api/client responded 200 in 12.4019 ms
+2024-03-05 00:53:59 HTTP GET /api/agent responded 200 in 8.4543 ms
+2024-03-05 00:54:08 HTTP GET /api/policy responded 200 in 2.9743 ms
+2024-03-05 00:54:41 HTTP GET /api/policy responded 200 in 2.6422 ms
+2024-03-05 00:54:43 HTTP GET /api/policy responded 200 in 3.0147 ms
+2024-03-05 00:54:57 HTTP GET /api/policy responded 200 in 4.9321 ms
+2024-03-05 00:55:04 HTTP GET /api/policy responded 200 in 7.3237 ms
+2024-03-05 00:55:05 HTTP GET /api/plan responded 200 in 824.5549 ms
+2024-03-05 00:55:05 HTTP GET /api/client responded 200 in 3.7214 ms
+2024-03-05 00:55:05 HTTP GET /api/agent responded 200 in 3.6642 ms
+2024-03-05 00:55:05 HTTP GET /api/provider responded 200 in 5.1369 ms
+2024-03-05 00:55:08 HTTP GET /api/provider responded 200 in 5.3742 ms
+2024-03-05 00:55:08 HTTP GET /api/client responded 200 in 7.7944 ms
+2024-03-05 00:55:08 HTTP GET /api/agent responded 200 in 10.0469 ms
+2024-03-05 00:55:16 HTTP GET /api/policy responded 200 in 2.9459 ms
+2024-03-05 00:55:17 HTTP GET /api/client responded 200 in 5.2386 ms
+2024-03-05 00:55:17 HTTP GET /api/agent responded 200 in 5.0932 ms
+2024-03-05 00:55:17 HTTP GET /api/provider responded 200 in 5.1288 ms
+2024-03-05 00:55:18 HTTP GET /api/policy responded 200 in 2.0300 ms
+2024-03-05 00:55:19 HTTP GET /api/plan responded 200 in 821.5710 ms
+2024-03-05 00:55:19 HTTP GET /api/policy responded 200 in 2.2125 ms
+2024-03-05 00:55:20 HTTP GET /api/client responded 200 in 1.1227 ms
+2024-03-05 00:55:20 HTTP GET /api/agent responded 200 in 0.8881 ms
+2024-03-05 00:55:20 HTTP GET /api/provider responded 200 in 0.9176 ms
+2024-03-05 00:56:03 HTTP GET /api/agent responded 200 in 3.7456 ms
+2024-03-05 00:56:03 HTTP GET /api/client responded 200 in 5.8751 ms
+2024-03-05 00:56:03 HTTP GET /api/provider responded 200 in 31.6063 ms
+2024-03-05 14:39:34 HTTP GET /api/policy responded 200 in 1650.7423 ms
+2024-03-05 14:39:35 HTTP GET /api/plan responded 200 in 2498.9003 ms
+2024-03-05 14:40:09 HTTP GET /api/policy responded 200 in 60.9068 ms
+2024-03-05 14:40:11 HTTP GET /api/provider responded 200 in 29.2760 ms
+2024-03-05 14:40:11 HTTP GET /api/agent responded 200 in 37.2304 ms
+2024-03-05 14:40:11 HTTP GET /api/client responded 200 in 61.8675 ms
+2024-03-05 14:40:15 HTTP GET /api/policy responded 200 in 3.2158 ms
+2024-03-05 14:40:16 HTTP GET /api/plan responded 200 in 788.4612 ms
+2024-03-05 14:40:20 HTTP GET /api/policy responded 200 in 2.3792 ms
+2024-03-05 14:40:21 HTTP GET /api/client responded 200 in 1.8983 ms
+2024-03-05 14:40:21 HTTP GET /api/agent responded 200 in 1.8151 ms
+2024-03-05 14:40:21 HTTP GET /api/provider responded 200 in 2.0599 ms
+2024-03-05 14:44:14 HTTP GET /api/client responded 200 in 13.7938 ms
+2024-03-05 14:44:14 HTTP GET /api/provider responded 200 in 8.7017 ms
+2024-03-05 14:44:14 HTTP GET /api/agent responded 200 in 7.9598 ms
+2024-03-05 14:44:59 Policy Management System Started..........
+2024-03-05 14:44:59 HTTP GET / responded 200 in 210.6915 ms
+2024-03-05 14:44:59 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 9.5319 ms
+2024-03-05 14:44:59 HTTP GET /Assert/Image/download.png responded 200 in 38.7183 ms
+2024-03-05 14:44:59 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 31.0328 ms
+2024-03-05 14:44:59 HTTP GET /css/site.css responded 200 in 48.1752 ms
+2024-03-05 14:44:59 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 21.2465 ms
+2024-03-05 14:44:59 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 51.1874 ms
+2024-03-05 14:44:59 HTTP GET /js/site.js responded 200 in 2.1695 ms
+2024-03-05 14:44:59 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 51.8454 ms
+2024-03-05 14:45:09 Policy Management System Started..........
+2024-03-05 14:45:09 Login Details Admin admin@123
+2024-03-05 14:45:09 Valid Login Details
+2024-03-05 14:45:09 HTTP POST /Login responded 302 in 64.6630 ms
+2024-03-05 14:45:09 Redirected to Policy Enrollment page
+2024-03-05 14:45:09 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-05 14:45:09 HTTP GET /Policy/Index responded 200 in 163.6251 ms
+2024-03-05 14:45:09 HTTP GET /RepositryAssignement.styles.css responded 200 in 2.4903 ms
+2024-03-05 14:45:10 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 10.7779 ms
+2024-03-05 14:45:13 selected plan id 14
+2024-03-05 14:45:13 HTTP POST /Policy/Index responded 302 in 7.2026 ms
+2024-03-05 14:45:13 Enrolling to plan with  id 14
+2024-03-05 14:45:13 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:13 HTTP GET /Policy/Create responded 200 in 53.8923 ms
+2024-03-05 14:45:13 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3373 ms
+2024-03-05 14:45:21 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-03-05 14:45:21 HTTP POST /Policy/Create responded 302 in 7.1522 ms
+2024-03-05 14:45:21 Submitting View Action method triggered
+2024-03-05 14:45:21 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:21 HTTP GET /Policy/Submit responded 200 in 83.0367 ms
+2024-03-05 14:45:21 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3280 ms
+2024-03-05 14:45:24 Enrolling to plan with  id 14
+2024-03-05 14:45:24 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:24 HTTP GET /Policy/Create responded 200 in 6.9866 ms
+2024-03-05 14:45:25 Redirected to Policy Enrollment page
+2024-03-05 14:45:25 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-05 14:45:25 HTTP GET /Policy/Index responded 200 in 5.6617 ms
+2024-03-05 14:45:45 selected plan id 14
+2024-03-05 14:45:45 HTTP POST /Policy/Index responded 302 in 6.8593 ms
+2024-03-05 14:45:45 Enrolling to plan with  id 14
+2024-03-05 14:45:45 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:45 HTTP GET /Policy/Create responded 200 in 4.8344 ms
+2024-03-05 14:45:45 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3080 ms
+2024-03-05 14:45:51 Trying to adding the policy RepositryAssignement.Models.PolicyEnrollment by to database
+2024-03-05 14:45:51 HTTP POST /Policy/Create responded 302 in 2.8481 ms
+2024-03-05 14:45:51 Submitting View Action method triggered
+2024-03-05 14:45:51 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:51 HTTP GET /Policy/Submit responded 200 in 6.5078 ms
+2024-03-05 14:45:51 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.4210 ms
+2024-03-05 14:45:52 Enrolling to plan with  id 14
+2024-03-05 14:45:52 plan with id is RepositryAssignement.Models.Plan
+2024-03-05 14:45:52 HTTP GET /Policy/Create responded 200 in 5.5042 ms
+2024-03-05 14:45:54 Redirected to Policy Enrollment page
+2024-03-05 14:45:54 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-05 14:45:54 HTTP GET /Policy/Index responded 200 in 5.5189 ms
+2024-03-05 14:48:08 HTTP GET /api/client responded 200 in 11.8728 ms
+2024-03-05 14:48:08 HTTP GET /api/provider responded 200 in 7.8127 ms
+2024-03-05 14:48:08 HTTP GET /api/agent responded 200 in 6.9667 ms
+2024-03-05 14:49:30 HTTP GET /api/client responded 200 in 30.4392 ms
+2024-03-05 14:49:30 HTTP GET /api/provider responded 200 in 4.8896 ms
+2024-03-05 14:49:30 HTTP GET /api/agent responded 200 in 5.1368 ms
+2024-03-05 14:49:47 HTTP GET /api/provider responded 200 in 1.3355 ms
+2024-03-05 14:49:47 HTTP GET /api/agent responded 200 in 1.2659 ms
+2024-03-05 14:49:47 HTTP GET /api/client responded 200 in 1.5234 ms
+2024-03-05 15:38:12 Policy Management System Started..........
+2024-03-05 15:38:12 HTTP GET / responded 200 in 6.4819 ms
+2024-03-05 15:38:12 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6317 ms
+2024-03-05 15:55:58 HTTP GET /api/policy responded 200 in 49.8540 ms
+2024-03-05 15:55:59 HTTP GET /api/plan responded 200 in 897.4118 ms
+2024-03-05 16:17:19 HTTP GET /api/policy responded 200 in 21.7861 ms
+2024-03-05 16:17:20 HTTP GET /api/plan responded 200 in 832.8261 ms
+2024-03-05 16:24:19 HTTP GET /api/policy responded 200 in 15.7792 ms
+2024-03-05 16:24:20 HTTP GET /api/plan responded 200 in 819.5857 ms
+2024-03-05 16:27:27 HTTP GET /api/policy responded 200 in 8.6371 ms
+2024-03-05 16:27:28 HTTP GET /api/client responded 200 in 6.5271 ms
+2024-03-05 16:27:28 HTTP GET /api/provider responded 200 in 6.5701 ms
+2024-03-05 16:27:28 HTTP GET /api/agent responded 200 in 12.4256 ms
+2024-03-05 23:51:32 Policy Management System Started..........
+2024-03-05 23:51:33 HTTP GET / responded 200 in 429.0894 ms
+2024-03-05 23:51:33 Policy Management System Started..........
+2024-03-05 23:51:33 HTTP GET / responded 200 in 18.2860 ms
+2024-03-05 23:51:34 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 10.9624 ms
+2024-03-05 23:51:34 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.1421 ms
+2024-03-05 23:51:41 Policy Management System Started..........
+2024-03-05 23:51:41 Login Details admin admin@123
+2024-03-05 23:51:43 Valid Login Details
+2024-03-05 23:51:43 HTTP POST /Login responded 302 in 1489.8335 ms
+2024-03-05 23:51:43 Redirected to Policy Enrollment page
+2024-03-05 23:51:43 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-05 23:51:43 HTTP GET /Policy/Index responded 200 in 340.1278 ms
+2024-03-05 23:54:28 HTTP GET /api/policy responded 200 in 244.3410 ms
