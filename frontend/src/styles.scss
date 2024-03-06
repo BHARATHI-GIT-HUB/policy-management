@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
 @import url("https://v1.fontapi.ir/css/SFProDisplay");
 
 body {
@@ -15,3 +16,7 @@ ul {
   padding: 0px;
   margin-bottom: 0px !important;
 }
+
+// .anticon {
+//   color: #d5236b !important;
+// }

@@ -21,7 +21,7 @@ import { every, filter } from 'rxjs';
 export class BaseLayoutComponent implements OnInit {
   breadcrumbs: any[] = [];
   isCollapsed = false;
-  user_role: string = 'Provider';
+  user_role: string = 'Admin';
   currentPath: string = '';
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;

@@ -1,23 +1,26 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
     colors: {
+      ...colors,
       rose: "#D5236B",
       licorice: "#1E050F",
       cultured: "#F5F5F5",
-      blue: "#1fb6ff",
-      purple: "#7e5bef",
-      pink: "#ff49db",
-      orange: "#ff7849",
-      green: "#13ce66",
-      yellow: "#ffc82c",
-      "gray-dark": "#273444",
-      gray: "#8492a6",
-      "gray-light": "#d3dce6",
     },
 
     extend: {
+      animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
       margin: {
         auto: "0.5rem",
       },

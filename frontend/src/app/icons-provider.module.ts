@@ -15,6 +15,13 @@ import {
   UploadOutline,
   InboxOutline,
   ProfileFill,
+  DiffOutline,
+  DiffFill,
+  SnippetsFill,
+  DollarCircleOutline,
+  DollarCircleFill,
+  FileSearchOutline,
+  SelectOutline,
 } from '@ant-design/icons-angular/icons';
 
 const icons = [
@@ -31,6 +38,13 @@ const icons = [
   UploadOutline,
   InboxOutline,
   ProfileFill,
+  DiffOutline,
+  DiffFill,
+  SnippetsFill,
+  DollarCircleOutline,
+  DollarCircleFill,
+  FileSearchOutline,
+  SelectOutline,
 ];
 
 @NgModule({
