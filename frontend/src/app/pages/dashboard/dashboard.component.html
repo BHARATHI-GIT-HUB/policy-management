@@ -1,3 +1,12 @@
-<div class="container">
-  <app-chart></app-chart>
+<div class="flex justify-center items-center min-h-[70vh]">
+  <app-chart
+    class="flex-1"
+    *ngIf="listOfProviders.length > 0; else spin"
+    [listofProvider]="listOfProviders"
+    [totalPlanCount]="totalPlans"
+    [doughnutData]="doughnutData"
+  ></app-chart>
+  <ng-template #spin>
+    <nz-spin nzSimple class="" [nzSize]="'large'"></nz-spin>
+  </ng-template>
 </div>

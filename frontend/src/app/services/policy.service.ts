@@ -8,6 +8,6 @@ import { policy } from '../model';
 })
 export class PolicyService extends GenericService<policy> {
   constructor(private http: HttpClient) {
-    super(http, '/policy');
+    super(http, 'api/policy');
   }
 }

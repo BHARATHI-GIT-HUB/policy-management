@@ -1,8 +1,9 @@
+import { json } from '@angular-devkit/core';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { Observable } from 'rxjs';
-
+import { map } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
@@ -33,6 +34,7 @@ export abstract class GenericService<T> {
   }
 
   public delete(id: number): Observable<void> {
+    console.log(`${this.baseUrl}${this.apiUrl}/${id}`);
     return this.httpClient.delete<void>(`${this.baseUrl}${this.apiUrl}/${id}`);
   }
 }

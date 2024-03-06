@@ -1,9 +1,22 @@
-<nz-table #nzTable [nzData]="listOfDisplayData" nzTableLayout="fixed">
+<nz-table
+  #nzTable
+  [nzLoading]="isloading"
+  [nzData]="listOfDisplayData"
+  nzTableLayout="fixed"
+>
   <thead>
     <tr>
-      <th *ngFor="let data of headerData; index as i; first as isFirst">
+      <th
+        *ngFor="let column of header; index as i; first as isFirst"
+        [nzSortOrder]="column.sortOrder"
+        [nzSortFn]="column.sortFn"
+        [nzSortDirections]="column.sortDirections"
+        [nzFilterMultiple]="column.filterMultiple"
+        [nzFilters]="column.listOfFilter"
+        [nzFilterFn]="column.filterFn"
+      >
         <ng-container *ngIf="isFirst; else notFirst" nzCustomFilter>
-          {{ headerData.at(0) }}
+          {{ column.title }}
           <nz-filter-trigger
             [(nzVisible)]="visible"
             [nzActive]="searchValue.length > 0"
@@ -13,73 +26,44 @@
           </nz-filter-trigger>
         </ng-container>
         <ng-template #notFirst>
-          {{ data }}
+          {{ column.title }}
         </ng-template>
       </th>
-      <th>Action</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let data of nzTable.data; index as i">
       <ng-container *ngIf="!editCache[data.id].edit; else editTemplate">
         <ng-container
-          *ngFor="let value of getObjectValues(data); let first = first"
+          *ngFor="let value of getObjectValues(data); first as first"
         >
-          <td *ngIf="!first">
+          <td *ngIf="value != undefined && !first" class="capitalize">
             {{ value }}
           </td>
         </ng-container>
-        <!-- <td>{{ data.Provider }}</td>
-        <td>{{ data.Client }}</td>
-        <td>{{ data.Coverage }}</td>
-        <td>{{ data.Premium }}</td>
-        <td>{{ data.Commision }}</td>
-        <td>{{ data.Start_date }}</td> -->
-        <td><a (click)="startEdit(data.id)">Edit</a></td>
       </ng-container>
+      <td>
+        <a (click)="startEdit(data.id)">Edit</a>
+
+        <a class="ml-3" (click)="delete(data.id)">Delete</a>
+      </td>
+
       <ng-template #editTemplate>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.Provider"
-          />
-        </td>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.Client"
-          />
-        </td>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.Coverage"
-          />
-        </td>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.Premium"
-          />
-        </td>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.Commision"
-          />
-        </td>
-        <td>
-          <input
-            type="text"
-            nz-input
-            [(ngModel)]="editCache[data.id].data.StartDate"
-          />
-        </td>
+        <ng-container
+          *ngFor="let column of getObjectKey(data); index as i; first as first"
+        >
+          <ng-container *ngIf="!first">
+            <td>
+              <input
+                type="text"
+                nz-input
+                [(ngModel)]="editCache[data.id].data[column]"
+                [disabled]="!isEditable(column)"
+              />
+            </td>
+          </ng-container>
+        </ng-container>
+
         <td>
           <a (click)="saveEdit(data.id)" class="save">Save</a>
           <a

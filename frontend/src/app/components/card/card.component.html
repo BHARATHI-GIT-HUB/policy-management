@@ -1,17 +1,15 @@
-<div class="accordion-item relative max-w-min my-2">
+<div class="accordion-item relative max-w-min mx-2 md:px-4 md:my-0 my-16">
   <input type="checkbox" id="accordion-1" class="accordion-input" />
 
-  <label
-    for="accordion-1"
-    class="accordion-label flex justify-around items-center"
-  >
+  <label for="accordion-1" class="accordion-label flex items-center">
     <div
-      class="bg-white shadow-xl border-1 border-black pl-3 pt-5 md:pr-12 pr-3 pb-3 h-[125px] absolute top-[-7rem] left-0 md:top-0 md:left-[-8.5rem] flex flex-col gap-y-1 justify-around items-center rounded-lg"
+      (click)="toggleContent()"
+      class="bg-white shadow-xl border-[.5px] border-cultured pl-3 pt-2 md:pr-12 pr-3 pb-3 absolute top-[-7rem] left-0 md:top-0 md:left-[-8rem] flex flex-col gap-y-1 justify-around items-center rounded-lg"
     >
-      <img src="../../../assets/images/care.jpg" alt="" class="w-24 h-24" />
+      <img src="{{ imageSrc }}" alt="" class="w-24 max-h-20 object-fill" />
 
       <div class="flex flex-col justify-center items-center">
-        <p class="text-green-500 text-xs">10 more plans</p>
+        <p class="text-green-500 text-xs">{{ plans.length - 1 }} more plans</p>
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +17,8 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="max-w-6 max-h-4 text-green-500"
+          class="max-w-6 max-h-4 text-green-500 transition-transform ease-in-out delay-75"
+          [ngClass]="{ '-rotate-180': contentOpen === true }"
         >
           <path
             stroke-linecap="round"
@@ -30,84 +29,265 @@
       </div>
     </div>
     <div
-      class="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl rounded-tl-none max-w-[600px] max-h-[270px]"
+      class="flex flex-col bg-white text-gray-700 shadow-md bg-clip-border rounded-xl rounded-tl-none w-[85vw] md:w-[50vw] lg:w-[650px] z-10"
     >
       <div class="p-6">
-        <h5
-          class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
-        >
-          UI/UX Review Check
-        </h5>
-        <p
-          class="block font-sans text-base antialiased font-light leading-relaxed text-inherit"
-        >
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to "Naviglio" where you can enjoy the main night life in
-          Barcelona.
-        </p>
-      </div>
-      <div class="p-6 pt-0">
-        <button
-          class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-          type="button"
-        >
-          Read More
-        </button>
+        <div class="flex flex-col lg:flex-row lg:items-center gap-5">
+          <div class="flex-1 flex-col space-y-2">
+            <h3 class="text-2xl font-SF font-normal text-licorice">
+              {{ plans[0].planName }}
+            </h3>
+            <p>
+              <span
+                class="text-sm text-green-400 text-Sf text-medium flex items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 text-green-500"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 0 0 1.029.696l3.471-1.388 3.472 1.388a.75.75 0 0 0 .556 0l3.472-1.388 3.471 1.388a.75.75 0 0 0 1.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.255 49.255 0 0 0 12 1.5Zm3.53 7.28a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 1 0 1.06 1.06l6-6ZM8.625 9a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm5.625 3.375a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                Inclusive of 5 % direct discount
+              </span>
+            </p>
+
+            <p class="flex items-start gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6 text-red-600"
+              >
+                <path
+                  d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"
+                />
+              </svg>
+
+              <span
+                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+              >
+                {{ plans[0].description }}
+              </span>
+            </p>
+            <p class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-green-600"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span
+                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+              >
+                Minimum Income Eligibility : {{ plans[0].minIncomeEligiblity }}
+              </span>
+            </p>
+            <p class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-green-600"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span
+                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+              >
+                Maximum Income Eligibility : {{ plans[0].maxAgeEligiblity }}
+              </span>
+            </p>
+            <p class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-green-600"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span
+                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+              >
+                Deductibles : {{ plans[0].deductibles }}
+              </span>
+            </p>
+          </div>
+          <div
+            class="flex justify-around items-center lg:justify-start lg:flex-col lg:items-start gap-2 md:space-y-2"
+          >
+            <div class="">
+              <p
+                class="flex flex-col space-y-2 text-sm ms:text-md text-gray-500 font-normal md:font-semibold"
+              >
+                Max Coverage
+                <span class="text-licorice text-xs md:text-[17px] font-medium"
+                  >$ {{ plans[0].maxCoverageAmount }}</span
+                >
+              </p>
+            </div>
+            <button
+              class="bg-rose text-white px-2 md:px-4 py-2 rounded-xl shadow-xl hover:shadow-2xl text-SF text-xs md:text-md font-medium"
+            >
+              $1234 / month
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </label>
-  <div class="accordion-content">
-    <div
-      class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"
-    >
-      <div class="p-6">
-        <h5
-          class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
-        >
-          UI/UX Review Check
-        </h5>
-        <p
-          class="block font-sans text-base antialiased font-light leading-relaxed text-inherit"
-        >
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to "Naviglio" where you can enjoy the main night life in
-          Barcelona.
-        </p>
+  <div class="space-y-5 mt-5" [hidden]="!contentOpen">
+    <ng-container *ngFor="let plan of plans.slice(1)">
+      <div
+        class="flex flex-col bg-white text-gray-700 shadow-md bg-clip-border rounded-xl rounded-tl-none w-[85vw] md:w-[50vw] lg:w-[650px] z-10"
+      >
+        <div class="p-6">
+          <div class="flex flex-col lg:flex-row lg:items-center gap-5">
+            <div class="flex-1 flex-col space-y-2">
+              <h3 class="text-2xl font-SF font-normal text-licorice">
+                {{ plan.planName }}
+              </h3>
+              <p>
+                <span
+                  class="text-sm text-green-400 text-Sf text-medium flex items-center gap-1"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 text-green-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 0 0 1.029.696l3.471-1.388 3.472 1.388a.75.75 0 0 0 .556 0l3.472-1.388 3.471 1.388a.75.75 0 0 0 1.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.255 49.255 0 0 0 12 1.5Zm3.53 7.28a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 1 0 1.06 1.06l6-6ZM8.625 9a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm5.625 3.375a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Inclusive of 5 % direct discount
+                </span>
+              </p>
+
+              <p class="flex items-start gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 text-red-600"
+                >
+                  <path
+                    d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"
+                  />
+                </svg>
+
+                <span
+                  class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+                >
+                  {{ plan.description }}
+                </span>
+              </p>
+              <p class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-5 h-5 text-green-600"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                <span
+                  class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+                >
+                  Minimum Income Eligibility :
+                  {{ plan.minIncomeEligiblity }}
+                </span>
+              </p>
+              <p class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-5 h-5 text-green-600"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span
+                  class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+                >
+                  Maximum Income Eligibility : {{ plan.maxAgeEligiblity }}
+                </span>
+              </p>
+              <p class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-5 h-5 text-green-600"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span
+                  class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
+                >
+                  Deductibles : {{ plan.deductibles }}
+                </span>
+              </p>
+            </div>
+            <div
+              class="flex justify-around items-center lg:justify-start lg:flex-col lg:items-start gap-2 md:space-y-2"
+            >
+              <div class="">
+                <p
+                  class="flex flex-col space-y-2 text-sm ms:text-md text-gray-500 font-normal md:font-semibold"
+                >
+                  Max Coverage
+                  <span class="text-licorice text-xs md:text-[17px] font-medium"
+                    >${{ plan.maxCoverageAmount }}</span
+                  >
+                </p>
+              </div>
+              <button
+                class="bg-rose text-white px-2 md:px-4 py-2 rounded-xl shadow-xl hover:shadow-2xl text-SF text-xs md:text-md font-medium"
+              >
+                $1234 / month
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="p-6 pt-0">
-        <button
-          class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-          type="button"
-        >
-          Read More
-        </button>
-      </div>
-    </div>
-    <div
-      class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"
-    >
-      <div class="p-6">
-        <h5
-          class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
-        >
-          UI/UX Review Check
-        </h5>
-        <p
-          class="block font-sans text-base antialiased font-light leading-relaxed text-inherit"
-        >
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to "Naviglio" where you can enjoy the main night life in
-          Barcelona.
-        </p>
-      </div>
-      <div class="p-6 pt-0">
-        <button
-          class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-          type="button"
-        >
-          Read More
-        </button>
-      </div>
-    </div>
+    </ng-container>
   </div>
 </div>

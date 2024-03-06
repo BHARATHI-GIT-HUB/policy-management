@@ -8,6 +8,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ClientService extends GenericService<Client> {
   constructor(private http: HttpClient) {
-    super(http, '/client');
+    super(http, 'api/client');
   }
 }

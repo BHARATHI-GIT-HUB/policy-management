@@ -1,19 +1,28 @@
+import { forEach } from '@angular-devkit/schematics';
 // import { Menu } from '../../models/menu';
 // import { navigationAnimation } from '../../animations';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, RouterOutlet } from '@angular/router';
+import {
+  ActivatedRoute,
+  Router,
+  RouterOutlet,
+  NavigationEnd,
+  Navigation,
+} from '@angular/router';
 import { NzBreadCrumbComponent } from 'ng-zorro-antd/breadcrumb';
+
+import { every, filter } from 'rxjs';
 
 @Component({
   selector: 'app-base-layout',
   templateUrl: './base-layout.component.html',
   styleUrls: ['./base-layout.component.scss'],
-  // animations: [navigationAnimation],
 })
 export class BaseLayoutComponent implements OnInit {
-  breadcrumbName: string = '';
+  breadcrumbs: any[] = [];
   isCollapsed = false;
-
+  currentPath: string = '';
+  userRole: string = '';
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;
   }
@@ -21,85 +30,91 @@ export class BaseLayoutComponent implements OnInit {
     title: string;
     icon: string;
     path?: string;
-    // children?: Menu[];
   }[] = [];
-  // user = JSON.parse(String(localStorage.getItem('user')));
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 
-  ngOnInit() {
-    this.breadcrumbName = this.route.snapshot.data['title'];
-    this.breadcrumbName = 'Dashboard';
-    // if (this.user.role === 'MENTOR')
-    this.menu = [
-      {
-        title: 'Home',
-        icon: 'home',
-        path: 'home',
-      },
-      // {
-      //   title: 'Day Attendance',
-      //   icon: 'team',
-      //   path: 'day-attendance',
-      // },
-      // {
-      //   title: "Hourly Attendance",
-      //   icon: "houricon",
-      //   path: "hourly-attendance",
-      // },
-    ];
-    // else
-    //   this.menu = [
-    //     {
-    //       title: 'Home',
-    //       icon: 'home',
-    //       path: 'home',
-    //     },
-    //     {
-    //       title: 'Mentor',
-    //       icon: 'crown',
-    //       path: 'mentor',
-    //     },
-    //     {
-    //       title: 'Students',
-    //       icon: 'user',
-    //       path: 'students',
-    //     },
-    //     {
-    //       title: 'Day Attendance',
-    //       icon: 'team',
-    //       path: 'day-attendance',
-    //     },
+  ngOnInit(): void {
+    const user: any = localStorage.getItem('user');
+    this.userRole = JSON.parse(String(user)).Role;
+    this.router.events
+      .pipe(filter((event) => event instanceof NavigationEnd))
+      .subscribe((event: any) => {
+        this.currentPath = event.url.slice(1);
+        this.updateBreadcrumbs();
+      });
 
-    //     {
-    //       title: 'Time Table',
-    //       icon: 'timetable',
-    //       path: 'time-tables',
-    //     },
-    //     {
-    //       title: 'Section',
-    //       icon: 'contacts',
-    //       path: 'sections',
-    //     },
-    //     {
-    //       title: 'Subject',
-    //       icon: 'book',
-    //       path: 'subjects',
-    //     },
-    //     {
-    //       title: 'Total Hours',
-    //       icon: 'clock',
-    //       path: 'total-hours',
-    //     },
-    //   ];
+    if (this.userRole === 'Admin') {
+      this.menu = [
+        {
+          title: 'Dashboard',
+          icon: 'dashboard',
+          path: '',
+        },
+        {
+          title: 'Enrollment',
+          icon: 'file-done',
+          path: 'enrollment',
+        },
+        {
+          title: 'Bulk Upload',
+          icon: 'upload',
+          path: 'bulk-upload',
+        },
+        {
+          title: 'Users',
+          icon: 'user',
+          path: 'user',
+        },
+      ];
+    } else if (this.userRole === 'Provider') {
+      this.menu = [
+        {
+          title: 'Dashboard',
+          icon: 'dashboard',
+          path: '',
+        },
+        {
+          title: 'Bulk Upload',
+          icon: 'upload',
+          path: 'bulk-upload',
+        },
+      ];
+    } else if (this.userRole === 'Agent') {
+      this.menu = [
+        {
+          title: 'Dashboard',
+          icon: 'dashboard',
+          path: '',
+        },
+        {
+          title: 'Bulk Upload',
+          icon: 'upload',
+          path: 'bulk-upload',
+        },
+      ];
+    }
   }
 
-  prepareRoute(outlet: RouterOutlet) {
-    return (
-      outlet &&
-      outlet.activatedRouteData &&
-      outlet.activatedRouteData['animationState']
-    );
+  updateBreadcrumbs() {
+    let route: any = this.activatedRoute.root;
+    this.breadcrumbs = [];
+    let url = '';
+    do {
+      const childrenRoutes = route.children;
+      route = null;
+      childrenRoutes.forEach((childRoute: any) => {
+        if (childRoute.outlet === 'primary') {
+          const routeSnapshot = childRoute.snapshot;
+          url += routeSnapshot.url.map((segment: any) => segment.path);
+          this.breadcrumbs.push({
+            label: routeSnapshot.data['breadcrumb'][0].label,
+            url: url,
+          });
+          route = childRoute;
+        }
+      });
+    } while (route);
   }
 
   logOut() {

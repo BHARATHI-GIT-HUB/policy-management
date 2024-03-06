@@ -2,15 +2,53 @@
   <div class="">
     <h1 class="text-2xl mb-4">Client Details</h1>
     <ng-container *ngIf="clientData.length > 0">
-      <app-table [header]="clientHeader" [tableData]="clientData"></app-table>
+      <app-table
+        [header]="listOfClientColumn"
+        [tableData]="clientData"
+        (deletePoliy)="onDeleteClient($event)"
+        (UpdatedPoliy)="onUpdateClient($event)"
+      ></app-table>
     </ng-container>
   </div>
   <div class="">
     <h1 class="text-2xl mb-4">Provider Details</h1>
-    <app-table></app-table>
+    <ng-container *ngIf="providerData.length > 0">
+      <app-table
+        [header]="listOfProviderColumn"
+        [tableData]="providerData"
+        (deletePoliy)="onDeleteProvider($event)"
+        (UpdatedPoliy)="onUpdateProvider($event)"
+      ></app-table>
+    </ng-container>
   </div>
   <div class="">
     <h1 class="text-2xl mb-4">Agent Details</h1>
-    <app-table></app-table>
+    <ng-container *ngIf="agentData.length > 0">
+      <app-table
+        [header]="listOfAgentColumn"
+        [tableData]="agentData"
+        (deletePoliy)="onDeleteAgent($event)"
+        (UpdatedPoliy)="onUpdateAgent($event)"
+      ></app-table>
+    </ng-container>
   </div>
 </div>
+
+<nz-alert
+  nzType="error"
+  *ngIf="errorMessage.length > 0"
+  nzCloseable
+  nzDescription="{{ errorMessage }}"
+  nzMessage="error"
+  nzShowIcon
+  class="fixed top-3 right-3"
+></nz-alert>
+<nz-alert
+  *ngIf="responseMessage.length > 0"
+  nzCloseable
+  nzType="success"
+  nzMessage="Success "
+  nzDescription="{{ responseMessage }}"
+  nzShowIcon
+  class="fixed top-2 right-2"
+></nz-alert>

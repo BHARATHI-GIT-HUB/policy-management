@@ -14556,26 +14556,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\senth\\.nuget\\packages\\": {}
+    "/Users/bharathi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\senth\\OneDrive\\Desktop\\ripple\\RepositryAssignement\\RepositryAssignement.csproj",
+      "projectUniqueName": "/Volumes/Development/GitHub/policy-management/backend/RepositryAssignement.csproj",
       "projectName": "RepositryAssignement",
-      "projectPath": "C:\\Users\\senth\\OneDrive\\Desktop\\ripple\\RepositryAssignement\\RepositryAssignement.csproj",
-      "packagesPath": "C:\\Users\\senth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\senth\\OneDrive\\Desktop\\ripple\\RepositryAssignement\\obj\\",
+      "projectPath": "/Volumes/Development/GitHub/policy-management/backend/RepositryAssignement.csproj",
+      "packagesPath": "/Users/bharathi/.nuget/packages/",
+      "outputPath": "/Volumes/Development/GitHub/policy-management/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\senth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/bharathi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -14680,7 +14678,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

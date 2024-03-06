@@ -10,7 +10,7 @@ import { IconsProviderModule } from './icons-provider.module';
 import { NzLayoutModule, NzSiderComponent } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { ComponentModule } from './components/components.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
@@ -19,7 +19,21 @@ import {
 } from 'ng-zorro-antd/breadcrumb';
 import { NzButtonComponent, NzButtonModule } from 'ng-zorro-antd/button';
 import { HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import fr from '@angular/common/locales/fr';
+import { provideNzI18n, en_US } from 'ng-zorro-antd/i18n';
+import { JwtModule } from '@auth0/angular-jwt';
+import { environment } from '../environments/environment';
+import { AuthenticationRoutingModule } from './authentication/authentication-routing.module';
+import { AuthModule } from './authentication/authentication.module';
 
+registerLocaleData(en);
+registerLocaleData(fr);
+
+export function tokenGetter() {
+  return localStorage.getItem('jwt');
+}
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -28,14 +42,22 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     PagesModule,
     NgZorroModule,
+    AuthModule,
     IconsProviderModule,
     ComponentModule,
     ReactiveFormsModule,
     CommonModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        allowedDomains: [environment.apiurl],
+        disallowedRoutes: [],
+      },
+    }),
   ],
-  providers: [],
+  providers: [provideNzI18n(en_US)],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { policy } from '../../model';
 import { VerticalRightOutlined } from '@ant-design/icons';
 
@@ -14,11 +14,23 @@ export class TableComponent implements OnInit {
   listOfDisplayData: any[] = [];
   visible = false;
   editCache: { [key: string]: { edit: boolean; data: any } } = {};
+  isloading: boolean = true;
+
   @Input()
   tableData: any[] = [];
 
   @Input()
-  header: string[] = [];
+  header: any[] = [];
+
+  @Input()
+  ogData: any[] = [];
+
+  @Input()
+  editableColumn: string[] = [];
+
+  @Output() deletePoliy = new EventEmitter<number>();
+
+  @Output() UpdatedPoliy = new EventEmitter<any>();
 
   reset(): void {
     this.searchValue = '';
@@ -27,17 +39,34 @@ export class TableComponent implements OnInit {
 
   search(): void {
     this.visible = false;
-    this.listOfDisplayData = this.listOfData.filter(
-      (item: any) => item.Provider.indexOf(this.searchValue) !== -1
-    );
+    this.listOfDisplayData = this.listOfData.filter((item: any) => {
+      if (item.PlanName != undefined)
+        return item.PlanName.indexOf(this.searchValue) !== -1;
+      else return item.Name.indexOf(this.searchValue) !== -1;
+    });
   }
 
-  startEdit(id: string): void {
-    this.editCache[id].edit = true;
+  startEdit(id: number): void {
+    this.editCache[id.toString()].edit = true;
+  }
+  isEditable(column: string): boolean {
+    if (column == 'TimePeriod') return true;
+    else if (column == 'CoverageAmount') return true;
+    else if (column == 'Frequency') return true;
+    else if (column == 'Email') return true;
+    else if (column == 'Mobile') return true;
+    else if (column == 'Address') return true;
+    else return false;
+  }
+
+  delete(id: number): void {
+    this.deletePoliy.emit(id);
   }
 
   cancelEdit(id: string): void {
-    const index = this.listOfData.findIndex((item) => item.id === id);
+    const index = this.listOfData.findIndex(
+      (item) => item.id.toString() === id
+    );
     this.editCache[id] = {
       data: { ...this.listOfData[index] },
       edit: false,
@@ -45,9 +74,10 @@ export class TableComponent implements OnInit {
   }
 
   saveEdit(id: string): void {
-    const index = this.listOfData.findIndex((item) => item.id === id);
+    const index = this.listOfData.findIndex((item) => item.id.toString() == id);
     Object.assign(this.listOfData[index], this.editCache[id].data);
     this.editCache[id].edit = false;
+    this.UpdatedPoliy.emit(this.editCache[id].data);
   }
 
   updateEditCache(): void {
@@ -62,11 +92,16 @@ export class TableComponent implements OnInit {
   getObjectValues(obj: any): any[] {
     return Object.values(obj);
   }
+  getObjectKey(obj: any): any[] {
+    return Object.keys(obj);
+  }
 
   ngOnInit(): void {
     this.updateEditCache();
-    console.log('table data ' + this.tableData);
     this.listOfData = this.tableData;
+    if (this.tableData.length > 0) {
+      this.isloading = false;
+    }
     this.listOfDisplayData = [...this.listOfData];
     this.headerData = this.header;
     this.updateEditCache();
