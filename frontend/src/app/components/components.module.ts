@@ -16,7 +16,6 @@ import { StepComponent } from './step/step.component';
 
 @NgModule({
   declarations: [
-    LoginComponent,
     TableComponent,
     ChartComponent,
     CardComponent,
@@ -33,7 +32,6 @@ import { StepComponent } from './step/step.component';
     BrowserModule,
   ],
   exports: [
-    LoginComponent,
     TableComponent,
     ChartComponent,
     CardComponent,

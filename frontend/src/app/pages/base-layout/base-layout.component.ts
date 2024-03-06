@@ -21,8 +21,8 @@ import { every, filter } from 'rxjs';
 export class BaseLayoutComponent implements OnInit {
   breadcrumbs: any[] = [];
   isCollapsed = false;
-  user_role: string = 'Admin';
   currentPath: string = '';
+  userRole: string = '';
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;
   }
@@ -35,6 +35,8 @@ export class BaseLayoutComponent implements OnInit {
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 
   ngOnInit(): void {
+    const user: any = localStorage.getItem('user');
+    this.userRole = JSON.parse(String(user)).Role;
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
@@ -42,7 +44,7 @@ export class BaseLayoutComponent implements OnInit {
         this.updateBreadcrumbs();
       });
 
-    if (this.user_role === 'Admin') {
+    if (this.userRole === 'Admin') {
       this.menu = [
         {
           title: 'Dashboard',
@@ -65,7 +67,7 @@ export class BaseLayoutComponent implements OnInit {
           path: 'user',
         },
       ];
-    } else if (this.user_role === 'Provider') {
+    } else if (this.userRole === 'Provider') {
       this.menu = [
         {
           title: 'Dashboard',
@@ -78,7 +80,7 @@ export class BaseLayoutComponent implements OnInit {
           path: 'bulk-upload',
         },
       ];
-    } else if (this.user_role === 'Agent') {
+    } else if (this.userRole === 'Agent') {
       this.menu = [
         {
           title: 'Dashboard',

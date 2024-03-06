@@ -8,8 +8,17 @@ import { BulkUploadComponent } from './pages/bulk-upload/bulk-upload.component';
 import { LoginComponent } from './authentication/components/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AllPlansComponent } from './pages/all-plans/all-plans.component';
+import { BaseLayoutComponent as AuthComponent } from './authentication/base-layout/base-layout.component';
+import {
+  adminGuard,
+  agentGuard,
+  authGuard,
+  clientGuard,
+  providerGuard,
+} from './helpers/auth.guard';
 
 const routes: Routes = [
+  { path: 'login', component: AuthComponent },
   {
     path: '',
     component: BaseLayoutComponent,
@@ -23,6 +32,7 @@ const routes: Routes = [
         data: {
           breadcrumb: [{ label: 'Dashboard', link: '' }],
         },
+        canActivate: [authGuard, adminGuard],
       },
       {
         path: 'user',
@@ -30,6 +40,7 @@ const routes: Routes = [
         data: {
           breadcrumb: [{ label: 'User', link: '/user' }],
         },
+        canActivate: [authGuard, adminGuard, providerGuard],
       },
       {
         path: 'enrollment',
@@ -37,6 +48,7 @@ const routes: Routes = [
         data: {
           breadcrumb: [{ label: 'Enrollment', link: '/enrollment' }],
         },
+        canActivate: [authGuard],
       },
       {
         path: 'bulk-upload',
@@ -44,10 +56,10 @@ const routes: Routes = [
         data: {
           breadcrumb: [{ label: 'Bulk Upload', link: '/bulk-upload' }],
         },
+        canActivate: [authGuard],
       },
     ],
   },
-  { path: 'login', component: LoginComponent },
   {
     path: 'home',
     component: HomeComponent,
@@ -56,6 +68,7 @@ const routes: Routes = [
   {
     path: 'all-plans',
     component: AllPlansComponent,
+    canActivate: [authGuard, clientGuard],
   },
 ];
 
