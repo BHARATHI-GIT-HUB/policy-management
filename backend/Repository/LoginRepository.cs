@@ -13,21 +13,24 @@ namespace RepositryAssignement.Repository
             _context = context;
         }
 
-        public int Login(string? username, string? password)
+        public User Login(string? username, string? password)
         {
             User? user = _context.Users.Where(u => u.Username == username).FirstOrDefault();
             if(user != null)
             {
                 if(password == user.Password)
                 {
-                    User? isUser = _context.Users.FirstOrDefault(U => U.Id == user.Id);
-                    if(isUser != null)
+                    User? userData = _context
+                        .Users
+                        .Include("Role")
+                        .FirstOrDefault(U => U.Id == user.Id);
+                    if(userData != null)
                     {
-                        return isUser.Id;
+                        return userData;
                     }
                     else
                     {
-                        return 0;
+                        return null;
                     }
                 }
                 else

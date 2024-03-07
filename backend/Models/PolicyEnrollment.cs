@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace RepositryAssignement.Models;
 
@@ -29,9 +30,10 @@ public partial class PolicyEnrollment
 
     public int TimePeriod { get; set; }
 
-    public virtual Agent? Agent { get; set; } = null!;
-
-    public virtual Client? Client { get; set; } = null!;
-
-    public virtual Plan? Plan { get; set; } = null!;
+    [JsonIgnore]
+    public virtual Agent? Agent { get; set; }
+    [JsonIgnore]
+    public virtual Client? Client { get; set; } 
+    [JsonIgnore]
+    public virtual Plan? Plan { get; set; } 
 }

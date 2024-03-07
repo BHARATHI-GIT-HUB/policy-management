@@ -1,4 +1,5 @@
 ﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
+using RepositryAssignement.Models;
 using RepositryAssignement.Repository;
 
 namespace RepositryAssignement.BO
@@ -13,7 +14,7 @@ namespace RepositryAssignement.BO
             _loginRepository = loginRepository;
         }
 
-        public int Login(string? username, string? password)
+        public User Login(string? username, string? password)
         {
             if (username == "") {
                 throw new ArgumentNullException("username");

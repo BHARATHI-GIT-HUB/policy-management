@@ -1,0 +1,886 @@
+2024-03-06 00:03:19 HTTP GET /api/plan responded 200 in 881.2938 ms
+2024-03-06 00:05:59 HTTP GET /api/plan responded 200 in 837.7481 ms
+2024-03-06 00:08:06 HTTP GET /api/plan responded 200 in 798.8016 ms
+2024-03-06 00:10:23 HTTP GET /api/plan responded 200 in 814.5867 ms
+2024-03-06 00:11:15 HTTP GET /api/plan responded 200 in 813.0211 ms
+2024-03-06 00:11:51 HTTP GET /api/plan responded 200 in 815.8010 ms
+2024-03-06 00:11:56 HTTP GET /api/plan responded 200 in 816.0258 ms
+2024-03-06 00:12:09 HTTP GET /api/plan responded 200 in 808.0167 ms
+2024-03-06 00:12:14 HTTP GET /api/plan responded 200 in 805.5652 ms
+2024-03-06 00:12:17 HTTP GET /api/plan responded 200 in 804.0124 ms
+2024-03-06 00:14:16 HTTP GET /api/plan responded 200 in 805.9133 ms
+2024-03-06 00:15:54 HTTP GET /api/plan responded 200 in 813.5674 ms
+2024-03-06 00:18:12 HTTP GET /api/plan responded 200 in 805.8200 ms
+2024-03-06 00:20:59 HTTP GET /api/plan responded 200 in 809.5431 ms
+2024-03-06 00:25:29 HTTP GET /api/plan responded 200 in 815.8492 ms
+2024-03-06 00:25:41 HTTP GET /api/plan responded 200 in 811.0173 ms
+2024-03-06 00:26:45 HTTP GET /api/plan responded 200 in 817.9335 ms
+2024-03-06 00:27:59 HTTP GET /api/plan responded 200 in 811.7384 ms
+2024-03-06 00:28:16 HTTP GET /api/plan responded 200 in 810.6903 ms
+2024-03-06 00:28:25 HTTP GET /api/plan responded 200 in 836.6845 ms
+2024-03-06 00:28:40 HTTP GET /api/plan responded 200 in 829.0491 ms
+2024-03-06 00:28:49 HTTP GET /api/plan responded 200 in 803.2512 ms
+2024-03-06 00:29:11 HTTP GET /api/plan responded 200 in 811.1985 ms
+2024-03-06 00:29:29 HTTP GET /api/plan responded 200 in 803.2325 ms
+2024-03-06 00:30:28 HTTP GET /api/plan responded 200 in 807.9125 ms
+2024-03-06 00:32:34 HTTP GET /api/plan responded 200 in 806.9150 ms
+2024-03-06 00:33:12 HTTP GET /api/plan responded 200 in 838.9327 ms
+2024-03-06 00:34:32 HTTP GET /api/plan responded 200 in 814.0431 ms
+2024-03-06 00:36:59 HTTP GET /api/plan responded 200 in 821.6264 ms
+2024-03-06 00:37:52 HTTP GET /api/plan responded 200 in 871.0280 ms
+2024-03-06 00:37:58 HTTP GET /api/plan responded 200 in 824.3523 ms
+2024-03-06 00:38:42 HTTP GET /api/plan responded 200 in 856.5538 ms
+2024-03-06 00:40:14 HTTP GET /api/plan responded 200 in 803.0597 ms
+2024-03-06 00:40:51 HTTP GET /api/plan responded 200 in 834.4241 ms
+2024-03-06 00:41:48 HTTP GET /api/plan responded 200 in 809.9867 ms
+2024-03-06 00:41:55 HTTP GET /api/plan responded 200 in 800.0220 ms
+2024-03-06 00:42:04 HTTP GET /api/plan responded 200 in 800.1167 ms
+2024-03-06 00:42:08 HTTP GET /api/plan responded 200 in 864.9595 ms
+2024-03-06 00:44:31 HTTP GET /api/plan responded 200 in 805.9001 ms
+2024-03-06 00:45:37 HTTP GET /api/plan responded 200 in 801.7971 ms
+2024-03-06 00:46:23 HTTP GET /api/plan responded 200 in 800.7921 ms
+2024-03-06 00:46:30 HTTP GET /api/plan responded 200 in 791.2162 ms
+2024-03-06 00:47:15 HTTP GET /api/plan responded 200 in 804.3930 ms
+2024-03-06 00:47:25 HTTP GET /api/plan responded 200 in 801.3528 ms
+2024-03-06 00:47:53 HTTP GET /api/plan responded 200 in 854.7249 ms
+2024-03-06 00:47:58 HTTP GET /api/plan responded 200 in 823.0953 ms
+2024-03-06 00:48:08 HTTP GET /api/plan responded 200 in 807.4520 ms
+2024-03-06 00:48:28 HTTP GET /api/plan responded 200 in 824.6773 ms
+2024-03-06 00:48:32 HTTP GET /api/plan responded 200 in 817.6297 ms
+2024-03-06 00:48:34 HTTP GET /api/plan responded 200 in 814.5046 ms
+2024-03-06 00:48:43 HTTP GET /api/plan responded 200 in 903.9373 ms
+2024-03-06 00:48:51 HTTP GET /api/plan responded 200 in 834.9378 ms
+2024-03-06 00:48:58 HTTP GET /api/plan responded 200 in 809.7374 ms
+2024-03-06 00:49:17 HTTP GET /api/plan responded 200 in 833.0158 ms
+2024-03-06 00:49:36 HTTP GET /api/plan responded 200 in 814.7110 ms
+2024-03-06 00:49:46 HTTP GET /api/plan responded 200 in 814.1603 ms
+2024-03-06 00:50:02 HTTP GET /api/plan responded 200 in 833.5890 ms
+2024-03-06 00:50:25 HTTP GET /api/plan responded 200 in 821.3469 ms
+2024-03-06 00:50:31 HTTP GET /api/plan responded 200 in 811.1037 ms
+2024-03-06 00:50:43 HTTP GET /api/plan responded 200 in 810.6401 ms
+2024-03-06 00:50:54 HTTP GET /api/plan responded 200 in 811.3423 ms
+2024-03-06 00:51:22 HTTP GET /api/plan responded 200 in 807.3794 ms
+2024-03-06 00:51:43 HTTP GET /api/plan responded 200 in 799.1591 ms
+2024-03-06 00:51:57 HTTP GET /api/plan responded 200 in 801.2929 ms
+2024-03-06 00:52:00 HTTP GET /api/plan responded 200 in 795.6844 ms
+2024-03-06 00:52:30 HTTP GET /api/plan responded 200 in 800.0281 ms
+2024-03-06 00:52:54 HTTP GET /api/plan responded 200 in 802.0519 ms
+2024-03-06 00:53:07 HTTP GET /api/plan responded 200 in 808.2257 ms
+2024-03-06 00:53:11 HTTP GET /api/plan responded 200 in 814.3699 ms
+2024-03-06 00:53:18 HTTP GET /api/plan responded 200 in 799.1515 ms
+2024-03-06 00:54:00 HTTP GET /api/plan responded 200 in 904.5066 ms
+2024-03-06 00:54:17 HTTP GET /api/plan responded 200 in 809.9838 ms
+2024-03-06 00:54:19 HTTP GET /api/plan responded 200 in 805.2773 ms
+2024-03-06 00:54:29 HTTP GET /api/plan responded 200 in 802.4184 ms
+2024-03-06 00:54:43 HTTP GET /api/plan responded 200 in 799.0273 ms
+2024-03-06 00:54:45 HTTP GET /api/plan responded 200 in 804.8428 ms
+2024-03-06 00:54:48 HTTP GET /api/plan responded 200 in 803.6243 ms
+2024-03-06 00:54:48 HTTP GET /api/plan responded 200 in 804.4318 ms
+2024-03-06 00:54:58 HTTP GET /api/plan responded 200 in 799.1168 ms
+2024-03-06 00:55:37 HTTP GET /api/plan responded 200 in 811.4019 ms
+2024-03-06 00:55:46 HTTP GET /api/plan responded 200 in 805.8715 ms
+2024-03-06 00:57:06 HTTP GET /api/plan responded 200 in 811.3857 ms
+2024-03-06 00:57:11 HTTP GET /api/plan responded 200 in 804.7027 ms
+2024-03-06 00:58:13 HTTP GET /api/plan responded 200 in 821.1375 ms
+2024-03-06 00:58:19 HTTP GET /api/plan responded 200 in 804.8671 ms
+2024-03-06 00:59:12 HTTP GET /api/plan responded 200 in 817.6917 ms
+2024-03-06 00:59:17 HTTP GET /api/plan responded 200 in 804.6461 ms
+2024-03-06 00:59:37 HTTP GET /api/plan responded 200 in 801.7485 ms
+2024-03-06 01:00:07 HTTP GET /api/plan responded 200 in 815.6507 ms
+2024-03-06 01:03:13 HTTP GET /api/plan responded 200 in 839.5073 ms
+2024-03-06 01:03:17 HTTP GET /api/plan responded 200 in 806.7596 ms
+2024-03-06 01:04:01 HTTP GET /api/plan responded 200 in 807.8136 ms
+2024-03-06 01:04:10 HTTP GET /api/plan responded 200 in 810.8589 ms
+2024-03-06 01:04:50 HTTP GET /api/plan responded 200 in 811.7744 ms
+2024-03-06 01:05:52 HTTP GET /api/plan responded 200 in 863.9606 ms
+2024-03-06 01:06:13 HTTP GET /api/plan responded 200 in 807.6029 ms
+2024-03-06 01:06:37 HTTP GET /api/plan responded 200 in 822.7857 ms
+2024-03-06 01:06:47 HTTP GET /api/plan responded 200 in 813.2041 ms
+2024-03-06 01:06:54 HTTP GET /api/plan responded 200 in 814.1434 ms
+2024-03-06 01:08:49 HTTP GET /api/plan responded 200 in 828.3843 ms
+2024-03-06 01:12:23 HTTP GET /api/plan responded 200 in 817.8135 ms
+2024-03-06 01:12:40 HTTP GET /api/plan responded 200 in 807.7927 ms
+2024-03-06 01:12:49 HTTP GET /api/plan responded 200 in 806.4995 ms
+2024-03-06 01:13:08 HTTP GET /api/plan responded 200 in 810.7396 ms
+2024-03-06 01:13:42 HTTP GET /api/plan responded 200 in 815.6605 ms
+2024-03-06 01:13:52 HTTP GET /api/plan responded 200 in 806.5751 ms
+2024-03-06 01:14:06 HTTP GET /api/plan responded 200 in 808.6165 ms
+2024-03-06 01:14:26 HTTP GET /api/plan responded 200 in 808.6760 ms
+2024-03-06 01:15:08 HTTP GET /api/plan responded 200 in 853.4768 ms
+2024-03-06 01:15:40 HTTP GET /api/plan responded 200 in 842.8666 ms
+2024-03-06 01:15:53 HTTP GET /api/plan responded 200 in 815.8760 ms
+2024-03-06 01:16:04 HTTP GET /api/plan responded 200 in 806.1693 ms
+2024-03-06 01:16:16 HTTP GET /api/plan responded 200 in 849.2365 ms
+2024-03-06 01:16:20 HTTP GET /api/plan responded 200 in 805.1156 ms
+2024-03-06 01:16:41 HTTP GET /api/plan responded 200 in 813.2007 ms
+2024-03-06 01:17:07 HTTP GET /api/plan responded 200 in 798.8845 ms
+2024-03-06 01:17:15 HTTP GET /api/plan responded 200 in 797.5555 ms
+2024-03-06 01:17:37 HTTP GET /api/plan responded 200 in 813.2064 ms
+2024-03-06 01:17:46 HTTP GET /api/plan responded 200 in 819.6976 ms
+2024-03-06 01:18:06 HTTP GET /api/plan responded 200 in 809.6342 ms
+2024-03-06 01:18:17 HTTP GET /api/plan responded 200 in 814.3917 ms
+2024-03-06 01:18:35 HTTP GET /api/plan responded 200 in 823.0724 ms
+2024-03-06 01:18:45 HTTP GET /api/plan responded 200 in 812.0308 ms
+2024-03-06 01:18:55 HTTP GET /api/plan responded 200 in 819.0909 ms
+2024-03-06 01:19:28 HTTP GET /api/plan responded 200 in 830.5725 ms
+2024-03-06 01:20:00 HTTP GET /api/plan responded 200 in 818.2952 ms
+2024-03-06 01:20:02 HTTP GET /api/plan responded 200 in 806.9529 ms
+2024-03-06 01:20:16 HTTP GET /api/plan responded 200 in 807.9355 ms
+2024-03-06 01:22:18 HTTP GET /api/plan responded 200 in 848.7454 ms
+2024-03-06 01:23:51 HTTP GET /api/plan responded 200 in 848.2212 ms
+2024-03-06 01:23:59 HTTP GET /api/plan responded 200 in 815.9576 ms
+2024-03-06 01:26:24 HTTP GET /api/plan responded 200 in 822.9489 ms
+2024-03-06 01:26:53 HTTP GET /api/plan responded 200 in 848.3355 ms
+2024-03-06 01:28:15 HTTP GET /api/plan responded 200 in 838.2930 ms
+2024-03-06 01:29:01 HTTP GET /api/plan responded 200 in 852.2842 ms
+2024-03-06 01:29:27 HTTP GET /api/plan responded 200 in 814.0368 ms
+2024-03-06 01:29:41 HTTP GET /api/plan responded 200 in 807.3047 ms
+2024-03-06 01:30:23 HTTP GET /api/plan responded 200 in 841.4361 ms
+2024-03-06 01:30:28 HTTP GET /api/plan responded 200 in 812.9469 ms
+2024-03-06 01:30:38 HTTP GET /api/plan responded 200 in 815.6443 ms
+2024-03-06 01:30:58 HTTP GET /api/plan responded 200 in 817.5372 ms
+2024-03-06 01:31:05 HTTP GET /api/plan responded 200 in 813.9940 ms
+2024-03-06 01:31:35 HTTP GET /api/plan responded 200 in 817.7504 ms
+2024-03-06 01:34:19 HTTP GET /api/plan responded 200 in 818.3423 ms
+2024-03-06 01:34:23 HTTP GET /api/plan responded 200 in 808.5231 ms
+2024-03-06 01:35:42 HTTP GET /api/plan responded 200 in 818.1955 ms
+2024-03-06 01:35:46 HTTP GET /api/plan responded 200 in 812.8130 ms
+2024-03-06 01:35:57 HTTP GET /api/plan responded 200 in 817.0653 ms
+2024-03-06 01:38:43 HTTP GET /api/plan responded 200 in 846.2834 ms
+2024-03-06 01:38:47 HTTP GET /api/plan responded 200 in 832.2392 ms
+2024-03-06 01:38:52 HTTP GET /api/plan responded 200 in 836.0132 ms
+2024-03-06 01:39:06 HTTP GET /api/plan responded 200 in 826.9197 ms
+2024-03-06 01:39:44 HTTP GET /api/plan responded 200 in 835.6050 ms
+2024-03-06 01:40:20 HTTP GET /api/plan responded 200 in 841.0101 ms
+2024-03-06 01:40:24 HTTP GET /api/plan responded 200 in 834.0411 ms
+2024-03-06 01:41:35 HTTP GET /api/plan responded 200 in 833.5576 ms
+2024-03-06 01:41:40 HTTP GET /api/plan responded 200 in 822.2979 ms
+2024-03-06 01:41:50 HTTP GET /api/plan responded 200 in 837.6209 ms
+2024-03-06 01:41:56 HTTP GET /api/plan responded 200 in 843.6123 ms
+2024-03-06 01:42:06 HTTP GET /api/plan responded 200 in 832.6443 ms
+2024-03-06 01:43:26 HTTP GET /api/plan responded 200 in 846.3896 ms
+2024-03-06 01:43:52 HTTP GET /api/plan responded 200 in 836.0840 ms
+2024-03-06 01:43:58 HTTP GET /api/plan responded 200 in 827.9020 ms
+2024-03-06 01:44:16 HTTP GET /api/plan responded 200 in 824.1293 ms
+2024-03-06 01:44:37 HTTP GET /api/plan responded 200 in 831.3052 ms
+2024-03-06 01:44:48 HTTP GET /api/plan responded 200 in 824.8572 ms
+2024-03-06 01:45:04 HTTP GET /api/plan responded 200 in 827.6837 ms
+2024-03-06 01:47:23 HTTP GET /api/plan responded 200 in 845.8618 ms
+2024-03-06 01:47:42 HTTP GET /api/plan responded 200 in 834.3261 ms
+2024-03-06 01:47:46 HTTP GET /api/plan responded 200 in 878.4041 ms
+2024-03-06 01:48:08 HTTP GET /api/plan responded 200 in 833.2436 ms
+2024-03-06 01:48:24 HTTP GET /api/plan responded 200 in 852.9128 ms
+2024-03-06 01:48:27 HTTP GET /api/plan responded 200 in 827.0668 ms
+2024-03-06 01:49:31 HTTP GET /api/plan responded 200 in 846.6279 ms
+2024-03-06 01:49:40 HTTP GET /api/plan responded 200 in 843.1049 ms
+2024-03-06 01:49:43 HTTP GET /api/plan responded 200 in 830.0757 ms
+2024-03-06 01:49:52 HTTP GET /api/plan responded 200 in 827.2106 ms
+2024-03-06 01:50:10 HTTP GET /api/plan responded 200 in 831.3780 ms
+2024-03-06 01:50:16 HTTP GET /api/plan responded 200 in 839.6995 ms
+2024-03-06 01:52:33 HTTP GET /api/plan responded 200 in 847.7597 ms
+2024-03-06 01:52:40 HTTP GET /api/plan responded 200 in 828.8826 ms
+2024-03-06 01:52:59 HTTP GET /api/plan responded 200 in 851.5192 ms
+2024-03-06 01:53:05 HTTP GET /api/plan responded 200 in 842.8965 ms
+2024-03-06 01:53:29 HTTP GET /api/plan responded 200 in 844.9082 ms
+2024-03-06 01:53:36 HTTP GET /api/plan responded 200 in 832.3370 ms
+2024-03-06 01:54:00 HTTP GET /api/plan responded 200 in 843.6048 ms
+2024-03-06 01:55:21 HTTP GET /api/plan responded 200 in 861.6173 ms
+2024-03-06 01:56:04 HTTP GET /api/plan responded 200 in 852.3037 ms
+2024-03-06 01:56:14 HTTP GET /api/plan responded 200 in 824.4822 ms
+2024-03-06 01:57:38 HTTP GET /api/plan responded 200 in 843.7585 ms
+2024-03-06 01:58:21 HTTP GET /api/plan responded 200 in 845.0398 ms
+2024-03-06 01:58:28 HTTP GET /api/plan responded 200 in 827.1366 ms
+2024-03-06 01:58:43 HTTP GET /api/plan responded 200 in 824.1226 ms
+2024-03-06 01:59:21 HTTP GET /api/plan responded 200 in 845.9918 ms
+2024-03-06 01:59:41 HTTP GET /api/plan responded 200 in 834.1480 ms
+2024-03-06 01:59:46 HTTP GET /api/plan responded 200 in 832.5905 ms
+2024-03-06 02:00:12 HTTP GET /api/plan responded 200 in 841.5546 ms
+2024-03-06 02:00:37 HTTP GET /api/plan responded 200 in 869.8730 ms
+2024-03-06 02:00:43 HTTP GET /api/plan responded 200 in 832.4611 ms
+2024-03-06 02:01:08 HTTP GET /api/plan responded 200 in 845.7929 ms
+2024-03-06 02:01:23 HTTP GET /api/plan responded 200 in 835.8425 ms
+2024-03-06 02:01:29 HTTP GET /api/plan responded 200 in 846.2976 ms
+2024-03-06 02:01:39 HTTP GET /api/plan responded 200 in 828.4515 ms
+2024-03-06 02:01:59 HTTP GET /api/plan responded 200 in 839.8553 ms
+2024-03-06 02:02:03 HTTP GET /api/plan responded 200 in 831.0956 ms
+2024-03-06 02:02:23 HTTP GET /api/plan responded 200 in 837.9825 ms
+2024-03-06 02:02:43 HTTP GET /api/plan responded 200 in 832.2877 ms
+2024-03-06 02:03:03 HTTP GET /api/plan responded 200 in 841.9643 ms
+2024-03-06 02:03:13 HTTP GET /api/plan responded 200 in 829.0018 ms
+2024-03-06 02:03:15 HTTP GET /api/plan responded 200 in 829.5524 ms
+2024-03-06 02:04:40 HTTP GET /api/plan responded 200 in 839.6526 ms
+2024-03-06 02:04:45 HTTP GET /api/plan responded 200 in 824.2587 ms
+2024-03-06 02:04:58 HTTP GET /api/plan responded 200 in 832.1922 ms
+2024-03-06 02:35:43 HTTP GET /Policy/Details responded 302 in 3.3603 ms
+2024-03-06 02:35:43 Policy Management System Started..........
+2024-03-06 02:35:43 HTTP GET /Login responded 200 in 8.9523 ms
+2024-03-06 02:35:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.3352 ms
+2024-03-06 09:40:34 HTTP GET /api/policy responded 200 in 1671.7277 ms
+2024-03-06 09:40:35 HTTP GET /api/plan responded 200 in 2506.4796 ms
+2024-03-06 09:40:45 HTTP GET /api/policy responded 200 in 54.6297 ms
+2024-03-06 09:40:57 HTTP GET /api/provider responded 200 in 31.4786 ms
+2024-03-06 09:40:57 HTTP GET /api/agent responded 200 in 32.3137 ms
+2024-03-06 09:40:57 HTTP GET /api/client responded 200 in 42.0793 ms
+2024-03-06 09:41:59 HTTP GET /api/agent responded 200 in 11.0509 ms
+2024-03-06 09:41:59 HTTP GET /api/provider responded 200 in 11.6669 ms
+2024-03-06 09:41:59 HTTP GET /api/client responded 200 in 16.1153 ms
+2024-03-06 09:42:05 HTTP GET /api/policy responded 200 in 15.1267 ms
+2024-03-06 09:42:06 HTTP GET /api/policy responded 200 in 2.8057 ms
+2024-03-06 09:42:06 HTTP GET /api/plan responded 200 in 789.6430 ms
+2024-03-06 09:43:32 HTTP GET /api/plan responded 200 in 787.3178 ms
+2024-03-06 09:43:46 HTTP GET /api/plan responded 200 in 793.1191 ms
+2024-03-06 09:44:03 HTTP GET /api/plan responded 200 in 779.5051 ms
+2024-03-06 09:44:13 HTTP GET /api/plan responded 200 in 781.5193 ms
+2024-03-06 09:46:43 HTTP GET /api/plan responded 200 in 797.8016 ms
+2024-03-06 09:48:36 HTTP GET /api/plan responded 200 in 799.3998 ms
+2024-03-06 09:48:42 HTTP GET /api/plan responded 200 in 788.2137 ms
+2024-03-06 09:49:16 HTTP GET /api/plan responded 200 in 794.4177 ms
+2024-03-06 09:49:29 HTTP GET /api/plan responded 200 in 791.0752 ms
+2024-03-06 09:49:33 HTTP GET /api/plan responded 200 in 786.8812 ms
+2024-03-06 09:50:10 HTTP GET /api/plan responded 200 in 792.0970 ms
+2024-03-06 09:50:15 HTTP GET /api/plan responded 200 in 788.0943 ms
+2024-03-06 09:50:20 HTTP GET /api/plan responded 200 in 800.6909 ms
+2024-03-06 09:50:28 HTTP GET /api/plan responded 200 in 799.1041 ms
+2024-03-06 09:50:47 HTTP GET /api/plan responded 200 in 791.5324 ms
+2024-03-06 09:50:55 HTTP GET /api/plan responded 200 in 786.0779 ms
+2024-03-06 09:51:21 HTTP GET /api/plan responded 200 in 797.2733 ms
+2024-03-06 09:51:33 HTTP GET /api/plan responded 200 in 815.3567 ms
+2024-03-06 09:51:36 HTTP GET /api/plan responded 200 in 795.3553 ms
+2024-03-06 09:51:42 HTTP GET /api/plan responded 200 in 793.2872 ms
+2024-03-06 09:51:50 HTTP GET /api/plan responded 200 in 788.2260 ms
+2024-03-06 09:52:06 HTTP GET /api/plan responded 200 in 788.1091 ms
+2024-03-06 09:52:21 HTTP GET /api/plan responded 200 in 791.5700 ms
+2024-03-06 09:52:51 HTTP GET /api/plan responded 200 in 799.4315 ms
+2024-03-06 09:53:00 HTTP GET /api/plan responded 200 in 794.5658 ms
+2024-03-06 09:53:08 HTTP GET /api/plan responded 200 in 788.4130 ms
+2024-03-06 09:53:09 HTTP GET /api/plan responded 200 in 785.2561 ms
+2024-03-06 09:53:31 HTTP GET /api/plan responded 200 in 789.7276 ms
+2024-03-06 09:54:22 HTTP GET /api/plan responded 200 in 784.2287 ms
+2024-03-06 09:54:58 HTTP GET /api/plan responded 200 in 783.6668 ms
+2024-03-06 09:55:24 HTTP GET /api/plan responded 200 in 787.8884 ms
+2024-03-06 09:55:41 HTTP GET /api/plan responded 200 in 778.7038 ms
+2024-03-06 09:55:59 HTTP GET /api/plan responded 200 in 791.7612 ms
+2024-03-06 09:56:14 HTTP GET /api/plan responded 200 in 785.1152 ms
+2024-03-06 09:56:43 HTTP GET /api/plan responded 200 in 782.7430 ms
+2024-03-06 09:57:35 HTTP GET /api/plan responded 200 in 785.9653 ms
+2024-03-06 09:57:41 HTTP GET /api/plan responded 200 in 779.5196 ms
+2024-03-06 09:58:22 HTTP GET /api/plan responded 200 in 795.3262 ms
+2024-03-06 09:58:43 HTTP GET /api/plan responded 200 in 778.6830 ms
+2024-03-06 09:58:56 HTTP GET /api/plan responded 200 in 778.1538 ms
+2024-03-06 10:00:14 HTTP GET /api/plan responded 200 in 790.3240 ms
+2024-03-06 10:01:19 HTTP GET /api/plan responded 200 in 805.3121 ms
+2024-03-06 10:01:22 HTTP GET /api/plan responded 200 in 792.4900 ms
+2024-03-06 10:01:56 HTTP GET /api/plan responded 200 in 788.8238 ms
+2024-03-06 10:02:21 HTTP GET /api/plan responded 200 in 773.7278 ms
+2024-03-06 10:02:41 HTTP GET /api/plan responded 200 in 786.9229 ms
+2024-03-06 10:02:55 HTTP GET /api/plan responded 200 in 775.5281 ms
+2024-03-06 10:03:10 HTTP GET /api/plan responded 200 in 779.1610 ms
+2024-03-06 10:03:27 HTTP GET /api/plan responded 200 in 778.9623 ms
+2024-03-06 10:04:17 HTTP GET /api/plan responded 200 in 792.9396 ms
+2024-03-06 10:04:22 HTTP GET /api/plan responded 200 in 780.4971 ms
+2024-03-06 10:05:40 HTTP GET /api/plan responded 200 in 782.0710 ms
+2024-03-06 10:06:16 HTTP GET /api/plan responded 200 in 807.7521 ms
+2024-03-06 10:06:53 HTTP GET /api/plan responded 200 in 789.7039 ms
+2024-03-06 10:07:08 HTTP GET /api/plan responded 200 in 783.3976 ms
+2024-03-06 10:07:22 HTTP GET /api/plan responded 200 in 776.8936 ms
+2024-03-06 10:07:31 HTTP GET /api/plan responded 200 in 788.7916 ms
+2024-03-06 10:07:35 HTTP GET /api/plan responded 200 in 778.0420 ms
+2024-03-06 10:07:45 HTTP GET /api/plan responded 200 in 789.9299 ms
+2024-03-06 10:07:52 HTTP GET /api/plan responded 200 in 775.4992 ms
+2024-03-06 10:07:58 HTTP GET /api/plan responded 200 in 777.6195 ms
+2024-03-06 10:08:06 HTTP GET /api/plan responded 200 in 792.6708 ms
+2024-03-06 10:08:14 HTTP GET /api/plan responded 200 in 781.1347 ms
+2024-03-06 10:11:23 HTTP GET /api/plan responded 200 in 795.8668 ms
+2024-03-06 10:11:41 HTTP GET /api/plan responded 200 in 782.9295 ms
+2024-03-06 10:12:23 HTTP GET /api/plan responded 200 in 791.9584 ms
+2024-03-06 10:12:53 HTTP GET /api/plan responded 200 in 787.8540 ms
+2024-03-06 10:13:25 HTTP GET /api/plan responded 200 in 775.7987 ms
+2024-03-06 10:13:47 HTTP GET /api/plan responded 200 in 783.2864 ms
+2024-03-06 10:14:18 HTTP GET /api/plan responded 200 in 774.5846 ms
+2024-03-06 10:15:20 HTTP GET /api/plan responded 200 in 786.8436 ms
+2024-03-06 10:15:37 HTTP GET /api/plan responded 200 in 776.2623 ms
+2024-03-06 10:16:18 HTTP GET /api/plan responded 200 in 782.8251 ms
+2024-03-06 10:16:36 HTTP GET /api/plan responded 200 in 769.1339 ms
+2024-03-06 10:17:25 HTTP GET /api/plan responded 200 in 808.0658 ms
+2024-03-06 10:17:36 HTTP GET /api/plan responded 200 in 774.1703 ms
+2024-03-06 10:18:06 HTTP GET /api/plan responded 200 in 786.5204 ms
+2024-03-06 10:19:06 HTTP GET /api/plan responded 200 in 786.9655 ms
+2024-03-06 10:19:51 HTTP GET /api/plan responded 200 in 785.4210 ms
+2024-03-06 10:20:41 HTTP GET /api/plan responded 200 in 812.6226 ms
+2024-03-06 10:20:50 HTTP GET /api/plan responded 200 in 782.7936 ms
+2024-03-06 10:21:25 HTTP GET /api/plan responded 200 in 792.7256 ms
+2024-03-06 10:21:48 HTTP GET /api/plan responded 200 in 789.4009 ms
+2024-03-06 10:28:08 HTTP GET /api/plan responded 200 in 790.9231 ms
+2024-03-06 10:28:47 HTTP GET /api/plan responded 200 in 785.8908 ms
+2024-03-06 10:29:51 HTTP GET /api/plan responded 200 in 813.2416 ms
+2024-03-06 10:30:59 HTTP GET /api/plan responded 200 in 798.6203 ms
+2024-03-06 10:31:13 HTTP GET /api/plan responded 200 in 783.3532 ms
+2024-03-06 10:33:07 HTTP GET /api/plan responded 200 in 790.2030 ms
+2024-03-06 10:33:13 HTTP GET /api/plan responded 200 in 795.2439 ms
+2024-03-06 10:33:39 HTTP GET /api/plan responded 200 in 788.8171 ms
+2024-03-06 10:34:42 HTTP GET /api/plan responded 200 in 799.6402 ms
+2024-03-06 10:35:40 HTTP GET /api/plan responded 200 in 827.5357 ms
+2024-03-06 10:36:03 HTTP GET /api/plan responded 200 in 804.7270 ms
+2024-03-06 10:37:11 HTTP GET /api/plan responded 200 in 794.8985 ms
+2024-03-06 10:37:32 HTTP GET /api/plan responded 200 in 806.0380 ms
+2024-03-06 10:37:49 HTTP GET /api/plan responded 200 in 958.1898 ms
+2024-03-06 10:37:57 HTTP GET /api/plan responded 200 in 795.2558 ms
+2024-03-06 10:38:56 HTTP GET /api/plan responded 200 in 783.0535 ms
+2024-03-06 10:39:11 HTTP GET /api/plan responded 200 in 799.1491 ms
+2024-03-06 10:39:33 HTTP GET /api/plan responded 200 in 782.2035 ms
+2024-03-06 10:39:42 HTTP GET /api/plan responded 200 in 787.6209 ms
+2024-03-06 10:39:51 HTTP GET /api/plan responded 200 in 807.9694 ms
+2024-03-06 10:40:02 HTTP GET /api/plan responded 200 in 781.4536 ms
+2024-03-06 10:40:17 HTTP GET /api/plan responded 200 in 801.5203 ms
+2024-03-06 10:40:27 HTTP GET /api/plan responded 200 in 786.1211 ms
+2024-03-06 10:43:52 HTTP GET /api/plan responded 200 in 811.4772 ms
+2024-03-06 11:44:34 HTTP GET /api/plan responded 200 in 811.9864 ms
+2024-03-06 11:45:19 HTTP GET /api/plan responded 200 in 795.4087 ms
+2024-03-06 11:47:29 HTTP GET /api/plan responded 200 in 805.7683 ms
+2024-03-06 11:49:48 HTTP GET /api/plan responded 200 in 780.3047 ms
+2024-03-06 11:51:33 HTTP GET /api/plan responded 200 in 794.8912 ms
+2024-03-06 11:52:40 HTTP GET /api/plan responded 200 in 800.5650 ms
+2024-03-06 11:55:38 HTTP GET /api/plan responded 200 in 788.2408 ms
+2024-03-06 11:55:56 HTTP GET /api/plan responded 200 in 778.0617 ms
+2024-03-06 11:56:19 HTTP GET /api/plan responded 200 in 789.1519 ms
+2024-03-06 11:56:29 HTTP GET /api/plan responded 200 in 779.5346 ms
+2024-03-06 11:56:54 HTTP GET /api/plan responded 200 in 796.2423 ms
+2024-03-06 11:57:10 HTTP GET /api/plan responded 200 in 783.4619 ms
+2024-03-06 11:57:27 HTTP GET /api/plan responded 200 in 789.4999 ms
+2024-03-06 11:57:45 HTTP GET /api/plan responded 200 in 799.3154 ms
+2024-03-06 11:58:02 HTTP GET /api/plan responded 200 in 786.3724 ms
+2024-03-06 11:59:57 HTTP GET /api/plan responded 200 in 808.1698 ms
+2024-03-06 12:00:34 HTTP GET /api/plan responded 200 in 798.1612 ms
+2024-03-06 12:00:59 HTTP GET /api/plan responded 200 in 794.2981 ms
+2024-03-06 12:01:37 HTTP GET /api/plan responded 200 in 791.5786 ms
+2024-03-06 12:03:18 HTTP GET /api/plan responded 200 in 794.0185 ms
+2024-03-06 12:03:35 HTTP GET /api/plan responded 200 in 777.9359 ms
+2024-03-06 12:03:39 HTTP GET /api/plan responded 200 in 781.6299 ms
+2024-03-06 12:04:32 HTTP GET /api/plan responded 200 in 786.2765 ms
+2024-03-06 12:04:53 HTTP GET /api/plan responded 200 in 780.4406 ms
+2024-03-06 12:05:28 HTTP GET /api/plan responded 200 in 827.3226 ms
+2024-03-06 12:05:51 HTTP GET /api/plan responded 200 in 807.7287 ms
+2024-03-06 12:06:16 HTTP GET /api/plan responded 200 in 832.3375 ms
+2024-03-06 12:06:49 HTTP GET /api/plan responded 200 in 796.4262 ms
+2024-03-06 12:07:01 HTTP GET /api/plan responded 200 in 797.7667 ms
+2024-03-06 12:08:08 HTTP GET /api/plan responded 200 in 785.1089 ms
+2024-03-06 12:08:49 HTTP GET /api/plan responded 200 in 792.9402 ms
+2024-03-06 12:09:08 HTTP GET /api/plan responded 200 in 783.6988 ms
+2024-03-06 12:09:12 HTTP GET /api/plan responded 200 in 787.4855 ms
+2024-03-06 12:09:51 HTTP GET /api/plan responded 200 in 802.9955 ms
+2024-03-06 12:10:27 HTTP GET /api/plan responded 200 in 801.8066 ms
+2024-03-06 12:10:41 HTTP GET /api/plan responded 200 in 783.8649 ms
+2024-03-06 12:12:06 HTTP GET /api/plan responded 200 in 807.8414 ms
+2024-03-06 12:12:23 HTTP GET /api/plan responded 200 in 785.0145 ms
+2024-03-06 12:12:43 HTTP GET /api/plan responded 200 in 796.5145 ms
+2024-03-06 12:13:38 HTTP GET /api/plan responded 200 in 799.3113 ms
+2024-03-06 12:14:13 HTTP GET /api/plan responded 200 in 818.1376 ms
+2024-03-06 12:14:26 HTTP GET /api/plan responded 200 in 797.7397 ms
+2024-03-06 12:15:39 HTTP GET /api/plan responded 200 in 802.9107 ms
+2024-03-06 12:15:46 HTTP GET /api/plan responded 200 in 800.0406 ms
+2024-03-06 12:16:57 HTTP GET /api/plan responded 200 in 813.5010 ms
+2024-03-06 12:17:00 HTTP GET /api/plan responded 200 in 779.0909 ms
+2024-03-06 12:17:24 HTTP GET /api/plan responded 200 in 783.7856 ms
+2024-03-06 12:17:29 HTTP GET /api/plan responded 200 in 791.0243 ms
+2024-03-06 12:18:20 HTTP GET /api/plan responded 200 in 786.2219 ms
+2024-03-06 12:20:45 HTTP GET /api/plan responded 200 in 807.8285 ms
+2024-03-06 12:23:48 HTTP GET /api/plan responded 200 in 791.1156 ms
+2024-03-06 12:24:46 HTTP GET /api/plan responded 200 in 806.2517 ms
+2024-03-06 12:25:13 HTTP GET /api/plan responded 200 in 806.2009 ms
+2024-03-06 12:25:17 HTTP GET /api/plan responded 200 in 802.9741 ms
+2024-03-06 12:25:59 HTTP GET /api/plan responded 200 in 833.7828 ms
+2024-03-06 12:26:50 HTTP GET /api/plan responded 200 in 807.4249 ms
+2024-03-06 12:27:16 HTTP GET /api/plan responded 200 in 782.4312 ms
+2024-03-06 12:27:50 HTTP GET /api/plan responded 200 in 792.3676 ms
+2024-03-06 12:27:57 HTTP GET /api/plan responded 200 in 781.0096 ms
+2024-03-06 12:29:30 HTTP GET /api/plan responded 200 in 796.9323 ms
+2024-03-06 12:29:53 HTTP GET /api/plan responded 200 in 824.0535 ms
+2024-03-06 12:30:00 HTTP GET /api/plan responded 200 in 777.9404 ms
+2024-03-06 12:30:21 HTTP GET /api/plan responded 200 in 778.7868 ms
+2024-03-06 12:32:19 HTTP GET /api/plan responded 200 in 808.5720 ms
+2024-03-06 12:32:24 HTTP GET /api/plan responded 200 in 782.4436 ms
+2024-03-06 12:32:44 HTTP GET /api/plan responded 200 in 778.5678 ms
+2024-03-06 12:33:05 HTTP GET /api/plan responded 200 in 813.1318 ms
+2024-03-06 12:33:14 HTTP GET /api/plan responded 200 in 796.9602 ms
+2024-03-06 12:33:31 HTTP GET /api/plan responded 200 in 779.1850 ms
+2024-03-06 12:34:36 HTTP GET /api/plan responded 200 in 807.7195 ms
+2024-03-06 12:34:56 HTTP GET /api/plan responded 200 in 786.1740 ms
+2024-03-06 12:35:46 HTTP GET /api/plan responded 200 in 801.1500 ms
+2024-03-06 12:36:06 HTTP GET /api/plan responded 200 in 813.4104 ms
+2024-03-06 12:37:20 HTTP GET /api/plan responded 200 in 792.2853 ms
+2024-03-06 12:37:40 HTTP GET /api/plan responded 200 in 786.7650 ms
+2024-03-06 12:37:50 HTTP GET /api/plan responded 200 in 791.7349 ms
+2024-03-06 12:38:02 HTTP GET /api/plan responded 200 in 787.2605 ms
+2024-03-06 12:38:26 HTTP GET /api/plan responded 200 in 791.4572 ms
+2024-03-06 12:38:38 HTTP GET /api/plan responded 200 in 785.0816 ms
+2024-03-06 12:38:48 HTTP GET /api/plan responded 200 in 799.4647 ms
+2024-03-06 12:39:04 HTTP GET /api/plan responded 200 in 785.2280 ms
+2024-03-06 12:39:18 HTTP GET /api/plan responded 200 in 789.0951 ms
+2024-03-06 12:39:52 HTTP GET /api/plan responded 200 in 798.1032 ms
+2024-03-06 12:40:08 HTTP GET /api/plan responded 200 in 790.9717 ms
+2024-03-06 12:41:58 HTTP GET /api/plan responded 200 in 819.9587 ms
+2024-03-06 12:42:13 HTTP GET /api/plan responded 200 in 784.1232 ms
+2024-03-06 12:42:28 HTTP GET /api/plan responded 200 in 792.8678 ms
+2024-03-06 12:42:43 HTTP GET /api/plan responded 200 in 808.6662 ms
+2024-03-06 12:43:08 HTTP GET /api/plan responded 200 in 793.5909 ms
+2024-03-06 12:46:28 HTTP GET /api/plan responded 200 in 802.0319 ms
+2024-03-06 12:46:47 HTTP GET /api/plan responded 200 in 785.4893 ms
+2024-03-06 12:47:20 HTTP GET /api/plan responded 200 in 797.6315 ms
+2024-03-06 12:47:41 HTTP GET /api/plan responded 200 in 789.0601 ms
+2024-03-06 12:47:50 HTTP GET /api/plan responded 200 in 779.3540 ms
+2024-03-06 12:48:01 HTTP GET /api/plan responded 200 in 774.7008 ms
+2024-03-06 12:48:30 HTTP GET /api/plan responded 200 in 793.3145 ms
+2024-03-06 12:48:36 HTTP GET /api/plan responded 200 in 786.3070 ms
+2024-03-06 12:49:37 HTTP GET /api/plan responded 200 in 820.5342 ms
+2024-03-06 12:49:52 HTTP GET /api/plan responded 200 in 780.4547 ms
+2024-03-06 12:50:33 HTTP GET /api/plan responded 200 in 789.3255 ms
+2024-03-06 12:50:56 HTTP GET /api/plan responded 200 in 789.3505 ms
+2024-03-06 12:51:48 HTTP GET /api/plan responded 200 in 788.2727 ms
+2024-03-06 12:55:00 HTTP GET /api/plan responded 200 in 793.8497 ms
+2024-03-06 12:55:21 HTTP GET /api/plan responded 200 in 783.1002 ms
+2024-03-06 12:55:58 HTTP GET /api/plan responded 200 in 791.5586 ms
+2024-03-06 12:56:19 HTTP GET /api/plan responded 200 in 804.1478 ms
+2024-03-06 12:56:25 HTTP GET /api/plan responded 200 in 780.3670 ms
+2024-03-06 12:56:39 HTTP GET /api/plan responded 200 in 781.8861 ms
+2024-03-06 12:57:36 HTTP GET /api/plan responded 200 in 804.9621 ms
+2024-03-06 12:58:26 HTTP GET /api/plan responded 200 in 810.0058 ms
+2024-03-06 12:59:22 HTTP GET /api/plan responded 200 in 793.7228 ms
+2024-03-06 12:59:41 HTTP GET /api/plan responded 200 in 783.1225 ms
+2024-03-06 12:59:50 HTTP GET /api/plan responded 200 in 798.9443 ms
+2024-03-06 12:59:59 HTTP GET /api/plan responded 200 in 787.6153 ms
+2024-03-06 13:00:20 HTTP GET /api/plan responded 200 in 792.7780 ms
+2024-03-06 13:00:31 HTTP GET /api/plan responded 200 in 780.7031 ms
+2024-03-06 13:00:38 HTTP GET /api/plan responded 200 in 788.0657 ms
+2024-03-06 13:00:43 HTTP GET /api/plan responded 200 in 783.7204 ms
+2024-03-06 13:01:11 HTTP GET /api/plan responded 200 in 780.0317 ms
+2024-03-06 13:02:37 HTTP GET /api/plan responded 200 in 798.6253 ms
+2024-03-06 13:03:59 HTTP GET /api/plan responded 200 in 798.4331 ms
+2024-03-06 13:06:31 HTTP GET /api/plan responded 200 in 812.5845 ms
+2024-03-06 13:54:36 HTTP GET /api/plan responded 200 in 10996.6338 ms
+2024-03-06 13:54:36 HTTP GET /api/plan responded 200 in 5228.3629 ms
+2024-03-06 13:54:42 HTTP GET /api/plan responded 200 in 859.4908 ms
+2024-03-06 13:54:55 HTTP GET /api/plan responded 200 in 859.2723 ms
+2024-03-06 13:55:13 HTTP GET /api/plan responded 200 in 781.1777 ms
+2024-03-06 13:55:22 HTTP GET /api/plan responded 200 in 775.4168 ms
+2024-03-06 13:55:45 HTTP GET /api/plan responded 200 in 780.3699 ms
+2024-03-06 13:55:47 HTTP GET /api/plan responded 200 in 779.4189 ms
+2024-03-06 13:55:49 HTTP GET /api/plan responded 200 in 779.9113 ms
+2024-03-06 13:55:51 HTTP GET /api/plan responded 200 in 764.7684 ms
+2024-03-06 13:55:52 HTTP GET /api/plan responded 200 in 777.7922 ms
+2024-03-06 13:55:53 HTTP GET /api/plan responded 200 in 791.8508 ms
+2024-03-06 13:55:54 HTTP GET /api/plan responded 200 in 779.2861 ms
+2024-03-06 13:55:56 HTTP GET /api/plan responded 200 in 772.8401 ms
+2024-03-06 13:56:10 HTTP GET /api/plan responded 200 in 794.7060 ms
+2024-03-06 13:56:51 HTTP GET /api/plan responded 200 in 779.8255 ms
+2024-03-06 13:56:58 HTTP GET /api/plan responded 200 in 770.7099 ms
+2024-03-06 13:57:01 HTTP GET /api/plan responded 200 in 769.8673 ms
+2024-03-06 13:58:30 HTTP GET /api/plan responded 200 in 788.3457 ms
+2024-03-06 13:59:10 HTTP GET /api/plan responded 200 in 813.3985 ms
+2024-03-06 14:00:25 HTTP GET /api/plan responded 200 in 784.5604 ms
+2024-03-06 14:00:54 HTTP GET /api/plan responded 200 in 782.6703 ms
+2024-03-06 14:00:58 HTTP GET /api/plan responded 200 in 770.2861 ms
+2024-03-06 14:01:32 HTTP GET /api/plan responded 200 in 794.4497 ms
+2024-03-06 14:01:49 HTTP GET /api/plan responded 200 in 774.8166 ms
+2024-03-06 14:01:58 HTTP GET /api/plan responded 200 in 769.9132 ms
+2024-03-06 14:02:04 HTTP GET /api/plan responded 200 in 767.9081 ms
+2024-03-06 14:02:17 HTTP GET /api/plan responded 200 in 766.6737 ms
+2024-03-06 14:02:23 HTTP GET /api/plan responded 200 in 768.5294 ms
+2024-03-06 14:02:33 HTTP GET /api/plan responded 200 in 775.6067 ms
+2024-03-06 14:02:43 HTTP GET /api/plan responded 200 in 839.8417 ms
+2024-03-06 14:02:49 HTTP GET /api/plan responded 200 in 773.5178 ms
+2024-03-06 14:03:05 HTTP GET /api/plan responded 200 in 797.1538 ms
+2024-03-06 14:03:16 HTTP GET /api/plan responded 200 in 798.5391 ms
+2024-03-06 14:03:30 HTTP GET /api/plan responded 200 in 806.5823 ms
+2024-03-06 14:03:36 HTTP GET /api/plan responded 200 in 822.7548 ms
+2024-03-06 14:03:46 HTTP GET /api/plan responded 200 in 800.3136 ms
+2024-03-06 14:04:08 HTTP GET /api/plan responded 200 in 789.2263 ms
+2024-03-06 14:04:15 HTTP GET /api/plan responded 200 in 776.5605 ms
+2024-03-06 14:04:30 HTTP GET /api/plan responded 200 in 783.4741 ms
+2024-03-06 14:04:52 HTTP GET /api/plan responded 200 in 818.8302 ms
+2024-03-06 14:06:58 HTTP GET /api/plan responded 200 in 791.1356 ms
+2024-03-06 14:07:18 HTTP GET /api/plan responded 200 in 791.9835 ms
+2024-03-06 14:07:27 HTTP GET /api/plan responded 200 in 794.3645 ms
+2024-03-06 14:07:52 HTTP GET /api/plan responded 200 in 795.3084 ms
+2024-03-06 14:07:54 HTTP GET /api/plan responded 200 in 778.2130 ms
+2024-03-06 14:07:55 HTTP GET /api/plan responded 200 in 781.8685 ms
+2024-03-06 14:08:02 HTTP GET /api/plan responded 200 in 785.6145 ms
+2024-03-06 14:08:08 HTTP GET /api/plan responded 200 in 780.5337 ms
+2024-03-06 14:08:09 HTTP GET /api/plan responded 200 in 783.4826 ms
+2024-03-06 14:08:10 HTTP GET /api/plan responded 200 in 783.5910 ms
+2024-03-06 14:08:10 HTTP GET /api/plan responded 200 in 784.1165 ms
+2024-03-06 14:08:11 HTTP GET /api/plan responded 200 in 781.0952 ms
+2024-03-06 14:08:12 HTTP GET /api/plan responded 200 in 785.1572 ms
+2024-03-06 14:08:15 HTTP GET /api/plan responded 200 in 780.9158 ms
+2024-03-06 14:08:46 HTTP GET /api/plan responded 200 in 784.4864 ms
+2024-03-06 14:09:26 HTTP GET /api/plan responded 200 in 791.2276 ms
+2024-03-06 14:09:38 HTTP GET /api/plan responded 200 in 793.4042 ms
+2024-03-06 14:09:58 HTTP GET /api/plan responded 200 in 780.8886 ms
+2024-03-06 14:10:05 HTTP GET /api/plan responded 200 in 780.0556 ms
+2024-03-06 14:10:23 HTTP GET /api/plan responded 200 in 789.3651 ms
+2024-03-06 14:10:48 HTTP GET /api/plan responded 200 in 791.5992 ms
+2024-03-06 14:11:00 HTTP GET /api/plan responded 200 in 781.3727 ms
+2024-03-06 14:11:13 HTTP GET /api/plan responded 200 in 785.5343 ms
+2024-03-06 14:11:32 HTTP GET /api/plan responded 200 in 782.3328 ms
+2024-03-06 14:11:44 HTTP GET /api/plan responded 200 in 783.6661 ms
+2024-03-06 14:11:51 HTTP GET /api/plan responded 200 in 783.3455 ms
+2024-03-06 14:12:40 HTTP GET /api/plan responded 200 in 814.2917 ms
+2024-03-06 14:12:56 HTTP GET /api/plan responded 200 in 786.5639 ms
+2024-03-06 14:13:01 HTTP GET /api/plan responded 200 in 782.7496 ms
+2024-03-06 14:13:26 HTTP GET /api/plan responded 200 in 771.5845 ms
+2024-03-06 14:13:46 HTTP GET /api/plan responded 200 in 770.1953 ms
+2024-03-06 14:13:53 HTTP GET /api/plan responded 200 in 769.2317 ms
+2024-03-06 14:14:03 HTTP GET /api/plan responded 200 in 768.1909 ms
+2024-03-06 14:14:13 HTTP GET /api/plan responded 200 in 774.0958 ms
+2024-03-06 14:14:18 HTTP GET /api/plan responded 200 in 776.1594 ms
+2024-03-06 14:15:16 HTTP GET /api/plan responded 200 in 775.7166 ms
+2024-03-06 14:16:03 HTTP GET /api/plan responded 200 in 780.5369 ms
+2024-03-06 14:16:10 HTTP GET /api/plan responded 200 in 771.6696 ms
+2024-03-06 14:16:16 HTTP GET /api/plan responded 200 in 766.9095 ms
+2024-03-06 14:16:18 HTTP GET /api/plan responded 200 in 767.6597 ms
+2024-03-06 14:16:42 HTTP GET /api/plan responded 200 in 772.6574 ms
+2024-03-06 14:16:59 HTTP GET /api/plan responded 200 in 767.7015 ms
+2024-03-06 14:17:03 HTTP GET /api/plan responded 200 in 771.8251 ms
+2024-03-06 14:17:35 HTTP GET /api/plan responded 200 in 776.2918 ms
+2024-03-06 14:18:00 HTTP GET /api/plan responded 200 in 773.1818 ms
+2024-03-06 14:18:16 HTTP GET /api/plan responded 200 in 765.9056 ms
+2024-03-06 14:18:29 HTTP GET /api/plan responded 200 in 774.5220 ms
+2024-03-06 14:18:58 HTTP GET /api/plan responded 200 in 779.3183 ms
+2024-03-06 14:19:00 HTTP GET /api/plan responded 200 in 769.1572 ms
+2024-03-06 14:19:21 HTTP GET /api/plan responded 200 in 774.3356 ms
+2024-03-06 14:20:08 HTTP GET /api/plan responded 200 in 777.2740 ms
+2024-03-06 14:20:16 HTTP GET /api/plan responded 200 in 765.6719 ms
+2024-03-06 14:20:59 HTTP GET /api/plan responded 200 in 777.0159 ms
+2024-03-06 14:21:07 HTTP GET /api/plan responded 200 in 771.7688 ms
+2024-03-06 14:22:49 HTTP GET /api/plan responded 200 in 780.1429 ms
+2024-03-06 14:23:14 HTTP GET /api/plan responded 200 in 772.8195 ms
+2024-03-06 14:23:31 HTTP GET /api/plan responded 200 in 767.0226 ms
+2024-03-06 14:23:44 HTTP GET /api/plan responded 200 in 771.3913 ms
+2024-03-06 14:23:56 HTTP GET /api/plan responded 200 in 770.0793 ms
+2024-03-06 14:25:29 HTTP GET /api/plan responded 200 in 805.6931 ms
+2024-03-06 14:25:32 HTTP GET /api/plan responded 200 in 770.7645 ms
+2024-03-06 14:25:49 HTTP GET /api/plan responded 200 in 765.3915 ms
+2024-03-06 14:25:59 HTTP GET /api/plan responded 200 in 771.3145 ms
+2024-03-06 14:26:19 HTTP GET /api/plan responded 200 in 767.8340 ms
+2024-03-06 14:26:27 HTTP GET /api/plan responded 200 in 765.2672 ms
+2024-03-06 14:26:36 HTTP GET /api/plan responded 200 in 766.6590 ms
+2024-03-06 14:26:42 HTTP GET /api/plan responded 200 in 769.1962 ms
+2024-03-06 14:27:10 HTTP GET /api/plan responded 200 in 771.9574 ms
+2024-03-06 14:27:26 HTTP GET /api/plan responded 200 in 766.9494 ms
+2024-03-06 14:27:43 HTTP GET /api/plan responded 200 in 771.8126 ms
+2024-03-06 14:28:57 HTTP GET /api/plan responded 200 in 821.5629 ms
+2024-03-06 14:29:24 HTTP GET /api/plan responded 200 in 780.1754 ms
+2024-03-06 14:30:03 HTTP GET /api/plan responded 200 in 798.3209 ms
+2024-03-06 14:30:13 HTTP GET /api/plan responded 200 in 773.8271 ms
+2024-03-06 14:30:18 HTTP GET /api/plan responded 200 in 768.2661 ms
+2024-03-06 14:31:24 HTTP GET /api/plan responded 200 in 779.1479 ms
+2024-03-06 14:31:27 HTTP GET /api/plan responded 200 in 765.7683 ms
+2024-03-06 14:32:02 HTTP GET /api/plan responded 200 in 804.0878 ms
+2024-03-06 14:32:13 HTTP GET /api/plan responded 200 in 773.1566 ms
+2024-03-06 14:32:29 HTTP GET /api/plan responded 200 in 772.3267 ms
+2024-03-06 14:32:38 HTTP GET /api/plan responded 200 in 765.9175 ms
+2024-03-06 14:32:46 HTTP GET /api/plan responded 200 in 773.4475 ms
+2024-03-06 14:32:57 HTTP GET /api/plan responded 200 in 775.1973 ms
+2024-03-06 14:33:24 HTTP GET /api/plan responded 200 in 781.2747 ms
+2024-03-06 14:33:32 HTTP GET /api/plan responded 200 in 774.7346 ms
+2024-03-06 14:33:37 HTTP GET /api/plan responded 200 in 764.4449 ms
+2024-03-06 14:33:48 HTTP GET /api/plan responded 200 in 769.4605 ms
+2024-03-06 14:34:03 HTTP GET /api/plan responded 200 in 771.0894 ms
+2024-03-06 14:34:16 HTTP GET /api/plan responded 200 in 792.6782 ms
+2024-03-06 14:34:21 HTTP GET /api/plan responded 200 in 769.1830 ms
+2024-03-06 14:34:26 HTTP GET /api/plan responded 200 in 766.8523 ms
+2024-03-06 14:34:37 HTTP GET /api/plan responded 200 in 769.2679 ms
+2024-03-06 14:34:52 HTTP GET /api/plan responded 200 in 765.9768 ms
+2024-03-06 14:34:58 HTTP GET /api/plan responded 200 in 766.9970 ms
+2024-03-06 14:35:05 HTTP GET /api/plan responded 200 in 771.4641 ms
+2024-03-06 14:35:25 HTTP GET /api/plan responded 200 in 789.1909 ms
+2024-03-06 14:35:51 HTTP GET /api/plan responded 200 in 785.4867 ms
+2024-03-06 14:36:03 HTTP GET /api/plan responded 200 in 785.4231 ms
+2024-03-06 14:36:08 HTTP GET /api/plan responded 200 in 765.4127 ms
+2024-03-06 14:36:16 HTTP GET /api/plan responded 200 in 769.1197 ms
+2024-03-06 14:36:50 HTTP GET /api/plan responded 200 in 788.6195 ms
+2024-03-06 14:37:25 HTTP GET /api/plan responded 200 in 778.5738 ms
+2024-03-06 14:37:42 HTTP GET /api/plan responded 200 in 772.7628 ms
+2024-03-06 14:37:56 HTTP GET /api/plan responded 200 in 770.8114 ms
+2024-03-06 14:38:08 HTTP GET /api/plan responded 200 in 788.7079 ms
+2024-03-06 14:38:44 HTTP GET /api/plan responded 200 in 779.0295 ms
+2024-03-06 14:38:53 HTTP GET /api/plan responded 200 in 768.9475 ms
+2024-03-06 14:39:02 HTTP GET /api/plan responded 200 in 771.6815 ms
+2024-03-06 14:39:09 HTTP GET /api/plan responded 200 in 766.0667 ms
+2024-03-06 14:40:53 HTTP GET /api/plan responded 200 in 810.9888 ms
+2024-03-06 14:43:29 HTTP GET /api/plan responded 200 in 781.1348 ms
+2024-03-06 14:45:00 HTTP GET /api/plan responded 200 in 776.6643 ms
+2024-03-06 16:01:30 HTTP GET /api/plan responded 200 in 909.7974 ms
+2024-03-06 16:02:12 HTTP GET /api/plan responded 200 in 921.3964 ms
+2024-03-06 16:02:40 HTTP GET /api/plan responded 200 in 890.7089 ms
+2024-03-06 16:04:02 HTTP GET /api/plan responded 200 in 872.1879 ms
+2024-03-06 16:04:10 HTTP GET /api/plan responded 200 in 878.6709 ms
+2024-03-06 16:04:26 HTTP GET /api/plan responded 200 in 875.3774 ms
+2024-03-06 16:04:49 HTTP GET /api/plan responded 200 in 887.5115 ms
+2024-03-06 16:05:18 HTTP GET /api/plan responded 200 in 872.8653 ms
+2024-03-06 16:05:34 HTTP GET /api/plan responded 200 in 854.9089 ms
+2024-03-06 16:05:43 HTTP GET /api/plan responded 200 in 912.8386 ms
+2024-03-06 16:06:13 HTTP GET /api/plan responded 200 in 879.6194 ms
+2024-03-06 16:06:26 HTTP GET /api/plan responded 200 in 874.8556 ms
+2024-03-06 16:06:33 HTTP GET /api/plan responded 200 in 863.7137 ms
+2024-03-06 16:06:40 HTTP GET /api/plan responded 200 in 844.8559 ms
+2024-03-06 16:06:50 HTTP GET /api/plan responded 200 in 864.2689 ms
+2024-03-06 16:07:19 HTTP GET /api/plan responded 200 in 875.1448 ms
+2024-03-06 16:07:40 HTTP GET /api/plan responded 200 in 875.3186 ms
+2024-03-06 16:08:07 HTTP GET /api/plan responded 200 in 881.4454 ms
+2024-03-06 16:08:13 HTTP GET /api/plan responded 200 in 875.1392 ms
+2024-03-06 16:08:16 HTTP GET /api/plan responded 200 in 872.1698 ms
+2024-03-06 16:08:24 HTTP GET /api/plan responded 200 in 859.0074 ms
+2024-03-06 16:08:26 HTTP GET /api/plan responded 200 in 887.1877 ms
+2024-03-06 16:08:33 HTTP GET /api/plan responded 200 in 890.2292 ms
+2024-03-06 16:08:47 HTTP GET /api/plan responded 200 in 954.9671 ms
+2024-03-06 16:08:52 HTTP GET /api/plan responded 200 in 909.3045 ms
+2024-03-06 16:09:01 HTTP GET /api/plan responded 200 in 867.9137 ms
+2024-03-06 16:09:16 HTTP GET /api/plan responded 200 in 892.5007 ms
+2024-03-06 16:09:41 HTTP GET /api/plan responded 200 in 76.6455 ms
+2024-03-06 16:09:47 HTTP GET /api/plan responded 200 in 39.1531 ms
+2024-03-06 16:09:49 HTTP GET /api/plan responded 200 in 39.0800 ms
+2024-03-06 16:09:55 HTTP GET /api/plan responded 200 in 1052.3831 ms
+2024-03-06 16:10:02 HTTP GET /api/plan responded 200 in 931.8765 ms
+2024-03-06 16:10:09 HTTP GET /api/plan responded 200 in 882.1450 ms
+2024-03-06 16:10:14 HTTP GET /api/plan responded 200 in 868.1337 ms
+2024-03-06 16:10:20 HTTP GET /api/plan responded 200 in 885.7100 ms
+2024-03-06 16:10:45 HTTP GET /api/plan responded 200 in 869.2401 ms
+2024-03-06 16:11:08 HTTP GET /api/plan responded 200 in 873.3738 ms
+2024-03-06 16:11:19 HTTP GET /api/plan responded 200 in 887.9404 ms
+2024-03-06 16:11:28 HTTP GET /api/plan responded 200 in 880.6011 ms
+2024-03-06 16:11:42 HTTP GET /api/plan responded 200 in 873.2842 ms
+2024-03-06 16:11:55 HTTP GET /api/plan responded 200 in 889.6595 ms
+2024-03-06 16:12:02 HTTP GET /api/plan responded 200 in 903.8431 ms
+2024-03-06 16:12:35 HTTP GET /api/plan responded 200 in 873.7351 ms
+2024-03-06 16:12:40 HTTP GET /api/plan responded 200 in 925.4828 ms
+2024-03-06 16:13:06 HTTP GET /api/plan responded 200 in 897.2939 ms
+2024-03-06 16:13:14 HTTP GET /api/plan responded 200 in 787.0571 ms
+2024-03-06 16:14:41 HTTP GET /api/plan responded 200 in 848.9597 ms
+2024-03-06 16:14:43 HTTP GET /api/plan responded 200 in 794.9068 ms
+2024-03-06 16:14:50 HTTP GET /api/plan responded 200 in 793.3972 ms
+2024-03-06 16:15:10 HTTP GET /api/plan responded 200 in 793.5991 ms
+2024-03-06 16:15:12 HTTP GET /api/plan responded 200 in 800.3946 ms
+2024-03-06 16:15:20 HTTP GET /api/plan responded 200 in 800.2095 ms
+2024-03-06 16:15:49 HTTP GET /api/plan responded 200 in 802.0207 ms
+2024-03-06 16:16:05 HTTP GET /api/plan responded 200 in 796.1401 ms
+2024-03-06 16:16:10 HTTP GET /api/plan responded 200 in 799.0667 ms
+2024-03-06 16:16:17 HTTP GET /api/plan responded 200 in 793.8801 ms
+2024-03-06 16:17:09 HTTP GET /api/plan responded 200 in 802.7397 ms
+2024-03-06 16:17:29 HTTP GET /api/plan responded 200 in 799.3699 ms
+2024-03-06 16:17:39 HTTP GET /api/plan responded 200 in 814.0210 ms
+2024-03-06 16:18:46 HTTP GET /api/plan responded 200 in 804.8605 ms
+2024-03-06 16:20:51 HTTP GET /api/plan responded 200 in 808.5592 ms
+2024-03-06 16:20:55 HTTP GET /api/plan responded 200 in 793.0949 ms
+2024-03-06 21:36:38 HTTP GET /api/auth responded 200 in 332.5980 ms
+2024-03-06 21:36:42 HTTP GET /api/auth/1 responded 401 in 12.3108 ms
+2024-03-06 21:38:37 HTTP POST /api/auth/login responded 500 in 46022.5237 ms
+System.ArgumentException: IDX11025: Cannot serialize object of type: '<>f__AnonymousType2`2[System.String,System.String]' into property: 'userInfo'.
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.WriteObject(Utf8JsonWriter& writer, String key, Object obj)
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.WriteObjects(Utf8JsonWriter& writer, IDictionary`2 dictionary)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.SerializeToJson()
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.Base64UrlEncode()
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.get_EncodedPayload()
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at RepositryAssignement.Controllers.AuthController.Login(Login user)
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-06 21:38:37 An unhandled exception has occurred while executing the request.
+System.ArgumentException: IDX11025: Cannot serialize object of type: '<>f__AnonymousType2`2[System.String,System.String]' into property: 'userInfo'.
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.WriteObject(Utf8JsonWriter& writer, String key, Object obj)
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.WriteObjects(Utf8JsonWriter& writer, IDictionary`2 dictionary)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.SerializeToJson()
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.Base64UrlEncode()
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.get_EncodedPayload()
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at RepositryAssignement.Controllers.AuthController.Login(Login user)
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-06 21:39:58 HTTP POST /api/auth/login responded 500 in 64970.3529 ms
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '144' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at RepositryAssignement.Controllers.AuthController.Login(Login user)
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-06 21:39:58 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '144' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at RepositryAssignement.Controllers.AuthController.Login(Login user)
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-06 21:40:04 HTTP POST /api/auth/login responded 200 in 31.9528 ms
+2024-03-06 22:05:12 HTTP GET /api/policy responded 200 in 1480.5364 ms
+2024-03-06 22:05:13 HTTP GET /api/plan responded 200 in 2354.5431 ms
+2024-03-06 22:05:19 HTTP GET /api/provider responded 200 in 80.8488 ms
+2024-03-06 22:05:19 HTTP GET /api/agent responded 200 in 88.2874 ms
+2024-03-06 22:05:19 HTTP GET /api/client responded 200 in 89.0669 ms
+2024-03-06 22:05:30 HTTP GET /api/policy responded 200 in 11.2466 ms
+2024-03-06 22:05:30 HTTP GET /api/policy responded 200 in 4.1855 ms
+2024-03-06 22:05:31 HTTP GET /api/plan responded 200 in 952.8634 ms
+2024-03-06 22:05:34 HTTP GET /api/policy responded 200 in 3.5379 ms
+2024-03-06 22:05:39 HTTP GET /api/provider responded 200 in 1.9199 ms
+2024-03-06 22:05:39 HTTP GET /api/client responded 200 in 1.9541 ms
+2024-03-06 22:05:39 HTTP GET /api/client responded 200 in 1.6661 ms
+2024-03-06 22:05:39 HTTP GET /api/provider responded 200 in 2.0417 ms
+2024-03-06 22:05:39 HTTP GET /api/agent responded 200 in 1.3926 ms
+2024-03-06 22:16:57 HTTP GET /api/policy responded 200 in 22.1202 ms
+2024-03-06 22:16:57 HTTP GET /api/plan responded 200 in 835.8019 ms
+2024-03-06 22:26:10 HTTP POST //api/login responded 404 in 0.8986 ms
+2024-03-06 22:26:33 HTTP POST /api/login responded 404 in 0.1861 ms
+2024-03-06 22:27:07 HTTP POST /api/auth/login responded 200 in 0.8968 ms
+2024-03-06 22:29:25 HTTP POST /api/auth/login responded 200 in 0.8669 ms
+2024-03-06 22:45:45 HTTP POST /api/auth/login responded 400 in 103534.6936 ms
+2024-03-06 22:45:45 HTTP POST /api/auth/login responded 200 in 179.9047 ms
+2024-03-06 22:46:01 HTTP POST /api/auth/login responded 200 in 63.5176 ms
+2024-03-06 22:46:17 HTTP POST /api/auth/login responded 400 in 24.9618 ms
+2024-03-06 22:54:52 HTTP GET /api/policy responded 200 in 117.4077 ms
+2024-03-06 22:54:53 HTTP GET /api/plan responded 200 in 1052.1056 ms
+2024-03-06 22:58:07 HTTP GET /api/policy responded 200 in 48.9849 ms
+2024-03-06 22:58:08 HTTP GET /api/plan responded 200 in 938.9706 ms
+2024-03-06 23:12:33 HTTP GET /api/policy responded 200 in 23.8931 ms
+2024-03-06 23:12:34 HTTP GET /api/plan responded 200 in 905.5693 ms
+2024-03-06 23:12:49 HTTP POST /api/auth/login responded 200 in 7.5400 ms
+2024-03-06 23:12:58 HTTP GET /api/policy responded 200 in 2.8813 ms
+2024-03-06 23:12:59 HTTP GET /api/plan responded 200 in 867.8118 ms
+2024-03-06 23:15:33 HTTP POST /api/auth/login responded 200 in 12.5769 ms
+2024-03-06 23:18:57 HTTP POST /api/auth/login responded 200 in 5.3741 ms
+2024-03-06 23:19:22 HTTP POST /api/auth/login responded 200 in 2.2313 ms
+2024-03-06 23:19:54 HTTP POST /api/auth/login responded 200 in 5.9851 ms
+2024-03-06 23:20:11 HTTP POST /api/auth/login responded 200 in 5.6829 ms
+2024-03-06 23:20:38 HTTP POST /api/auth/login responded 400 in 36.4320 ms
+2024-03-06 23:20:51 HTTP POST /api/auth/login responded 200 in 6.1186 ms
+2024-03-06 23:21:06 HTTP POST /api/auth/login responded 200 in 5.6665 ms
+2024-03-06 23:21:21 HTTP POST /api/auth/login responded 200 in 2.0309 ms
+2024-03-06 23:22:36 HTTP POST /api/auth/login responded 200 in 5.2066 ms
+2024-03-06 23:22:54 HTTP POST /api/auth/login responded 200 in 2.4183 ms
+2024-03-06 23:23:50 HTTP POST /api/auth/login responded 200 in 7.3210 ms
+2024-03-06 23:24:41 HTTP POST /api/auth/login responded 200 in 5.5776 ms
+2024-03-06 23:26:34 HTTP POST /api/auth/login responded 200 in 9.6232 ms
+2024-03-06 23:26:47 HTTP POST /api/auth/login responded 200 in 6.0103 ms
+2024-03-06 23:39:16 HTTP POST /api/auth/login responded 200 in 12.0190 ms
+2024-03-06 23:42:34 HTTP POST /api/auth/login responded 200 in 8.9396 ms
+2024-03-06 23:42:55 HTTP POST /api/auth/login responded 200 in 5.6329 ms
+2024-03-06 23:44:47 HTTP POST /api/auth/login responded 200 in 5.7254 ms
+2024-03-06 23:45:39 HTTP POST /api/auth/login responded 200 in 5.4073 ms
+2024-03-06 23:45:46 HTTP POST /api/auth/login responded 200 in 2.3491 ms
+2024-03-06 23:46:09 HTTP POST /api/auth/login responded 200 in 5.1345 ms
+2024-03-06 23:46:11 HTTP POST /api/auth/login responded 200 in 5.6246 ms
+2024-03-06 23:46:12 HTTP POST /api/auth/login responded 200 in 1.9067 ms
+2024-03-06 23:46:13 HTTP POST /api/auth/login responded 200 in 1.6203 ms
+2024-03-06 23:46:44 HTTP POST /api/auth/login responded 200 in 5.4605 ms
+2024-03-06 23:47:04 HTTP POST /api/auth/login responded 200 in 2.1491 ms
+2024-03-06 23:48:30 HTTP POST /api/auth/login responded 200 in 8.1257 ms
+2024-03-06 23:48:55 HTTP POST /api/auth/login responded 200 in 5.3031 ms
+2024-03-06 23:49:24 HTTP POST /api/auth/login responded 200 in 1.7129 ms
+2024-03-06 23:50:43 HTTP POST /api/auth/login responded 200 in 6.2953 ms
+2024-03-06 23:51:10 HTTP POST /api/auth/login responded 200 in 4.6689 ms
+2024-03-06 23:51:25 HTTP POST /api/auth/login responded 200 in 2.0223 ms
+2024-03-06 23:51:58 HTTP POST /api/auth/login responded 200 in 4.9981 ms
+2024-03-06 23:52:38 HTTP POST /api/auth/login responded 200 in 1.6395 ms
+2024-03-06 23:52:54 HTTP POST /api/auth/login responded 200 in 9.0588 ms
+2024-03-06 23:53:11 HTTP POST /api/auth/login responded 200 in 4.7606 ms
+2024-03-06 23:53:44 HTTP POST /api/auth/login responded 200 in 1.5456 ms
+2024-03-06 23:54:12 HTTP POST /api/auth/login responded 200 in 4.6875 ms
+2024-03-06 23:54:58 HTTP POST /api/auth/login responded 200 in 4.9341 ms
+2024-03-06 23:55:39 HTTP POST /api/auth/login responded 200 in 5.0585 ms
+2024-03-06 23:56:49 HTTP POST /api/auth/login responded 200 in 5.0742 ms
+2024-03-06 23:57:02 HTTP POST /api/auth/login responded 200 in 1.5116 ms
+2024-03-06 23:57:34 HTTP POST /api/auth/login responded 400 in 45.5177 ms
+2024-03-06 23:57:46 HTTP POST /api/auth/login responded 200 in 1.7192 ms

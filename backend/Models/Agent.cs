@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace RepositryAssignement.Models;
 
@@ -22,8 +23,9 @@ public partial class Agent
     public long PanNo { get; set; }
 
     public int? UserId { get; set; }
-
-    public virtual City City { get; set; } = null!;
+    
+    [JsonIgnore]
+    public virtual City? City { get; set; } = null!;
 
     public virtual ICollection<Incentive> Incentives { get; set; } = new List<Incentive>();
 

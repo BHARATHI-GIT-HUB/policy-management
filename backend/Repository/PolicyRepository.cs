@@ -12,6 +12,7 @@ namespace RepositryAssignement.Repository
 {
     public class PolicyRepository : IPolicyRepository
     {
+
         private readonly InsuranceDbContext _context;
 
         public PolicyRepository(InsuranceDbContext context)
@@ -21,10 +22,10 @@ namespace RepositryAssignement.Repository
 
         public Task<int> InsertPolicy(PolicyEnrollment policy)
         {
-            var addedPolicy =  _context.PolicyEnrollments.Add(policy);
+            var addedPolicy = _context.PolicyEnrollments.Add(policy);
             if (addedPolicy != null)
             {
-                 _context.SaveChanges();
+                _context.SaveChanges();
                 return Task.FromResult(policy.Id);
             }
             else
@@ -36,10 +37,18 @@ namespace RepositryAssignement.Repository
 
         public PolicyEnrollment FetchPolicyById(int id)
         {
+            /*    PolicyEnrollment? policy = _context.PolicyEnrollments
+                    .Include(pole => pole.Agent).ThenInclude(Agn => Agn.User)
+                    .Include(pole => pole.Client).ThenInclude(cli => cli.User)
+                    .Include(pole => pole.Plan).ThenInclude(pln => pln.Provider).ThenInclude(pro => pro.User)
+                    .FirstOrDefault(pole => pole.Id == id);*/
+
+
             PolicyEnrollment? policy = _context.PolicyEnrollments
                 .Include(pole => pole.Agent).ThenInclude(Agn => Agn.User)
                 .Include(pole => pole.Client).ThenInclude(cli => cli.User)
-                .Include(pole => pole.Plan).ThenInclude(pln => pln.Provider).ThenInclude(pro => pro.User)
+                .Include(pole => pole.Plan)
+                .ThenInclude(pln => pln.Provider).ThenInclude(pro => pro.User)
                 .FirstOrDefault(pole => pole.Id == id);
 
             if (policy != null)
@@ -48,7 +57,7 @@ namespace RepositryAssignement.Repository
             }
             else
             {
-                
+
                 throw new PolicyNotFoundException($"Policy With Id {id} Not Found ");
             }
 
@@ -66,6 +75,8 @@ namespace RepositryAssignement.Repository
                 .ThenInclude(pro => pro.User)
                 .ToList();
 
+
+
             if (policies.Any())
             {
                 return policies;
@@ -77,8 +88,47 @@ namespace RepositryAssignement.Repository
 
         }
 
+
+        public IEnumerable<dynamic> FetchAllOptimized()
+        {
+
+            var policies = _context.PolicyEnrollments
+                .Include(pole => pole.Client)
+                .Include(pole => pole.Plan)
+                .Include(pole => pole.Agent)
+               .Select(pole => new
+               {
+                   pole.Id,
+                   pole.PlanId,
+                   pole.AgentId,
+                   pole.ClientId,
+                   pole.CoverageAmount,
+                   pole.Frequency,
+                   pole.Premium,
+                   pole.CommisionAmount,
+                   pole.EnrolledOn,
+                   pole.CancelledOn,
+                   pole.ExpiredOn,
+                   pole.TimePeriod,
+                   Client = new { Id = pole.Client.Id, User = pole.Client.User },
+                   Agent = new { Id = pole.Agent.Id, User = pole.Agent.User },
+                   Plan = new { Id = pole.Plan.Id, PlanName = pole.Plan.PlanName, User = pole.Plan.Provider }
+
+               })
+                .ToList();
+
+            if (policies.Any())
+            {
+                return policies;
+            }
+            else
+            {
+                throw new PolicyNotFoundException("Policies Not Found");
+            }
+        }
         public int UpdatePolicy(PolicyEnrollment policy, int id)
         {
+            Console.WriteLine(id+ " id in update");
             var existingPolisy = FetchPolicyById(id);
 
             policy.Id = id;
@@ -124,7 +174,7 @@ namespace RepositryAssignement.Repository
                 .Include(PE => PE.Plan)
                 .Where(PE => PE.Client.City.Id == id).ToList();
 
-            if (filteredPolicys.Any() )
+            if (filteredPolicys.Any())
             {
                 return filteredPolicys;
             }
@@ -143,7 +193,7 @@ namespace RepositryAssignement.Repository
                 .ThenInclude(Sub => Sub.Type)
                 .ToList();
 
-            if (plans.Any() )
+            if (plans.Any())
             {
                 return plans;
             }
@@ -194,7 +244,8 @@ namespace RepositryAssignement.Repository
 
         public IEnumerable<Provider> FetchAllProvider()
         {
-            IEnumerable<Provider> providers = _context.Providers.ToList();
+            IEnumerable<Provider> providers = _context.Providers
+                .Include("User").Include("City").ToList();
             if (providers.Any())
             {
                 return providers;
@@ -244,7 +295,7 @@ namespace RepositryAssignement.Repository
 #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             Client client = _context.Clients
                            .Include(Cli => Cli.User)
-                           .FirstOrDefault(Cli => Cli.User != null &&  Cli.User.Username == userName);
+                           .FirstOrDefault(Cli => Cli.User != null && Cli.User.Username == userName);
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
             if (client != null)
             {
@@ -255,7 +306,7 @@ namespace RepositryAssignement.Repository
                 throw new PolicyManagementException($"Client with user name {userName} Not Fount");
             }
         }
-        public int FetchPlanIdByPlanName(string planName,string providerName){
+        public int FetchPlanIdByPlanName(string planName, string providerName) {
             Plan? plan = _context.Plans
                        .Include(pln => pln.Provider)
                        .Where(pln => pln.Provider != null && pln.Provider.CompanyName == providerName)
@@ -272,12 +323,12 @@ namespace RepositryAssignement.Repository
                 throw new PolicyManagementException($"Plan ${planName} with Provider {providerName} Not Fount");
             }
         }
-        public  int FetchAgentIdByUserName(string userName)
+        public int FetchAgentIdByUserName(string userName)
         {
 #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             Agent agent = _context.Agents
                 .Include(Agn => Agn.User)
-                .FirstOrDefault(Agn => Agn.User!= null && Agn.User.Username == userName);
+                .FirstOrDefault(Agn => Agn.User != null && Agn.User.Username == userName);
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
             if (agent != null)
@@ -290,8 +341,110 @@ namespace RepositryAssignement.Repository
             }
         }
 
+        public int UpdateProvider(int id, Provider provider) {
+            {
+                var existingProvider = _context.Providers.FirstOrDefault(Pro => Pro.Id == id);
+                if (existingProvider != null) {
+                    provider.Id = id;
+                    _context.Entry(existingProvider).CurrentValues.SetValues(provider);
+                    _context.SaveChanges();
+                    return 0;
+                }
+                else
+                {
+                    throw new Exception($"Provider with id {id} not found");
+                }
 
+            }
 
-        
-    }
-}
+           
+        }
+        public int DeleteProvider(int id)
+        {
+            Provider provider = _context.Providers.FirstOrDefault(Pro => Pro.Id == id);
+            if (provider != null)
+            {
+                _context.Providers.Remove(provider);
+                return 0;
+
+            }
+            else
+            {
+                throw new Exception($"Provider with id {id} not found ");
+            }
+        }
+
+        public IEnumerable<Client> FetchAllClient()
+        {
+            return _context.Clients.Include(Cli => Cli.User).Include(Cli => Cli.City)
+                .ToList();
+        }
+
+        public int DeleteClient(int id)
+        {
+            Client client = _context.Clients.FirstOrDefault(Cl => Cl.Id == id);
+            if (client != null)
+            {
+                _context.Clients.Remove(client);
+                _context.SaveChanges(true);
+                return 0;
+            }
+            else
+            {
+                throw new Exception($"Client with id {id} not found ");
+            }
+        }
+
+        public int UpdateClient(int id, Client client)
+        {
+
+            var existingClient = _context.Clients.FirstOrDefault(Cli => Cli.Id == id);
+            if (existingClient != null)
+            {
+                client.Id = id;
+                _context.Entry(existingClient).CurrentValues.SetValues(client);
+                _context.SaveChanges();
+                return 0;
+            }
+            else
+            {
+                throw new Exception($"Client with id {id} not found");
+            }
+        }
+
+        public IEnumerable<Agent> FetchAllAgent()
+        {
+            return _context.Agents.Include(Agn => Agn.User).Include(Agn => Agn.City).ToList();
+        }
+
+        public int UpdateAgent(int id, Agent agent)
+        {
+            var existingAgent = _context.Agents.FirstOrDefault(Agn => Agn.Id == id);
+            if (existingAgent != null)
+            {
+                agent.Id = id;
+                _context.Entry(existingAgent).CurrentValues.SetValues(agent);
+                _context.SaveChanges();
+                return 0;
+            }
+            else
+            {
+                throw new Exception($"Agent with id {id} not found");
+            }
+        }
+
+        public int DeleteAgent(int id)
+        {
+            Agent agent = _context.Agents.FirstOrDefault(Ag => Ag.Id == id);
+            if (agent != null)
+            {
+                _context.Agents.Remove(agent);
+                return 0;
+
+            }
+            else
+            {
+                throw new Exception($"Agent with id {id} not found ");
+            }
+        }
+    } }

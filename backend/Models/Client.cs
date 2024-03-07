@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace RepositryAssignement.Models;
 
@@ -25,11 +26,13 @@ public partial class Client
 
     public int? UserId { get; set; }
 
-    public virtual City City { get; set; } = null!;
+    [JsonIgnore]
+    public virtual City? City { get; set; } = null!;
 
     public virtual ICollection<PolicyEnrollment> PolicyEnrollments { get; set; } = new List<PolicyEnrollment>();
 
     public virtual ICollection<PolicyHistory> PolicyHistories { get; set; } = new List<PolicyHistory>();
+    [JsonIgnore]
 
     public virtual User? User { get; set; }
 }

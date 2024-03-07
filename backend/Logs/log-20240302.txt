@@ -1,0 +1,407 @@
+2024-03-02 00:16:24 HTTP GET /api/policy/123 responded 200 in 23.7806 ms
+2024-03-02 00:16:28 HTTP GET //client responded 404 in 0.1768 ms
+2024-03-02 00:16:28 HTTP GET //agent responded 404 in 0.8366 ms
+2024-03-02 00:16:28 HTTP GET //provider responded 404 in 0.7917 ms
+2024-03-02 00:16:35 HTTP GET /api/policy/123 responded 200 in 2.2377 ms
+2024-03-02 00:16:36 HTTP GET //client responded 404 in 0.2820 ms
+2024-03-02 00:16:36 HTTP GET //agent responded 404 in 0.1470 ms
+2024-03-02 00:16:36 HTTP GET //provider responded 404 in 0.1513 ms
+2024-03-02 00:16:38 HTTP GET /api/policy/123 responded 200 in 1.7852 ms
+2024-03-02 00:16:39 HTTP GET //client responded 404 in 0.0598 ms
+2024-03-02 00:16:39 HTTP GET //agent responded 404 in 0.0827 ms
+2024-03-02 00:16:39 HTTP GET //provider responded 404 in 0.0703 ms
+2024-03-02 00:16:42 HTTP GET /api/policy/123 responded 200 in 1.5280 ms
+2024-03-02 00:16:56 HTTP GET /api/policy/123 responded 200 in 14.0529 ms
+2024-03-02 00:16:57 HTTP GET //client responded 404 in 0.0685 ms
+2024-03-02 00:16:57 HTTP GET //agent responded 404 in 0.0507 ms
+2024-03-02 00:16:57 HTTP GET //provider responded 404 in 0.0646 ms
+2024-03-02 00:17:24 HTTP GET /api/policy/123 responded 200 in 12.0091 ms
+2024-03-02 00:17:25 HTTP GET //client responded 404 in 0.0826 ms
+2024-03-02 00:17:25 HTTP GET //agent responded 404 in 0.0619 ms
+2024-03-02 00:17:25 HTTP GET //provider responded 404 in 0.0619 ms
+2024-03-02 00:18:46 HTTP GET //client responded 404 in 2.3645 ms
+2024-03-02 00:18:46 HTTP GET //provider responded 404 in 0.3081 ms
+2024-03-02 00:18:46 HTTP GET //agent responded 404 in 0.0868 ms
+2024-03-02 00:18:47 HTTP GET /api/policy/123 responded 200 in 10.4025 ms
+2024-03-02 00:19:03 HTTP GET /api/policy/123 responded 200 in 14.7511 ms
+2024-03-02 09:07:32 Policy Management System Started..........
+2024-03-02 09:07:33 HTTP GET / responded 200 in 347.4012 ms
+2024-03-02 09:07:33 HTTP GET /css/site.css responded 200 in 2.6292 ms
+2024-03-02 09:07:33 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.3355 ms
+2024-03-02 09:07:33 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 21.6806 ms
+2024-03-02 09:07:34 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 4.7312 ms
+2024-03-02 09:07:34 HTTP GET /Assert/Image/download.png responded 200 in 1.8267 ms
+2024-03-02 09:07:34 HTTP GET /js/site.js responded 200 in 0.8474 ms
+2024-03-02 09:07:34 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 8.1639 ms
+2024-03-02 09:07:34 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 36.0191 ms
+2024-03-02 09:09:24 HTTP GET /api/policy responded 200 in 1608.7365 ms
+2024-03-02 09:10:41 HTTP GET //provider responded 404 in 0.2736 ms
+2024-03-02 09:10:41 HTTP GET //agent responded 404 in 0.2737 ms
+2024-03-02 09:10:41 HTTP GET //client responded 404 in 0.0782 ms
+2024-03-02 09:10:43 HTTP GET /api/policy/123 responded 200 in 90.7568 ms
+2024-03-02 09:11:22 HTTP GET /api/policy/123 responded 200 in 96.8754 ms
+2024-03-02 09:13:33 HTTP GET /api/policy/123 responded 200 in 20.7198 ms
+2024-03-02 09:26:49 HTTP GET /api/policy responded 200 in 17.8428 ms
+2024-03-02 09:27:19 HTTP GET /api/policy responded 200 in 6.9034 ms
+2024-03-02 09:27:27 HTTP GET /api/policy responded 200 in 2.1954 ms
+2024-03-02 09:27:32 HTTP GET /api/policy responded 200 in 2.1764 ms
+2024-03-02 09:28:50 HTTP GET /api/policy responded 200 in 32.2379 ms
+2024-03-02 09:28:57 HTTP GET /api/policy responded 200 in 2.2159 ms
+2024-03-02 09:29:03 HTTP GET /api/policy responded 200 in 2.0693 ms
+2024-03-02 09:31:50 HTTP GET /api/policy responded 200 in 29.3680 ms
+2024-03-02 09:36:43 HTTP GET /api/policy responded 200 in 6.2657 ms
+2024-03-02 09:37:34 HTTP GET /api/policy responded 200 in 5.1633 ms
+2024-03-02 09:37:40 HTTP GET /api/policy responded 200 in 5.8041 ms
+2024-03-02 09:39:15 HTTP GET /api/policy responded 200 in 5.4600 ms
+2024-03-02 09:39:19 HTTP GET /api/policy responded 200 in 1.9503 ms
+2024-03-02 09:39:24 HTTP GET /api/policy responded 200 in 1.9147 ms
+2024-03-02 09:39:30 HTTP GET /api/policy responded 200 in 1.9256 ms
+2024-03-02 09:39:41 HTTP GET /api/policy responded 200 in 2.0008 ms
+2024-03-02 09:40:53 HTTP GET /api/policy responded 200 in 23.7249 ms
+2024-03-02 09:40:54 HTTP GET /api/policy responded 200 in 1.9704 ms
+2024-03-02 09:41:29 HTTP GET /api/policy responded 200 in 5.5384 ms
+2024-03-02 09:42:23 HTTP GET /api/policy responded 200 in 40.1176 ms
+2024-03-02 09:42:42 HTTP GET /api/policy responded 200 in 2.3004 ms
+2024-03-02 09:42:52 HTTP GET /api/policy responded 200 in 2.0560 ms
+2024-03-02 09:43:27 HTTP GET /api/policy responded 200 in 12.0007 ms
+2024-03-02 09:46:44 HTTP GET /api/policy responded 200 in 10.0829 ms
+2024-03-02 09:47:04 HTTP GET /api/policy responded 200 in 1.8710 ms
+2024-03-02 09:47:12 HTTP GET /api/policy responded 200 in 2.4014 ms
+2024-03-02 09:48:39 HTTP GET /api/policy responded 200 in 9.8856 ms
+2024-03-02 09:50:53 HTTP GET /api/policy responded 200 in 12.4673 ms
+2024-03-02 10:15:22 HTTP GET /api/policy responded 200 in 24.1521 ms
+2024-03-02 10:15:49 HTTP GET /api/policy responded 200 in 1.9029 ms
+2024-03-02 10:15:49 HTTP GET //client responded 404 in 0.1007 ms
+2024-03-02 10:15:49 HTTP GET //provider responded 404 in 0.0689 ms
+2024-03-02 10:15:49 HTTP GET //agent responded 404 in 0.0559 ms
+2024-03-02 10:17:14 HTTP GET /api/policy responded 200 in 11.9129 ms
+2024-03-02 10:17:17 HTTP GET //client responded 404 in 0.0756 ms
+2024-03-02 10:17:17 HTTP GET //agent responded 404 in 0.6807 ms
+2024-03-02 10:17:17 HTTP GET //provider responded 404 in 0.0678 ms
+2024-03-02 10:32:19 HTTP GET /api/policy/ responded 200 in 58336.3401 ms
+2024-03-02 10:32:33 HTTP GET /api/policy/123 responded 200 in 14.7995 ms
+2024-03-02 10:33:07 HTTP GET /api/policy/123 responded 200 in 20.5526 ms
+2024-03-02 10:33:16 HTTP GET /api/policy/ responded 200 in 54168.9969 ms
+2024-03-02 10:35:04 HTTP GET /api/policy/123 responded 200 in 12.1814 ms
+2024-03-02 10:35:40 HTTP GET /api/policy/ responded 200 in 66077.6721 ms
+2024-03-02 10:36:50 HTTP GET /api/policy/123 responded 200 in 104.4403 ms
+2024-03-02 10:37:18 HTTP GET /api/policy/ responded 200 in 51708.4761 ms
+2024-03-02 10:39:00 HTTP GET /api/policy responded 200 in 52726.5617 ms
+2024-03-02 22:06:53 HTTP GET /api/policy responded 200 in 41.0470 ms
+2024-03-02 22:07:26 HTTP GET /api/policy responded 200 in 58143.8942 ms
+2024-03-02 22:17:51 HTTP GET /api/policy responded 200 in 54704.6492 ms
+2024-03-02 22:22:41 HTTP GET /api/policy/filter/2 responded 200 in 55.9604 ms
+2024-03-02 22:22:46 HTTP GET /api/policy responded 200 in 51541.0723 ms
+2024-03-02 22:22:59 HTTP GET /api/policy/filter/2 responded 200 in 3670.9934 ms
+2024-03-02 22:24:32 HTTP GET /api/policy/ responded 200 in 50125.4516 ms
+2024-03-02 22:25:52 HTTP GET /api/policy/order responded 200 in 51201.3214 ms
+2024-03-02 22:27:37 Policy Management System Started..........
+2024-03-02 22:27:37 HTTP GET /login responded 200 in 246.6068 ms
+2024-03-02 22:27:37 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 7.0399 ms
+2024-03-02 22:27:37 HTTP GET /css/site.css responded 200 in 12.0028 ms
+2024-03-02 22:27:37 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 21.4816 ms
+2024-03-02 22:27:37 HTTP GET /Assert/Image/download.png responded 200 in 10.7319 ms
+2024-03-02 22:27:37 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 31.9948 ms
+2024-03-02 22:27:37 HTTP GET /js/site.js responded 200 in 1.4734 ms
+2024-03-02 22:27:37 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 25.5539 ms
+2024-03-02 22:27:37 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 56.2678 ms
+2024-03-02 22:27:38 HTTP GET /favicon.ico responded 200 in 4.2055 ms
+2024-03-02 22:27:56 HTTP GET /api/policy/filter/2 responded 200 in 2791.3961 ms
+2024-03-02 22:28:07 HTTP GET /api/policy/123 responded 200 in 84.9462 ms
+2024-03-02 22:28:20 HTTP GET /api/policy/order responded 200 in 55819.0841 ms
+2024-03-02 22:29:37 HTTP GET /api/policy responded 200 in 62007.6030 ms
+2024-03-02 22:32:36 Policy Management System Started..........
+2024-03-02 22:32:36 HTTP GET /login responded 200 in 10.6912 ms
+2024-03-02 22:32:36 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0857 ms
+2024-03-02 22:33:59 HTTP GET /api/policy/order responded 200 in 56032.6683 ms
+2024-03-02 22:34:03 HTTP GET /api/policy/123 responded 200 in 183.2005 ms
+2024-03-02 22:34:07 HTTP GET /api/policy/filter/2 responded 200 in 2768.6533 ms
+2024-03-02 22:34:36 HTTP GET /api/policy responded 200 in 75206.4955 ms
+2024-03-02 22:35:30 HTTP GET /api/policy/ responded 200 in 53219.9147 ms
+2024-03-02 22:36:35 Policy Management System Started..........
+2024-03-02 22:36:35 HTTP GET /login responded 200 in 123.0342 ms
+2024-03-02 22:36:35 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.6356 ms
+2024-03-02 22:36:57 HTTP GET /api/policy/filter/2 responded 200 in 2846.5911 ms
+2024-03-02 22:37:34 HTTP GET /api/policy/ responded 200 in 53604.6495 ms
+2024-03-02 22:40:21 HTTP GET /api/policy responded 200 in 217321.2216 ms
+2024-03-02 22:41:53 HTTP GET /api/policy responded 200 in 61778.7484 ms
+2024-03-02 22:44:07 Policy Management System Started..........
+2024-03-02 22:44:07 HTTP GET /login responded 200 in 9.9125 ms
+2024-03-02 22:44:07 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.2429 ms
+2024-03-02 22:44:11 HTTP GET /api/policy/ responded 200 in 2600.7214 ms
+2024-03-02 22:44:46 Policy Management System Started..........
+2024-03-02 22:44:46 HTTP GET /login responded 200 in 6.5616 ms
+2024-03-02 22:44:46 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9217 ms
+2024-03-02 22:45:08 HTTP GET /api/policy/ responded 200 in 20074.9611 ms
+2024-03-02 22:46:01 Policy Management System Started..........
+2024-03-02 22:46:02 HTTP GET /login responded 200 in 6.3918 ms
+2024-03-02 22:46:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8957 ms
+2024-03-02 22:46:36 HTTP GET /api/policy/ responded 200 in 19994.4883 ms
+2024-03-02 22:47:21 HTTP GET /api/policy responded 200 in 23968.1308 ms
+2024-03-02 22:47:46 HTTP GET /api/policy/123 responded 200 in 11.1156 ms
+2024-03-02 22:48:05 HTTP GET /api/policy responded 200 in 24010.7832 ms
+2024-03-02 22:48:27 HTTP GET /api/policy/filter/2 responded 200 in 2622.1188 ms
+2024-03-02 22:49:19 Policy Management System Started..........
+2024-03-02 22:49:19 HTTP GET /login responded 200 in 5.9426 ms
+2024-03-02 22:49:19 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8214 ms
+2024-03-02 22:49:24 HTTP GET /api/policy/ responded 200 in 2804.4595 ms
+2024-03-02 22:51:24 Policy Management System Started..........
+2024-03-02 22:51:24 HTTP GET /login responded 200 in 8.2712 ms
+2024-03-02 22:51:24 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0610 ms
+2024-03-02 22:51:26 HTTP GET /api/policy/ responded 200 in 13.6965 ms
+2024-03-02 22:51:36 HTTP GET /api/policy/ responded 200 in 1.9487 ms
+2024-03-02 22:51:49 Policy Management System Started..........
+2024-03-02 22:51:49 HTTP GET /login responded 200 in 5.7427 ms
+2024-03-02 22:51:49 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8361 ms
+2024-03-02 22:51:52 HTTP GET /api/policy/ responded 200 in 10.3684 ms
+2024-03-02 22:51:54 HTTP GET /api/policy/ responded 200 in 2.0722 ms
+2024-03-02 22:52:01 Policy Management System Started..........
+2024-03-02 22:52:01 HTTP GET /login responded 200 in 9.2645 ms
+2024-03-02 22:52:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9121 ms
+2024-03-02 22:52:03 HTTP GET /api/policy/ responded 200 in 13.1067 ms
+2024-03-02 22:52:11 HTTP GET /api/policy/ responded 200 in 4.6004 ms
+2024-03-02 22:53:40 HTTP GET /api/policy/ responded 200 in 1458.2711 ms
+2024-03-02 22:54:01 Policy Management System Started..........
+2024-03-02 22:54:02 HTTP GET /login responded 200 in 115.2228 ms
+2024-03-02 22:54:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7349 ms
+2024-03-02 22:54:56 HTTP GET /api/policy/ responded 200 in 51808.1906 ms
+2024-03-02 22:56:43 Policy Management System Started..........
+2024-03-02 22:56:43 HTTP GET /login responded 200 in 11.5490 ms
+2024-03-02 22:56:43 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9244 ms
+2024-03-02 22:56:48 HTTP GET /api/policy/ responded 200 in 3115.8856 ms
+2024-03-02 22:57:07 HTTP GET /api/policy/ responded 200 in 2514.4608 ms
+2024-03-02 22:57:12 HTTP GET /api/policy/ responded 200 in 54682.8098 ms
+2024-03-02 23:00:45 Policy Management System Started..........
+2024-03-02 23:00:45 HTTP GET /login responded 200 in 17.8334 ms
+2024-03-02 23:00:45 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8307 ms
+2024-03-02 23:00:50 HTTP GET /api/policy/ responded 200 in 2578.0856 ms
+2024-03-02 23:02:25 HTTP GET /api/policy/123 responded 200 in 70.6882 ms
+2024-03-02 23:03:45 HTTP GET /api/policy/ responded 200 in 2451.6082 ms
+2024-03-02 23:06:50 Policy Management System Started..........
+2024-03-02 23:06:50 HTTP GET /login responded 200 in 7.0753 ms
+2024-03-02 23:06:50 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8953 ms
+2024-03-02 23:07:57 HTTP GET /api/policy/ responded 200 in 59224.7875 ms
+2024-03-02 23:09:11 Policy Management System Started..........
+2024-03-02 23:09:11 HTTP GET /login responded 200 in 8.2493 ms
+2024-03-02 23:09:11 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9361 ms
+2024-03-02 23:11:06 HTTP GET /api/policy/ responded 500 in 30121.9546 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-02 23:11:06 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-02 23:13:18 HTTP GET /api/policy/ responded 500 in 126431.4085 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method184(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-02 23:13:18 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method184(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-02 23:13:21 HTTP GET /api/policy/ responded 200 in 169.8459 ms
+2024-03-02 23:16:42 Policy Management System Started..........
+2024-03-02 23:16:42 HTTP GET /login responded 200 in 113.4484 ms
+2024-03-02 23:16:42 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7576 ms
+2024-03-02 23:17:04 HTTP GET /api/policy/ responded 500 in 18960.6753 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method227(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-02 23:17:04 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RepositryAssignement.Repository.PolicyRepository.<>c.<FetchAllOptimized>b__5_1(<>f__AnonymousType2`4 item)
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at RepositryAssignement.Repository.PolicyRepository.FetchAllOptimized()
+   at RepositryAssignement.Controllers.ApiController.Get()
+   at lambda_method227(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-02 23:20:22 HTTP GET /api/policy/ responded 200 in 1390.7571 ms
+2024-03-02 23:22:00 Policy Management System Started..........
+2024-03-02 23:22:00 HTTP GET /login responded 200 in 119.2952 ms
+2024-03-02 23:22:00 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.4512 ms
+2024-03-02 23:22:07 HTTP GET /api/policy/ responded 200 in 37.3487 ms
+2024-03-02 23:23:02 Policy Management System Started..........
+2024-03-02 23:23:02 HTTP GET /login responded 200 in 10.8905 ms
+2024-03-02 23:23:02 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8382 ms
+2024-03-02 23:23:08 HTTP GET /api/policy/ responded 200 in 64.0948 ms
+2024-03-02 23:23:42 Policy Management System Started..........
+2024-03-02 23:23:42 HTTP GET /login responded 200 in 7.9370 ms
+2024-03-02 23:23:42 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.9773 ms
+2024-03-02 23:24:04 HTTP GET /api/policy/ responded 200 in 18252.0195 ms
+2024-03-02 23:24:05 Policy Management System Started..........
+2024-03-02 23:24:05 HTTP GET /login responded 200 in 8.6169 ms
+2024-03-02 23:24:05 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.0541 ms
+2024-03-02 23:24:11 HTTP GET /api/policy/ responded 200 in 13.4694 ms
+2024-03-02 23:24:28 Policy Management System Started..........
+2024-03-02 23:24:28 HTTP GET /login responded 200 in 5.7548 ms
+2024-03-02 23:24:28 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.8856 ms
+2024-03-02 23:24:29 HTTP GET /api/policy/ responded 200 in 14.7416 ms
+2024-03-02 23:24:58 Policy Management System Started..........
+2024-03-02 23:24:58 HTTP GET /login responded 200 in 7.8360 ms
+2024-03-02 23:24:58 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.3561 ms
+2024-03-02 23:24:59 HTTP GET /api/policy/ responded 200 in 5.0819 ms
+2024-03-02 23:25:31 Policy Management System Started..........
+2024-03-02 23:25:31 HTTP GET /login responded 200 in 6.0122 ms
+2024-03-02 23:25:31 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.5471 ms
+2024-03-02 23:29:48 HTTP GET /api/policy/ responded 200 in 1470.1422 ms
+2024-03-02 23:30:52 Policy Management System Started..........
+2024-03-02 23:30:52 HTTP GET /login responded 200 in 120.7110 ms
+2024-03-02 23:30:52 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 1.7399 ms
+2024-03-02 23:30:58 HTTP GET /api/policy/ responded 200 in 94.9927 ms
+2024-03-02 23:34:11 HTTP GET /api/policy/ responded 200 in 11289.9847 ms
+2024-03-02 23:34:27 HTTP GET /api/policy/ responded 200 in 9203.3368 ms
+2024-03-02 23:34:35 Policy Management System Started..........
+2024-03-02 23:34:35 HTTP GET /login responded 200 in 119.1627 ms
+2024-03-02 23:34:35 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 2.1951 ms
+2024-03-02 23:34:44 HTTP GET /api/policy/ responded 200 in 8890.5965 ms
+2024-03-02 23:35:05 HTTP GET /api/policy/ responded 200 in 8931.8942 ms
+2024-03-02 23:35:59 HTTP GET /api/policy/ responded 200 in 4107.8586 ms
+2024-03-02 23:36:17 HTTP GET /api/policy/130 responded 200 in 132.3522 ms
+2024-03-02 23:36:40 HTTP GET /api/policy/129 responded 200 in 58.7949 ms

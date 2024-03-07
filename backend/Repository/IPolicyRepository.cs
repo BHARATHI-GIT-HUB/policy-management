@@ -13,10 +13,23 @@ namespace RepositryAssignement.Repository
         Plan FetchPlanById(int id);
         Provider FetchProviderById(int id);
         IEnumerable<PolicyEnrollment> FilterByCity(int id);
-        IEnumerable<Plan> FetchAllPlan();
         IEnumerable<City> FetchAllCity();
         IEnumerable<PolicyEnrollment> AscendingOrder();
+
+        IEnumerable<Plan> FetchAllPlan();
         IEnumerable<Provider> FetchAllProvider();
+        int UpdateProvider(int id,Provider provider );   
+        int DeleteProvider(int id);
+        IEnumerable<Client> FetchAllClient();
+        int DeleteClient(int id);
+        int UpdateClient(int id ,Client client);   
+        IEnumerable<Agent> FetchAllAgent();
+        int UpdateAgent(int id ,Agent agent);   
+        int DeleteAgent(int id);
+        
+
+
+        IEnumerable<dynamic> FetchAllOptimized();
         int FetchClientIdByUserName(string userName);
         int FetchPlanIdByPlanName(string planName,string providerName);
         int FetchAgentIdByUserName(string userName);

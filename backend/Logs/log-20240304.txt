@@ -1,0 +1,2072 @@
+2024-03-04 15:03:13 HTTP GET /api/policy responded 200 in 1616.6320 ms
+2024-03-04 15:03:14 HTTP GET /api/plan responded 200 in 2484.4364 ms
+2024-03-04 15:03:15 HTTP GET /api/policy responded 200 in 58.7200 ms
+2024-03-04 15:03:16 HTTP GET /api/plan responded 200 in 882.9961 ms
+2024-03-04 15:14:02 HTTP GET /api/policy responded 200 in 10.2249 ms
+2024-03-04 15:14:03 HTTP GET /api/plan responded 200 in 897.2637 ms
+2024-03-04 15:15:28 HTTP GET /api/policy responded 200 in 4.7324 ms
+2024-03-04 15:15:28 HTTP GET /api/plan responded 200 in 835.5260 ms
+2024-03-04 15:17:23 HTTP POST /api/policy/upload responded 405 in 0.7287 ms
+2024-03-04 15:17:39 HTTP GET /api/policy responded 200 in 6.0845 ms
+2024-03-04 15:17:40 HTTP GET /api/plan responded 200 in 798.9117 ms
+2024-03-04 15:17:55 HTTP GET /api/policy/filter responded 400 in 30.4974 ms
+2024-03-04 15:18:02 HTTP GET /api/policy/Filter responded 400 in 1.3275 ms
+2024-03-04 15:19:18 HTTP GET /api/policy/filter/1 responded 500 in 63971.9894 ms
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:19:20 HTTP GET /api/policy/filter/1 responded 500 in 2440.6561 ms
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:19:18 HTTP GET /api/policy/ responded 200 in 27.8915 ms
+2024-03-04 15:19:21 An unhandled exception has occurred while executing the request.
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:19:21 An unhandled exception has occurred while executing the request.
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:19:21 HTTP GET /api/policy/Filter/1 responded 500 in 697.6697 ms
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:19:21 An unhandled exception has occurred while executing the request.
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:19:21 HTTP GET /api/policy/Filter/2 responded 200 in 3202.3804 ms
+2024-03-04 15:19:42 HTTP GET /api/policy/filter/1 responded 500 in 8218.7098 ms
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:19:42 An unhandled exception has occurred while executing the request.
+RepositryAssignement.Custome_Exception.PolicyManagementException: Error in Filtering by the City with id 1
+   at RepositryAssignement.Repository.PolicyRepository.FilterByCity(Int32 id)
+   at RepositryAssignement.BO.PolicyBO.FilterPolicy(Int32 id)
+   at RepositryAssignement.Controllers.ApiController.Filter(Int32 id)
+   at lambda_method380(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:19:47 HTTP GET /api/policy/filter/2 responded 200 in 1.9505 ms
+2024-03-04 15:19:53 HTTP GET /api/policy/upload responded 400 in 0.6461 ms
+2024-03-04 15:20:26 HTTP GET /api/policy/upload responded 415 in 13.7546 ms
+2024-03-04 15:20:53 HTTP POST /api/policy/upload responded 405 in 1.4409 ms
+2024-03-04 15:21:13 HTTP POST /api/policy/upload responded 415 in 3.6232 ms
+2024-03-04 15:21:16 HTTP POST /api/policy/upload responded 415 in 1.8902 ms
+2024-03-04 15:21:29 HTTP POST /api/policy/upload responded 415 in 3.5195 ms
+2024-03-04 15:22:18 HTTP POST /api/policy/upload responded 415 in 34.4852 ms
+2024-03-04 15:22:53 HTTP POST /api/policy/upload responded 415 in 10.4585 ms
+2024-03-04 15:24:27 HTTP POST /api/policy/upload responded 415 in 5.2538 ms
+2024-03-04 15:25:46 HTTP POST /api/policy/upload responded 415 in 2.1461 ms
+2024-03-04 15:26:35 HTTP POST /api/policy/upload responded 415 in 40.2763 ms
+2024-03-04 15:27:15 HTTP POST /api/policy/upload responded 415 in 7.1418 ms
+2024-03-04 15:28:35 HTTP POST /api/policy/upload responded 400 in 5.1757 ms
+2024-03-04 15:29:28 HTTP POST /api/policy/upload responded 400 in 5.3675 ms
+2024-03-04 15:29:51 HTTP POST /api/policy/upload responded 415 in 10.2324 ms
+2024-03-04 15:30:11 HTTP POST /api/policy/upload responded 415 in 2.5168 ms
+2024-03-04 15:30:43 HTTP POST /api/policy/upload responded 500 in 1.1236 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:30:43 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:31:24 HTTP POST /api/policy/upload responded 415 in 297.1957 ms
+2024-03-04 15:31:37 HTTP POST /api/policy/upload responded 415 in 10.1899 ms
+2024-03-04 15:31:39 HTTP POST /api/policy/upload responded 415 in 4.1220 ms
+2024-03-04 15:31:54 HTTP POST /api/policy/Upload responded 415 in 2.6095 ms
+2024-03-04 15:32:41 HTTP GET /api/policy/upload responded 200 in 11.4420 ms
+2024-03-04 15:32:52 HTTP POST /api/policy/upload responded 415 in 7.1147 ms
+2024-03-04 15:34:18 HTTP POST /api/policy/upload responded 415 in 6.6666 ms
+2024-03-04 15:34:20 HTTP POST /api/policy/upload responded 415 in 2.4960 ms
+2024-03-04 15:34:39 HTTP GET /api/agent responded 200 in 1088.2555 ms
+2024-03-04 15:34:39 HTTP GET /api/provider responded 200 in 1088.3285 ms
+2024-03-04 15:34:39 HTTP GET /api/client responded 200 in 1093.3586 ms
+2024-03-04 15:34:55 HTTP POST /api/policy/upload responded 415 in 2.4518 ms
+2024-03-04 15:35:30 HTTP POST /api/policy/upload responded 415 in 2.7752 ms
+2024-03-04 15:35:36 HTTP POST /api/policy/upload responded 415 in 2.5738 ms
+2024-03-04 15:36:02 HTTP POST /api/policy/upload responded 415 in 31.2450 ms
+2024-03-04 15:38:08 HTTP POST /api/policy/upload responded 415 in 8.5820 ms
+2024-03-04 15:38:49 HTTP POST /api/policy/upload responded 500 in 1.2790 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:38:49 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:39:19 HTTP POST /api/policy/upload responded 200 in 222.2594 ms
+2024-03-04 15:39:35 HTTP POST /api/policy/upload responded 200 in 9.5623 ms
+2024-03-04 15:40:09 HTTP POST /api/policy/upload responded 200 in 12.8075 ms
+2024-03-04 15:40:28 HTTP POST /api/policy/upload responded 200 in 4.7396 ms
+2024-03-04 15:41:04 HTTP POST /api/policy/upload responded 200 in 250.8516 ms
+2024-03-04 15:45:58 HTTP POST /api/policy/upload responded 400 in 33.3190 ms
+2024-03-04 15:46:02 HTTP POST /api/policy/upload responded 400 in 3.3967 ms
+2024-03-04 15:47:08 HTTP POST /api/policy/upload responded 200 in 1.9226 ms
+2024-03-04 15:47:39 HTTP POST /api/policy/upload responded 200 in 2.0395 ms
+2024-03-04 15:47:47 HTTP POST /api/policy/upload responded 200 in 5.9896 ms
+2024-03-04 15:49:10 HTTP POST /api/policy/upload responded 500 in 7.4389 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:49:10 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:49:26 HTTP POST /api/policy/upload responded 500 in 6.8107 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:49:26 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:51:38 HTTP POST /api/policy/upload responded 500 in 6.5912 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:51:38 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:52:19 HTTP POST /api/policy/upload responded 500 in 4.2247 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:52:19 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:52:50 HTTP POST /api/policy/upload responded 500 in 7.5137 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:52:50 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 15:56:05 HTTP GET /api/policy responded 200 in 1090.1057 ms
+2024-03-04 15:56:05 HTTP GET /api/provider responded 200 in 85.9990 ms
+2024-03-04 15:56:05 HTTP GET /api/agent responded 200 in 57.4458 ms
+2024-03-04 15:56:05 HTTP GET /api/client responded 200 in 97.8705 ms
+2024-03-04 15:56:09 HTTP GET /api/policy responded 200 in 34.5732 ms
+2024-03-04 15:56:17 HTTP POST /api/policy/upload responded 500 in 4.4878 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 15:56:17 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:02:42 HTTP POST /api/policy/upload responded 500 in 5.8033 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:02:42 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:02:49 HTTP POST /api/policy/upload responded 500 in 4.1232 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:02:49 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:02:57 HTTP POST /api/policy/upload responded 500 in 3.9090 ms
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:02:57 An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType3`15' from assembly 'RepositryAssignement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at RepositryAssignement.Controllers.ApiController.Upload
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:17:12 HTTP POST /api/policy/upload responded 415 in 35.5685 ms
+2024-03-04 16:17:33 HTTP POST /api/policy/upload responded 400 in 136.5509 ms
+2024-03-04 16:18:27 HTTP POST /api/policy/upload responded 400 in 9.6655 ms
+2024-03-04 16:19:00 HTTP POST /api/policy/upload responded 500 in 0.9712 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:19:00 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:19:36 HTTP POST /api/policy/upload responded 400 in 219.9479 ms
+2024-03-04 16:21:51 HTTP POST /api/policy/upload responded 415 in 44.9776 ms
+2024-03-04 16:22:08 HTTP POST /api/policy/upload responded 200 in 19.6938 ms
+2024-03-04 16:22:34 HTTP POST /api/policy/upload responded 200 in 14.7099 ms
+2024-03-04 16:27:32 HTTP POST /api/policy/upload responded 500 in 4.3588 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:27:32 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:28:08 HTTP POST /api/policy/upload responded 200 in 1386.4294 ms
+2024-03-04 16:34:34 HTTP POST /api/policy/upload responded 200 in 1243.1986 ms
+2024-03-04 16:35:25 HTTP POST /api/policy/upload responded 500 in 1.2201 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:35:25 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:35:36 HTTP POST /api/policy/upload responded 500 in 1.4766 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 16:35:36 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 16:36:05 HTTP POST /api/policy/upload responded 200 in 1870.1205 ms
+2024-03-04 16:40:12 HTTP POST /api/policy/upload responded 200 in 235.7625 ms
+2024-03-04 16:41:20 HTTP POST /api/policy/upload responded 200 in 97.3772 ms
+2024-03-04 16:42:36 HTTP POST /api/policy/upload responded 200 in 33.9473 ms
+2024-03-04 16:44:30 HTTP POST /api/policy/upload responded 200 in 34.5869 ms
+2024-03-04 16:45:38 HTTP POST /api/policy/upload responded 200 in 45.5267 ms
+2024-03-04 17:10:44 HTTP POST /api/policy/upload responded 500 in 5.2579 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:10:44 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:07 HTTP POST /api/policy/upload responded 500 in 1.8451 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:07 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:07 HTTP POST /api/policy/upload responded 500 in 0.5125 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:07 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:07 HTTP POST /api/policy/upload responded 500 in 0.1307 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:07 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.2440 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.4042 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.2172 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.1995 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.2993 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.2059 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.2123 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 HTTP POST /api/policy/upload responded 500 in 0.1905 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:08 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:50 HTTP POST /api/policy/upload responded 500 in 0.2380 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:50 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:50 HTTP POST /api/policy/upload responded 500 in 0.1920 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:50 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:51 HTTP POST /api/policy/upload responded 500 in 0.2687 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:51 HTTP POST /api/policy/upload responded 500 in 0.2195 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:51 HTTP POST /api/policy/upload responded 500 in 0.3997 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:11:51 HTTP POST /api/policy/upload responded 500 in 0.3209 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:11:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:14:25 HTTP POST /api/policy/upload responded 500 in 1.0190 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:14:25 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:14:25 HTTP POST /api/policy/upload responded 500 in 0.7706 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:14:25 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:14:25 HTTP POST /api/policy/upload responded 500 in 0.1918 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:14:25 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:24:26 HTTP POST /api/policy/upload responded 500 in 0.2754 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:24:26 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:24:48 HTTP POST /api/policy/upload responded 500 in 0.1863 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 17:24:48 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 17:26:07 HTTP POST /api/policy/upload responded 200 in 1920.7046 ms
+2024-03-04 17:26:37 Policy Management System Started..........
+2024-03-04 17:26:37 HTTP GET / responded 200 in 199.2796 ms
+2024-03-04 17:26:37 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 11.5427 ms
+2024-03-04 17:26:37 HTTP GET /css/site.css responded 200 in 24.2604 ms
+2024-03-04 17:26:37 HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 32.9092 ms
+2024-03-04 17:26:37 HTTP GET /Assert/Logo/banner-image.svg responded 200 in 17.3058 ms
+2024-03-04 17:26:37 HTTP GET /Assert/Image/download.png responded 200 in 29.9285 ms
+2024-03-04 17:26:37 HTTP GET /js/site.js responded 200 in 1.5806 ms
+2024-03-04 17:26:37 HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 7.0968 ms
+2024-03-04 17:26:37 HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 39.5207 ms
+2024-03-04 17:26:46 Policy Management System Started..........
+2024-03-04 17:26:46 Login Details admin admin@123
+2024-03-04 17:26:46 Valid Login Details
+2024-03-04 17:26:46 HTTP POST /Login responded 302 in 31.8594 ms
+2024-03-04 17:26:46 Redirected to Policy Enrollment page
+2024-03-04 17:26:46 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-04 17:26:46 HTTP GET /Policy/Index responded 200 in 276.4280 ms
+2024-03-04 17:26:46 HTTP GET /RepositryAssignement.styles.css responded 200 in 1.4178 ms
+2024-03-04 17:26:46 HTTP GET /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css responded 200 in 20.3629 ms
+2024-03-04 17:26:49 Trying to Get all policy Details 
+2024-03-04 17:26:50 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-03-04 17:26:50 HTTP GET /Policy/Details responded 200 in 94.3882 ms
+2024-03-04 17:27:04 HTTP GET /Policy/200 responded 404 in 0.2085 ms
+2024-03-04 17:27:06 Trying to Get all policy Details 
+2024-03-04 17:27:06 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-03-04 17:27:06 HTTP GET /Policy/Details responded 200 in 89.5094 ms
+2024-03-04 17:27:09 Trying to Get the Detail About plan with id 135
+2024-03-04 17:27:09 Succesfully Fetched the plan with  id 135 : RepositryAssignement.Models.PolicyEnrollment
+2024-03-04 17:27:09 HTTP GET /Policy/Detail/135 responded 200 in 44.3934 ms
+2024-03-04 17:27:11 Trying to Get the Detail About plan with id 200
+2024-03-04 17:27:11 Succesfully Fetched the plan with  id 200 : RepositryAssignement.Models.PolicyEnrollment
+2024-03-04 17:27:11 HTTP GET /Policy/Detail/200 responded 200 in 5.4389 ms
+2024-03-04 17:27:18 Trying to Get the Detail About plan with id 199
+2024-03-04 17:27:18 Succesfully Fetched the plan with  id 199 : RepositryAssignement.Models.PolicyEnrollment
+2024-03-04 17:27:18 HTTP GET /Policy/Detail/199 responded 200 in 15.1100 ms
+2024-03-04 20:06:17 HTTP GET /api/agent responded 200 in 1708.8372 ms
+2024-03-04 20:06:17 HTTP GET /api/client responded 200 in 1709.2113 ms
+2024-03-04 20:06:17 HTTP GET /api/provider responded 200 in 1709.1861 ms
+2024-03-04 20:06:20 HTTP GET /api/policy responded 200 in 122.8877 ms
+2024-03-04 20:06:21 HTTP GET /api/policy responded 200 in 11.1321 ms
+2024-03-04 20:06:26 HTTP GET /api/provider responded 200 in 1.9812 ms
+2024-03-04 20:06:26 HTTP GET /api/agent responded 200 in 1.9822 ms
+2024-03-04 20:06:26 HTTP GET /api/client responded 200 in 2.2605 ms
+2024-03-04 20:12:42 HTTP POST /api/policy/upload responded 200 in 1450.0788 ms
+2024-03-04 20:12:42 HTTP POST /api/policy/upload responded 200 in 1445.8437 ms
+2024-03-04 20:34:30 HTTP GET /api/agent responded 200 in 11.6443 ms
+2024-03-04 20:34:30 HTTP GET /api/provider responded 200 in 13.3283 ms
+2024-03-04 20:34:30 HTTP GET /api/client responded 200 in 16.8362 ms
+2024-03-04 20:50:33 HTTP POST /api/policy/upload responded 200 in 53.8732 ms
+2024-03-04 20:51:06 HTTP POST /api/policy/upload responded 200 in 26.9273 ms
+2024-03-04 20:51:32 HTTP POST /api/policy/upload responded 200 in 33.0346 ms
+2024-03-04 20:52:23 HTTP POST /api/policy/upload responded 200 in 35.4089 ms
+2024-03-04 20:53:26 HTTP POST /api/policy/upload responded 200 in 32.1284 ms
+2024-03-04 20:55:47 HTTP POST /api/policy/upload responded 200 in 19.5127 ms
+2024-03-04 20:55:56 HTTP POST /api/policy/upload responded 200 in 7.6737 ms
+2024-03-04 20:59:08 HTTP POST /api/policy/upload responded 200 in 10.7725 ms
+2024-03-04 20:59:14 HTTP POST /api/policy/upload responded 200 in 4.1565 ms
+2024-03-04 20:59:23 HTTP GET /api/policy responded 200 in 58.7283 ms
+2024-03-04 20:59:26 HTTP DELETE /api/policy/181 responded 200 in 40.3875 ms
+2024-03-04 20:59:26 HTTP GET /api/policy responded 200 in 38.5221 ms
+2024-03-04 20:59:31 HTTP GET /api/policy responded 200 in 44.4570 ms
+2024-03-04 20:59:32 HTTP GET /api/plan responded 200 in 920.4742 ms
+2024-03-04 20:59:33 HTTP GET /api/client responded 200 in 4.9725 ms
+2024-03-04 20:59:33 HTTP GET /api/provider responded 200 in 5.2819 ms
+2024-03-04 20:59:33 HTTP GET /api/agent responded 200 in 6.8189 ms
+2024-03-04 20:59:41 HTTP POST /api/policy/upload responded 200 in 2.3514 ms
+2024-03-04 21:00:47 HTTP POST /api/policy/upload responded 200 in 9.7535 ms
+2024-03-04 21:02:34 HTTP POST /api/policy/upload responded 500 in 1.5262 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-04 21:02:34 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+RepositryAssignement.Controllers.ApiController.Upload (RepositryAssignement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-04 21:03:19 HTTP POST /api/policy/upload responded 200 in 1825.7336 ms
+2024-03-04 21:04:42 HTTP POST /api/policy/upload responded 200 in 50.1927 ms
+2024-03-04 21:07:20 HTTP POST /api/policy/upload responded 200 in 73.1287 ms
+2024-03-04 21:07:46 HTTP GET /api/policy responded 200 in 120.8416 ms
+2024-03-04 21:07:48 HTTP GET /api/policy responded 200 in 34.9632 ms
+2024-03-04 21:07:48 HTTP GET /api/plan responded 200 in 872.5883 ms
+2024-03-04 21:07:49 HTTP GET /api/policy responded 200 in 32.3804 ms
+2024-03-04 21:08:11 HTTP GET /api/policy responded 200 in 32.9733 ms
+2024-03-04 21:08:15 HTTP PUT /api/policy/135 responded 200 in 64.6218 ms
+2024-03-04 21:08:15 HTTP GET /api/policy responded 200 in 32.2216 ms
+2024-03-04 21:08:28 HTTP DELETE /api/policy/230 responded 200 in 11.7748 ms
+2024-03-04 21:08:28 HTTP GET /api/policy responded 200 in 32.8479 ms
+2024-03-04 21:08:29 HTTP DELETE /api/policy/135 responded 200 in 3.1206 ms
+2024-03-04 21:08:29 HTTP GET /api/policy responded 200 in 30.4108 ms
+2024-03-04 21:08:30 HTTP DELETE /api/policy/139 responded 200 in 2.9338 ms
+2024-03-04 21:08:30 HTTP GET /api/policy responded 200 in 42.4033 ms
+2024-03-04 21:08:30 HTTP DELETE /api/policy/179 responded 200 in 2.5195 ms
+2024-03-04 21:08:30 HTTP GET /api/policy responded 200 in 40.8222 ms
+2024-03-04 21:08:31 HTTP DELETE /api/policy/183 responded 200 in 2.3277 ms
+2024-03-04 21:08:31 HTTP GET /api/policy responded 200 in 43.9839 ms
+2024-03-04 21:08:31 HTTP DELETE /api/policy/184 responded 200 in 2.3876 ms
+2024-03-04 21:08:32 HTTP GET /api/policy responded 200 in 38.4722 ms
+2024-03-04 21:08:32 HTTP DELETE /api/policy/185 responded 200 in 2.7975 ms
+2024-03-04 21:08:32 HTTP GET /api/policy responded 200 in 37.7858 ms
+2024-03-04 21:08:32 HTTP DELETE /api/policy/186 responded 200 in 2.4960 ms
+2024-03-04 21:08:32 HTTP GET /api/policy responded 200 in 36.7045 ms
+2024-03-04 21:08:32 HTTP DELETE /api/policy/187 responded 200 in 2.3261 ms
+2024-03-04 21:08:32 HTTP GET /api/policy responded 200 in 35.9857 ms
+2024-03-04 21:08:32 HTTP DELETE /api/policy/188 responded 200 in 2.8095 ms
+2024-03-04 21:08:32 HTTP GET /api/policy responded 200 in 36.9577 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/189 responded 200 in 2.7082 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 34.8496 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/190 responded 200 in 2.4173 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 34.0094 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/191 responded 200 in 2.4664 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 33.2371 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/192 responded 200 in 2.0956 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 33.5557 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/193 responded 200 in 2.2179 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 32.7310 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/194 responded 200 in 2.5009 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 31.7808 ms
+2024-03-04 21:08:33 HTTP DELETE /api/policy/195 responded 200 in 2.0381 ms
+2024-03-04 21:08:33 HTTP GET /api/policy responded 200 in 31.1352 ms
+2024-03-04 21:08:34 HTTP DELETE /api/policy/196 responded 200 in 2.2223 ms
+2024-03-04 21:08:34 HTTP GET /api/policy responded 200 in 32.7969 ms
+2024-03-04 21:08:46 HTTP GET /api/provider responded 200 in 20.9627 ms
+2024-03-04 21:08:46 HTTP GET /api/client responded 200 in 21.3730 ms
+2024-03-04 21:08:46 HTTP GET /api/agent responded 200 in 22.7214 ms
+2024-03-04 21:08:52 HTTP GET /api/policy responded 200 in 31.6742 ms
+2024-03-04 21:08:52 HTTP GET /api/plan responded 200 in 798.9507 ms
+2024-03-04 21:08:54 HTTP GET /api/agent responded 200 in 2.8488 ms
+2024-03-04 21:08:54 HTTP GET /api/provider responded 200 in 2.8537 ms
+2024-03-04 21:08:54 HTTP GET /api/client responded 200 in 3.1499 ms
+2024-03-04 21:12:17 HTTP DELETE /api/client/4 responded 200 in 6.8849 ms
+2024-03-04 21:12:17 HTTP GET /api/client responded 200 in 3.4735 ms
+2024-03-04 21:12:21 HTTP DELETE /api/client/4 responded 200 in 1.2483 ms
+2024-03-04 21:12:21 HTTP GET /api/client responded 200 in 1.2728 ms
+2024-03-04 21:12:33 HTTP GET /api/policy responded 200 in 38.0686 ms
+2024-03-04 21:12:33 HTTP GET /api/policy responded 200 in 31.3976 ms
+2024-03-04 21:12:33 HTTP GET /api/plan responded 200 in 829.4919 ms
+2024-03-04 21:12:35 HTTP GET /api/client responded 200 in 2.0471 ms
+2024-03-04 21:12:35 HTTP GET /api/provider responded 200 in 3.7555 ms
+2024-03-04 21:12:35 HTTP GET /api/agent responded 200 in 3.6296 ms
+2024-03-04 21:13:15 HTTP GET /api/policy responded 200 in 41.1939 ms
+2024-03-04 21:22:27 HTTP GET /api/policy responded 200 in 46.9496 ms
+2024-03-04 21:25:10 HTTP GET /api/policy responded 200 in 38.3501 ms
+2024-03-04 21:25:42 HTTP GET /api/policy responded 200 in 38.1630 ms
+2024-03-04 21:25:55 HTTP GET /api/policy responded 200 in 38.8793 ms
+2024-03-04 21:26:06 HTTP GET /api/policy responded 200 in 33.0947 ms
+2024-03-04 21:26:46 HTTP GET /api/policy responded 200 in 62.5436 ms
+2024-03-04 21:26:48 HTTP GET /api/policy responded 200 in 30.7746 ms
+2024-03-04 21:26:49 HTTP GET /api/policy responded 200 in 31.6953 ms
+2024-03-04 21:26:50 HTTP GET /api/policy responded 200 in 30.8030 ms
+2024-03-04 21:27:27 HTTP GET /api/policy responded 200 in 32.4934 ms
+2024-03-04 21:28:10 HTTP GET /api/policy responded 200 in 61.1567 ms
+2024-03-04 21:28:18 HTTP GET /api/policy responded 200 in 32.2698 ms
+2024-03-04 21:28:19 HTTP GET /api/policy responded 200 in 31.2173 ms
+2024-03-04 21:28:40 HTTP GET /api/policy responded 200 in 38.1313 ms
+2024-03-04 21:28:41 HTTP GET /api/policy responded 200 in 32.8269 ms
+2024-03-04 21:29:03 HTTP GET /api/policy responded 200 in 38.0464 ms
+2024-03-04 21:29:07 HTTP GET /api/policy responded 200 in 30.9725 ms
+2024-03-04 21:29:59 HTTP GET /api/policy responded 200 in 37.5545 ms
+2024-03-04 21:30:18 HTTP GET /api/policy responded 200 in 32.1399 ms
+2024-03-04 21:30:22 HTTP GET /api/policy responded 200 in 31.2266 ms
+2024-03-04 21:30:23 HTTP GET /api/policy responded 200 in 31.3256 ms
+2024-03-04 21:30:24 HTTP GET /api/policy responded 200 in 31.6422 ms
+2024-03-04 21:30:29 HTTP GET /api/client responded 200 in 5.6727 ms
+2024-03-04 21:30:29 HTTP GET /api/agent responded 200 in 5.8250 ms
+2024-03-04 21:30:29 HTTP GET /api/provider responded 200 in 2.9475 ms
+2024-03-04 21:30:35 HTTP GET /api/policy responded 200 in 31.2284 ms
+2024-03-04 21:31:05 HTTP GET /api/client responded 200 in 9.3256 ms
+2024-03-04 21:31:05 HTTP GET /api/provider responded 200 in 9.9313 ms
+2024-03-04 21:31:05 HTTP GET /api/agent responded 200 in 17.3534 ms
+2024-03-04 21:33:51 HTTP PUT /api/agent/ responded 405 in 0.3323 ms
+2024-03-04 21:34:13 HTTP PUT /api/client responded 405 in 27.7467 ms
+2024-03-04 21:34:40 HTTP GET /api/client responded 200 in 41.3602 ms
+2024-03-04 21:34:59 HTTP GET /api/client/4 responded 405 in 0.4956 ms
+2024-03-04 21:35:12 HTTP GET /api/client responded 200 in 3.9091 ms
+2024-03-04 21:35:53 HTTP PUT /api/client responded 405 in 3.0718 ms
+2024-03-04 21:36:12 HTTP PUT /api/client/4 responded 400 in 36.3976 ms
+2024-03-04 21:36:29 HTTP PUT /api/client/4 responded 400 in 5.8313 ms
+2024-03-04 21:36:56 HTTP PUT /api/client/4 responded 200 in 1524.9036 ms
+2024-03-04 21:37:13 HTTP GET /api/client responded 200 in 176.8071 ms
+2024-03-04 21:37:22 HTTP GET /api/agent responded 200 in 89.1063 ms
+2024-03-04 21:37:37 HTTP PUT /api/client/4 responded 200 in 7.3365 ms
+2024-03-04 21:38:10 HTTP PUT /api/agent/4 responded 400 in 40.5799 ms
+2024-03-04 21:39:04 HTTP PUT /api/agent/4 responded 400 in 7.0897 ms
+2024-03-04 21:39:18 HTTP PUT /api/agent/4 responded 400 in 3.8587 ms
+2024-03-04 21:39:53 HTTP PUT /api/agent/4 responded 200 in 1532.8301 ms
+2024-03-04 21:40:04 HTTP GET /api/provider responded 200 in 170.9375 ms
+2024-03-04 21:40:37 HTTP PUT /api/agent/4 responded 400 in 21.7171 ms
+2024-03-04 21:40:47 HTTP PUT /api/provider/4 responded 200 in 72.5174 ms
+2024-03-04 21:42:34 HTTP GET /api/provider responded 200 in 7.6763 ms
+2024-03-04 21:42:34 HTTP GET /api/agent responded 200 in 22.8428 ms
+2024-03-04 21:42:34 HTTP GET /api/client responded 200 in 40.5652 ms
+2024-03-04 21:42:41 HTTP PUT /api/client/6 responded 400 in 3.5695 ms
+2024-03-04 21:42:43 HTTP GET /api/provider responded 200 in 2.5013 ms
+2024-03-04 21:42:43 HTTP GET /api/agent responded 200 in 3.7235 ms
+2024-03-04 21:42:43 HTTP GET /api/client responded 200 in 5.1565 ms
+2024-03-04 21:43:13 HTTP GET /api/client responded 200 in 42.1134 ms
+2024-03-04 21:43:36 HTTP GET /api/agent responded 200 in 5.1939 ms
+2024-03-04 21:43:36 HTTP GET /api/client responded 200 in 9.1238 ms
+2024-03-04 21:43:36 HTTP GET /api/provider responded 200 in 40.7388 ms
+2024-03-04 21:43:45 HTTP PUT /api/client/6 responded 400 in 1.3326 ms
+2024-03-04 21:43:47 HTTP GET /api/client responded 200 in 14.9787 ms
+2024-03-04 21:43:47 HTTP GET /api/provider responded 200 in 15.1500 ms
+2024-03-04 21:43:47 HTTP GET /api/agent responded 200 in 20.4562 ms
+2024-03-04 21:44:06 HTTP GET /api/client responded 200 in 4.5944 ms
+2024-03-04 21:44:06 HTTP GET /api/provider responded 200 in 6.8062 ms
+2024-03-04 21:44:06 HTTP GET /api/agent responded 200 in 7.7589 ms
+2024-03-04 21:44:23 HTTP PUT /api/client/6 responded 400 in 0.7790 ms
+2024-03-04 21:45:05 HTTP GET /api/client responded 200 in 14.7308 ms
+2024-03-04 21:45:05 HTTP GET /api/agent responded 200 in 10.5860 ms
+2024-03-04 21:45:05 HTTP GET /api/provider responded 200 in 13.1778 ms
+2024-03-04 21:45:41 HTTP GET /api/provider responded 200 in 39.4013 ms
+2024-03-04 21:45:41 HTTP GET /api/client responded 200 in 39.4587 ms
+2024-03-04 21:45:41 HTTP GET /api/agent responded 200 in 37.9426 ms
+2024-03-04 21:45:51 HTTP GET /api/agent responded 200 in 1.2798 ms
+2024-03-04 21:45:51 HTTP GET /api/client responded 200 in 1.7605 ms
+2024-03-04 21:45:51 HTTP GET /api/provider responded 200 in 1.3550 ms
+2024-03-04 21:46:02 HTTP GET /api/client responded 200 in 5.3287 ms
+2024-03-04 21:46:02 HTTP GET /api/provider responded 200 in 5.2738 ms
+2024-03-04 21:46:02 HTTP GET /api/agent responded 200 in 5.2950 ms
+2024-03-04 21:46:09 HTTP GET /api/agent responded 200 in 5.6532 ms
+2024-03-04 21:46:09 HTTP GET /api/provider responded 200 in 6.9846 ms
+2024-03-04 21:46:09 HTTP GET /api/client responded 200 in 8.9931 ms
+2024-03-04 21:46:19 HTTP PUT /api/client/6 responded 400 in 0.7852 ms
+2024-03-04 21:50:04 HTTP PUT /api/client/6 responded 400 in 3.2124 ms
+2024-03-04 21:50:46 HTTP GET /api/client responded 200 in 45.5657 ms
+2024-03-04 21:50:46 HTTP GET /api/provider responded 200 in 44.3217 ms
+2024-03-04 21:50:46 HTTP GET /api/agent responded 200 in 19.7094 ms
+2024-03-04 21:50:52 HTTP PUT /api/client/6 responded 400 in 0.7417 ms
+2024-03-04 21:51:33 HTTP GET /api/client responded 200 in 32.7991 ms
+2024-03-04 21:51:33 HTTP GET /api/provider responded 200 in 33.8914 ms
+2024-03-04 21:51:33 HTTP GET /api/agent responded 200 in 7.4406 ms
+2024-03-04 21:52:45 HTTP GET /api/provider responded 200 in 8.7761 ms
+2024-03-04 21:52:45 HTTP GET /api/client responded 200 in 8.8997 ms
+2024-03-04 21:52:45 HTTP GET /api/agent responded 200 in 9.0227 ms
+2024-03-04 21:53:39 HTTP PUT /api/client/6 responded 400 in 2.5601 ms
+2024-03-04 21:55:19 HTTP GET /api/provider responded 200 in 9.2297 ms
+2024-03-04 21:55:19 HTTP GET /api/client responded 200 in 14.4270 ms
+2024-03-04 21:55:19 HTTP GET /api/agent responded 200 in 9.9241 ms
+2024-03-04 21:55:33 HTTP GET /api/provider responded 200 in 4.1499 ms
+2024-03-04 21:55:33 HTTP GET /api/client responded 200 in 4.8632 ms
+2024-03-04 21:55:33 HTTP GET /api/agent responded 200 in 5.0561 ms
+2024-03-04 21:55:39 HTTP GET /api/client responded 200 in 1.6557 ms
+2024-03-04 21:55:39 HTTP GET /api/provider responded 200 in 1.2765 ms
+2024-03-04 21:55:39 HTTP GET /api/agent responded 200 in 1.6806 ms
+2024-03-04 21:56:14 HTTP GET /api/provider responded 200 in 10.5426 ms
+2024-03-04 21:56:14 HTTP GET /api/client responded 200 in 12.8122 ms
+2024-03-04 21:56:14 HTTP GET /api/agent responded 200 in 10.2340 ms
+2024-03-04 21:56:33 HTTP GET /api/client responded 200 in 4.1449 ms
+2024-03-04 21:56:33 HTTP GET /api/agent responded 200 in 3.1865 ms
+2024-03-04 21:56:33 HTTP GET /api/provider responded 200 in 3.3747 ms
+2024-03-04 21:56:36 HTTP PUT /api/client/4 responded 400 in 0.6556 ms
+2024-03-04 21:57:04 HTTP GET /api/client responded 200 in 13.0702 ms
+2024-03-04 21:57:04 HTTP GET /api/provider responded 200 in 9.3210 ms
+2024-03-04 21:57:04 HTTP GET /api/agent responded 200 in 9.4378 ms
+2024-03-04 21:57:07 HTTP PUT /api/client/4 responded 400 in 0.5529 ms
+2024-03-04 21:59:29 HTTP PUT /api/clinet/4 responded 404 in 0.5231 ms
+2024-03-04 21:59:36 HTTP PUT /api/clinet/4 responded 404 in 0.0542 ms
+2024-03-04 22:05:35 HTTP GET /api/client responded 200 in 14.0267 ms
+2024-03-04 22:05:35 HTTP GET /api/agent responded 200 in 16.7914 ms
+2024-03-04 22:05:35 HTTP GET /api/provider responded 200 in 20.0227 ms
+2024-03-04 22:05:50 HTTP GET /api/provider responded 200 in 1.2695 ms
+2024-03-04 22:05:50 HTTP GET /api/client responded 200 in 1.4103 ms
+2024-03-04 22:05:50 HTTP GET /api/agent responded 200 in 1.1101 ms
+2024-03-04 22:06:01 HTTP GET /api/provider responded 200 in 5.1937 ms
+2024-03-04 22:06:01 HTTP GET /api/client responded 200 in 6.7374 ms
+2024-03-04 22:06:01 HTTP GET /api/agent responded 200 in 5.5407 ms
+2024-03-04 22:07:09 HTTP GET /api/agent responded 200 in 8.7726 ms
+2024-03-04 22:07:09 HTTP GET /api/client responded 200 in 9.0331 ms
+2024-03-04 22:07:09 HTTP GET /api/provider responded 200 in 8.0385 ms
+2024-03-04 22:07:15 HTTP GET /api/agent responded 200 in 1.0486 ms
+2024-03-04 22:07:15 HTTP GET /api/provider responded 200 in 1.0671 ms
+2024-03-04 22:07:15 HTTP GET /api/client responded 200 in 1.3134 ms
+2024-03-04 22:07:38 HTTP GET /api/provider responded 200 in 8.3748 ms
+2024-03-04 22:07:38 HTTP GET /api/agent responded 200 in 12.0602 ms
+2024-03-04 22:07:38 HTTP GET /api/client responded 200 in 8.9730 ms
+2024-03-04 22:07:55 HTTP GET /api/provider responded 200 in 1.1205 ms
+2024-03-04 22:07:55 HTTP GET /api/client responded 200 in 1.3646 ms
+2024-03-04 22:07:55 HTTP GET /api/agent responded 200 in 1.3658 ms
+2024-03-04 22:09:25 HTTP GET /api/client responded 200 in 30.8362 ms
+2024-03-04 22:09:25 HTTP GET /api/provider responded 200 in 5.6889 ms
+2024-03-04 22:09:25 HTTP GET /api/agent responded 200 in 8.9841 ms
+2024-03-04 22:10:34 HTTP GET /api/client responded 200 in 6.2205 ms
+2024-03-04 22:10:34 HTTP GET /api/provider responded 200 in 10.8634 ms
+2024-03-04 22:10:34 HTTP GET /api/agent responded 200 in 6.3214 ms
+2024-03-04 22:15:27 HTTP GET /api/provider responded 200 in 14.3102 ms
+2024-03-04 22:15:27 HTTP GET /api/client responded 200 in 19.3650 ms
+2024-03-04 22:15:27 HTTP GET /api/agent responded 200 in 10.7639 ms
+2024-03-04 22:19:20 HTTP GET /api/provider responded 200 in 8.1924 ms
+2024-03-04 22:19:20 HTTP GET /api/agent responded 200 in 7.8981 ms
+2024-03-04 22:19:20 HTTP GET /api/client responded 200 in 9.2050 ms
+2024-03-04 22:40:33 HTTP GET /api/provider responded 200 in 13.6582 ms
+2024-03-04 22:40:33 HTTP GET /api/client responded 200 in 13.1393 ms
+2024-03-04 22:40:33 HTTP GET /api/agent responded 200 in 18.8236 ms
+2024-03-04 22:43:04 HTTP GET /api/provider responded 200 in 38.3934 ms
+2024-03-04 22:43:04 HTTP GET /api/client responded 200 in 41.7982 ms
+2024-03-04 22:43:04 HTTP GET /api/agent responded 200 in 41.4552 ms
+2024-03-04 22:43:45 HTTP GET /api/provider responded 200 in 12.1895 ms
+2024-03-04 22:43:45 HTTP GET /api/client responded 200 in 36.6016 ms
+2024-03-04 22:43:45 HTTP GET /api/agent responded 200 in 10.0172 ms
+2024-03-04 22:43:56 HTTP GET /api/agent responded 200 in 0.9543 ms
+2024-03-04 22:43:56 HTTP GET /api/provider responded 200 in 0.9599 ms
+2024-03-04 22:43:56 HTTP GET /api/client responded 200 in 1.1088 ms
+2024-03-04 22:45:06 HTTP GET /api/agent responded 200 in 6.3662 ms
+2024-03-04 22:45:06 HTTP GET /api/provider responded 200 in 10.1834 ms
+2024-03-04 22:45:06 HTTP GET /api/client responded 200 in 4.2369 ms
+2024-03-04 22:45:57 HTTP GET /api/agent responded 200 in 6.8033 ms
+2024-03-04 22:45:57 HTTP GET /api/client responded 200 in 36.1927 ms
+2024-03-04 22:45:57 HTTP GET /api/provider responded 200 in 8.8577 ms
+2024-03-04 22:46:04 HTTP GET /api/agent responded 200 in 6.9311 ms
+2024-03-04 22:46:04 HTTP GET /api/provider responded 200 in 7.3495 ms
+2024-03-04 22:46:04 HTTP GET /api/client responded 200 in 7.1668 ms
+2024-03-04 22:46:22 HTTP GET /api/client responded 200 in 1.3641 ms
+2024-03-04 22:46:22 HTTP GET /api/provider responded 200 in 1.0881 ms
+2024-03-04 22:46:22 HTTP GET /api/agent responded 200 in 1.0333 ms
+2024-03-04 22:46:35 HTTP GET /api/client responded 200 in 5.3713 ms
+2024-03-04 22:46:35 HTTP GET /api/agent responded 200 in 4.3035 ms
+2024-03-04 22:46:35 HTTP GET /api/provider responded 200 in 5.0678 ms
+2024-03-04 22:47:06 HTTP GET /api/provider responded 200 in 12.5217 ms
+2024-03-04 22:47:06 HTTP GET /api/agent responded 200 in 12.6726 ms
+2024-03-04 22:47:06 HTTP GET /api/client responded 200 in 13.6379 ms
+2024-03-04 22:49:14 HTTP GET /api/agent responded 200 in 4.7416 ms
+2024-03-04 22:49:14 HTTP GET /api/provider responded 200 in 19.0991 ms
+2024-03-04 22:49:14 HTTP GET /api/client responded 200 in 11.4480 ms
+2024-03-04 22:49:18 HTTP GET /api/agent responded 200 in 3.8428 ms
+2024-03-04 22:49:18 HTTP GET /api/provider responded 200 in 3.8210 ms
+2024-03-04 22:49:18 HTTP GET /api/client responded 200 in 4.5449 ms
+2024-03-04 22:49:44 HTTP GET /api/client responded 200 in 44.4881 ms
+2024-03-04 22:49:44 HTTP GET /api/provider responded 200 in 5.2332 ms
+2024-03-04 22:49:44 HTTP GET /api/agent responded 200 in 29.6880 ms
+2024-03-04 22:49:50 HTTP GET /api/client responded 200 in 1.3774 ms
+2024-03-04 22:49:50 HTTP GET /api/provider responded 200 in 1.7564 ms
+2024-03-04 22:49:50 HTTP GET /api/agent responded 200 in 1.3230 ms
+2024-03-04 22:49:53 HTTP GET /api/client responded 200 in 4.2808 ms
+2024-03-04 22:49:53 HTTP GET /api/agent responded 200 in 4.8642 ms
+2024-03-04 22:49:53 HTTP GET /api/provider responded 200 in 4.4924 ms
+2024-03-04 22:50:42 HTTP GET /api/provider responded 200 in 12.1930 ms
+2024-03-04 22:50:42 HTTP GET /api/agent responded 200 in 10.0162 ms
+2024-03-04 22:50:42 HTTP GET /api/client responded 200 in 13.2066 ms
+2024-03-04 22:50:53 HTTP GET /api/provider responded 200 in 1.4742 ms
+2024-03-04 22:50:53 HTTP GET /api/agent responded 200 in 1.6250 ms
+2024-03-04 22:50:53 HTTP GET /api/client responded 200 in 1.5966 ms
+2024-03-04 22:52:07 HTTP GET /api/provider responded 200 in 8.9153 ms
+2024-03-04 22:52:07 HTTP GET /api/client responded 200 in 10.8037 ms
+2024-03-04 22:52:07 HTTP GET /api/agent responded 200 in 11.5256 ms
+2024-03-04 22:52:23 HTTP PUT /api/client/4 responded 400 in 11.3105 ms
+2024-03-04 22:53:29 HTTP GET /api/provider responded 200 in 29.2200 ms
+2024-03-04 22:53:29 HTTP GET /api/client responded 200 in 38.4997 ms
+2024-03-04 22:53:29 HTTP GET /api/agent responded 200 in 7.0361 ms
+2024-03-04 22:57:12 HTTP GET /api/client responded 200 in 12.9694 ms
+2024-03-04 22:57:12 HTTP GET /api/provider responded 200 in 14.0921 ms
+2024-03-04 22:57:12 HTTP GET /api/agent responded 200 in 17.1837 ms
+2024-03-04 22:57:43 HTTP GET /api/client responded 200 in 65.9611 ms
+2024-03-04 22:57:43 HTTP GET /api/provider responded 200 in 12.2270 ms
+2024-03-04 22:57:43 HTTP GET /api/agent responded 200 in 10.8352 ms
+2024-03-04 22:58:24 HTTP GET /api/agent responded 200 in 36.6863 ms
+2024-03-04 22:58:24 HTTP GET /api/provider responded 200 in 35.2586 ms
+2024-03-04 22:58:24 HTTP GET /api/client responded 200 in 37.5092 ms
+2024-03-04 22:58:46 HTTP GET /api/agent responded 200 in 6.1289 ms
+2024-03-04 22:58:46 HTTP GET /api/client responded 200 in 9.2939 ms
+2024-03-04 22:58:46 HTTP GET /api/provider responded 200 in 8.2033 ms
+2024-03-04 23:01:10 HTTP GET /api/agent responded 200 in 11.6087 ms
+2024-03-04 23:01:10 HTTP GET /api/client responded 200 in 12.4522 ms
+2024-03-04 23:01:10 HTTP GET /api/provider responded 200 in 11.2291 ms
+2024-03-04 23:04:10 HTTP GET /api/client responded 200 in 17.0914 ms
+2024-03-04 23:04:10 HTTP GET /api/provider responded 200 in 11.2297 ms
+2024-03-04 23:04:10 HTTP GET /api/agent responded 200 in 12.7494 ms
+2024-03-04 23:06:30 HTTP GET /api/provider responded 200 in 11.3694 ms
+2024-03-04 23:06:30 HTTP GET /api/client responded 200 in 11.4117 ms
+2024-03-04 23:06:30 HTTP GET /api/agent responded 200 in 7.4991 ms
+2024-03-04 23:07:43 HTTP GET /api/agent responded 200 in 8.5121 ms
+2024-03-04 23:07:43 HTTP GET /api/provider responded 200 in 8.7864 ms
+2024-03-04 23:07:43 HTTP GET /api/client responded 200 in 8.9434 ms
+2024-03-04 23:07:50 HTTP GET /api/client responded 200 in 1.2469 ms
+2024-03-04 23:07:50 HTTP GET /api/provider responded 200 in 0.9711 ms
+2024-03-04 23:07:50 HTTP GET /api/agent responded 200 in 0.9840 ms
+2024-03-04 23:07:57 HTTP PUT /api/client/4 responded 200 in 28.3619 ms
+2024-03-04 23:07:57 HTTP GET /api/client responded 200 in 3.6652 ms
+2024-03-04 23:08:25 HTTP GET /api/client responded 200 in 1.1070 ms
+2024-03-04 23:08:25 HTTP GET /api/provider responded 200 in 4.9572 ms
+2024-03-04 23:08:25 HTTP GET /api/agent responded 200 in 7.2193 ms
+2024-03-04 23:08:29 HTTP GET /api/provider responded 200 in 1.1458 ms
+2024-03-04 23:08:29 HTTP GET /api/client responded 200 in 1.4545 ms
+2024-03-04 23:08:29 HTTP GET /api/agent responded 200 in 7.1920 ms
+2024-03-04 23:10:56 HTTP GET /api/agent responded 200 in 8.3420 ms
+2024-03-04 23:10:56 HTTP GET /api/client responded 200 in 12.0196 ms
+2024-03-04 23:10:56 HTTP GET /api/provider responded 200 in 8.9440 ms
+2024-03-04 23:11:09 HTTP GET /api/agent responded 200 in 3.3789 ms
+2024-03-04 23:11:09 HTTP GET /api/client responded 200 in 4.6405 ms
+2024-03-04 23:11:09 HTTP GET /api/provider responded 200 in 6.7328 ms
+2024-03-04 23:11:16 HTTP PUT /api/client/4 responded 200 in 4.7902 ms
+2024-03-04 23:11:16 HTTP GET /api/client responded 200 in 3.0141 ms
+2024-03-04 23:11:19 HTTP GET /api/client responded 200 in 1.3345 ms
+2024-03-04 23:11:19 HTTP GET /api/agent responded 200 in 3.4228 ms
+2024-03-04 23:11:19 HTTP GET /api/provider responded 200 in 2.9496 ms
+2024-03-04 23:11:32 HTTP PUT /api/client/6 responded 200 in 4.3494 ms
+2024-03-04 23:11:32 HTTP GET /api/client responded 200 in 1.1795 ms
+2024-03-04 23:11:34 HTTP GET /api/agent responded 200 in 1.0081 ms
+2024-03-04 23:11:34 HTTP GET /api/client responded 200 in 1.1267 ms
+2024-03-04 23:11:34 HTTP GET /api/provider responded 200 in 1.2069 ms
+2024-03-04 23:12:00 HTTP GET /api/client responded 200 in 11.1693 ms
+2024-03-04 23:12:00 HTTP GET /api/agent responded 200 in 6.8877 ms
+2024-03-04 23:12:00 HTTP GET /api/provider responded 200 in 46.1925 ms
+2024-03-04 23:12:30 HTTP GET /api/client responded 200 in 11.2581 ms
+2024-03-04 23:12:30 HTTP GET /api/agent responded 200 in 6.7610 ms
+2024-03-04 23:12:30 HTTP GET /api/provider responded 200 in 7.7510 ms
+2024-03-04 23:12:31 HTTP GET /api/provider responded 200 in 1.0368 ms
+2024-03-04 23:12:31 HTTP GET /api/client responded 200 in 1.1226 ms
+2024-03-04 23:12:31 HTTP GET /api/agent responded 200 in 5.0884 ms
+2024-03-04 23:12:42 HTTP PUT /api/client/4 responded 200 in 5.0079 ms
+2024-03-04 23:12:42 HTTP GET /api/client responded 200 in 1.7805 ms
+2024-03-04 23:12:43 HTTP GET /api/provider responded 200 in 0.9673 ms
+2024-03-04 23:12:43 HTTP GET /api/client responded 200 in 1.0209 ms
+2024-03-04 23:12:43 HTTP GET /api/agent responded 200 in 0.8171 ms
+2024-03-04 23:12:59 HTTP PUT /api/client/6 responded 200 in 4.9652 ms
+2024-03-04 23:12:59 HTTP GET /api/client responded 200 in 3.7809 ms
+2024-03-04 23:13:00 HTTP GET /api/provider responded 200 in 4.9926 ms
+2024-03-04 23:13:00 HTTP GET /api/client responded 200 in 5.0591 ms
+2024-03-04 23:13:00 HTTP GET /api/agent responded 200 in 5.6358 ms
+2024-03-04 23:15:35 HTTP GET /api/provider responded 200 in 9.3415 ms
+2024-03-04 23:15:35 HTTP GET /api/client responded 200 in 13.0087 ms
+2024-03-04 23:15:35 HTTP GET /api/agent responded 200 in 9.4382 ms
+2024-03-04 23:15:37 HTTP GET /api/client responded 200 in 6.8105 ms
+2024-03-04 23:15:37 HTTP GET /api/agent responded 200 in 3.1233 ms
+2024-03-04 23:15:37 HTTP GET /api/provider responded 200 in 3.1454 ms
+2024-03-04 23:15:48 HTTP PUT /api/client/10 responded 200 in 6.3147 ms
+2024-03-04 23:15:48 HTTP GET /api/client responded 200 in 2.8692 ms
+2024-03-04 23:16:09 HTTP PUT /api/client/6 responded 200 in 3.5129 ms
+2024-03-04 23:16:09 HTTP GET /api/client responded 200 in 1.2485 ms
+2024-03-04 23:16:16 HTTP DELETE /api/client/4 responded 200 in 12.4432 ms
+2024-03-04 23:16:16 HTTP GET /api/client responded 200 in 3.5359 ms
+2024-03-04 23:16:21 HTTP DELETE /api/client/4 responded 200 in 3.1936 ms
+2024-03-04 23:16:21 HTTP GET /api/client responded 200 in 3.4270 ms
+2024-03-04 23:17:15 HTTP GET /api/provider responded 200 in 7.5199 ms
+2024-03-04 23:17:15 HTTP GET /api/client responded 200 in 8.8435 ms
+2024-03-04 23:17:15 HTTP GET /api/agent responded 200 in 8.4684 ms
+2024-03-04 23:17:24 HTTP GET /api/provider responded 200 in 2.9928 ms
+2024-03-04 23:17:24 HTTP GET /api/client responded 200 in 4.1672 ms
+2024-03-04 23:17:24 HTTP GET /api/agent responded 200 in 3.4800 ms
+2024-03-04 23:18:02 HTTP GET /api/provider responded 200 in 7.6599 ms
+2024-03-04 23:18:02 HTTP GET /api/client responded 200 in 8.5949 ms
+2024-03-04 23:18:02 HTTP GET /api/agent responded 200 in 8.5480 ms
+2024-03-04 23:18:17 HTTP GET /api/client responded 200 in 1.2136 ms
+2024-03-04 23:18:17 HTTP GET /api/provider responded 200 in 0.9192 ms
+2024-03-04 23:18:17 HTTP GET /api/agent responded 200 in 0.9099 ms
+2024-03-04 23:18:56 HTTP GET /api/provider responded 200 in 5.6535 ms
+2024-03-04 23:18:56 HTTP GET /api/client responded 200 in 8.8136 ms
+2024-03-04 23:18:56 HTTP GET /api/agent responded 200 in 38.3676 ms
+2024-03-04 23:19:12 HTTP GET /api/client responded 200 in 1.4101 ms
+2024-03-04 23:19:12 HTTP GET /api/provider responded 200 in 1.2860 ms
+2024-03-04 23:19:12 HTTP GET /api/agent responded 200 in 0.8154 ms
+2024-03-04 23:19:43 HTTP GET /api/provider responded 200 in 8.1455 ms
+2024-03-04 23:19:43 HTTP GET /api/client responded 200 in 12.5742 ms
+2024-03-04 23:19:43 HTTP GET /api/agent responded 200 in 9.6879 ms
+2024-03-04 23:21:33 HTTP GET /api/agent responded 200 in 7.1309 ms
+2024-03-04 23:21:33 HTTP GET /api/client responded 200 in 12.8690 ms
+2024-03-04 23:21:33 HTTP GET /api/provider responded 200 in 9.2022 ms
+2024-03-04 23:22:47 HTTP GET /api/agent responded 200 in 8.8015 ms
+2024-03-04 23:22:47 HTTP GET /api/client responded 200 in 9.1827 ms
+2024-03-04 23:22:47 HTTP GET /api/provider responded 200 in 9.2955 ms
+2024-03-04 23:22:50 HTTP GET /api/provider responded 200 in 1.2870 ms
+2024-03-04 23:22:50 HTTP GET /api/client responded 200 in 1.3565 ms
+2024-03-04 23:22:50 HTTP GET /api/agent responded 200 in 1.1505 ms
+2024-03-04 23:23:16 HTTP GET /api/client responded 200 in 39.2189 ms
+2024-03-04 23:23:16 HTTP GET /api/provider responded 200 in 7.3444 ms
+2024-03-04 23:23:16 HTTP GET /api/agent responded 200 in 6.2301 ms
+2024-03-04 23:24:30 HTTP GET /api/client responded 200 in 8.5480 ms
+2024-03-04 23:24:30 HTTP GET /api/provider responded 200 in 5.6158 ms
+2024-03-04 23:24:30 HTTP GET /api/agent responded 200 in 41.5115 ms
+2024-03-04 23:24:34 HTTP GET /api/agent responded 200 in 1.0406 ms
+2024-03-04 23:24:34 HTTP GET /api/provider responded 200 in 0.8266 ms
+2024-03-04 23:24:34 HTTP GET /api/client responded 200 in 4.8378 ms
+2024-03-04 23:24:40 HTTP GET /api/client responded 200 in 1.1304 ms
+2024-03-04 23:24:40 HTTP GET /api/agent responded 200 in 0.9771 ms
+2024-03-04 23:24:40 HTTP GET /api/provider responded 200 in 1.0811 ms
+2024-03-04 23:25:17 HTTP GET /api/client responded 200 in 42.1176 ms
+2024-03-04 23:25:17 HTTP GET /api/provider responded 200 in 13.5613 ms
+2024-03-04 23:25:17 HTTP GET /api/agent responded 200 in 10.5076 ms
+2024-03-04 23:26:34 HTTP GET /api/provider responded 200 in 7.9218 ms
+2024-03-04 23:26:34 HTTP GET /api/client responded 200 in 9.5278 ms
+2024-03-04 23:26:34 HTTP GET /api/agent responded 200 in 9.3415 ms
+2024-03-04 23:26:37 HTTP GET /api/agent responded 200 in 5.3207 ms
+2024-03-04 23:26:37 HTTP GET /api/client responded 200 in 5.5340 ms
+2024-03-04 23:26:37 HTTP GET /api/provider responded 200 in 8.7820 ms
+2024-03-04 23:29:10 HTTP GET /api/policy responded 200 in 113.3746 ms
+2024-03-04 23:29:11 HTTP GET /api/plan responded 200 in 1049.2565 ms
+2024-03-04 23:29:13 HTTP GET /api/agent responded 200 in 3.8940 ms
+2024-03-04 23:29:13 HTTP GET /api/client responded 200 in 4.2503 ms
+2024-03-04 23:29:13 HTTP GET /api/provider responded 200 in 4.9257 ms
+2024-03-04 23:31:37 HTTP GET /api/client responded 200 in 30.7595 ms
+2024-03-04 23:31:37 HTTP GET /api/provider responded 200 in 36.8888 ms
+2024-03-04 23:31:37 HTTP GET /api/agent responded 200 in 9.8334 ms
+2024-03-04 23:31:40 HTTP GET /api/agent responded 200 in 4.3206 ms
+2024-03-04 23:31:40 HTTP GET /api/client responded 200 in 4.9201 ms
+2024-03-04 23:31:40 HTTP GET /api/provider responded 200 in 5.0392 ms
+2024-03-04 23:31:49 HTTP GET /api/agent responded 200 in 4.1951 ms
+2024-03-04 23:31:49 HTTP GET /api/provider responded 200 in 4.1216 ms
+2024-03-04 23:31:49 HTTP GET /api/client responded 200 in 5.3798 ms
+2024-03-04 23:32:30 HTTP GET /api/client responded 200 in 8.1834 ms
+2024-03-04 23:32:30 HTTP GET /api/provider responded 200 in 11.3054 ms
+2024-03-04 23:32:30 HTTP GET /api/agent responded 200 in 8.0447 ms
+2024-03-04 23:33:44 HTTP GET /api/client responded 200 in 11.8892 ms
+2024-03-04 23:33:44 HTTP GET /api/agent responded 200 in 7.8797 ms
+2024-03-04 23:33:44 HTTP GET /api/provider responded 200 in 6.5761 ms
+2024-03-04 23:34:26 HTTP GET /api/client responded 200 in 5.3715 ms
+2024-03-04 23:34:26 HTTP GET /api/provider responded 200 in 5.4088 ms
+2024-03-04 23:34:26 HTTP GET /api/agent responded 200 in 10.0227 ms
+2024-03-04 23:36:38 HTTP GET /api/provider responded 200 in 7.1787 ms
+2024-03-04 23:36:38 HTTP GET /api/client responded 200 in 15.9427 ms
+2024-03-04 23:36:38 HTTP GET /api/agent responded 200 in 10.4681 ms
+2024-03-04 23:36:40 HTTP GET /api/client responded 200 in 1.2818 ms
+2024-03-04 23:36:40 HTTP GET /api/provider responded 200 in 2.4167 ms
+2024-03-04 23:36:40 HTTP GET /api/agent responded 200 in 1.4653 ms
+2024-03-04 23:36:55 HTTP GET /api/policy responded 200 in 11.2480 ms
+2024-03-04 23:36:58 HTTP GET /api/policy responded 200 in 3.1898 ms
+2024-03-04 23:37:03 HTTP GET /api/policy responded 200 in 2.4999 ms
+2024-03-04 23:37:03 HTTP GET /api/policy responded 200 in 2.4891 ms
+2024-03-04 23:37:04 HTTP GET /api/policy responded 200 in 2.2962 ms
+2024-03-04 23:37:07 HTTP GET /api/client responded 200 in 1.2081 ms
+2024-03-04 23:37:07 HTTP GET /api/provider responded 200 in 1.1345 ms
+2024-03-04 23:37:07 HTTP GET /api/agent responded 200 in 1.1834 ms
+2024-03-04 23:37:08 HTTP GET /api/policy responded 200 in 2.2215 ms
+2024-03-04 23:39:08 HTTP GET /api/policy responded 200 in 6.5904 ms
+2024-03-04 23:39:36 HTTP GET /api/policy responded 200 in 5.4042 ms
+2024-03-04 23:39:40 HTTP GET /api/provider responded 200 in 6.4501 ms
+2024-03-04 23:39:40 HTTP GET /api/client responded 200 in 8.6746 ms
+2024-03-04 23:39:40 HTTP GET /api/agent responded 200 in 8.2669 ms
+2024-03-04 23:39:47 HTTP GET /api/policy responded 200 in 3.5346 ms
+2024-03-04 23:45:49 HTTP GET /api/policy responded 200 in 12.6678 ms
+2024-03-04 23:46:12 HTTP GET /api/policy responded 200 in 52.9216 ms
+2024-03-04 23:46:16 HTTP GET /api/policy responded 200 in 37.8817 ms
+2024-03-04 23:46:19 HTTP GET /api/client responded 200 in 5.4868 ms
+2024-03-04 23:46:19 HTTP GET /api/provider responded 200 in 9.7194 ms
+2024-03-04 23:46:19 HTTP GET /api/agent responded 200 in 10.3795 ms
+2024-03-04 23:47:36 HTTP GET /api/agent responded 200 in 30.7648 ms
+2024-03-04 23:47:36 HTTP GET /api/provider responded 200 in 34.6050 ms
+2024-03-04 23:47:36 HTTP GET /api/client responded 200 in 36.5127 ms
+2024-03-04 23:48:05 HTTP GET /api/provider responded 200 in 2.7107 ms
+2024-03-04 23:48:05 HTTP GET /api/client responded 200 in 5.7468 ms
+2024-03-04 23:48:05 HTTP GET /api/agent responded 200 in 39.5843 ms
+2024-03-04 23:48:34 HTTP GET /api/client responded 200 in 9.9094 ms
+2024-03-04 23:48:34 HTTP GET /api/provider responded 200 in 13.8562 ms
+2024-03-04 23:48:34 HTTP GET /api/agent responded 200 in 10.0231 ms
+2024-03-04 23:48:42 HTTP PUT /api/client/12 responded 200 in 9.8289 ms
+2024-03-04 23:48:42 HTTP GET /api/client responded 200 in 2.1297 ms
+2024-03-04 23:48:46 HTTP GET /api/provider responded 200 in 1.3466 ms
+2024-03-04 23:48:46 HTTP GET /api/client responded 200 in 2.0191 ms
+2024-03-04 23:48:46 HTTP GET /api/agent responded 200 in 7.1485 ms
+2024-03-04 23:49:13 HTTP GET /api/provider responded 200 in 5.2678 ms
+2024-03-04 23:49:13 HTTP GET /api/client responded 200 in 9.6169 ms
+2024-03-04 23:49:13 HTTP GET /api/agent responded 200 in 10.4840 ms
+2024-03-04 23:49:19 HTTP PUT /api/client/11 responded 200 in 6.0696 ms
+2024-03-04 23:49:19 HTTP GET /api/client responded 200 in 31.3234 ms
+2024-03-04 23:49:41 HTTP GET /api/provider responded 200 in 5.7546 ms
+2024-03-04 23:49:41 HTTP GET /api/agent responded 200 in 8.9455 ms
+2024-03-04 23:49:41 HTTP GET /api/client responded 200 in 52.5092 ms
+2024-03-04 23:49:54 HTTP GET /api/provider responded 200 in 3.7093 ms
+2024-03-04 23:49:54 HTTP GET /api/agent responded 200 in 5.2935 ms
+2024-03-04 23:49:54 HTTP GET /api/client responded 200 in 39.3441 ms
+2024-03-04 23:50:02 HTTP PUT /api/client/11 responded 200 in 5.2774 ms
+2024-03-04 23:50:02 HTTP GET /api/client responded 200 in 36.2472 ms
+2024-03-04 23:50:47 HTTP GET /api/provider responded 200 in 15.8499 ms
+2024-03-04 23:50:47 HTTP GET /api/agent responded 200 in 10.7838 ms
+2024-03-04 23:50:47 HTTP GET /api/client responded 200 in 62.7962 ms
+2024-03-04 23:50:52 HTTP PUT /api/client/4 responded 200 in 4.9067 ms
+2024-03-04 23:50:52 HTTP GET /api/client responded 200 in 33.4419 ms
+2024-03-04 23:51:24 HTTP PUT /api/client/4 responded 200 in 2.5015 ms
+2024-03-04 23:51:24 HTTP GET /api/client responded 200 in 29.2625 ms
+2024-03-04 23:51:27 HTTP GET /api/provider responded 200 in 8.0670 ms
+2024-03-04 23:51:27 HTTP GET /api/agent responded 200 in 9.4497 ms
+2024-03-04 23:51:27 HTTP GET /api/client responded 200 in 49.4006 ms
+2024-03-04 23:51:32 HTTP PUT /api/client/4 responded 200 in 5.3689 ms
+2024-03-04 23:51:32 HTTP GET /api/client responded 200 in 32.9659 ms
+2024-03-04 23:51:34 HTTP GET /api/agent responded 200 in 4.7513 ms
+2024-03-04 23:51:34 HTTP GET /api/provider responded 200 in 6.4065 ms
+2024-03-04 23:51:34 HTTP GET /api/client responded 200 in 32.9567 ms
+2024-03-04 23:51:41 HTTP PUT /api/client/11 responded 200 in 2.3162 ms
+2024-03-04 23:51:41 HTTP GET /api/client responded 200 in 29.9304 ms
+2024-03-04 23:52:11 HTTP DELETE /api/client/4 responded 200 in 1.4932 ms
+2024-03-04 23:52:11 HTTP GET /api/client responded 200 in 43.9746 ms
+2024-03-04 23:52:50 HTTP GET /api/provider responded 200 in 9.5830 ms
+2024-03-04 23:52:50 HTTP GET /api/agent responded 200 in 8.7953 ms
+2024-03-04 23:52:50 HTTP GET /api/client responded 200 in 44.1408 ms
+2024-03-04 23:53:02 HTTP GET /api/agent responded 200 in 3.8085 ms
+2024-03-04 23:53:02 HTTP GET /api/provider responded 200 in 5.6401 ms
+2024-03-04 23:53:02 HTTP GET /api/client responded 200 in 36.8622 ms
+2024-03-04 23:53:07 HTTP GET /api/agent responded 200 in 1.2495 ms
+2024-03-04 23:53:07 HTTP GET /api/provider responded 200 in 1.6786 ms
+2024-03-04 23:53:07 HTTP GET /api/client responded 200 in 39.2523 ms
+2024-03-04 23:53:08 HTTP GET /api/provider responded 200 in 2.0234 ms
+2024-03-04 23:53:08 HTTP GET /api/agent responded 200 in 3.3865 ms
+2024-03-04 23:53:08 HTTP GET /api/client responded 200 in 39.7529 ms
+2024-03-04 23:53:26 HTTP GET /api/agent responded 200 in 1.4312 ms
+2024-03-04 23:53:26 HTTP GET /api/provider responded 200 in 4.3179 ms
+2024-03-04 23:53:26 HTTP GET /api/client responded 200 in 38.1949 ms
+2024-03-04 23:53:38 HTTP GET /api/agent responded 200 in 4.1757 ms
+2024-03-04 23:53:38 HTTP GET /api/provider responded 200 in 9.1459 ms
+2024-03-04 23:53:38 HTTP GET /api/client responded 200 in 39.7163 ms
+2024-03-04 23:54:33 HTTP GET /api/agent responded 200 in 8.7296 ms
+2024-03-04 23:54:33 HTTP GET /api/provider responded 200 in 9.6788 ms
+2024-03-04 23:54:33 HTTP GET /api/client responded 200 in 49.0020 ms
+2024-03-04 23:55:02 HTTP GET /api/provider responded 200 in 38.7700 ms
+2024-03-04 23:55:02 HTTP GET /api/agent responded 200 in 11.0165 ms
+2024-03-04 23:55:02 HTTP GET /api/client responded 200 in 76.1493 ms
+2024-03-04 23:55:42 HTTP GET /api/provider responded 200 in 5.4015 ms
+2024-03-04 23:55:42 HTTP GET /api/agent responded 200 in 6.5603 ms
+2024-03-04 23:55:42 HTTP GET /api/client responded 200 in 53.4180 ms
+2024-03-04 23:56:37 HTTP GET /api/policy responded 200 in 66.5929 ms
+2024-03-04 23:56:38 HTTP GET /api/plan responded 200 in 984.6664 ms
+2024-03-04 23:56:39 HTTP GET /api/provider responded 200 in 4.0250 ms
+2024-03-04 23:56:40 HTTP GET /api/agent responded 200 in 44.6476 ms
+2024-03-04 23:56:40 HTTP GET /api/client responded 200 in 93.9665 ms
+2024-03-04 23:56:59 HTTP GET /api/provider responded 200 in 4.1501 ms
+2024-03-04 23:56:59 HTTP GET /api/agent responded 200 in 17.1621 ms
+2024-03-04 23:56:59 HTTP GET /api/client responded 200 in 47.8280 ms
+2024-03-04 23:58:41 HTTP GET /api/agent responded 200 in 10.1803 ms
+2024-03-04 23:58:41 HTTP GET /api/client responded 200 in 10.8357 ms
+2024-03-04 23:58:41 HTTP GET /api/provider responded 200 in 9.5453 ms
+2024-03-04 23:58:47 HTTP DELETE /api/client/4 responded 200 in 2.5792 ms
+2024-03-04 23:58:47 HTTP GET /api/client responded 200 in 1.6797 ms
+2024-03-04 23:58:50 HTTP GET /api/provider responded 200 in 1.7766 ms
+2024-03-04 23:58:50 HTTP GET /api/client responded 200 in 2.0767 ms
+2024-03-04 23:58:50 HTTP GET /api/agent responded 200 in 1.3800 ms
+2024-03-04 23:58:55 HTTP DELETE /api/client/4 responded 200 in 1.2591 ms
+2024-03-04 23:58:55 HTTP GET /api/client responded 200 in 1.5670 ms
+2024-03-04 23:59:03 HTTP GET /api/provider responded 200 in 4.9368 ms
+2024-03-04 23:59:03 HTTP GET /api/client responded 200 in 5.3631 ms
+2024-03-04 23:59:03 HTTP GET /api/agent responded 200 in 1.4011 ms
