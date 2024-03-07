@@ -61,7 +61,7 @@ export function tokenGetter() {
       },
     }),
   ],
-  providers: [provideNzI18n(en_US), AuthInterceptorProvider],
+  providers: [provideNzI18n(en_US)],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
