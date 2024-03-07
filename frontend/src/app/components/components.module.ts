@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 import { UploadComponent } from './upload/upload.component';
 import { HeaderComponent } from './header/header.component';
 import { StepComponent } from './step/step.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { StepComponent } from './step/step.component';
     ReactiveFormsModule,
     FormsModule,
     BrowserModule,
+    RouterModule,
   ],
   exports: [
     TableComponent,
