@@ -22,6 +22,7 @@ import {
   DollarCircleFill,
   FileSearchOutline,
   SelectOutline,
+  ArrowLeftOutline,
 } from '@ant-design/icons-angular/icons';
 
 const icons = [
@@ -45,6 +46,7 @@ const icons = [
   DollarCircleFill,
   FileSearchOutline,
   SelectOutline,
+  ArrowLeftOutline,
 ];
 
 @NgModule({

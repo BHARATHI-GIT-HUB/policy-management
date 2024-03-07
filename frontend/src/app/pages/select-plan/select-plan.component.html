@@ -1,1 +1,126 @@
-<p>select-plan works!</p>
+<div class="bg-gray-100 min-h-screen">
+  <app-header class="sticky top-0 z-20"></app-header>
+  <div class="container max-w-[90vw] my-10">
+    <app-step [currentStep]="step"></app-step>
+  </div>
+
+  <div class="container min-h-screen">
+    <div class="flex flex-col space-y-8 justify-center items-center mx-5">
+      <div class="grid grid-cols-2 items-start w-full">
+        <button
+          class="justify-self-start flex items-center gap-2"
+          routerLink="/all-plans"
+        >
+          <span
+            nz-icon
+            nzType="arrow-left"
+            nzTheme="outline"
+            class="text-lg !text-gray-500"
+          ></span>
+          <p class="text-xl font-SF font-medium text-gray-500">Back</p>
+        </button>
+        <h1 class="justify-self-start text-2xl font-SF font-semibold">
+          Plan name
+        </h1>
+      </div>
+      <div
+        class="md:self-start self-center bg-white flex items-center gap-4 md:min-w-[85vw] lg:w-full p-5 md:p-8 rounded-lg shadow-lg hover:shadow-2xl"
+      >
+        <p
+          class="flex flex-col mb-2 capitalize flex-nowrap text-nowrap text-xl font-SF font-light text-gray-600"
+        >
+          sum insured
+          <span class="mt-1 font-medium text-green-700"
+            >{{ sliderValue }} lakhs</span
+          >
+        </p>
+        <div class="px-6 w-full">
+          <input
+            type="range"
+            [min]="1"
+            [max]="9"
+            [step]="stepValue"
+            (input)="onSliderChange($event)"
+            class="bg-gray-300 h-2 w-full rounded-full relative appearance-none cursor-pointer"
+          />
+          <div class="flex justify-between mt-2 text-xs text-gray-600">
+            <span class="w-5 px-2 text-left text-md font-SF font-medium">{{
+              sumInsured[0]
+            }}</span>
+            <span
+              *ngFor="let sum of sumInsured.slice(1, sumInsured.length - 1)"
+              class="text-md font-SF font-medium"
+            >
+              <span class="w-8 text-center">{{ sum }}</span>
+            </span>
+            <span class="w-5 text-right text-md font-SF font-medium">{{
+              sumInsured[sumInsured.length - 1]
+            }}</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-32 w-full md:justify-start justify-center bg-[#fdf4fb5a] py-14 px-8 shadow-lg rounded-xl"
+      >
+        <ul class="hidden md:flex flex-col space-y-4">
+          <li class="font-SF text-5xl font-light">Feature</li>
+          <li class="font-SF text-2xl font-medium">Premium</li>
+          <li class="">
+            <hr class="h-px mt-20 bg-gray-200 border-0 dark:bg-gray-300" />
+          </li>
+
+          <li>
+            <ul class="flex flex-col gap-3 text-xl font-SF font-light">
+              <li><p>Sum Assured</p></li>
+              <li><p>Pre & Post Hospitalisation</p></li>
+              <li><p>Recharge Benefit</p></li>
+              <li><p>Outpatient Benefit</p></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div
+          class="neon-box bg-white flex flex-col space-y-2 border border-black rounded-3xl"
+        >
+          <p
+            class="w-full text-center py-3 px-3 text-white text-xl font-SF bg-pink-400 rounded-t-xl"
+          >
+            Details
+          </p>
+          <div>
+            <div
+              class="flex flex-col space-y-2 justify-center items-center px-3 lg:w-[250px]"
+            >
+              <div class="text-center font-SF text-xl font-light">
+                <h6 class="font-medium text-lg capitalize flex flex-col">
+                  $ {{ premium }} / year
+                  <span>for 5 Years</span>
+                </h6>
+              </div>
+
+              <button
+                class="rounded-lg px-6 py-2 border border-1 border-pink-400 font-SF text-lg text-pink-400"
+                type="submit"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+
+          <div class="flex flex-col justify-start items-center space-y-5 pb-10">
+            <p
+              asp-items="ViewBag.Premium"
+              class="text-green-600 font-semibold text-lg mt-4"
+              id="rangeLabel"
+            >
+              {{ sliderValue }} Lakhs
+            </p>
+            <p>&#10004;</p>
+            <p>&times;</p>
+            <p>&#10004;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

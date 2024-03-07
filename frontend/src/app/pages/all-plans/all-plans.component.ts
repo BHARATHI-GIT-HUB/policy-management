@@ -15,6 +15,7 @@ export class AllPlansComponent implements OnInit {
   types: string[] = ['Health', 'Travel', 'Corprate'];
   subTypes: string[] = ['Individual', 'Family', 'Seniors'];
   step: number = 1;
+  isLoading: boolean = true;
 
   constructor(private planService: PlanService) {}
 
@@ -24,6 +25,7 @@ export class AllPlansComponent implements OnInit {
 
   getPlans(): void {
     this.planService.getAll().subscribe((response) => {
+      this.isLoading = false;
       this.providerGroupedData = this.groupDataByProvider(response);
       this.keys = [...this.providerGroupedData.keys()];
     });

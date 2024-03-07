@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AllPlansComponent } from './pages/all-plans/all-plans.component';
 import { BaseLayoutComponent as AuthComponent } from './authentication/base-layout/base-layout.component';
 import { AuthGuard, RoleGuard } from './helpers/auth.guard';
+import { SelectPlanComponent } from './pages/select-plan/select-plan.component';
 
 const routes: Routes = [
   { path: 'login', component: AuthComponent },
@@ -17,7 +18,12 @@ const routes: Routes = [
     path: '',
     component: BaseLayoutComponent,
     data: {
-      breadcrumb: [{ label: 'Admin', link: '' }],
+      breadcrumb: [
+        {
+          label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
+          link: '',
+        },
+      ],
     },
     children: [
       {
@@ -64,12 +70,20 @@ const routes: Routes = [
     children: [],
   },
   {
+    path: 'select-plans',
+    component: SelectPlanComponent,
+    data: {
+      roles: ['Client'],
+    },
+    // canActivate: [AuthGuard, RoleGuard],
+  },
+  {
     path: 'all-plans',
     component: AllPlansComponent,
     data: {
       roles: ['Client'],
     },
-    canActivate: [AuthGuard, RoleGuard],
+    // canActivate: [AuthGuard, RoleGuard],
   },
 ];
 
