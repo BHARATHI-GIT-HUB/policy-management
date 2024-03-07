@@ -27,6 +27,10 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { environment } from '../environments/environment';
 import { AuthenticationRoutingModule } from './authentication/authentication-routing.module';
 import { AuthModule } from './authentication/authentication.module';
+import {
+  AuthInterceptor,
+  AuthInterceptorProvider,
+} from './helpers/auth.interceptor';
 
 registerLocaleData(en);
 registerLocaleData(fr);

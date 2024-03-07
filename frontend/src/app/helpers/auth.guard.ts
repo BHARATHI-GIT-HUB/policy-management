@@ -1,50 +1,52 @@
-import { inject } from '@angular/core';
-import { CanActivateFn, Router } from '@angular/router';
+import { Injectable, inject } from '@angular/core';
+import {
+  ActivatedRouteSnapshot,
+  CanActivate,
+  CanActivateFn,
+  Router,
+  RouterStateSnapshot,
+} from '@angular/router';
 
-export const authGuard: CanActivateFn = (route, state) => {
-  const token = localStorage.getItem('token');
-  const router = inject(Router);
-  if (token) return true;
+@Injectable({
+  providedIn: 'root',
+})
+export class AuthGuard implements CanActivate {
+  constructor(private router: Router) {}
 
-  return router.navigate(['/login']);
-};
-export const adminGuard: CanActivateFn = (route, state) => {
-  const user: any = JSON.parse(String(localStorage.getItem('user')));
+  canActivate(
+    route: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot
+  ): boolean {
+    const token = localStorage.getItem('token');
 
-  if (user.Role === 'Admin') {
-    return true;
+    if (token) {
+      return true;
+    } else {
+      this.router.navigate(['/login']);
+      return false;
+    }
   }
-  const router = inject(Router);
+}
 
-  return router.navigate(['/login']);
-};
-export const providerGuard: CanActivateFn = (route, state) => {
-  const user: any = JSON.parse(String(localStorage.getItem('user')));
-  if (user.Role === 'Provider') {
-    return true;
+@Injectable({
+  providedIn: 'root',
+})
+export class RoleGuard implements CanActivate {
+  constructor(private router: Router) {}
+
+  canActivate(
+    route: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot
+  ): boolean {
+    const user = JSON.parse(String(localStorage.getItem('user'))); // Parse user from localStorage
+    const allowedRoles = route.data['roles'] as Array<string>; // Get allowed roles from route data
+    console.log(user, user.role, allowedRoles);
+    if (user && user.role && allowedRoles.includes(user.role)) {
+      console.log(allowedRoles, 'allowedroles');
+      return true;
+    } else {
+      this.router.navigate(['/login']);
+      return false;
+    }
   }
-  const router = inject(Router);
-
-  return router.navigate(['/login']);
-};
-export const clientGuard: CanActivateFn = (route, state) => {
-  const user: any = JSON.parse(String(localStorage.getItem('user')));
-  if (user.Role === 'Client') {
-    return true;
-  }
-  const router = inject(Router);
-
-  return router.navigate(['/login']);
-};
-
-export const agentGuard: CanActivateFn = (route, state) => {
-  const token = localStorage.getItem('token');
-
-  const user: any = localStorage.getItem('user');
-  if (token && user.Role === 'Agent') {
-    return true;
-  }
-  const router = inject(Router);
-
-  return router.navigate(['/login']);
-};
+}

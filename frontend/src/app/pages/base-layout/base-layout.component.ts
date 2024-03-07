@@ -1,6 +1,3 @@
-import { forEach } from '@angular-devkit/schematics';
-// import { Menu } from '../../models/menu';
-// import { navigationAnimation } from '../../animations';
 import { Component, OnInit } from '@angular/core';
 import {
   ActivatedRoute,
@@ -36,7 +33,7 @@ export class BaseLayoutComponent implements OnInit {
 
   ngOnInit(): void {
     const user: any = localStorage.getItem('user');
-    this.userRole = JSON.parse(String(user)).Role;
+    this.userRole = JSON.parse(String(user)).role;
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {

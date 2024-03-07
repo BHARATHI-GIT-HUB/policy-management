@@ -1,3 +1,4 @@
+import { plan } from './../../model/plan';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -8,6 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent {
   contentOpen: boolean = false;
   imageSrc: any;
+  isLoading: boolean = true;
 
   @Input()
   title: string = '';
@@ -21,6 +23,7 @@ export class CardComponent {
 
   ngOnInit(): void {
     console.log(this.plans, 'received data');
+    console.log(this.plans.length > 0, 'received data');
     if (this.title === 'ICICI') {
       this.imageSrc = '../../../assets/images/ICICI.png';
     } else if (this.title === 'Star Health') {
@@ -29,6 +32,10 @@ export class CardComponent {
       this.imageSrc = '../../../assets/images/Max.png';
     } else {
       this.imageSrc = '../../../assets/images/HDFC.png';
+    }
+    if (this.plans.length > 0) {
+      console.log('inside');
+      this.isLoading = false;
     }
   }
 }
