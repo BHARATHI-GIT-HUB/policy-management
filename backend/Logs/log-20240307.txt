@@ -173,3 +173,613 @@
 2024-03-07 01:07:30 HTTP GET /api/plan responded 200 in 828.7058 ms
 2024-03-07 01:07:33 HTTP GET /api/plan responded 200 in 823.3298 ms
 2024-03-07 01:07:39 HTTP GET /api/plan responded 200 in 805.5862 ms
+2024-03-07 11:44:42 HTTP POST /api/auth/login responded 200 in 1813.1288 ms
+2024-03-07 11:44:42 HTTP GET /api/policy responded 200 in 118.3851 ms
+2024-03-07 11:44:43 HTTP GET /api/plan responded 200 in 989.1116 ms
+2024-03-07 11:47:17 HTTP GET /api/policy responded 200 in 25.3425 ms
+2024-03-07 11:47:18 HTTP GET /api/plan responded 200 in 959.2884 ms
+2024-03-07 11:47:45 HTTP GET /api/policy responded 200 in 8.4344 ms
+2024-03-07 12:07:38 HTTP POST /api/auth/login responded 200 in 1589.1760 ms
+2024-03-07 12:07:39 HTTP GET /api/policy responded 200 in 121.2266 ms
+2024-03-07 12:07:39 HTTP GET /api/plan responded 200 in 233.5194 ms
+2024-03-07 12:08:03 HTTP POST /api/auth/login responded 200 in 52.0036 ms
+2024-03-07 12:08:03 HTTP GET /api/policy responded 200 in 16.6047 ms
+2024-03-07 12:08:03 HTTP GET /api/plan responded 200 in 139.8728 ms
+2024-03-07 12:09:10 HTTP GET /api/policy responded 200 in 9.1419 ms
+2024-03-07 12:09:11 HTTP GET /api/plan responded 200 in 859.4471 ms
+2024-03-07 12:09:26 HTTP POST /api/auth/login responded 200 in 3.4582 ms
+2024-03-07 12:09:26 HTTP GET /api/policy responded 200 in 2.4785 ms
+2024-03-07 12:09:27 HTTP GET /api/plan responded 200 in 853.8192 ms
+2024-03-07 12:09:41 HTTP GET /api/policy responded 200 in 2.2356 ms
+2024-03-07 12:09:42 HTTP GET /api/plan responded 200 in 797.9585 ms
+2024-03-07 12:09:59 HTTP POST /api/auth/login responded 200 in 2.2066 ms
+2024-03-07 12:10:00 HTTP GET /api/policy responded 200 in 2.1727 ms
+2024-03-07 12:10:00 HTTP GET /api/plan responded 200 in 856.4351 ms
+2024-03-07 12:10:27 HTTP GET /api/policy responded 200 in 6.4531 ms
+2024-03-07 12:10:28 HTTP GET /api/plan responded 200 in 804.0838 ms
+2024-03-07 12:11:12 HTTP POST /api/auth/login responded 200 in 2.3652 ms
+2024-03-07 12:11:33 HTTP POST /api/auth/login responded 200 in 2.2451 ms
+2024-03-07 12:12:11 HTTP POST /api/auth/login responded 200 in 2.0438 ms
+2024-03-07 12:12:23 HTTP POST /api/auth/login responded 200 in 2.0703 ms
+2024-03-07 12:12:48 HTTP POST /api/auth/login responded 200 in 2.0789 ms
+2024-03-07 12:13:00 HTTP POST /api/auth/login responded 200 in 3.3017 ms
+2024-03-07 12:13:24 HTTP POST /api/auth/login responded 200 in 2.0069 ms
+2024-03-07 12:13:27 HTTP POST /api/auth/login responded 200 in 1.9275 ms
+2024-03-07 12:13:48 HTTP POST /api/auth/login responded 200 in 1.9876 ms
+2024-03-07 12:14:45 HTTP POST /api/auth/login responded 200 in 1.9334 ms
+2024-03-07 12:15:55 HTTP POST /api/auth/login responded 200 in 2.1085 ms
+2024-03-07 12:18:16 HTTP POST /api/auth/login responded 200 in 2.6826 ms
+2024-03-07 12:18:56 HTTP POST /api/auth/login responded 200 in 2.1372 ms
+2024-03-07 12:19:31 HTTP POST /api/auth/login responded 200 in 1.9400 ms
+2024-03-07 12:19:48 HTTP POST /api/auth/login responded 200 in 2.1961 ms
+2024-03-07 12:19:48 HTTP GET /api/policy responded 200 in 2.4679 ms
+2024-03-07 12:20:05 HTTP GET /api/policy responded 200 in 2.5880 ms
+2024-03-07 12:20:07 HTTP GET /api/policy responded 200 in 2.1513 ms
+2024-03-07 12:20:07 HTTP GET /api/provider responded 200 in 31.8253 ms
+2024-03-07 12:20:07 HTTP GET /api/client responded 200 in 42.4486 ms
+2024-03-07 12:20:07 HTTP GET /api/agent responded 200 in 37.7473 ms
+2024-03-07 12:21:58 HTTP POST /api/auth/login responded 200 in 1.8380 ms
+2024-03-07 12:21:58 HTTP GET /api/policy responded 200 in 2.1510 ms
+2024-03-07 12:22:31 HTTP POST /api/auth/login responded 200 in 2.1334 ms
+2024-03-07 12:22:31 HTTP GET /api/policy responded 200 in 2.4986 ms
+2024-03-07 12:23:17 HTTP POST /api/auth/login responded 200 in 1.8782 ms
+2024-03-07 12:23:17 HTTP GET /api/policy responded 200 in 2.0680 ms
+2024-03-07 12:23:41 HTTP POST /api/auth/login responded 200 in 1.6717 ms
+2024-03-07 12:23:41 HTTP GET /api/policy responded 200 in 2.0167 ms
+2024-03-07 12:23:43 HTTP GET /api/policy responded 200 in 2.2382 ms
+2024-03-07 12:23:44 HTTP GET /api/plan responded 200 in 792.0668 ms
+2024-03-07 12:23:46 HTTP GET /api/policy responded 200 in 2.1974 ms
+2024-03-07 12:23:46 HTTP GET /api/policy responded 200 in 4.5331 ms
+2024-03-07 12:23:47 HTTP GET /api/client responded 200 in 4.6611 ms
+2024-03-07 12:23:47 HTTP GET /api/provider responded 200 in 5.7133 ms
+2024-03-07 12:23:47 HTTP GET /api/agent responded 200 in 6.2403 ms
+2024-03-07 12:23:47 HTTP GET /api/plan responded 200 in 796.6112 ms
+2024-03-07 12:24:12 HTTP POST /api/auth/login responded 200 in 2.1668 ms
+2024-03-07 12:24:22 HTTP POST /api/auth/login responded 200 in 2.0106 ms
+2024-03-07 12:24:22 HTTP GET /api/policy responded 200 in 2.5307 ms
+2024-03-07 12:24:23 HTTP GET /api/plan responded 200 in 848.5933 ms
+2024-03-07 12:24:24 HTTP GET /api/policy responded 200 in 2.1185 ms
+2024-03-07 12:24:25 HTTP GET /api/client responded 200 in 1.4117 ms
+2024-03-07 12:24:25 HTTP GET /api/provider responded 200 in 1.1180 ms
+2024-03-07 12:24:25 HTTP GET /api/agent responded 200 in 1.2930 ms
+2024-03-07 12:24:27 HTTP GET /api/client responded 200 in 1.4534 ms
+2024-03-07 12:24:27 HTTP GET /api/provider responded 200 in 1.4446 ms
+2024-03-07 12:24:27 HTTP GET /api/agent responded 200 in 1.7252 ms
+2024-03-07 12:24:39 HTTP POST /api/auth/login responded 200 in 1.6299 ms
+2024-03-07 12:26:37 HTTP POST /api/auth/login responded 200 in 2.1427 ms
+2024-03-07 12:26:37 HTTP GET /api/policy responded 200 in 1.8934 ms
+2024-03-07 12:26:38 HTTP GET /api/plan responded 200 in 900.4099 ms
+2024-03-07 12:26:42 HTTP GET /api/policy responded 200 in 1.7944 ms
+2024-03-07 12:26:43 HTTP GET /api/plan responded 200 in 783.5263 ms
+2024-03-07 12:26:58 HTTP POST /api/auth/login responded 200 in 1.5660 ms
+2024-03-07 12:26:58 HTTP GET /api/policy responded 200 in 1.9813 ms
+2024-03-07 12:26:58 HTTP GET /api/plan responded 200 in 829.1846 ms
+2024-03-07 12:27:08 HTTP POST /api/auth/login responded 200 in 1.7268 ms
+2024-03-07 12:27:08 HTTP GET /api/policy responded 200 in 1.8904 ms
+2024-03-07 12:27:09 HTTP GET /api/plan responded 200 in 905.2405 ms
+2024-03-07 12:27:24 HTTP POST /api/auth/login responded 200 in 1.7757 ms
+2024-03-07 12:27:43 HTTP GET /api/plan responded 200 in 803.8213 ms
+2024-03-07 12:30:06 HTTP GET /api/plan responded 200 in 784.5044 ms
+2024-03-07 12:30:42 HTTP POST /api/auth/login responded 200 in 1.7324 ms
+2024-03-07 12:30:42 HTTP GET /api/policy responded 200 in 4.2667 ms
+2024-03-07 12:30:43 HTTP GET /api/plan responded 200 in 841.5822 ms
+2024-03-07 12:30:47 HTTP GET /api/policy responded 200 in 2.0537 ms
+2024-03-07 12:30:49 HTTP GET /api/client responded 200 in 1.1360 ms
+2024-03-07 12:30:49 HTTP GET /api/provider responded 200 in 1.1795 ms
+2024-03-07 12:30:49 HTTP GET /api/agent responded 200 in 0.9673 ms
+2024-03-07 12:30:59 HTTP POST /api/auth/login responded 200 in 1.7499 ms
+2024-03-07 12:30:59 HTTP GET /api/policy responded 200 in 1.9332 ms
+2024-03-07 12:31:00 HTTP GET /api/plan responded 200 in 844.0057 ms
+2024-03-07 12:31:04 HTTP GET /api/policy responded 200 in 1.8754 ms
+2024-03-07 12:31:05 HTTP GET /api/plan responded 200 in 785.6787 ms
+2024-03-07 12:47:45 HTTP POST /api/auth/ responded 415 in 32.7493 ms
+2024-03-07 12:47:49 HTTP GET /api/auth/ responded 200 in 1.7994 ms
+2024-03-07 12:51:55 HTTP GET /api/auth/1 responded 401 in 7.1955 ms
+2024-03-07 12:52:16 HTTP GET /api/auth responded 200 in 2.0067 ms
+2024-03-07 12:53:00 HTTP GET /api/auth responded 200 in 1.8491 ms
+2024-03-07 13:08:20 HTTP POST /api/auth/login responded 415 in 6.5104 ms
+2024-03-07 13:08:36 HTTP POST /api/auth/login responded 400 in 73.9532 ms
+2024-03-07 13:11:01 HTTP POST /api/auth/login responded 400 in 26.3359 ms
+2024-03-07 13:11:15 HTTP POST /api/auth/login responded 400 in 22.7789 ms
+2024-03-07 13:11:51 HTTP POST /api/auth/login responded 400 in 1926.7281 ms
+2024-03-07 13:11:58 HTTP POST /api/auth/login responded 400 in 45.4569 ms
+2024-03-07 13:13:06 HTTP POST /api/auth/login responded 400 in 74.6057 ms
+2024-03-07 13:13:43 HTTP POST /api/auth/login responded 400 in 1441.9906 ms
+2024-03-07 13:16:51 HTTP POST /api/auth/login responded 400 in 50.8682 ms
+2024-03-07 13:17:07 HTTP POST /api/auth/login responded 400 in 67.6712 ms
+2024-03-07 13:17:43 HTTP POST /api/auth/login responded 400 in 1418.1164 ms
+2024-03-07 13:18:04 HTTP POST /api/auth/login responded 200 in 25.3734 ms
+2024-03-07 13:21:08 HTTP GET /api/auth/1 responded 401 in 41.7108 ms
+2024-03-07 13:21:29 HTTP GET /api/auth/1 responded 401 in 3.0064 ms
+2024-03-07 13:21:36 HTTP GET /api/auth responded 200 in 7.8567 ms
+2024-03-07 13:22:46 HTTP GET /api/auth responded 200 in 2.8740 ms
+2024-03-07 13:22:50 HTTP GET /api/auth/1 responded 401 in 3.3961 ms
+2024-03-07 13:28:11 HTTP GET /api/auth/login responded 401 in 1.5211 ms
+2024-03-07 13:28:23 HTTP GET /api/auth/login responded 401 in 1.8820 ms
+2024-03-07 13:28:30 HTTP POST /api/auth/login responded 400 in 82.0018 ms
+2024-03-07 13:31:02 HTTP POST /api/auth/login responded 200 in 14.0662 ms
+2024-03-07 13:31:27 HTTP GET /api/auth/1 responded 401 in 6.6097 ms
+2024-03-07 13:31:33 HTTP GET /api/auth/ responded 200 in 2.2427 ms
+2024-03-07 13:38:03 HTTP POST /api/auth/login responded 200 in 17.4404 ms
+2024-03-07 13:38:23 HTTP GET /api/auth/ responded 200 in 5.9987 ms
+2024-03-07 13:38:26 HTTP GET /api/auth/1 responded 401 in 0.9725 ms
+2024-03-07 13:43:51 HTTP GET /api/auth responded 401 in 1.2736 ms
+2024-03-07 13:43:59 HTTP GET /api/auth responded 401 in 2.1157 ms
+2024-03-07 13:46:18 HTTP GET /api/auth responded 500 in 133.9302 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:46:18 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:46:34 HTTP GET /api/auth responded 500 in 7.8713 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:46:34 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:47:01 HTTP GET /api/auth responded 401 in 130.9770 ms
+2024-03-07 13:47:22 HTTP GET /api/auth responded 401 in 3.8265 ms
+2024-03-07 13:48:09 HTTP GET /api/auth responded 500 in 133.3922 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:48:09 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:48:38 HTTP GET /api/auth responded 500 in 8.6841 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:48:38 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:48:39 HTTP GET /api/auth responded 500 in 3.9217 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:48:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:49:55 HTTP GET /api/auth responded 401 in 139.3644 ms
+2024-03-07 13:50:20 HTTP GET /api/auth responded 401 in 3.6633 ms
+2024-03-07 13:50:42 HTTP GET /api/auth responded 401 in 2.0728 ms
+2024-03-07 13:50:57 HTTP GET /api/auth responded 500 in 123.5073 ms
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 13:50:57 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint RepositryAssignement.Controllers.AuthController.Get (RepositryAssignement) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 13:52:35 HTTP GET /api/auth responded 401 in 109.2888 ms
+2024-03-07 13:54:39 HTTP GET /api/auth responded 401 in 136.3729 ms
+2024-03-07 13:57:48 HTTP GET /api/auth responded 401 in 140.1771 ms
+2024-03-07 13:57:52 HTTP POST /api/auth/login responded 200 in 1302.3888 ms
+2024-03-07 13:58:30 HTTP GET /api/auth responded 401 in 4.6577 ms
+2024-03-07 13:58:34 HTTP GET /api/auth/1 responded 401 in 2.6866 ms
+2024-03-07 15:42:29 HTTP POST /api/auth/login responded 200 in 44.3027 ms
+2024-03-07 15:46:43 HTTP POST /api/auth/login responded 200 in 60.7452 ms
+2024-03-07 15:48:05 HTTP GET /api/auth/1 responded 401 in 2.8334 ms
+2024-03-07 15:48:10 HTTP GET /api/auth/ responded 401 in 1.1654 ms
+2024-03-07 15:48:14 HTTP GET /api/auth/ responded 401 in 1.0110 ms
+2024-03-07 15:48:29 HTTP GET /api/auth/ responded 401 in 5.5773 ms
+2024-03-07 15:50:01 HTTP GET /api/auth/ responded 401 in 31.4272 ms
+2024-03-07 15:50:20 HTTP POST /api/auth/login responded 200 in 1394.4823 ms
+2024-03-07 15:50:42 HTTP GET /api/auth/ responded 401 in 38.7263 ms
+2024-03-07 15:50:53 HTTP GET /api/auth/ responded 401 in 2.8338 ms
+2024-03-07 15:51:33 HTTP POST /api/auth/login responded 200 in 1395.6248 ms
+2024-03-07 15:51:46 HTTP GET /api/auth/ responded 401 in 40.7581 ms
+2024-03-07 15:51:51 HTTP GET /api/auth/1 responded 401 in 3.4321 ms
+2024-03-07 15:53:26 HTTP GET /api/auth responded 500 in 2.4133 ms
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 15:53:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 15:53:51 HTTP GET /api/auth responded 500 in 119.1867 ms
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 15:53:51 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 15:59:51 HTTP GET /api/auth responded 500 in 12.0909 ms
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 15:59:51 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 16:05:09 HTTP GET /api/auth responded 500 in 119.7035 ms
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-07 16:05:09 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Bearer' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-07 16:05:38 HTTP GET /api/auth responded 401 in 12.8458 ms
+2024-03-07 16:10:52 HTTP POST /api/auth/login responded 200 in 1189.5799 ms
+2024-03-07 16:11:24 HTTP POST /api/auth/login responded 200 in 26.9527 ms
+2024-03-07 16:11:52 HTTP POST /api/auth/login responded 200 in 46.7799 ms
+2024-03-07 16:14:32 HTTP POST /api/auth/login responded 200 in 6.1442 ms
+2024-03-07 16:17:25 HTTP POST /api/auth/login responded 200 in 10.5758 ms
+2024-03-07 16:17:57 HTTP POST /api/auth/login responded 200 in 6.4069 ms
+2024-03-07 16:18:47 HTTP POST /api/auth/login responded 200 in 5.5455 ms
+2024-03-07 16:19:40 HTTP POST /api/auth/login responded 200 in 2.3093 ms
+2024-03-07 16:19:40 HTTP GET /api/policy responded 200 in 98.7459 ms
+2024-03-07 16:19:41 HTTP GET /api/plan responded 200 in 976.3614 ms
+2024-03-07 16:20:19 HTTP GET /api/policy responded 200 in 16.9910 ms
+2024-03-07 16:20:20 HTTP GET /api/plan responded 200 in 922.9947 ms
+2024-03-07 16:20:24 HTTP GET /api/provider responded 200 in 30.2093 ms
+2024-03-07 16:20:24 HTTP GET /api/agent responded 200 in 34.4952 ms
+2024-03-07 16:20:24 HTTP GET /api/client responded 200 in 36.3512 ms
+2024-03-07 16:20:24 HTTP GET /api/policy responded 200 in 3.2863 ms
+2024-03-07 16:20:25 HTTP GET /api/policy responded 200 in 2.3327 ms
+2024-03-07 16:20:26 HTTP GET /api/plan responded 200 in 800.8969 ms
+2024-03-07 16:20:30 HTTP GET /api/policy responded 200 in 2.6522 ms
+2024-03-07 16:20:40 HTTP POST /api/auth/login responded 200 in 4.5063 ms
+2024-03-07 16:20:41 HTTP GET /api/policy responded 200 in 2.3137 ms
+2024-03-07 16:20:41 HTTP GET /api/plan responded 200 in 863.1547 ms
+2024-03-07 16:20:47 HTTP GET /api/policy responded 200 in 2.2797 ms
+2024-03-07 16:20:47 HTTP GET /api/plan responded 200 in 803.7543 ms
+2024-03-07 16:20:50 HTTP GET /api/policy responded 200 in 2.2639 ms
+2024-03-07 16:20:51 HTTP GET /api/plan responded 200 in 800.9824 ms
+2024-03-07 16:21:00 HTTP POST /api/auth/login responded 200 in 5.1569 ms
+2024-03-07 16:21:09 HTTP GET /api/plan responded 200 in 810.7738 ms
+2024-03-07 16:53:43 HTTP POST /api/auth/login responded 200 in 13.8823 ms
+2024-03-07 16:53:43 HTTP GET /api/policy responded 200 in 20.7393 ms
+2024-03-07 16:53:44 HTTP GET /api/plan responded 200 in 990.1982 ms
+2024-03-07 16:53:46 HTTP GET /api/policy responded 200 in 2.7476 ms
+2024-03-07 16:53:50 HTTP GET /api/agent responded 200 in 6.7269 ms
+2024-03-07 16:53:50 HTTP GET /api/provider responded 200 in 9.6889 ms
+2024-03-07 16:53:50 HTTP GET /api/client responded 200 in 10.4962 ms
+2024-03-07 16:53:52 HTTP GET /api/policy responded 200 in 9.0760 ms
+2024-03-07 16:53:53 HTTP GET /api/policy responded 200 in 7.6607 ms
+2024-03-07 16:53:54 HTTP GET /api/plan responded 200 in 860.1877 ms
+2024-03-07 16:53:59 HTTP POST /api/auth/login responded 200 in 5.6411 ms
+2024-03-07 16:54:28 HTTP GET /api/plan responded 200 in 865.4444 ms
+2024-03-07 16:57:14 HTTP GET /api/plan responded 200 in 830.1848 ms
+2024-03-07 16:57:15 HTTP GET /api/plan responded 200 in 798.7210 ms
+2024-03-07 16:57:29 HTTP GET /api/plan responded 200 in 804.2309 ms
+2024-03-07 16:58:30 HTTP GET /api/plan responded 200 in 815.1341 ms
+2024-03-07 16:58:50 HTTP GET /api/plan responded 200 in 801.8010 ms
+2024-03-07 16:58:52 HTTP GET /api/plan responded 200 in 803.6632 ms
+2024-03-07 17:02:11 HTTP GET /api/plan responded 200 in 862.8528 ms
+2024-03-07 17:02:16 HTTP GET /api/plan responded 200 in 857.0335 ms
+2024-03-07 17:02:21 HTTP GET /api/plan responded 200 in 850.5971 ms
+2024-03-07 17:02:25 HTTP GET /api/plan responded 200 in 836.1750 ms
+2024-03-07 17:02:28 HTTP GET /api/plan responded 200 in 883.0861 ms
+2024-03-07 17:02:31 HTTP GET /api/plan responded 200 in 899.7555 ms
+2024-03-07 17:02:45 HTTP GET /api/plan responded 200 in 847.6930 ms
+2024-03-07 17:02:48 HTTP GET /api/plan responded 200 in 847.1617 ms
+2024-03-07 17:03:39 HTTP GET /api/plan responded 200 in 809.1737 ms
+2024-03-07 17:04:35 HTTP GET /api/plan responded 200 in 815.7226 ms
+2024-03-07 17:04:42 HTTP GET /api/plan responded 200 in 811.0874 ms
+2024-03-07 17:04:54 HTTP GET /api/plan responded 200 in 805.9503 ms
+2024-03-07 17:05:29 HTTP GET /api/plan responded 200 in 835.1731 ms
+2024-03-07 17:05:33 HTTP GET /api/plan responded 200 in 816.3849 ms
+2024-03-07 17:05:35 HTTP GET /api/plan responded 200 in 801.5670 ms
+2024-03-07 17:06:16 HTTP GET /api/plan responded 200 in 828.6906 ms
+2024-03-07 17:07:03 HTTP GET /api/plan responded 200 in 912.2030 ms
+2024-03-07 17:07:28 HTTP GET /api/plan responded 200 in 821.5533 ms
+2024-03-07 17:07:43 HTTP GET /api/plan responded 200 in 813.9573 ms
+2024-03-07 17:08:07 HTTP GET /api/plan responded 200 in 828.3816 ms
+2024-03-07 17:09:28 HTTP GET /api/plan responded 200 in 812.7141 ms
+2024-03-07 17:09:41 HTTP GET /api/plan responded 200 in 802.5012 ms
+2024-03-07 17:09:48 HTTP GET /api/plan responded 200 in 809.1359 ms
+2024-03-07 17:10:14 HTTP GET /api/plan responded 200 in 829.3433 ms
+2024-03-07 17:11:16 HTTP GET /api/plan responded 200 in 815.4345 ms
+2024-03-07 17:12:23 HTTP GET /api/plan responded 200 in 808.9414 ms
+2024-03-07 17:12:29 HTTP GET /api/plan responded 200 in 811.0924 ms
+2024-03-07 17:12:45 HTTP GET /api/plan responded 200 in 806.6882 ms
+2024-03-07 17:12:56 HTTP GET /api/plan responded 200 in 799.4039 ms
+2024-03-07 17:13:10 HTTP GET /api/plan responded 200 in 808.5629 ms
+2024-03-07 17:13:14 HTTP GET /api/plan responded 200 in 800.2642 ms
+2024-03-07 17:14:14 HTTP GET /api/plan responded 200 in 810.7961 ms
+2024-03-07 17:14:24 HTTP GET /api/plan responded 200 in 805.7756 ms
+2024-03-07 17:14:58 HTTP GET /api/plan responded 200 in 820.9162 ms
+2024-03-07 17:15:06 HTTP GET /api/plan responded 200 in 814.2790 ms
+2024-03-07 17:15:45 HTTP GET /api/plan responded 200 in 803.6561 ms
+2024-03-07 17:16:14 HTTP GET /api/plan responded 200 in 810.8151 ms
+2024-03-07 17:16:16 HTTP GET /api/plan responded 200 in 801.9338 ms
+2024-03-07 17:16:28 HTTP GET /api/plan responded 200 in 802.5694 ms
+2024-03-07 17:16:35 HTTP GET /api/plan responded 200 in 865.0840 ms
+2024-03-07 17:17:49 Policy Management System Started..........
+2024-03-07 17:17:49 HTTP GET / responded 200 in 197.7775 ms
+2024-03-07 17:17:49 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 0.6602 ms
+2024-03-07 17:17:49 HTTP GET /css/site.css responded 304 in 5.8366 ms
+2024-03-07 17:17:49 HTTP GET /Assert/Image/download.png responded 304 in 3.5304 ms
+2024-03-07 17:18:01 Policy Management System Started..........
+2024-03-07 17:18:01 Login Details ram ram@123
+2024-03-07 17:18:01 Valid Login Details
+2024-03-07 17:18:01 HTTP POST /Login responded 302 in 16.7747 ms
+2024-03-07 17:18:01 Redirected to Policy Enrollment page
+2024-03-07 17:18:01 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-07 17:18:01 HTTP GET /Policy/Index responded 200 in 165.2273 ms
+2024-03-07 17:18:03 selected plan id 14
+2024-03-07 17:18:03 HTTP POST /Policy/Index responded 302 in 5.3876 ms
+2024-03-07 17:18:03 Enrolling to plan with  id 14
+2024-03-07 17:18:03 HTTP GET /Policy/Create responded 200 in 59.4785 ms
+2024-03-07 17:18:03 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.4850 ms
+2024-03-07 21:01:00 Policy Management System Started..........
+2024-03-07 21:01:00 HTTP GET / responded 200 in 589.5739 ms
+2024-03-07 21:01:00 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 3.7587 ms
+2024-03-07 21:01:00 Policy Management System Started..........
+2024-03-07 21:01:00 HTTP GET / responded 200 in 47.7795 ms
+2024-03-07 21:01:00 HTTP GET /PolicyManagementSystem.styles.css responded 404 in 24.5035 ms
+2024-03-07 21:01:09 Policy Management System Started..........
+2024-03-07 21:01:09 Login Details admin admin@123
+2024-03-07 21:01:11 Valid Login Details
+2024-03-07 21:01:11 HTTP POST /Login responded 302 in 1539.8201 ms
+2024-03-07 21:01:11 Redirected to Policy Enrollment page
+2024-03-07 21:01:11 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-07 21:01:11 HTTP GET /Policy/Index responded 200 in 272.3587 ms
+2024-03-07 21:01:13 Trying to Get all policy Details 
+2024-03-07 21:01:14 Succesfully Fetched All the Details  System.Collections.Generic.List`1[RepositryAssignement.Models.PolicyEnrollment]
+2024-03-07 21:01:14 HTTP GET /Policy/Details responded 200 in 226.9128 ms
+2024-03-07 21:01:14 Redirected to Policy Enrollment page
+2024-03-07 21:01:14 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-07 21:01:14 HTTP GET /Policy/Index responded 200 in 55.5009 ms
+2024-03-07 21:01:16 selected plan id 14
+2024-03-07 21:01:16 HTTP POST /Policy/Index responded 302 in 6.1426 ms
+2024-03-07 21:01:16 Enrolling to plan with  id 14
+2024-03-07 21:01:16 plan with id is RepositryAssignement.Models.Plan
+2024-03-07 21:01:16 HTTP GET /Policy/Create responded 200 in 48.6878 ms
+2024-03-07 21:01:16 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.8623 ms
+2024-03-07 22:12:21 Policy Management System Started..........
+2024-03-07 22:12:21 Login Details Admin admin@123
+2024-03-07 22:12:21 Valid Login Details
+2024-03-07 22:12:21 HTTP POST /Login responded 302 in 26.7027 ms
+2024-03-07 22:12:21 Redirected to Policy Enrollment page
+2024-03-07 22:12:21 Fetched all plans System.Collections.Generic.List`1[RepositryAssignement.Models.Plan]
+2024-03-07 22:12:21 HTTP GET /Policy/Index responded 200 in 23.4907 ms
+2024-03-07 22:12:23 selected plan id 14
+2024-03-07 22:12:23 HTTP POST /Policy/Index responded 302 in 2.1251 ms
+2024-03-07 22:12:23 Enrolling to plan with  id 14
+2024-03-07 22:12:23 plan with id is RepositryAssignement.Models.Plan
+2024-03-07 22:12:23 HTTP GET /Policy/Create responded 200 in 11.6401 ms
+2024-03-07 22:12:23 HTTP GET /Policy/path/to/font-awesome/css/font-awesome.min.css responded 404 in 0.3652 ms
+2024-03-07 23:31:18 HTTP GET /api/plan responded 200 in 1037.4422 ms
+2024-03-07 23:31:52 HTTP POST /api/auth/login responded 200 in 72.9995 ms
+2024-03-07 23:31:52 HTTP GET /api/policy responded 200 in 122.2927 ms
+2024-03-07 23:31:53 HTTP GET /api/plan responded 200 in 1012.3553 ms
+2024-03-07 23:31:55 HTTP GET /api/policy responded 200 in 3.8436 ms
+2024-03-07 23:31:56 HTTP GET /api/provider responded 200 in 6.9907 ms
+2024-03-07 23:31:56 HTTP GET /api/client responded 200 in 18.0850 ms
+2024-03-07 23:31:56 HTTP GET /api/agent responded 200 in 17.1061 ms
+2024-03-07 23:31:57 HTTP GET /api/policy responded 200 in 3.5291 ms
+2024-03-07 23:31:58 HTTP GET /api/policy responded 200 in 3.3200 ms
+2024-03-07 23:31:58 HTTP GET /api/plan responded 200 in 869.3514 ms
+2024-03-07 23:31:59 HTTP GET /api/provider responded 200 in 1.8875 ms
+2024-03-07 23:31:59 HTTP GET /api/agent responded 200 in 1.4352 ms
+2024-03-07 23:31:59 HTTP GET /api/client responded 200 in 1.6141 ms
+2024-03-07 23:32:01 HTTP GET /api/policy responded 200 in 2.7549 ms
+2024-03-07 23:32:02 HTTP GET /api/plan responded 200 in 843.8190 ms
+2024-03-07 23:32:07 HTTP GET /api/agent responded 200 in 5.1264 ms
+2024-03-07 23:32:07 HTTP GET /api/client responded 200 in 4.8708 ms
+2024-03-07 23:32:07 HTTP GET /api/provider responded 200 in 5.7865 ms
+2024-03-07 23:33:32 HTTP GET /api/agent responded 200 in 39.0020 ms
+2024-03-07 23:33:32 HTTP GET /api/client responded 200 in 10.5118 ms
+2024-03-07 23:33:32 HTTP GET /api/provider responded 200 in 9.0107 ms
+2024-03-07 23:33:52 HTTP GET /api/agent responded 200 in 6.2573 ms
+2024-03-07 23:33:52 HTTP GET /api/client responded 200 in 7.9989 ms
+2024-03-07 23:33:52 HTTP GET /api/provider responded 200 in 5.8034 ms
+2024-03-07 23:33:58 HTTP GET /api/agent responded 200 in 4.7328 ms
+2024-03-07 23:33:58 HTTP GET /api/client responded 200 in 4.5748 ms
+2024-03-07 23:33:58 HTTP GET /api/provider responded 200 in 4.9520 ms
+2024-03-07 23:34:06 HTTP GET /api/agent responded 200 in 1.3477 ms
+2024-03-07 23:34:06 HTTP GET /api/client responded 200 in 1.8467 ms
+2024-03-07 23:34:06 HTTP GET /api/provider responded 200 in 1.5072 ms
+2024-03-07 23:34:10 HTTP GET /api/agent responded 200 in 1.6239 ms
+2024-03-07 23:34:10 HTTP GET /api/client responded 200 in 1.0769 ms
+2024-03-07 23:34:10 HTTP GET /api/provider responded 200 in 0.9490 ms
+2024-03-07 23:34:21 HTTP GET /api/client responded 200 in 5.6471 ms
+2024-03-07 23:34:21 HTTP GET /api/agent responded 200 in 6.6905 ms
+2024-03-07 23:34:21 HTTP GET /api/provider responded 200 in 7.6338 ms
+2024-03-07 23:34:28 HTTP GET /api/policy responded 200 in 14.5941 ms
+2024-03-07 23:34:29 HTTP GET /api/policy responded 200 in 2.5933 ms
+2024-03-07 23:34:30 HTTP GET /api/plan responded 200 in 845.8753 ms
+2024-03-07 23:34:31 HTTP GET /api/agent responded 200 in 3.6311 ms
+2024-03-07 23:34:31 HTTP GET /api/provider responded 200 in 5.4073 ms
+2024-03-07 23:34:31 HTTP GET /api/client responded 200 in 6.8356 ms
+2024-03-07 23:34:32 HTTP GET /api/policy responded 200 in 2.0959 ms
+2024-03-07 23:34:32 HTTP GET /api/policy responded 200 in 2.1254 ms
+2024-03-07 23:34:32 HTTP GET /api/plan responded 200 in 844.5184 ms
+2024-03-07 23:34:54 HTTP POST /api/auth/login responded 200 in 5.2728 ms
+2024-03-07 23:34:54 HTTP GET /api/policy responded 200 in 40.4449 ms
+2024-03-07 23:34:55 HTTP GET /api/plan responded 200 in 847.8281 ms
+2024-03-07 23:34:57 HTTP GET /api/policy responded 200 in 2.6599 ms
+2024-03-07 23:34:58 HTTP GET /api/plan responded 200 in 848.1930 ms
+2024-03-07 23:36:52 HTTP GET /api/policy responded 200 in 41.8695 ms
+2024-03-07 23:36:53 HTTP GET /api/plan responded 200 in 846.2166 ms
+2024-03-07 23:37:02 HTTP GET /api/policy responded 200 in 4.4866 ms
+2024-03-07 23:37:03 HTTP GET /api/plan responded 200 in 859.3084 ms
+2024-03-07 23:37:12 HTTP POST /api/auth/login responded 200 in 4.7429 ms
+2024-03-07 23:37:12 HTTP GET /api/policy responded 200 in 2.5724 ms
+2024-03-07 23:37:13 HTTP GET /api/plan responded 200 in 869.9729 ms
+2024-03-07 23:37:18 HTTP GET /api/policy responded 200 in 1.9543 ms
+2024-03-07 23:37:19 HTTP GET /api/plan responded 200 in 836.2683 ms
+2024-03-07 23:38:06 HTTP GET /api/policy responded 200 in 13.3115 ms
+2024-03-07 23:38:07 HTTP GET /api/plan responded 200 in 904.5598 ms
+2024-03-07 23:40:15 HTTP GET /api/policy responded 200 in 40.8959 ms
+2024-03-07 23:40:16 HTTP GET /api/plan responded 200 in 883.6653 ms
+2024-03-07 23:40:16 HTTP GET /api/policy responded 200 in 9.4560 ms
+2024-03-07 23:40:18 HTTP GET /api/plan responded 200 in 840.4388 ms
+2024-03-07 23:40:42 HTTP GET /api/policy responded 200 in 4.6534 ms
+2024-03-07 23:40:42 HTTP GET /api/plan responded 200 in 846.4397 ms
+2024-03-07 23:43:33 HTTP GET /api/policy responded 200 in 12.4755 ms
+2024-03-07 23:43:33 HTTP GET /api/plan responded 200 in 848.6346 ms
+2024-03-07 23:43:44 HTTP GET /api/policy responded 200 in 1.8340 ms
+2024-03-07 23:43:44 HTTP GET /api/plan responded 200 in 834.1530 ms
+2024-03-07 23:43:46 HTTP GET /api/policy responded 200 in 1.9137 ms
+2024-03-07 23:43:47 HTTP GET /api/plan responded 200 in 831.4687 ms
+2024-03-07 23:43:53 HTTP GET /api/policy responded 200 in 2.0712 ms
+2024-03-07 23:43:54 HTTP GET /api/plan responded 200 in 840.8652 ms
+2024-03-07 23:44:33 HTTP GET /api/policy responded 200 in 11.4252 ms
+2024-03-07 23:44:34 HTTP GET /api/plan responded 200 in 849.7225 ms
+2024-03-07 23:45:12 HTTP GET /api/policy responded 200 in 5.5079 ms
+2024-03-07 23:45:13 HTTP GET /api/plan responded 200 in 851.5654 ms
+2024-03-07 23:45:24 HTTP GET /api/policy responded 200 in 7.5468 ms
+2024-03-07 23:45:24 HTTP GET /api/plan responded 200 in 845.2527 ms
+2024-03-07 23:47:47 HTTP GET /api/policy responded 200 in 8.4816 ms
+2024-03-07 23:47:47 HTTP GET /api/plan responded 200 in 846.1321 ms
+2024-03-07 23:48:07 HTTP GET /api/policy responded 200 in 2.1530 ms
+2024-03-07 23:48:08 HTTP GET /api/plan responded 200 in 836.0396 ms
+2024-03-07 23:49:30 HTTP GET /api/policy responded 200 in 7.7028 ms
+2024-03-07 23:49:31 HTTP GET /api/plan responded 200 in 871.1317 ms
+2024-03-07 23:49:44 HTTP GET /api/policy responded 200 in 7.2946 ms
+2024-03-07 23:49:45 HTTP GET /api/plan responded 200 in 859.6226 ms
+2024-03-07 23:49:55 HTTP GET /api/policy responded 200 in 7.2063 ms
+2024-03-07 23:49:55 HTTP GET /api/plan responded 200 in 845.9267 ms
+2024-03-07 23:50:22 HTTP GET /api/policy responded 200 in 7.6177 ms
+2024-03-07 23:50:23 HTTP GET /api/plan responded 200 in 886.0854 ms
+2024-03-07 23:50:39 HTTP GET /api/policy responded 200 in 1.8634 ms
+2024-03-07 23:50:39 HTTP GET /api/plan responded 200 in 842.2934 ms
+2024-03-07 23:51:13 HTTP GET /api/policy responded 200 in 8.4089 ms
+2024-03-07 23:51:14 HTTP GET /api/plan responded 200 in 843.3853 ms
+2024-03-07 23:51:49 HTTP GET /api/policy responded 200 in 5.4091 ms
+2024-03-07 23:51:50 HTTP GET /api/plan responded 200 in 849.2586 ms
+2024-03-07 23:52:01 HTTP GET /api/policy responded 200 in 9.5253 ms
+2024-03-07 23:52:02 HTTP GET /api/plan responded 200 in 844.5383 ms
+2024-03-07 23:52:06 HTTP GET /api/policy responded 200 in 1.8261 ms
+2024-03-07 23:52:07 HTTP GET /api/plan responded 200 in 853.4560 ms
+2024-03-07 23:52:12 HTTP GET /api/policy responded 200 in 1.7538 ms
+2024-03-07 23:52:13 HTTP GET /api/plan responded 200 in 837.7941 ms
+2024-03-07 23:52:19 HTTP GET /api/policy responded 200 in 1.8263 ms
+2024-03-07 23:52:19 HTTP GET /api/plan responded 200 in 888.2297 ms
+2024-03-07 23:52:42 HTTP GET /api/policy responded 200 in 40.7308 ms
+2024-03-07 23:52:43 HTTP GET /api/plan responded 200 in 863.2171 ms
+2024-03-07 23:53:00 HTTP GET /api/policy responded 200 in 7.9275 ms
+2024-03-07 23:53:00 HTTP GET /api/plan responded 200 in 859.0517 ms
+2024-03-07 23:53:08 HTTP GET /api/policy responded 200 in 18.1212 ms
+2024-03-07 23:53:08 HTTP GET /api/plan responded 200 in 830.8981 ms
+2024-03-07 23:53:21 HTTP GET /api/policy responded 200 in 1.7664 ms
+2024-03-07 23:53:21 HTTP GET /api/plan responded 200 in 843.9017 ms
+2024-03-07 23:53:34 HTTP GET /api/policy responded 200 in 1.7320 ms
+2024-03-07 23:53:35 HTTP GET /api/plan responded 200 in 856.4973 ms
+2024-03-07 23:53:48 HTTP GET /api/policy responded 200 in 1.7583 ms
+2024-03-07 23:53:49 HTTP GET /api/plan responded 200 in 840.8454 ms
+2024-03-07 23:53:50 HTTP GET /api/policy responded 200 in 1.8545 ms
+2024-03-07 23:53:51 HTTP GET /api/plan responded 200 in 841.3984 ms
+2024-03-07 23:54:04 HTTP GET /api/policy responded 200 in 14.4058 ms
+2024-03-07 23:54:05 HTTP GET /api/plan responded 200 in 863.9306 ms
+2024-03-07 23:54:08 HTTP GET /api/policy responded 200 in 7.5314 ms
+2024-03-07 23:54:09 HTTP GET /api/plan responded 200 in 839.0477 ms
+2024-03-07 23:54:19 HTTP GET /api/policy responded 200 in 2.0566 ms
+2024-03-07 23:54:20 HTTP GET /api/plan responded 200 in 848.2223 ms
+2024-03-07 23:54:23 HTTP GET /api/policy responded 200 in 1.9382 ms
+2024-03-07 23:54:24 HTTP GET /api/plan responded 200 in 870.4414 ms
+2024-03-07 23:54:32 HTTP GET /api/policy responded 200 in 1.8772 ms
+2024-03-07 23:54:33 HTTP GET /api/plan responded 200 in 842.7131 ms
+2024-03-07 23:54:39 HTTP GET /api/policy responded 200 in 1.6999 ms
+2024-03-07 23:54:40 HTTP GET /api/plan responded 200 in 852.1046 ms
+2024-03-07 23:54:44 HTTP GET /api/policy responded 200 in 1.8852 ms
+2024-03-07 23:54:45 HTTP GET /api/plan responded 200 in 843.8004 ms
+2024-03-07 23:54:51 HTTP GET /api/policy responded 200 in 6.9995 ms
+2024-03-07 23:54:51 HTTP GET /api/plan responded 200 in 838.0638 ms
