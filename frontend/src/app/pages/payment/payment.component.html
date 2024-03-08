@@ -1,4 +1,4 @@
-<div class="bg-gray-100 min-h-screen">
+<div class="bg-gray-100 min-h-screen pt-[90px]">
   <app-header class="sticky top-0 z-20"></app-header>
   <div class="container max-w-[90vw] my-10">
     <app-step [currentStep]="step"></app-step>
@@ -6,7 +6,7 @@
 
   <div class="container">
     <button
-      class="justify-self-start flex items-center gap-5 my-4"
+      class="justify-self-start flex items-center gap-5 my-10"
       routerLink="/select-plans"
     >
       <span
@@ -18,93 +18,122 @@
       <p class="text-xl font-SF font-medium text-gray-500">Policy Summary</p>
     </button>
     <div
-      class="flex justify-around flex-col mx-5 md:m-0 md:flex-row items-center gap-8"
+      class="flex justify-around flex-col mx-5 md:m-0 md:flex-row items-center md:items-start gap-8"
     >
       <div class="flex flex-1 flex-col space-y-8 justify-start items-start">
         <p class="font-SF flex flex-col space-y-2">
-          <span class="text-3xl font-medium">Policy Name</span>
+          <span class="text-3xl font-medium">{{ planData.planName }}</span>
           <span class="text-lg font-medium"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa
-            labore voluptate beatae cum nobis
+            >{{ planData.description }}{{ planData.provider.description }}
           </span>
         </p>
         <div class="space-y-8">
           <div class="space-y-2">
             <p class="text-xl font-SF font-medium">Time Period</p>
-            <div>
-              <nz-radio-group [(ngModel)]="radioValue">
-                <label nz-radio-button nzValue="A">Year 1</label>
-                <label nz-radio-button nzValue="B">Year 1</label>
-                <label nz-radio-button nzValue="C">Year 1</label>
-                <label nz-radio-button nzValue="D">Year 1</label>
-              </nz-radio-group>
-            </div>
-          </div>
-          <div class="space-y-2">
-            <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">
-              Identification
-            </h3>
-            <ul
-              *ngFor="let year of years"
-              class="items-center flex w-full text-sm font-medium text-pink-400 bg-white border border-pink-400 rounded-lg sm:flex dark:bg-pink-400 dark:border-pink-400 dark:text-white"
+            <div
+              class="relative flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
             >
-              <li
-                class="w-full border-b border-pink-400 sm:border-b-0 sm:border-r dark:border-pink-400"
+              <nav
+                class="flex min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
               >
-                <div class="flex items-center ps-3">
-                  <input
-                    id="horizontal-list-radio-license"
-                    type="radio"
-                    value=""
-                    name="list-radio"
-                    class="w-4 h-4 text-pink-600 bg-pink-400 border-pink-400 focus:ring-pink-500 dark:focus:ring-pink-600 dark:ring-offset-pink-400 dark:focus:ring-offset-pink-400 focus:ring-2 dark:bg-pink-400 dark:border-pink-400"
-                  />
+                <div
+                  *ngFor="let year of years"
+                  class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
                   <label
-                    for="horizontal-list-radio-license"
-                    class="w-full py-3 ms-2 text-sm font-medium !text-white dark:text-pink-400"
-                    >{{ year }} year
+                    class="flex items-center w-full px-3 py-2 cursor-pointer"
+                  >
+                    <div class="grid mr-3 place-items-center">
+                      <div class="inline-flex items-center">
+                        <input
+                          name="year"
+                          type="radio"
+                          [(ngModel)]="selectedYear"
+                          [value]="year"
+                          (change)="onYearChange()"
+                        />
+                      </div>
+                    </div>
+                    <p
+                      class="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-400 text-nowrap"
+                    >
+                      {{ year }} year
+                    </p>
                   </label>
                 </div>
-              </li>
-            </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <p class="text-xl font-SF font-medium">Frequency</p>
+            <div
+              class="relative flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <nav
+                class="flex min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
+              >
+                <div
+                  *ngFor="let str of frequency"
+                  class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
+                  <label
+                    class="flex items-center w-full px-3 py-2 cursor-pointer"
+                  >
+                    <div class="grid mr-3 place-items-center">
+                      <div class="inline-flex items-center">
+                        <input
+                          name="frequency"
+                          type="radio"
+                          [(ngModel)]="selectedfreq"
+                          [value]="str"
+                          (change)="onFrequencyChange()"
+                        />
+                      </div>
+                    </div>
+                    <p
+                      class="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-400 text-nowrap"
+                    >
+                      {{ str }}
+                    </p>
+                  </label>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
       <div class="flex-1 flex flex-col space-y-8 w-full md:max-w-none">
-        <div class="mt-5">
+        <div class="">
           <p class="text-2xl font-SF font-normal">Payment Summary</p>
           <ul class="flex flex-col space-y-3 items-start justify-around mt-3">
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">sum insured</p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">
+                ₹ {{ selectedCoverage }}
+              </p>
             </li>
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">Policy Period</p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">{{ selectedfreq }}</p>
             </li>
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">Gross Premium</p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">₹ {{ premium }}</p>
             </li>
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">
                 Exclusive Online Discount(5%)
               </p>
-              <p class="text-lg font-SF font-medium">500000</p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">
-                Exclusive Online Discount(5%)
-              </p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">- ₹ {{ discount }}</p>
             </li>
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">GST (18%)</p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">+ ₹ {{ gst }}</p>
             </li>
             <li class="flex items-center justify-between w-full">
               <p class="text-xl font-SF font-light capitalize">Total Premium</p>
-              <p class="text-lg font-SF font-medium">500000</p>
+              <p class="text-lg font-SF font-medium">{{ totalPremium }}</p>
             </li>
           </ul>
         </div>
@@ -117,6 +146,7 @@
   <button
     type="button"
     class="sm:text-2xl !text-md text-nowrap px-10 py-3 font-medium rounded-lg bg-rose text-cultured"
+    (click)="enrollPlan()"
   >
     Buy
   </button>
