@@ -38,11 +38,19 @@ export class AllPlansComponent implements OnInit {
       if (!acc.has(companyName)) {
         acc.set(companyName, []);
       }
+      const newObj = {
+        ...obj, // copy all existing properties from obj
+        perMonth: this.calculatePremiumPerMonth(obj.maxCoverageAmount), // add new property
+      };
 
-      acc.get(companyName)?.push(obj);
+      acc.get(companyName)?.push(newObj);
 
       return acc;
     }, new Map<string, any[]>());
+  }
+
+  calculatePremiumPerMonth(maxCoverage: number) {
+    return Math.round(maxCoverage / (5 * 12));
   }
 
   filterByType(type: string) {
@@ -64,6 +72,7 @@ export class AllPlansComponent implements OnInit {
     this.providerGroupedData = filteredData;
   }
   filterBySubtype(subType: string) {
+    this.isLoading = true;
     const filteredData: Map<string, any[]> = new Map<string, any[]>();
 
     this.providerGroupedData.forEach((plans: any[], key: string) => {
@@ -77,6 +86,9 @@ export class AllPlansComponent implements OnInit {
     });
 
     this.providerGroupedData = filteredData;
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 1000);
 
     console.log(this.providerGroupedData);
   }

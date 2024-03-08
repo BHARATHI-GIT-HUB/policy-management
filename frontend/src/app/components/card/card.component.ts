@@ -10,6 +10,7 @@ export class CardComponent {
   contentOpen: boolean = false;
   imageSrc: any;
   isLoading: boolean = true;
+  perMonth: number = 0;
 
   @Input()
   title: string = '';

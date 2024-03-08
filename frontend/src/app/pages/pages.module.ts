@@ -18,6 +18,7 @@ import { SelectPlanComponent } from './select-plan/select-plan.component';
 import { AllPlansComponent } from './all-plans/all-plans.component';
 import { PaymentComponent } from './payment/payment.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     NgZorroModule,
     RouterModule,
+    BrowserModule,
     ComponentModule,
     CommonModule,
     NzBreadCrumbComponent,

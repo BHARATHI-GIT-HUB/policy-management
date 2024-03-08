@@ -1,11 +1,13 @@
-<div class="bg-gray-100 min-h-screen">
-  <app-header class="sticky top-0 z-20"></app-header>
-  <div class="container max-w-[90vw] my-10">
+<div class="bg-gray-100 min-h-screen pt-[90px]">
+  <app-header class="sticky z-20"></app-header>
+  <div class="container max-w-[90vw] my-10 md:space-y-3">
     <app-step [currentStep]="step"></app-step>
   </div>
-
+  <p class="font-SF text-2xl md:text-5xl font-normal text-center">
+    Select a Plan
+  </p>
   <div
-    class="container flex flex-col space-y-20 md:flex-row items-center justify-center md:items-start mt-14 md:mt-0"
+    class="container min-h-screen self-start flex flex-col space-y-20 md:flex-row items-center justify-center md:items-start mt-14 md:mt-0"
   >
     <div class="flex flex-col justify-evenly items-center space-y-4 md:hidden">
       <div class="flex items-start justify-between min-w-[200px] mx-5">
@@ -20,7 +22,7 @@
       <ul
         nz-menu
         nzMode="inline"
-        class="max-w-[30vw] md:hidden flex items-start justify-evenly my-10"
+        class="min-w-[200px] md:hidden flex items-start justify-evenly my-10"
       >
         <li nz-submenu nzTitle="Type" nzOpen>
           <ul *ngFor="let type of types">
@@ -40,34 +42,8 @@
             ></li>
           </ul>
         </li>
-        <!-- <li nz-submenu nzTitle="Navigation Two" nzIcon="appstore">
-            <ul>
-              <li nz-menu-item>Option 5</li>
-              <li nz-menu-item>Option 6</li>
-              <li nz-submenu nzTitle="Submenu">
-                <ul>
-                  <li nz-menu-item>Option 7</li>
-                  <li nz-menu-item>Option 8</li>
-                  <li nz-submenu nzTitle="Submenu">
-                    <ul>
-                      <li nz-menu-item>Option 9</li>
-                      <li nz-menu-item>Option 10</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li nz-submenu nzTitle="Navigation Three" nzIcon="setting">
-            <ul>
-              <li nz-menu-item>Option 11</li>
-              <li nz-menu-item>Option 12</li>
-              <li nz-menu-item>Option 13</li>
-            </ul>
-          </li> -->
       </ul>
     </div>
-
     <div class="flex flex-col items-center space-y-16 justify-center">
       <ng-container *ngIf="!isLoading; else elseBlock">
         <ng-container *ngFor="let key of keys">
@@ -78,7 +54,7 @@
         </ng-container>
       </ng-container>
       <ng-template #elseBlock>
-        <nz-spin nzSimple [nzSize]="'large'"></nz-spin>
+        <nz-spin nzSimple [nzSize]="'large'" class="!text-pink-500"></nz-spin>
       </ng-template>
     </div>
     <ul
@@ -114,194 +90,9 @@
           ></li>
         </ul>
       </li>
-      <!-- <li nz-submenu nzTitle="Navigation Two" nzIcon="appstore">
-            <ul>
-              <li nz-menu-item>Option 5</li>
-              <li nz-menu-item>Option 6</li>
-              <li nz-submenu nzTitle="Submenu">
-                <ul>
-                  <li nz-menu-item>Option 7</li>
-                  <li nz-menu-item>Option 8</li>
-                  <li nz-submenu nzTitle="Submenu">
-                    <ul>
-                      <li nz-menu-item>Option 9</li>
-                      <li nz-menu-item>Option 10</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li nz-submenu nzTitle="Navigation Three" nzIcon="setting">
-            <ul>
-              <li nz-menu-item>Option 11</li>
-              <li nz-menu-item>Option 12</li>
-              <li nz-menu-item>Option 13</li>
-            </ul>
-          </li> -->
     </ul>
   </div>
+  <div class="bg-licorice p-7 mt-10 text-cultured text-center font-SF text-xl">
+    Insurrety ©2024
+  </div>
 </div>
-
-<!-- <button (click)="filterByType('Health')">filter</button>
-<button (click)="filterBySubtype('Individual')">filter</button> -->
-<!-- <app-card></app-card> -->
-<!-- <label
-    for="accordion-1"
-    class="accordion-label flex justify-around items-center"
-  >
-    <div
-      (click)="toggleContent()"
-      class="bg-white shadow-xl border-[.5px] border-cultured pl-3 pt-5 md:pr-12 pr-3 pb-3 h-[125px] absolute top-[-7rem] left-0 md:top-0 md:left-[-8rem] flex flex-col gap-y-1 justify-around items-center rounded-lg"
-    >
-      <img src="../../../assets/images/care.jpg" alt="" class="w-24 h-24" />
-
-      <div class="flex flex-col justify-center items-center">
-        <p class="text-green-500 text-xs">10 more plans</p>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="max-w-6 max-h-4 text-green-500 transition-transform ease-in-out delay-75"
-          [ngClass]="{ '-rotate-180': contentOpen === true }"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m19.5 8.25-7.5 7.5-7.5-7.5"
-          />
-        </svg>
-      </div>
-    </div>
-    <div
-      class="flex flex-col bg-white text-gray-700 shadow-md bg-clip-border rounded-xl rounded-tl-none w-[85vw] md:w-[50vw] lg:w-[650px] z-10"
-    >
-      <div class="p-6">
-        <div class="flex flex-col lg:flex-row lg:items-center gap-5">
-          <div class="flex-1 flex-col space-y-2">
-            <h3 class="text-2xl font-SF font-normal text-licorice">
-              {{ plans[0].planName }}
-            </h3>
-            <p>
-              <span
-                class="text-sm text-green-400 text-Sf text-medium flex items-center gap-1"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="w-6 h-6 text-green-500"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 0 0 1.029.696l3.471-1.388 3.472 1.388a.75.75 0 0 0 .556 0l3.472-1.388 3.471 1.388a.75.75 0 0 0 1.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.255 49.255 0 0 0 12 1.5Zm3.53 7.28a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 1 0 1.06 1.06l6-6ZM8.625 9a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm5.625 3.375a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                Inclusive of 5 % direct discount
-              </span>
-            </p>
-
-            <p class="flex items-start gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6 text-red-600"
-              >
-                <path
-                  d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"
-                />
-              </svg>
-
-              <span
-                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
-              >
-                {{ plans[0].description }}
-              </span>
-            </p>
-            <p class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-5 h-5 text-green-600"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-
-              <span
-                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
-              >
-                Minimum Income Eligibility : {{ plans[0].minIncomeEligiblity }}
-              </span>
-            </p>
-            <p class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-5 h-5 text-green-600"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              <span
-                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
-              >
-                Maximum Income Eligibility : {{ plans[0].maxAgeEligiblity }}
-              </span>
-            </p>
-            <p class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-5 h-5 text-green-600"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              <span
-                class="text-sm md:text-[16px] text-gray-500 text-Sf text-medium"
-              >
-                Deductibles : {{ plans[0].deductibles }}
-              </span>
-            </p>
-          </div>
-          <div
-            class="flex justify-around items-center lg:justify-start lg:flex-col lg:items-start gap-2 md:space-y-2"
-          >
-            <div class="">
-              <p
-                class="flex flex-col space-y-2 text-sm ms:text-md text-gray-500 font-normal md:font-semibold"
-              >
-                Max Coverage
-                <span class="text-licorice text-xs md:text-[17px] font-medium"
-                  >$ 7LAKH</span
-                >
-              </p>
-            </div>
-            <button
-              class="bg-rose text-white px-2 md:px-4 py-2 rounded-xl shadow-xl hover:shadow-2xl text-SF text-xs md:text-md font-medium"
-            >
-              $1234 / month
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </label> -->

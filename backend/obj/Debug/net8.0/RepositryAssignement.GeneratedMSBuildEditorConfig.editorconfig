@@ -1,111 +1,103 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RepositryAssignement
 build_property.RootNamespace = RepositryAssignement
-build_property.ProjectDir = C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement\
+build_property.ProjectDir = /Volumes/Development/GitHub/policy-management/backend/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\senth\OneDrive\Desktop\ripple\RepositryAssignement
+build_property.MSBuildProjectDirectory = /Volumes/Development/GitHub/policy-management/backend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Volumes/Development/GitHub/policy-management/backend/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XENyZWF0ZS5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XERlbGV0ZS5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/DescOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XERlc2NPcmRlci5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/DescOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0Rlc2NPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XERldGFpbC5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XERldGFpbHMuY3NodG1s
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XEVkaXQuY3NodG1s
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Filter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XEZpbHRlci5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0ZpbHRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XEluZGV4LmNzaHRtbA==
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Submit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XFN1Ym1pdC5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Submit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L1N1Ym1pdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/TableData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XFRhYmxlRGF0YS5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/TableData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L1RhYmxlRGF0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Policy/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XFVwbG9hZC5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Policy/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9saWN5L1VwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/_CustomeLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lTGF5b3V0LmNzaHRtbA==
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/_CustomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DdXN0b21lTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/_Header.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/_Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbi5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Volumes/Development/GitHub/policy-management/backend/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Volumes/Development/GitHub/policy-management/backend/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/senth/OneDrive/Desktop/ripple/RepositryAssignement/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-9zd7g224bj
+[/Volumes/Development/GitHub/policy-management/backend/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-woez45ebik

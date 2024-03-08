@@ -143,14 +143,15 @@
               >
                 Max Coverage
                 <span class="text-licorice text-xs md:text-[17px] font-medium"
-                  >$ {{ plans[0].maxCoverageAmount }}</span
+                  >₹ {{ plans[0].maxCoverageAmount }}</span
                 >
               </p>
             </div>
             <button
               class="bg-rose text-white px-2 md:px-4 py-2 rounded-xl shadow-xl hover:shadow-2xl text-SF text-xs md:text-md font-medium"
+              routerLink="/select-plans/{{ plans[0].id }}"
             >
-              $1234 / month
+              ₹ {{ plans[0].perMonth }} / month
             </button>
           </div>
         </div>
@@ -275,14 +276,15 @@
                 >
                   Max Coverage
                   <span class="text-licorice text-xs md:text-[17px] font-medium"
-                    >${{ plan.maxCoverageAmount }}</span
+                    >₹ {{ plan.maxCoverageAmount }}</span
                   >
                 </p>
               </div>
               <button
+                routerLink="/select-plans/{{ plan.id }}"
                 class="bg-rose text-white px-2 md:px-4 py-2 rounded-xl shadow-xl hover:shadow-2xl text-SF text-xs md:text-md font-medium"
               >
-                $1234 / month
+                ₹ {{ plan.perMonth }} / month
               </button>
             </div>
           </div>

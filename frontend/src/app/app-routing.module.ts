@@ -72,7 +72,7 @@ const routes: Routes = [
     children: [],
   },
   {
-    path: 'select-plans',
+    path: 'select-plans/:id',
     component: SelectPlanComponent,
     data: {
       roles: ['Client'],

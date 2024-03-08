@@ -1,4 +1,14 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  EventEmitter,
+  HostListener,
+  OnInit,
+  Output,
+} from '@angular/core';
+import { PlanService } from '../../services/plan.service';
+import { CloudFilled } from '@ant-design/icons';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-select-plan',
@@ -6,21 +16,48 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrl: './select-plan.component.scss',
 })
 export class SelectPlanComponent implements OnInit {
+  id: number = 0;
   step: number = 2;
   minValue: number = 0; // Min value
-  maxValue: number = 100; // Max value
+  maxValue: number = 0; // Max value
   stepValue: number = 1; // Step value
   sliderValue: number = 5; // Default value
   premium: number = 0;
+  planData: any;
   // @Output() sliderValueChange = new EventEmitter<number>(); // Output event to emit slider value
 
-  sumInsured: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  sumInsured: number[] = [];
   handlePosition: number = 50; // Initial position of the handle
+  isLoading: boolean = true;
+
+  constructor(
+    private planService: PlanService,
+    private route: ActivatedRoute,
+    private el: ElementRef
+  ) {}
 
   ngOnInit(): void {
     this.calculatePremium();
+    this.route.params.subscribe((params) => {
+      // Extracting id parameter
+      this.id = <number>params['id'];
+    });
+    this.getPlanById(this.id);
+    if (this.planData != null && this.planData != undefined) {
+      this.isLoading = true;
+    }
   }
 
+  getPlanById(id: number) {
+    this.planService.getById(id).subscribe((data) => {
+      console.log(data);
+      this.planData = data;
+      this.maxValue = data.maxCoverageAmount / 100000;
+      for (let index = 0; index <= this.maxValue; index++) {
+        this.sumInsured.push(index);
+      }
+    });
+  }
   calculatePremium() {
     const premiumRate = 0.08;
     const selectedCoverage = this.sliderValue * 100000;
