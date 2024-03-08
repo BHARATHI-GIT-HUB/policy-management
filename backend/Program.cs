@@ -56,6 +56,7 @@ namespace RepositryAssignement
             builder.Services.AddHttpContextAccessor();
 
 
+            
             //Jwt Config
             builder.Services.AddAuthentication(opt => {
                 opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -71,7 +72,7 @@ namespace RepositryAssignement
             ValidateIssuerSigningKey = true,
             ValidIssuer = "http://192.168.0.152:7154",
             ValidAudience = "http://192.168.0.152:7154",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345superSecretKey@345"))
         };
     });
 
@@ -97,8 +98,8 @@ namespace RepositryAssignement
             /*app.UseHttpsRedirection();*/
             app.UseStaticFiles();
 
-            app.UseRouting();
 
+            app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseSession();
