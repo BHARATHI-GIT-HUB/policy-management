@@ -11,6 +11,7 @@ import { AllPlansComponent } from './pages/all-plans/all-plans.component';
 import { BaseLayoutComponent as AuthComponent } from './authentication/base-layout/base-layout.component';
 import { AuthGuard, RoleGuard } from './helpers/auth.guard';
 import { SelectPlanComponent } from './pages/select-plan/select-plan.component';
+import { PaymentComponent } from './pages/payment/payment.component';
 
 const routes: Routes = [
   { path: 'login', component: AuthComponent },
@@ -20,7 +21,8 @@ const routes: Routes = [
     data: {
       breadcrumb: [
         {
-          label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
+          // label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
+          label: ``,
           link: '',
         },
       ],
@@ -80,6 +82,14 @@ const routes: Routes = [
   {
     path: 'all-plans',
     component: AllPlansComponent,
+    data: {
+      roles: ['Client'],
+    },
+    // canActivate: [AuthGuard, RoleGuard],
+  },
+  {
+    path: 'payment',
+    component: PaymentComponent,
     data: {
       roles: ['Client'],
     },

@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { SelectPlanComponent } from './select-plan/select-plan.component';
 import { AllPlansComponent } from './all-plans/all-plans.component';
 import { PaymentComponent } from './payment/payment.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { PaymentComponent } from './payment/payment.component';
     NzBreadCrumbComponent,
     NzBreadCrumbItemComponent,
     NzButtonComponent,
+    FormsModule,
   ],
   providers: [],
   exports: [

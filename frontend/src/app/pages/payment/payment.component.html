@@ -1,1 +1,123 @@
-<p>payment works!</p>
+<div class="bg-gray-100 min-h-screen">
+  <app-header class="sticky top-0 z-20"></app-header>
+  <div class="container max-w-[90vw] my-10">
+    <app-step [currentStep]="step"></app-step>
+  </div>
+
+  <div class="container">
+    <button
+      class="justify-self-start flex items-center gap-5 my-4"
+      routerLink="/select-plans"
+    >
+      <span
+        nz-icon
+        nzType="arrow-left"
+        nzTheme="outline"
+        class="text-lg !text-gray-500"
+      ></span>
+      <p class="text-xl font-SF font-medium text-gray-500">Policy Summary</p>
+    </button>
+    <div
+      class="flex justify-around flex-col mx-5 md:m-0 md:flex-row items-center gap-8"
+    >
+      <div class="flex flex-1 flex-col space-y-8 justify-start items-start">
+        <p class="font-SF flex flex-col space-y-2">
+          <span class="text-3xl font-medium">Policy Name</span>
+          <span class="text-lg font-medium"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa
+            labore voluptate beatae cum nobis
+          </span>
+        </p>
+        <div class="space-y-8">
+          <div class="space-y-2">
+            <p class="text-xl font-SF font-medium">Time Period</p>
+            <div>
+              <nz-radio-group [(ngModel)]="radioValue">
+                <label nz-radio-button nzValue="A">Year 1</label>
+                <label nz-radio-button nzValue="B">Year 1</label>
+                <label nz-radio-button nzValue="C">Year 1</label>
+                <label nz-radio-button nzValue="D">Year 1</label>
+              </nz-radio-group>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">
+              Identification
+            </h3>
+            <ul
+              *ngFor="let year of years"
+              class="items-center flex w-full text-sm font-medium text-pink-400 bg-white border border-pink-400 rounded-lg sm:flex dark:bg-pink-400 dark:border-pink-400 dark:text-white"
+            >
+              <li
+                class="w-full border-b border-pink-400 sm:border-b-0 sm:border-r dark:border-pink-400"
+              >
+                <div class="flex items-center ps-3">
+                  <input
+                    id="horizontal-list-radio-license"
+                    type="radio"
+                    value=""
+                    name="list-radio"
+                    class="w-4 h-4 text-pink-600 bg-pink-400 border-pink-400 focus:ring-pink-500 dark:focus:ring-pink-600 dark:ring-offset-pink-400 dark:focus:ring-offset-pink-400 focus:ring-2 dark:bg-pink-400 dark:border-pink-400"
+                  />
+                  <label
+                    for="horizontal-list-radio-license"
+                    class="w-full py-3 ms-2 text-sm font-medium !text-white dark:text-pink-400"
+                    >{{ year }} year
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1 flex flex-col space-y-8 w-full md:max-w-none">
+        <div class="mt-5">
+          <p class="text-2xl font-SF font-normal">Payment Summary</p>
+          <ul class="flex flex-col space-y-3 items-start justify-around mt-3">
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">sum insured</p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">Policy Period</p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">Gross Premium</p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">
+                Exclusive Online Discount(5%)
+              </p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">
+                Exclusive Online Discount(5%)
+              </p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">GST (18%)</p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+            <li class="flex items-center justify-between w-full">
+              <p class="text-xl font-SF font-light capitalize">Total Premium</p>
+              <p class="text-lg font-SF font-medium">500000</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-8 bg-pink-200 opacity-80 sticky bottom-0 text-center">
+  <button
+    type="button"
+    class="sm:text-2xl !text-md text-nowrap px-10 py-3 font-medium rounded-lg bg-rose text-cultured"
+  >
+    Buy
+  </button>
+</div>

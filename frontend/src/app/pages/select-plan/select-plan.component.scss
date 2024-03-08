@@ -6,60 +6,13 @@
   box-shadow: 0 0 20px rgb(251, 199, 255);
   animation: neon-glow 1s infinite alternate;
 }
-/* Custom styling */
-#labels-range-input::-webkit-slider-thumb {
+
+input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;
-  width: 16px;
+  border: none;
   height: 16px;
-  border-radius: 50%;
-  background-color: #6c63ff; /* Custom color */
-  border: 2px solid #ffffff; /* White border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow */
-  cursor: pointer;
-  margin-top: -6px; /* Adjust to center vertically */
-}
-
-#labels-range-input::-moz-range-thumb {
   width: 16px;
-  height: 16px;
   border-radius: 50%;
-  background-color: #6c63ff; /* Custom color */
-  border: 2px solid #ffffff; /* White border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow */
-  cursor: pointer;
-  margin-top: -6px; /* Adjust to center vertically */
-}
-
-/* Adjusting progress bar color */
-#labels-range-input::-webkit-slider-runnable-track {
-  background-color: #d1d5db; /* Background color */
-  border-radius: 10px; /* Rounded edges */
-}
-
-#labels-range-input::-moz-range-track {
-  background-color: #d1d5db; /* Background color */
-  border-radius: 10px; /* Rounded edges */
-}
-
-/* Styling for ticks */
-#labels-range-input::-moz-range-progress {
-  background-color: #f791fd; /* Custom color */
-}
-
-#labels-range-input::-webkit-slider-runnable-track {
-  background-color: #f791fd; /* Custom color */
-}
-
-/* Styling for ticks */
-#labels-range-input::-moz-range-progress {
-  background-color: #f791fd; /* Custom color */
-}
-
-#labels-range-input::-webkit-slider-thumb {
-  background-color: #f791fd; /* Custom color */
-}
-
-#labels-range-input::-moz-range-thumb {
-  background-color: #f791fd; /* Custom color */
+  background: #e0719d;
+  margin-top: -4px;
 }
