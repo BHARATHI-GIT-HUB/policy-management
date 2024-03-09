@@ -1,14 +1,9 @@
+import { PolicyService } from './../../services/policy.service';
 import { Component, OnInit } from '@angular/core';
-import {
-  ActivatedRoute,
-  Router,
-  RouterOutlet,
-  NavigationEnd,
-  Navigation,
-} from '@angular/router';
-import { NzBreadCrumbComponent } from 'ng-zorro-antd/breadcrumb';
-
-import { every, filter } from 'rxjs';
+import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs';
+import * as ExcelJS from 'exceljs';
+import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-base-layout',
@@ -20,6 +15,8 @@ export class BaseLayoutComponent implements OnInit {
   isCollapsed = false;
   currentPath: string = '';
   userRole: string = '';
+  EnrolledData: any[] = [];
+
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;
   }
@@ -29,9 +26,14 @@ export class BaseLayoutComponent implements OnInit {
     path?: string;
   }[] = [];
 
-  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
+  constructor(
+    private router: Router,
+    private activatedRoute: ActivatedRoute,
+    private policyService: PolicyService
+  ) {}
 
   ngOnInit(): void {
+    this.FetchAllPolicyData();
     const user: any = localStorage.getItem('user');
     this.userRole = JSON.parse(String(user)).role;
     this.router.events
@@ -91,6 +93,59 @@ export class BaseLayoutComponent implements OnInit {
         },
       ];
     }
+  }
+
+  FetchAllPolicyData() {
+    this.policyService.getAll().subscribe(
+      (data: any) => {
+        data.forEach((element: any) => {
+          let newPolicy: any = {
+            id: element.id,
+            PlanName: element.plan.planName,
+            ProviderName: element.plan.user.companyName,
+            AgentName: element.agent.user.username,
+            ClientName: element.client.user ? element.client.user.username : '',
+            Premium: element.premium,
+            CoverageAmount: element.coverageAmount,
+            Frequency: element.frequency,
+            TimePeriod: element.timePeriod,
+          };
+          this.EnrolledData.push(newPolicy);
+        });
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
+  }
+  exportToExcel(data: any[], fileName: string) {
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet('My Sheet');
+
+    // Add headers
+    const headers = Object.keys(data[0]);
+    worksheet.addRow(headers);
+
+    // Add data
+    data.forEach((item) => {
+      console.log(item);
+      const row: any = [];
+      headers.forEach((header) => {
+        row.push(item[header]);
+      });
+      worksheet.addRow(row);
+    });
+
+    worksheet.getColumn(1).width = 15;
+    worksheet.getColumn(2).width = 20;
+
+    // Generate Excel file
+    workbook.xlsx.writeBuffer().then((buffer: any) => {
+      const blob = new Blob([buffer], {
+        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      });
+      saveAs(blob, `${fileName}.xlsx`);
+    });
   }
 
   updateBreadcrumbs() {

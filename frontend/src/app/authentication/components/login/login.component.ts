@@ -1,6 +1,6 @@
 import { user } from './../../../model/user';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import {
   FormControl,
   FormGroup,
@@ -18,6 +18,11 @@ import { json } from '@angular-devkit/core';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent {
+  errorMessage: string = '';
+
+  @Output()
+  erroEmitter = new EventEmitter<{ message: string }>();
+
   validateForm: FormGroup<{
     userName: FormControl<string>;
     password: FormControl<string>;
@@ -40,49 +45,56 @@ export class LoginComponent {
             headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
           }
         )
-        .subscribe((response: any) => {
-          console.log(response);
-          console.log(response, 'login response');
-          const token = response.token;
+        .subscribe(
+          (response: any) => {
+            console.log(response);
+            console.log(response, 'login response');
+            const token = response.token;
 
-          if (token) {
-            localStorage.clear();
-            localStorage.setItem('token', token);
+            if (token) {
+              localStorage.clear();
+              localStorage.setItem('token', token);
 
-            const decodedToken = this.jwtHelper.decodeToken(token);
-            const username =
-              decodedToken[
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
-              ];
-            const role =
-              decodedToken[
-                'http://schemas.microsoft.com/ws/2008/06/identity/claims/role'
-              ];
-            const userId =
-              decodedToken[
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'
-              ];
+              const decodedToken = this.jwtHelper.decodeToken(token);
+              const username =
+                decodedToken[
+                  'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
+                ];
+              const role =
+                decodedToken[
+                  'http://schemas.microsoft.com/ws/2008/06/identity/claims/role'
+                ];
+              const userId =
+                decodedToken[
+                  'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'
+                ];
 
-            // Print user details
-            const user = {
-              username: username,
-              role: role,
-              id: userId,
-            };
+              // Print user details
+              const user = {
+                username: username,
+                role: role,
+                id: userId,
+              };
 
-            console.log('Username:', username);
-            console.log('Role:', role);
-            console.log('User ID:', userId);
+              console.log('Username:', username);
+              console.log('Role:', role);
+              console.log('User ID:', userId);
 
-            localStorage.setItem('user', JSON.stringify(user));
-            if (role === 'Client') {
-              this.router.navigate(['/home']);
-            } else {
-              console.log('admin ciew', JSON.stringify(user));
-              this.router.navigate(['/']);
+              localStorage.setItem('user', JSON.stringify(user));
+              if (role === 'Client') {
+                this.router.navigate(['/home']);
+              } else {
+                console.log('admin ciew', JSON.stringify(user));
+                this.router.navigate(['/']);
+              }
             }
+          },
+          (err) => {
+            this.errorMessage = err.error.message;
+            console.log(err.error.message);
+            this.erroEmitter.emit({ message: this.errorMessage });
           }
-        });
+        );
     } else {
       Object.values(this.validateForm.controls).forEach((control) => {
         if (control.invalid) {

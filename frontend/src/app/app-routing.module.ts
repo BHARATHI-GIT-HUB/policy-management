@@ -21,8 +21,8 @@ const routes: Routes = [
     data: {
       breadcrumb: [
         {
-          // label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
-          label: ``,
+          label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
+          // label: ``,
           link: '',
         },
       ],
@@ -33,9 +33,9 @@ const routes: Routes = [
         component: DashboardComponent,
         data: {
           breadcrumb: [{ label: 'Dashboard', link: '' }],
-          roles: ['Admin', 'Provider', 'Agent'],
+          // roles: ['Admin', 'Provider', 'Agent'],
         },
-        canActivate: [AuthGuard, RoleGuard],
+        // canActivate: [AuthGuard, RoleGuard],
       },
       {
         path: 'user',
@@ -77,7 +77,7 @@ const routes: Routes = [
     data: {
       roles: ['Client'],
     },
-    // canActivate: [AuthGuard, RoleGuard],
+    canActivate: [AuthGuard, RoleGuard],
   },
   {
     path: 'all-plans',
@@ -85,7 +85,7 @@ const routes: Routes = [
     data: {
       roles: ['Client'],
     },
-    // canActivate: [AuthGuard, RoleGuard],
+    canActivate: [AuthGuard, RoleGuard],
   },
   {
     path: 'payment',
@@ -93,7 +93,7 @@ const routes: Routes = [
     data: {
       roles: ['Client'],
     },
-    // canActivate: [AuthGuard, RoleGuard],
+    canActivate: [AuthGuard, RoleGuard],
   },
 ];
 

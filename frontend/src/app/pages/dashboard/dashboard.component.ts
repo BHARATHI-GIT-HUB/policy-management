@@ -20,6 +20,9 @@ export class DashboardComponent {
   ProviderCount: number = 0;
   EnrollmentCount: number = 0;
   doughnutData: number[] = [];
+  title = 'export-excel';
+  fileName = 'ExportExce.xlsx';
+
   constructor(
     private route: ActivatedRoute,
     private planService: PlanService,

@@ -44,38 +44,10 @@
             (input)="onSliderChange($event)"
             class="bg-gray-300 h-2 w-full rounded-full relative appearance-none cursor-pointer"
           />
-          <!-- <div class="range">
-            <input type="range" min="1" max="7" steps="1" value="1" />
-          </div>
-
-          <ul class="range-labels">
-            <li class="active selected">25</li>
-            <li>50</li>
-            <li>100</li>
-            <li>200</li>
-            <li>500</li>
-            <li>1000</li>
-            <li>2000</li>
-            <li>3000</li>
-          </ul> -->
-          <!-- <div class="flex justify-between mt-2 text-xs text-gray-600">
-            <span class="w-5 px-2 text-left text-md font-SF font-medium">{{
-              sumInsured[0]
-            }}</span>
-            <span
-              *ngFor="let sum of sumInsured.slice(1, sumInsured.length - 1)"
-              class="text-md font-SF font-medium"
-            >
-              <span class="w-5 text-center">{{ sum }}</span>
-            </span>
-            <span class="w-5 text-right text-md font-SF font-medium">{{
-              sumInsured[sumInsured.length - 1]
-            }}</span>
-          </div> -->
         </div>
       </div>
       <div
-        class="flex gap-32 w-full md:justify-start justify-center bg-[#fdf4fb5a] py-14 px-8 shadow-lg rounded-xl"
+        class="flex gap-32 w-full md:justify-start justify-center bg-none md:bg-[#fdf4fb5a] md:py-14 md:px-8 shadow-lg rounded-xl"
       >
         <ul class="hidden md:flex flex-col space-y-4">
           <li class="font-SF text-5xl font-light">Feature</li>
@@ -137,7 +109,7 @@
                     [routerLink]="['/payment']"
                     [queryParams]="{
                       id: planData.id,
-                      coverage: planData.maxCoverageAmount
+                      coverage: sliderValue * 100000
                     }"
                   >
                     Choose

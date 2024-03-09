@@ -30,10 +30,12 @@ export class PaymentComponent implements OnInit {
   totalPremium: number = 0;
   discount: number = 0;
   gst: number = 0;
-  clientId = 6;
   age: number = 0;
+  responseMessage: string = '';
+  errorMessage: string = '';
 
-  // clientId = JSON.parse(String(localStorage.getItem('user'))).id;
+  // clientId = 6;
+  clientId = JSON.parse(String(localStorage.getItem('user'))).id;
 
   constructor(
     private route: ActivatedRoute,
@@ -68,9 +70,10 @@ export class PaymentComponent implements OnInit {
 
     this.http.post<any>(`${url}api/policy`, bodyData).subscribe(
       (res) => {
+        this.responseMessage = res.message;
         console.log(res, 'policy creation');
       },
-      (err) => console.log(err)
+      (err) => (this.errorMessage = err.error.message)
     );
 
     // this.policyService.create(bodyData).subscribe((data) => {
@@ -114,11 +117,11 @@ export class PaymentComponent implements OnInit {
   }
 
   calculatePremium(freq: number, year: number) {
-    this.premium = this.selectedCoverage - this.discount + this.gst;
-    this.discount = this.premium * 0.05;
-    this.gst = this.premium * 0.18;
+    this.discount = Math.round(this.premium * 0.05);
+    this.gst = Math.round(this.premium * 0.18);
 
+    this.premium = Math.round(this.selectedCoverage / (freq * year));
     // Calculate total premium
-    this.totalPremium = this.premium - this.discount + this.gst;
+    this.totalPremium = Math.round(this.premium - this.discount + this.gst);
   }
 }

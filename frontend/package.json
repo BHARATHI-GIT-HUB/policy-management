@@ -24,10 +24,13 @@
     "@auth0/angular-jwt": "^5.2.0",
     "@schematics/angular": "^9.1.0",
     "chart.js": "^4.4.1",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
     "ng-zorro-antd": "^17.2.0",
     "ngx-bootstrap": "^12.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "xlsx": "^0.18.5",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
@@ -35,6 +38,7 @@
     "@angular-devkit/build-angular": "^17.2.0",
     "@angular/cli": "^17.2.0",
     "@angular/compiler-cli": "^17.2.0",
+    "@types/file-saver": "^2.0.7",
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.17",
     "jasmine-core": "~5.1.0",

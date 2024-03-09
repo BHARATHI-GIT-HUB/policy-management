@@ -34,8 +34,25 @@
     </div>
   </nz-sider>
   <nz-layout>
-    <nz-header class="flex justify-between items-center">
-      <p class="text-2xl mt-3 text-sky-500">{{ userRole }} View</p>
+    <nz-header class="flex justify-between gap-2 items-center">
+      <div class="flex items-center gap-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-person-circle"
+          viewBox="0 0 16 16"
+        >
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" class="text-blue-500" />
+          <path
+            fill-rule="evenodd"
+            class="text-blue-500"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+          />
+        </svg>
+        <p class="text-2xl text-blue-500">{{ userRole }} View</p>
+      </div>
       <div class="flex justify-end">
         <button nz-button nzType="primary" (click)="logOut()">Log out</button>
       </div>
@@ -46,8 +63,22 @@
           <a [routerLink]="breadcrumb.url">{{ breadcrumb.label }}</a>
         </nz-breadcrumb-item>
       </nz-breadcrumb>
-      <div class="inner-content">
+      <div class="inner-content flex flex-col justify-start">
         <router-outlet></router-outlet>
+
+        <button
+          *ngIf="userRole == 'Admin'"
+          (click)="exportToExcel(this.EnrolledData, 'Report')"
+          type="button"
+          class="self-end sticky bottom-3 right-0 bg-blue-600 p-5 rounded-full text-white"
+        >
+          <span
+            nz-icon
+            nzType="download"
+            nzTheme="outline"
+            class="text-2xl"
+          ></span>
+        </button>
       </div>
     </nz-content>
     <nz-footer>Insurrety ©2024 </nz-footer>

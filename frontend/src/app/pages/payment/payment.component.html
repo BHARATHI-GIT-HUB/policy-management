@@ -7,7 +7,7 @@
   <div class="container">
     <button
       class="justify-self-start flex items-center gap-5 my-10"
-      routerLink="/select-plans"
+      routerLink="/select-plans/{{ planId }}"
     >
       <span
         nz-icon
@@ -18,9 +18,11 @@
       <p class="text-xl font-SF font-medium text-gray-500">Policy Summary</p>
     </button>
     <div
-      class="flex justify-around flex-col mx-5 md:m-0 md:flex-row items-center md:items-start gap-8"
+      class="flex justify-around flex-col space-y-6 bg-white shadow-lg hover:shadow-2x p-7 md:p-10 md:pt-3 text-gray-700 rounded-lg mx-5 md:m-0 md:flex-row items-baseline gap-8"
     >
-      <div class="flex flex-1 flex-col space-y-8 justify-start items-start">
+      <div
+        class="flex flex-1 flex-col space-y-8 justify-start items-start max-w-[80vw]"
+      >
         <p class="font-SF flex flex-col space-y-2">
           <span class="text-3xl font-medium">{{ planData.planName }}</span>
           <span class="text-lg font-medium"
@@ -31,17 +33,17 @@
           <div class="space-y-2">
             <p class="text-xl font-SF font-medium">Time Period</p>
             <div
-              class="relative flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+              class="relative flex max-w-[80vw] md:max-w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
             >
               <nav
-                class="flex min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
+                class="flex flex-wrap md:flex-nowrap md:min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
               >
                 <div
                   *ngFor="let year of years"
-                  class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                  class="flex items-center md:w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                 >
                   <label
-                    class="flex items-center w-full px-3 py-2 cursor-pointer"
+                    class="flex items-center md:w-full px-3 py-2 cursor-pointer"
                   >
                     <div class="grid mr-3 place-items-center">
                       <div class="inline-flex items-center">
@@ -68,18 +70,16 @@
           <div class="space-y-2">
             <p class="text-xl font-SF font-medium">Frequency</p>
             <div
-              class="relative flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+              class="relative flex max-w-[80vw] md:max-w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
             >
               <nav
-                class="flex min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
+                class="flex flex-wrap md:flex-nowrap md:min-w-[240px] flex-row gap-1 p-2 font-sans text-base font-normal text-blue-gray-700"
               >
                 <div
                   *ngFor="let str of frequency"
-                  class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                  class="flex items-center p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                 >
-                  <label
-                    class="flex items-center w-full px-3 py-2 cursor-pointer"
-                  >
+                  <label class="flex items-center px-3 py-2 cursor-pointer">
                     <div class="grid mr-3 place-items-center">
                       <div class="inline-flex items-center">
                         <input
@@ -104,39 +104,39 @@
         </div>
       </div>
       <div class="flex-1 flex flex-col space-y-8 w-full md:max-w-none">
-        <div class="">
-          <p class="text-2xl font-SF font-normal">Payment Summary</p>
-          <ul class="flex flex-col space-y-3 items-start justify-around mt-3">
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">sum insured</p>
-              <p class="text-lg font-SF font-medium">
-                ₹ {{ selectedCoverage }}
-              </p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">Policy Period</p>
-              <p class="text-lg font-SF font-medium">{{ selectedfreq }}</p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">Gross Premium</p>
-              <p class="text-lg font-SF font-medium">₹ {{ premium }}</p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">
-                Exclusive Online Discount(5%)
-              </p>
-              <p class="text-lg font-SF font-medium">- ₹ {{ discount }}</p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">GST (18%)</p>
-              <p class="text-lg font-SF font-medium">+ ₹ {{ gst }}</p>
-            </li>
-            <li class="flex items-center justify-between w-full">
-              <p class="text-xl font-SF font-light capitalize">Total Premium</p>
-              <p class="text-lg font-SF font-medium">{{ totalPremium }}</p>
-            </li>
-          </ul>
-        </div>
+        <p class="text-2xl font-SF font-normal">Payment Summary</p>
+        <ul class="flex flex-col space-y-3 items-start justify-around mt-3">
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-light capitalize">sum insured</p>
+            <p class="text-lg font-SF font-medium">₹ {{ selectedCoverage }}</p>
+          </li>
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-light capitalize">Policy Period</p>
+            <p class="text-lg font-SF font-medium">{{ selectedfreq }}</p>
+          </li>
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-light capitalize">Gross Premium</p>
+            <p class="text-lg font-SF font-medium">₹ {{ premium }}</p>
+          </li>
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-light capitalize">
+              Exclusive Online Discount(5%)
+            </p>
+            <p class="text-lg font-SF font-medium text-green-600 text-nowrap">
+              - ₹ {{ discount }}
+            </p>
+          </li>
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-light capitalize">GST (18%)</p>
+            <p class="text-lg font-SF font-medium">+ ₹ {{ gst }}</p>
+          </li>
+          <li class="flex items-center justify-between w-full">
+            <p class="text-xl font-SF font-semibold capitalize">
+              Total Premium
+            </p>
+            <p class="text-xl font-SF font-semibold">₹ {{ totalPremium }}</p>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -151,3 +151,22 @@
     Buy
   </button>
 </div>
+
+<nz-alert
+  nzType="error"
+  *ngIf="errorMessage.length > 0"
+  nzCloseable
+  nzDescription="{{ errorMessage }}"
+  nzMessage="error"
+  nzShowIcon
+  class="fixed top-3 right-3 z-20"
+></nz-alert>
+<nz-alert
+  *ngIf="responseMessage != ''"
+  nzCloseable
+  nzType="success"
+  nzMessage="Success "
+  nzDescription="{{ responseMessage }}"
+  nzShowIcon
+  class="fixed top-24 right-2 z-30"
+></nz-alert>

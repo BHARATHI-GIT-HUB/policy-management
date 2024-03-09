@@ -23,6 +23,7 @@ import {
   FileSearchOutline,
   SelectOutline,
   ArrowLeftOutline,
+  DownloadOutline,
 } from '@ant-design/icons-angular/icons';
 
 const icons = [
@@ -47,6 +48,7 @@ const icons = [
   FileSearchOutline,
   SelectOutline,
   ArrowLeftOutline,
+  DownloadOutline,
 ];
 
 @NgModule({
