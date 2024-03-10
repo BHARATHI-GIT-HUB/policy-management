@@ -73,11 +73,6 @@ export class BaseLayoutComponent implements OnInit {
           icon: 'dashboard',
           path: '',
         },
-        {
-          title: 'Bulk Upload',
-          icon: 'upload',
-          path: 'bulk-upload',
-        },
       ];
     } else if (this.userRole === 'Agent') {
       this.menu = [

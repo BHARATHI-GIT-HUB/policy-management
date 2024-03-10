@@ -78,6 +78,9 @@ export class TableComponent implements OnInit {
     Object.assign(this.listOfData[index], this.editCache[id].data);
     this.editCache[id].edit = false;
     this.UpdatedPoliy.emit(this.editCache[id].data);
+    setTimeout(() => {
+      window.location.reload();
+    }, 500);
   }
 
   updateEditCache(): void {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RepositryAssignement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61434bf503acf2b88a2f9b8139b6d04a10b5e6dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaf9b5e01462ef1bcaec07c25644ade1c79cb44f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RepositryAssignement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RepositryAssignement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

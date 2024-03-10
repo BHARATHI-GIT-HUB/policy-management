@@ -62,7 +62,7 @@ const routes: Routes = [
         component: BulkUploadComponent,
         data: {
           breadcrumb: [{ label: 'Bulk Upload', link: '/bulk-upload' }],
-          roles: ['Admin', 'Provider', 'Agent'],
+          roles: ['Admin', 'Agent'],
         },
         canActivate: [AuthGuard, RoleGuard],
       },
