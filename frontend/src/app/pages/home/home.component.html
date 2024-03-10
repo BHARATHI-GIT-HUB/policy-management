@@ -67,6 +67,7 @@
         class="text-5xl sm:text-7xl md:text-9xl font-semibold font-SF flex lg:gap-5 flex-col lg:flex-row text-wrap items-center sm:items-start"
       >
         <p class="text-nowrap flex gap-1">For all</p>
+
         <span
           class="flex gap-1 items-baseline text-5xl sm:text-7xl md:text-9xl font-semibold font-SF"
         >
@@ -438,13 +439,15 @@
         The Advantage of our insurance
       </p>
       <p class="text-lg font-light font-SF max-w-[500px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam
-        molestiae architecto quod, reprehenderit odio tempora? Maiores quae
-        aperiam dicta repellat nemo consequuntur nisi animi, quasi totam
-        molestiae quod cum?
+        Insurrety offers you an innovative and comprehensive range of products
+        with the best International Health Insurance cover for your needs,
+        whatever your profile and situation might be.
       </p>
     </div>
-    <div class="container font-SF text-lg md:text-3xl">
+    <div
+      class="container font-SF text-lg md:text-3xl"
+      *ngIf="!isLoading; else elseBlock"
+    >
       <ng-container *ngFor="let item of cardData">
         <div class="box p-4 py-6 !max-h-[100px] md:h-[500px]">
           <div
@@ -708,6 +711,10 @@
     </div>
   </div>
 </div>
+<ng-template #elseBlock>
+  <div class="example flex justify-center items-center">
+    <nz-spin nzSimple [nzSize]="'large'"></nz-spin></div
+></ng-template>
 
 <div class="bg-licorice p-7 text-cultured text-center font-SF text-xl">
   Insurrety ©2024

@@ -11,6 +11,7 @@ import { CloudFilled } from '@ant-design/icons';
 })
 export class HomeComponent implements OnInit {
   cardData: any[] = [];
+  isLoading: boolean = true;
   panels = [
     {
       active: true,
@@ -34,6 +35,9 @@ export class HomeComponent implements OnInit {
   getPlanData(): void {
     this.planService.getAll().subscribe((data) => {
       this.cardData = this.groupDataBysubType(data);
+      if (this.cardData) {
+        this.isLoading = false;
+      }
     });
   }
 
@@ -43,7 +47,7 @@ export class HomeComponent implements OnInit {
       const planName = obj.planName; // Check if this path is correct
       const description = obj.description; // Check if this path is correct
       var imgSrc = '';
-      console.log(subtype);
+
       if (subtype === 'Individual') {
         imgSrc = '../../../assets/images/individual.png';
       } else if (subtype === 'Family') {

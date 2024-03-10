@@ -1,14 +1,10 @@
 import { environment } from './../../../environments/environment';
 import { PolicyService } from './../../services/policy.service';
-import { Client } from './../../model/client';
 import { ClientService } from './../../services/client.service';
-import { user } from './../../model/user';
 import { Component, OnInit } from '@angular/core';
-import { InputBoolean } from 'ng-zorro-antd/core/util';
 import { PlanService } from '../../services/plan.service';
 import { ActivatedRoute } from '@angular/router';
 import { timePeriod } from '../../helpers/conditionalReturn';
-import { policy } from '../../model';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -71,14 +67,9 @@ export class PaymentComponent implements OnInit {
     this.http.post<any>(`${url}api/policy`, bodyData).subscribe(
       (res) => {
         this.responseMessage = res.message;
-        console.log(res, 'policy creation');
       },
       (err) => (this.errorMessage = err.error.message)
     );
-
-    // this.policyService.create(bodyData).subscribe((data) => {
-    //   console.log(data.message);
-    // });
   }
 
   getPlanById(id: number) {
@@ -105,7 +96,6 @@ export class PaymentComponent implements OnInit {
     ) {
       age--;
     }
-    console.log(age, 'age');
 
     return age;
   }

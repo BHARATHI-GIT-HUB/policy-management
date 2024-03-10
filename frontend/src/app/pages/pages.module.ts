@@ -19,6 +19,7 @@ import { AllPlansComponent } from './all-plans/all-plans.component';
 import { PaymentComponent } from './payment/payment.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { PageNotFound } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { BrowserModule } from '@angular/platform-browser';
     SelectPlanComponent,
     AllPlansComponent,
     PaymentComponent,
+    PageNotFound,
   ],
   imports: [
     NgZorroModule,
@@ -49,6 +51,7 @@ import { BrowserModule } from '@angular/platform-browser';
     DashboardComponent,
     UserDetailsComponent,
     EnrollmentDetailsComponent,
+    PageNotFound,
   ],
 })
 export class PagesModule {}

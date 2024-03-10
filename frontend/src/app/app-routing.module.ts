@@ -12,16 +12,18 @@ import { BaseLayoutComponent as AuthComponent } from './authentication/base-layo
 import { AuthGuard, RoleGuard } from './helpers/auth.guard';
 import { SelectPlanComponent } from './pages/select-plan/select-plan.component';
 import { PaymentComponent } from './pages/payment/payment.component';
+import { PageNotFound } from './pages/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path: 'login', component: AuthComponent },
+
   {
     path: '',
     component: BaseLayoutComponent,
     data: {
       breadcrumb: [
         {
-          label: `${JSON.parse(String(localStorage.getItem('user'))).role}`,
+          label: ``,
           // label: ``,
           link: '',
         },
@@ -33,9 +35,9 @@ const routes: Routes = [
         component: DashboardComponent,
         data: {
           breadcrumb: [{ label: 'Dashboard', link: '' }],
-          // roles: ['Admin', 'Provider', 'Agent'],
+          roles: ['Admin', 'Provider', 'Agent'],
         },
-        // canActivate: [AuthGuard, RoleGuard],
+        canActivate: [AuthGuard, RoleGuard],
       },
       {
         path: 'user',
@@ -95,6 +97,7 @@ const routes: Routes = [
     },
     canActivate: [AuthGuard, RoleGuard],
   },
+  { path: '**', component: PageNotFound },
 ];
 
 @NgModule({

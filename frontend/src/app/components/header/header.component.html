@@ -110,19 +110,50 @@
         About Us
       </button>
     </div>
-    <div class="flex flex-col justify-start gap-4 items-start">
-      <button
-        type="button"
-        class="text-md font-bold px-3 rounded-full text-licorice"
+    <div
+      class="lg:hidden flex fle-col space-y-3 justify-start items-center"
+      *ngIf="userData != null; else elseblockmd"
+    >
+      <div class="text-md font-medium px-3 text-xl rounded-full text-licorice">
+        Hi ,
+        <span class="font-SF font-normal capitalize">{{
+          userData.username
+        }}</span>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        fill="currentColor"
+        class="bi bi-person-circle"
+        viewBox="0 0 16 16"
       >
-        Login
-      </button>
-      <button
-        type="button"
-        class="text-md px-4 py-[6px] font-medium rounded-full bg-rose text-cultured"
-      >
-        Register Now
-      </button>
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" class="text-rose" />
+        <path
+          fill-rule="evenodd"
+          class="text-rose"
+          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+        />
+      </svg>
     </div>
+
+    <ng-template #elseblockmd>
+      <div class="lg:hidden flex flex-col justify-start gap-6 items-start">
+        <button
+          type="button"
+          class="text-md font-bold px-3 rounded-full text-licorice"
+          routerLink="/login"
+          routerLinkActive="router-link-active"
+        >
+          Login
+        </button>
+        <button
+          type="button"
+          class="text-md px-8 py-[13px] font-medium rounded-full bg-rose text-cultured"
+        >
+          Register Now
+        </button>
+      </div>
+    </ng-template>
   </div>
 </nav>
