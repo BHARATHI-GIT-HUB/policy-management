@@ -122,6 +122,14 @@ export class ChartComponent implements OnInit {
           },
         ],
       },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Enrollment Ratio',
+          },
+        },
+      },
     });
   }
 

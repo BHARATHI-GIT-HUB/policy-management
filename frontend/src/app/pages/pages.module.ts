@@ -20,6 +20,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { PageNotFound } from './page-not-found/page-not-found.component';
+import { NzMessageComponent } from 'ng-zorro-antd/message';
 
 @NgModule({
   declarations: [

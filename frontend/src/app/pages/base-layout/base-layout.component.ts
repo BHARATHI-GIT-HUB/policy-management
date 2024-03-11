@@ -5,6 +5,7 @@ import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs';
 import * as ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
+import { NzMessageService } from 'ng-zorro-antd/message';
 
 @Component({
   selector: 'app-base-layout',
@@ -30,17 +31,23 @@ export class BaseLayoutComponent implements OnInit {
   constructor(
     private router: Router,
     private activatedRoute: ActivatedRoute,
-    private policyService: PolicyService
+    private policyService: PolicyService,
+    private messageService: MessageService,
+    private message: NzMessageService
   ) {}
 
   ngOnInit(): void {
     this.FetchAllPolicyData();
     const user: any = localStorage.getItem('user');
     this.userRole = JSON.parse(String(user)).role;
+    this.messageService.successMessage$.subscribe((message) => {
+      if (message != ' ') this.createMessage('success', message);
+    });
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
         this.currentPath = event.url.slice(1);
+
         this.updateBreadcrumbs();
       });
 
@@ -151,14 +158,23 @@ export class BaseLayoutComponent implements OnInit {
     do {
       const childrenRoutes = route.children;
       route = null;
+
       childrenRoutes.forEach((childRoute: any) => {
         if (childRoute.outlet === 'primary') {
           const routeSnapshot = childRoute.snapshot;
           url += routeSnapshot.url.map((segment: any) => segment.path);
-          this.breadcrumbs.push({
-            label: routeSnapshot.data['breadcrumb'][0].label,
-            url: url,
-          });
+          const currentLable = routeSnapshot.data['breadcrumb'][0].label;
+          if (currentLable == '' && url == '') {
+            this.breadcrumbs.push({
+              label: this.userRole,
+              url: url,
+            });
+          } else {
+            this.breadcrumbs.push({
+              label: currentLable,
+              url: url,
+            });
+          }
           route = childRoute;
         }
       });
@@ -168,5 +184,9 @@ export class BaseLayoutComponent implements OnInit {
   logOut() {
     localStorage.clear();
     this.router.navigateByUrl('/login');
+  }
+
+  createMessage(type: string, message: string): void {
+    this.message.create(type, message);
   }
 }

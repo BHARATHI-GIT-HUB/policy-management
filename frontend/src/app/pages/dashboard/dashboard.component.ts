@@ -53,9 +53,9 @@ export class DashboardComponent {
       this.ProviderCount = this.listOfProviders.length;
 
       this.doughnutData.push(
-        this.planCount * 10,
-        this.ProviderCount * 10,
-        this.EnrollmentCount * 10
+        this.planCount,
+        this.ProviderCount,
+        this.EnrollmentCount
       );
     });
   }

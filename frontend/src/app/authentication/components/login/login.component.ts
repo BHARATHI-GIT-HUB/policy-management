@@ -52,8 +52,6 @@ export class LoginComponent {
             const token = response.token;
 
             if (token) {
-              this.messageService.sendMessage('Login successful!');
-
               localStorage.clear();
               localStorage.setItem('token', token);
 
@@ -70,6 +68,8 @@ export class LoginComponent {
                 decodedToken[
                   'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'
                 ];
+
+              this.messageService.sendMessage(`Login successful! as ${role}`);
 
               // Print user details
               const user = {

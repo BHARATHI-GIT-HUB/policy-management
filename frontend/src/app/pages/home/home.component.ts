@@ -43,8 +43,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.getPlanData();
     this.isLoading = true;
-    const userData = JSON.parse(String(localStorage.getItem('user')));
     this.messageService.successMessage$.subscribe((message) => {
+      console.log(message, ' message');
       if (message != ' ') this.createMessage('success', message);
     });
   }
@@ -92,8 +92,5 @@ export class HomeComponent implements OnInit {
 
   createMessage(type: string, message: string): void {
     this.message.create(type, message);
-    setTimeout(() => {
-      this.messageService.sendMessage(' ');
-    }, 300);
   }
 }
