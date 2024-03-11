@@ -11,6 +11,7 @@ import { environment } from '../../../../environments/environment';
 import { Router } from '@angular/router';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { json } from '@angular-devkit/core';
+import { MessageService } from '../../../services/message.service';
 
 @Component({
   selector: 'app-login',
@@ -48,10 +49,11 @@ export class LoginComponent {
         .subscribe(
           (response: any) => {
             console.log(response);
-            console.log(response, 'login response');
             const token = response.token;
 
             if (token) {
+              this.messageService.sendMessage('Login successful!');
+
               localStorage.clear();
               localStorage.setItem('token', token);
 
@@ -76,10 +78,6 @@ export class LoginComponent {
                 id: userId,
               };
 
-              console.log('Username:', username);
-              console.log('Role:', role);
-              console.log('User ID:', userId);
-
               localStorage.setItem('user', JSON.stringify(user));
               if (role === 'Client') {
                 this.router.navigate(['/home']);
@@ -91,7 +89,6 @@ export class LoginComponent {
           },
           (err) => {
             this.errorMessage = err.error.message;
-            console.log(err.error.message);
             this.erroEmitter.emit({ message: this.errorMessage });
           }
         );
@@ -109,6 +106,7 @@ export class LoginComponent {
     private fb: NonNullableFormBuilder,
     private router: Router,
     private jwtHelper: JwtHelperService,
-    private http: HttpClient
+    private http: HttpClient,
+    private messageService: MessageService
   ) {}
 }

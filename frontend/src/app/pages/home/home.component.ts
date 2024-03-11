@@ -1,8 +1,10 @@
+import { MessageService } from './../../services/message.service';
 import { PlanService } from './../../services/plan.service';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { PolicyService } from '../../services/policy.service';
 import { CloudFilled } from '@ant-design/icons';
+import { NzMessageService } from 'ng-zorro-antd/message';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +14,7 @@ import { CloudFilled } from '@ant-design/icons';
 export class HomeComponent implements OnInit {
   cardData: any[] = [];
   isLoading: boolean = true;
+  isLoggedin: boolean = false;
   panels = [
     {
       active: true,
@@ -30,7 +33,21 @@ export class HomeComponent implements OnInit {
     },
   ];
 
-  constructor(private http: HttpClient, private planService: PlanService) {}
+  constructor(
+    private http: HttpClient,
+    private planService: PlanService,
+    private message: NzMessageService,
+    private messageService: MessageService
+  ) {}
+
+  ngOnInit(): void {
+    this.getPlanData();
+    this.isLoading = true;
+    const userData = JSON.parse(String(localStorage.getItem('user')));
+    this.messageService.successMessage$.subscribe((message) => {
+      if (message != ' ') this.createMessage('success', message);
+    });
+  }
 
   getPlanData(): void {
     this.planService.getAll().subscribe((data) => {
@@ -73,7 +90,10 @@ export class HomeComponent implements OnInit {
     }, []);
   }
 
-  ngOnInit(): void {
-    this.getPlanData();
+  createMessage(type: string, message: string): void {
+    this.message.create(type, message);
+    setTimeout(() => {
+      this.messageService.sendMessage(' ');
+    }, 300);
   }
 }

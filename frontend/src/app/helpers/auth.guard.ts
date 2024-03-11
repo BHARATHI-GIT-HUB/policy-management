@@ -40,9 +40,7 @@ export class RoleGuard implements CanActivate {
   ): boolean {
     const user = JSON.parse(String(localStorage.getItem('user'))); // Parse user from localStorage
     const allowedRoles = route.data['roles'] as Array<string>; // Get allowed roles from route data
-    console.log(user, user.role, allowedRoles);
     if (user && user.role && allowedRoles.includes(user.role)) {
-      console.log(allowedRoles, 'allowedroles');
       return true;
     } else {
       this.router.navigate(['/login']);

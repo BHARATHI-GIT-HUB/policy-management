@@ -11,7 +11,6 @@ export class BaseLayoutComponent implements OnInit {
 
   onError(evenData: { message: string }) {
     this.errorMessage = evenData.message;
-    console.log('error', this.errorMessage);
   }
 
   ngOnInit(): void {
