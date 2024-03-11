@@ -1,38 +1,41 @@
 <nz-layout>
-  <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" nzWidth="200px">
-    <div class="p-3">
-      <p
-        class="font-semibold text-cultured tracking-tight text-4xl font-SF flex gap-[1.3px]"
-      >
-        <span [ngClass]="{ hidden: isCollapsed }"> Insurre</span>
-        <span class="text-blue-500 p-0" [ngClass]="{ 'p-2': isCollapsed }"
-          >ty.</span
+  <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed">
+    <div class="sticky top-0">
+      <div class="p-3">
+        <p
+          class="font-semibold text-cultured tracking-tight text-4xl font-SF flex gap-[1.3px]"
         >
-      </p>
-    </div>
-    <div class="wrapper">
-      <ul
-        nz-menu
-        nzMode="inline"
-        nzTheme="dark"
-        [nzInlineCollapsed]="isCollapsed"
-        *ngFor="let nav of menu"
-      >
-        <li
-          nz-menu-item
-          nz-tooltip
-          nzTooltipPlacement="right"
-          [nzTooltipTitle]="isCollapsed ? 'Navigation One' : ''"
-          [nzSelected]="currentPath === nav.path"
-        >
-          <span class="flex items-center" routerLink="{{ nav.path }}"
-            ><span nz-icon nzType="{{ nav.icon }}" nzTheme="outline"></span>
-            <span>{{ nav.title }}</span></span
+          <span [ngClass]="{ hidden: isCollapsed }"> Insurre</span>
+          <span class="text-blue-500 p-0" [ngClass]="{ 'p-2': isCollapsed }"
+            >ty.</span
           >
-        </li>
-      </ul>
+        </p>
+      </div>
+      <div class="wrapper">
+        <ul
+          nz-menu
+          nzMode="inline"
+          nzTheme="dark"
+          [nzInlineCollapsed]="isCollapsed"
+          *ngFor="let nav of menu"
+        >
+          <li
+            nz-menu-item
+            nz-tooltip
+            nzTooltipPlacement="right"
+            [nzTooltipTitle]="isCollapsed ? 'Navigation One' : ''"
+            [nzSelected]="currentPath === nav.path"
+          >
+            <span class="flex items-center" routerLink="{{ nav.path }}"
+              ><span nz-icon nzType="{{ nav.icon }}" nzTheme="outline"></span>
+              <span>{{ nav.title }}</span></span
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </nz-sider>
+
   <nz-layout>
     <nz-header class="flex justify-between gap-2 items-center">
       <div class="flex items-center gap-3">
