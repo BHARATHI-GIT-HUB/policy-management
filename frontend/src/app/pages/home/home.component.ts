@@ -43,10 +43,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.getPlanData();
     this.isLoading = true;
-    this.messageService.successMessage$.subscribe((message) => {
-      console.log(message, ' message');
-      if (message != ' ') this.createMessage('success', message);
-    });
+    const Loggedmessage = this.messageService.getSuccessMessage();
+    if (Loggedmessage != '') this.createMessage('success', Loggedmessage);
   }
 
   getPlanData(): void {
@@ -92,5 +90,6 @@ export class HomeComponent implements OnInit {
 
   createMessage(type: string, message: string): void {
     this.message.create(type, message);
+    setTimeout(() => {}, 5000); // Clear after 5 seconds
   }
 }

@@ -5,12 +5,14 @@ import { Subject } from 'rxjs';
   providedIn: 'root',
 })
 export class MessageService {
-  private successMessageSource = new Subject<string>();
+  private successMessage: string = '';
   constructor() {}
 
-  successMessage$ = this.successMessageSource.asObservable();
-
   sendMessage(message: string) {
-    this.successMessageSource.next(message);
+    this.successMessage = message;
+  }
+
+  getSuccessMessage(): string {
+    return this.successMessage;
   }
 }

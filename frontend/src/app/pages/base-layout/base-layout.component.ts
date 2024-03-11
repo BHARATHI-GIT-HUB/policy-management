@@ -40,9 +40,9 @@ export class BaseLayoutComponent implements OnInit {
     this.FetchAllPolicyData();
     const user: any = localStorage.getItem('user');
     this.userRole = JSON.parse(String(user)).role;
-    this.messageService.successMessage$.subscribe((message) => {
-      if (message != ' ') this.createMessage('success', message);
-    });
+
+    const Loggedmessage = this.messageService.getSuccessMessage();
+    if (Loggedmessage != '') this.createMessage('success', Loggedmessage);
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {

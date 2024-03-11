@@ -111,7 +111,7 @@ export class EnrollmentDetailsComponent implements OnInit {
         listOfFilter: [
           { text: 'Yearly', value: 'Yearly' },
           { text: 'Half Yearly', value: 'Half Yearly' },
-          { text: 'Quarly', value: 'Quartly' },
+          { text: 'Quarterly', value: 'Quarterly' },
           { text: 'Monthly', value: 'Monthly' },
         ],
         filterFn: (frequency: string, item: policy) =>
