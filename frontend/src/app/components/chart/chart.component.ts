@@ -98,6 +98,11 @@ export class ChartComponent implements OnInit {
             grid: {
               display: false,
             },
+
+            ticks: {
+              // forces step size to be 50 units
+              stepSize: 1,
+            },
           },
         },
       },
@@ -108,7 +113,7 @@ export class ChartComponent implements OnInit {
     this.doughnut = new Chart('doughnut', {
       type: 'doughnut',
       data: {
-        labels: ['Provider', 'Plans', 'Enrolled'],
+        labels: ['Plans', 'Provider', 'Enrolled'],
         datasets: [
           {
             label: 'My First Dataset',
