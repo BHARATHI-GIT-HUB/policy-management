@@ -73,7 +73,6 @@ export class UserDetailsComponent implements OnInit {
           };
           this.providerData.push(newProvider);
         });
-        console.log(data, 'provider');
         this.originalProviderData = data;
       },
       (err) => console.log(err)

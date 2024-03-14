@@ -75,7 +75,6 @@ export const RoleGuard: CanActivateFn = (
   const user = JSON.parse(String(localStorage.getItem('user'))); // Parse user from localStorage
 
   const allowedRoles = next.data['roles'] as Array<string>; // Get allowed roles from route data
-  console.log(allowedRoles.includes(user.role));
   if (user && user.role && allowedRoles.includes(user.role)) {
     return true;
   } else {

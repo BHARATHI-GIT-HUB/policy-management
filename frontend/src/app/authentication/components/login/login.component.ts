@@ -36,8 +36,6 @@ export class LoginComponent {
 
   submitForm(): void {
     if (this.validateForm.valid) {
-      console.log('submit', this.validateForm.value);
-
       this.http
         .post<any>(
           `${environment.apiurl}api/auth/login`,
@@ -48,7 +46,6 @@ export class LoginComponent {
         )
         .subscribe(
           (response: any) => {
-            console.log(response);
             const token = response.token;
 
             if (token) {
@@ -82,7 +79,6 @@ export class LoginComponent {
               if (role === 'Client') {
                 this.router.navigate(['/home']);
               } else {
-                console.log('admin ciew', JSON.stringify(user));
                 this.router.navigate(['/']);
               }
             }

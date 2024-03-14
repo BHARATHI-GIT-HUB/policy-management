@@ -24,7 +24,6 @@ const routes: Routes = [
       breadcrumb: [
         {
           label: ``,
-          // label: ``,
           link: '',
         },
       ],

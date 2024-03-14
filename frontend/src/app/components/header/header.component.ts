@@ -9,8 +9,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class HeaderComponent {
   userData: any = '';
   menuOpen: boolean = false;
+  currActive: string | undefined = 'home';
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
+
+  ngOnInit(): void {
+    this.userData = JSON.parse(String(localStorage.getItem('user')));
+    this.currActive = this.activatedRoute.routeConfig?.path;
+  }
 
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
@@ -20,10 +26,5 @@ export class HeaderComponent {
 
   toggleDropdown() {
     this.isDropdownOpen = !this.isDropdownOpen;
-  }
-  ngOnInit(): void {
-    this.userData = JSON.parse(String(localStorage.getItem('user')));
-
-    console.log(this.userData, 'user');
   }
 }

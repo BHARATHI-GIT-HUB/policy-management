@@ -46,7 +46,7 @@ export function tokenGetter() {
     AppRoutingModule,
     PagesModule,
     NgZorroModule,
-    // AuthModule,
+    AuthModule,
     IconsProviderModule,
     ComponentModule,
     ReactiveFormsModule,

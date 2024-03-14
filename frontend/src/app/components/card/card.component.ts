@@ -23,8 +23,6 @@ export class CardComponent {
   }
 
   ngOnInit(): void {
-    console.log(this.plans, 'received data');
-    console.log(this.plans.length > 0, 'received data');
     if (this.title === 'ICICI') {
       this.imageSrc = '../../../assets/images/ICICI.png';
     } else if (this.title === 'Star Health') {
@@ -35,7 +33,6 @@ export class CardComponent {
       this.imageSrc = '../../../assets/images/HDFC.png';
     }
     if (this.plans.length > 0) {
-      console.log('inside');
       this.isLoading = false;
     }
   }
