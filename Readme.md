@@ -1,7 +1,1 @@
-// check list
-// validation
-// how did you overcome challenges
-// Ui design
-//
-
-//TODO: client side logic in all plans , filters ,
+## Video Link: https://drive.google.com/file/d/1_mD2ApfHrS0G17B6Cvo9eAZx_3zUzPeV/view
